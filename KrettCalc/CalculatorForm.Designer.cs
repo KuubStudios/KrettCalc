@@ -125,44 +125,46 @@
             this.label11 = new System.Windows.Forms.Label();
             this.targetGod = new MetroFramework.Controls.MetroComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label17 = new System.Windows.Forms.Label();
+            this.selfItemsTotalCost = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.metroTextBox7 = new MetroFramework.Controls.MetroTextBox();
+            this.selfItem6Pic = new System.Windows.Forms.PictureBox();
+            this.selfItem6Cost = new MetroFramework.Controls.MetroTextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.selfItem6 = new MetroFramework.Controls.MetroComboBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.metroTextBox8 = new MetroFramework.Controls.MetroTextBox();
+            this.selfItem5Pic = new System.Windows.Forms.PictureBox();
+            this.selfItem5Cost = new MetroFramework.Controls.MetroTextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.selfItem5 = new MetroFramework.Controls.MetroComboBox();
             this.label36 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.metroTextBox9 = new MetroFramework.Controls.MetroTextBox();
+            this.selfItem4Pic = new System.Windows.Forms.PictureBox();
+            this.selfItem4Cost = new MetroFramework.Controls.MetroTextBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.metroComboBox3 = new MetroFramework.Controls.MetroComboBox();
+            this.selfItem4 = new MetroFramework.Controls.MetroComboBox();
             this.label38 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.metroTextBox10 = new MetroFramework.Controls.MetroTextBox();
+            this.selfItem3Pic = new System.Windows.Forms.PictureBox();
+            this.selfItem3Cost = new MetroFramework.Controls.MetroTextBox();
             this.label39 = new System.Windows.Forms.Label();
-            this.metroComboBox4 = new MetroFramework.Controls.MetroComboBox();
+            this.selfItem3 = new MetroFramework.Controls.MetroComboBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.metroTextBox11 = new MetroFramework.Controls.MetroTextBox();
+            this.selfItem2Pic = new System.Windows.Forms.PictureBox();
+            this.selfItem2Cost = new MetroFramework.Controls.MetroTextBox();
             this.label41 = new System.Windows.Forms.Label();
-            this.metroComboBox5 = new MetroFramework.Controls.MetroComboBox();
+            this.selfItem2 = new MetroFramework.Controls.MetroComboBox();
             this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.metroTextBox12 = new MetroFramework.Controls.MetroTextBox();
+            this.selfGodLvlLabel = new System.Windows.Forms.Label();
+            this.selfItem1Pic = new System.Windows.Forms.PictureBox();
+            this.selfItem1Cost = new MetroFramework.Controls.MetroTextBox();
             this.label50 = new System.Windows.Forms.Label();
-            this.metroComboBox6 = new MetroFramework.Controls.MetroComboBox();
+            this.selfItem1 = new MetroFramework.Controls.MetroComboBox();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
-            this.metroTrackBar1 = new MetroFramework.Controls.MetroTrackBar();
-            this.metroRadioButton1 = new MetroFramework.Controls.MetroRadioButton();
-            this.metroRadioButton2 = new MetroFramework.Controls.MetroRadioButton();
+            this.selfGodLvl = new MetroFramework.Controls.MetroTrackBar();
+            this.selfMagical = new MetroFramework.Controls.MetroRadioButton();
+            this.selfPhysical = new MetroFramework.Controls.MetroRadioButton();
             this.label53 = new System.Windows.Forms.Label();
-            this.metroComboBox7 = new MetroFramework.Controls.MetroComboBox();
+            this.selfGod = new MetroFramework.Controls.MetroComboBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
@@ -175,12 +177,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.targetItem2Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.targetItem1Pic)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem6Pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem5Pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem4Pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem3Pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem2Pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem1Pic)).BeginInit();
             this.SuspendLayout();
             // 
             // btnTab4
@@ -1436,44 +1438,46 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label17);
+            this.tabPage2.Controls.Add(this.selfItemsTotalCost);
             this.tabPage2.Controls.Add(this.panel6);
-            this.tabPage2.Controls.Add(this.pictureBox1);
-            this.tabPage2.Controls.Add(this.metroTextBox7);
+            this.tabPage2.Controls.Add(this.selfItem6Pic);
+            this.tabPage2.Controls.Add(this.selfItem6Cost);
             this.tabPage2.Controls.Add(this.label33);
-            this.tabPage2.Controls.Add(this.metroComboBox1);
+            this.tabPage2.Controls.Add(this.selfItem6);
             this.tabPage2.Controls.Add(this.label34);
-            this.tabPage2.Controls.Add(this.pictureBox2);
-            this.tabPage2.Controls.Add(this.metroTextBox8);
+            this.tabPage2.Controls.Add(this.selfItem5Pic);
+            this.tabPage2.Controls.Add(this.selfItem5Cost);
             this.tabPage2.Controls.Add(this.label35);
-            this.tabPage2.Controls.Add(this.metroComboBox2);
+            this.tabPage2.Controls.Add(this.selfItem5);
             this.tabPage2.Controls.Add(this.label36);
-            this.tabPage2.Controls.Add(this.pictureBox3);
-            this.tabPage2.Controls.Add(this.metroTextBox9);
+            this.tabPage2.Controls.Add(this.selfItem4Pic);
+            this.tabPage2.Controls.Add(this.selfItem4Cost);
             this.tabPage2.Controls.Add(this.label37);
-            this.tabPage2.Controls.Add(this.metroComboBox3);
+            this.tabPage2.Controls.Add(this.selfItem4);
             this.tabPage2.Controls.Add(this.label38);
-            this.tabPage2.Controls.Add(this.pictureBox4);
-            this.tabPage2.Controls.Add(this.metroTextBox10);
+            this.tabPage2.Controls.Add(this.selfItem3Pic);
+            this.tabPage2.Controls.Add(this.selfItem3Cost);
             this.tabPage2.Controls.Add(this.label39);
-            this.tabPage2.Controls.Add(this.metroComboBox4);
+            this.tabPage2.Controls.Add(this.selfItem3);
             this.tabPage2.Controls.Add(this.label40);
-            this.tabPage2.Controls.Add(this.pictureBox5);
-            this.tabPage2.Controls.Add(this.metroTextBox11);
+            this.tabPage2.Controls.Add(this.selfItem2Pic);
+            this.tabPage2.Controls.Add(this.selfItem2Cost);
             this.tabPage2.Controls.Add(this.label41);
-            this.tabPage2.Controls.Add(this.metroComboBox5);
+            this.tabPage2.Controls.Add(this.selfItem2);
             this.tabPage2.Controls.Add(this.label48);
-            this.tabPage2.Controls.Add(this.label49);
-            this.tabPage2.Controls.Add(this.pictureBox6);
-            this.tabPage2.Controls.Add(this.metroTextBox12);
+            this.tabPage2.Controls.Add(this.selfGodLvlLabel);
+            this.tabPage2.Controls.Add(this.selfItem1Pic);
+            this.tabPage2.Controls.Add(this.selfItem1Cost);
             this.tabPage2.Controls.Add(this.label50);
-            this.tabPage2.Controls.Add(this.metroComboBox6);
+            this.tabPage2.Controls.Add(this.selfItem1);
             this.tabPage2.Controls.Add(this.label51);
             this.tabPage2.Controls.Add(this.label52);
-            this.tabPage2.Controls.Add(this.metroTrackBar1);
-            this.tabPage2.Controls.Add(this.metroRadioButton1);
-            this.tabPage2.Controls.Add(this.metroRadioButton2);
+            this.tabPage2.Controls.Add(this.selfGodLvl);
+            this.tabPage2.Controls.Add(this.selfMagical);
+            this.tabPage2.Controls.Add(this.selfPhysical);
             this.tabPage2.Controls.Add(this.label53);
-            this.tabPage2.Controls.Add(this.metroComboBox7);
+            this.tabPage2.Controls.Add(this.selfGod);
             this.tabPage2.Location = new System.Drawing.Point(4, 14);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -1481,6 +1485,27 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label17.Location = new System.Drawing.Point(43, 603);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(76, 17);
+            this.label17.TabIndex = 185;
+            this.label17.Text = "Total Cost:";
+            // 
+            // selfItemsTotalCost
+            // 
+            this.selfItemsTotalCost.AutoSize = true;
+            this.selfItemsTotalCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfItemsTotalCost.ForeColor = System.Drawing.Color.Orange;
+            this.selfItemsTotalCost.Location = new System.Drawing.Point(121, 603);
+            this.selfItemsTotalCost.Name = "selfItemsTotalCost";
+            this.selfItemsTotalCost.Size = new System.Drawing.Size(16, 17);
+            this.selfItemsTotalCost.TabIndex = 184;
+            this.selfItemsTotalCost.Text = "0";
             // 
             // panel6
             // 
@@ -1490,30 +1515,32 @@
             this.panel6.Size = new System.Drawing.Size(1, 600);
             this.panel6.TabIndex = 158;
             // 
-            // pictureBox1
+            // selfItem6Pic
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(271, 526);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox1.TabIndex = 157;
-            this.pictureBox1.TabStop = false;
+            this.selfItem6Pic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.selfItem6Pic.Location = new System.Drawing.Point(271, 526);
+            this.selfItem6Pic.Name = "selfItem6Pic";
+            this.selfItem6Pic.Size = new System.Drawing.Size(64, 64);
+            this.selfItem6Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.selfItem6Pic.TabIndex = 157;
+            this.selfItem6Pic.TabStop = false;
             // 
-            // metroTextBox7
+            // selfItem6Cost
             // 
-            this.metroTextBox7.Lines = new string[] {
+            this.selfItem6Cost.Lines = new string[] {
         "0"};
-            this.metroTextBox7.Location = new System.Drawing.Point(95, 568);
-            this.metroTextBox7.MaxLength = 32767;
-            this.metroTextBox7.Multiline = true;
-            this.metroTextBox7.Name = "metroTextBox7";
-            this.metroTextBox7.PasswordChar = '\0';
-            this.metroTextBox7.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox7.SelectedText = "";
-            this.metroTextBox7.Size = new System.Drawing.Size(165, 22);
-            this.metroTextBox7.TabIndex = 156;
-            this.metroTextBox7.Text = "0";
-            this.metroTextBox7.UseSelectable = true;
+            this.selfItem6Cost.Location = new System.Drawing.Point(95, 568);
+            this.selfItem6Cost.MaxLength = 32767;
+            this.selfItem6Cost.Multiline = true;
+            this.selfItem6Cost.Name = "selfItem6Cost";
+            this.selfItem6Cost.PasswordChar = '\0';
+            this.selfItem6Cost.ReadOnly = true;
+            this.selfItem6Cost.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfItem6Cost.SelectedText = "";
+            this.selfItem6Cost.Size = new System.Drawing.Size(165, 22);
+            this.selfItem6Cost.TabIndex = 156;
+            this.selfItem6Cost.Text = "0";
+            this.selfItem6Cost.UseSelectable = true;
             // 
             // label33
             // 
@@ -1525,15 +1552,16 @@
             this.label33.TabIndex = 155;
             this.label33.Text = "Cost";
             // 
-            // metroComboBox1
+            // selfItem6
             // 
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ItemHeight = 23;
-            this.metroComboBox1.Location = new System.Drawing.Point(95, 526);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Size = new System.Drawing.Size(165, 29);
-            this.metroComboBox1.TabIndex = 154;
-            this.metroComboBox1.UseSelectable = true;
+            this.selfItem6.FormattingEnabled = true;
+            this.selfItem6.ItemHeight = 23;
+            this.selfItem6.Location = new System.Drawing.Point(95, 526);
+            this.selfItem6.Name = "selfItem6";
+            this.selfItem6.Size = new System.Drawing.Size(165, 29);
+            this.selfItem6.TabIndex = 154;
+            this.selfItem6.UseSelectable = true;
+            this.selfItem6.SelectedIndexChanged += new System.EventHandler(this.selfItem6_SelectedIndexChanged);
             // 
             // label34
             // 
@@ -1545,30 +1573,32 @@
             this.label34.TabIndex = 153;
             this.label34.Text = "Item 6";
             // 
-            // pictureBox2
+            // selfItem5Pic
             // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(271, 444);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox2.TabIndex = 152;
-            this.pictureBox2.TabStop = false;
+            this.selfItem5Pic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.selfItem5Pic.Location = new System.Drawing.Point(271, 444);
+            this.selfItem5Pic.Name = "selfItem5Pic";
+            this.selfItem5Pic.Size = new System.Drawing.Size(64, 64);
+            this.selfItem5Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.selfItem5Pic.TabIndex = 152;
+            this.selfItem5Pic.TabStop = false;
             // 
-            // metroTextBox8
+            // selfItem5Cost
             // 
-            this.metroTextBox8.Lines = new string[] {
+            this.selfItem5Cost.Lines = new string[] {
         "0"};
-            this.metroTextBox8.Location = new System.Drawing.Point(95, 486);
-            this.metroTextBox8.MaxLength = 32767;
-            this.metroTextBox8.Multiline = true;
-            this.metroTextBox8.Name = "metroTextBox8";
-            this.metroTextBox8.PasswordChar = '\0';
-            this.metroTextBox8.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox8.SelectedText = "";
-            this.metroTextBox8.Size = new System.Drawing.Size(165, 22);
-            this.metroTextBox8.TabIndex = 151;
-            this.metroTextBox8.Text = "0";
-            this.metroTextBox8.UseSelectable = true;
+            this.selfItem5Cost.Location = new System.Drawing.Point(95, 486);
+            this.selfItem5Cost.MaxLength = 32767;
+            this.selfItem5Cost.Multiline = true;
+            this.selfItem5Cost.Name = "selfItem5Cost";
+            this.selfItem5Cost.PasswordChar = '\0';
+            this.selfItem5Cost.ReadOnly = true;
+            this.selfItem5Cost.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfItem5Cost.SelectedText = "";
+            this.selfItem5Cost.Size = new System.Drawing.Size(165, 22);
+            this.selfItem5Cost.TabIndex = 151;
+            this.selfItem5Cost.Text = "0";
+            this.selfItem5Cost.UseSelectable = true;
             // 
             // label35
             // 
@@ -1580,15 +1610,16 @@
             this.label35.TabIndex = 150;
             this.label35.Text = "Cost";
             // 
-            // metroComboBox2
+            // selfItem5
             // 
-            this.metroComboBox2.FormattingEnabled = true;
-            this.metroComboBox2.ItemHeight = 23;
-            this.metroComboBox2.Location = new System.Drawing.Point(95, 444);
-            this.metroComboBox2.Name = "metroComboBox2";
-            this.metroComboBox2.Size = new System.Drawing.Size(165, 29);
-            this.metroComboBox2.TabIndex = 149;
-            this.metroComboBox2.UseSelectable = true;
+            this.selfItem5.FormattingEnabled = true;
+            this.selfItem5.ItemHeight = 23;
+            this.selfItem5.Location = new System.Drawing.Point(95, 444);
+            this.selfItem5.Name = "selfItem5";
+            this.selfItem5.Size = new System.Drawing.Size(165, 29);
+            this.selfItem5.TabIndex = 149;
+            this.selfItem5.UseSelectable = true;
+            this.selfItem5.SelectedIndexChanged += new System.EventHandler(this.selfItem5_SelectedIndexChanged);
             // 
             // label36
             // 
@@ -1600,30 +1631,32 @@
             this.label36.TabIndex = 148;
             this.label36.Text = "Item 5";
             // 
-            // pictureBox3
+            // selfItem4Pic
             // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Location = new System.Drawing.Point(271, 362);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox3.TabIndex = 147;
-            this.pictureBox3.TabStop = false;
+            this.selfItem4Pic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.selfItem4Pic.Location = new System.Drawing.Point(271, 362);
+            this.selfItem4Pic.Name = "selfItem4Pic";
+            this.selfItem4Pic.Size = new System.Drawing.Size(64, 64);
+            this.selfItem4Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.selfItem4Pic.TabIndex = 147;
+            this.selfItem4Pic.TabStop = false;
             // 
-            // metroTextBox9
+            // selfItem4Cost
             // 
-            this.metroTextBox9.Lines = new string[] {
+            this.selfItem4Cost.Lines = new string[] {
         "0"};
-            this.metroTextBox9.Location = new System.Drawing.Point(95, 404);
-            this.metroTextBox9.MaxLength = 32767;
-            this.metroTextBox9.Multiline = true;
-            this.metroTextBox9.Name = "metroTextBox9";
-            this.metroTextBox9.PasswordChar = '\0';
-            this.metroTextBox9.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox9.SelectedText = "";
-            this.metroTextBox9.Size = new System.Drawing.Size(165, 22);
-            this.metroTextBox9.TabIndex = 146;
-            this.metroTextBox9.Text = "0";
-            this.metroTextBox9.UseSelectable = true;
+            this.selfItem4Cost.Location = new System.Drawing.Point(95, 404);
+            this.selfItem4Cost.MaxLength = 32767;
+            this.selfItem4Cost.Multiline = true;
+            this.selfItem4Cost.Name = "selfItem4Cost";
+            this.selfItem4Cost.PasswordChar = '\0';
+            this.selfItem4Cost.ReadOnly = true;
+            this.selfItem4Cost.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfItem4Cost.SelectedText = "";
+            this.selfItem4Cost.Size = new System.Drawing.Size(165, 22);
+            this.selfItem4Cost.TabIndex = 146;
+            this.selfItem4Cost.Text = "0";
+            this.selfItem4Cost.UseSelectable = true;
             // 
             // label37
             // 
@@ -1635,15 +1668,16 @@
             this.label37.TabIndex = 145;
             this.label37.Text = "Cost";
             // 
-            // metroComboBox3
+            // selfItem4
             // 
-            this.metroComboBox3.FormattingEnabled = true;
-            this.metroComboBox3.ItemHeight = 23;
-            this.metroComboBox3.Location = new System.Drawing.Point(95, 362);
-            this.metroComboBox3.Name = "metroComboBox3";
-            this.metroComboBox3.Size = new System.Drawing.Size(165, 29);
-            this.metroComboBox3.TabIndex = 144;
-            this.metroComboBox3.UseSelectable = true;
+            this.selfItem4.FormattingEnabled = true;
+            this.selfItem4.ItemHeight = 23;
+            this.selfItem4.Location = new System.Drawing.Point(95, 362);
+            this.selfItem4.Name = "selfItem4";
+            this.selfItem4.Size = new System.Drawing.Size(165, 29);
+            this.selfItem4.TabIndex = 144;
+            this.selfItem4.UseSelectable = true;
+            this.selfItem4.SelectedIndexChanged += new System.EventHandler(this.selfItem4_SelectedIndexChanged);
             // 
             // label38
             // 
@@ -1655,30 +1689,32 @@
             this.label38.TabIndex = 143;
             this.label38.Text = "Item 4";
             // 
-            // pictureBox4
+            // selfItem3Pic
             // 
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Location = new System.Drawing.Point(270, 280);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox4.TabIndex = 142;
-            this.pictureBox4.TabStop = false;
+            this.selfItem3Pic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.selfItem3Pic.Location = new System.Drawing.Point(270, 280);
+            this.selfItem3Pic.Name = "selfItem3Pic";
+            this.selfItem3Pic.Size = new System.Drawing.Size(64, 64);
+            this.selfItem3Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.selfItem3Pic.TabIndex = 142;
+            this.selfItem3Pic.TabStop = false;
             // 
-            // metroTextBox10
+            // selfItem3Cost
             // 
-            this.metroTextBox10.Lines = new string[] {
+            this.selfItem3Cost.Lines = new string[] {
         "0"};
-            this.metroTextBox10.Location = new System.Drawing.Point(94, 322);
-            this.metroTextBox10.MaxLength = 32767;
-            this.metroTextBox10.Multiline = true;
-            this.metroTextBox10.Name = "metroTextBox10";
-            this.metroTextBox10.PasswordChar = '\0';
-            this.metroTextBox10.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox10.SelectedText = "";
-            this.metroTextBox10.Size = new System.Drawing.Size(165, 22);
-            this.metroTextBox10.TabIndex = 141;
-            this.metroTextBox10.Text = "0";
-            this.metroTextBox10.UseSelectable = true;
+            this.selfItem3Cost.Location = new System.Drawing.Point(94, 322);
+            this.selfItem3Cost.MaxLength = 32767;
+            this.selfItem3Cost.Multiline = true;
+            this.selfItem3Cost.Name = "selfItem3Cost";
+            this.selfItem3Cost.PasswordChar = '\0';
+            this.selfItem3Cost.ReadOnly = true;
+            this.selfItem3Cost.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfItem3Cost.SelectedText = "";
+            this.selfItem3Cost.Size = new System.Drawing.Size(165, 22);
+            this.selfItem3Cost.TabIndex = 141;
+            this.selfItem3Cost.Text = "0";
+            this.selfItem3Cost.UseSelectable = true;
             // 
             // label39
             // 
@@ -1690,15 +1726,16 @@
             this.label39.TabIndex = 140;
             this.label39.Text = "Cost";
             // 
-            // metroComboBox4
+            // selfItem3
             // 
-            this.metroComboBox4.FormattingEnabled = true;
-            this.metroComboBox4.ItemHeight = 23;
-            this.metroComboBox4.Location = new System.Drawing.Point(94, 280);
-            this.metroComboBox4.Name = "metroComboBox4";
-            this.metroComboBox4.Size = new System.Drawing.Size(165, 29);
-            this.metroComboBox4.TabIndex = 139;
-            this.metroComboBox4.UseSelectable = true;
+            this.selfItem3.FormattingEnabled = true;
+            this.selfItem3.ItemHeight = 23;
+            this.selfItem3.Location = new System.Drawing.Point(94, 280);
+            this.selfItem3.Name = "selfItem3";
+            this.selfItem3.Size = new System.Drawing.Size(165, 29);
+            this.selfItem3.TabIndex = 139;
+            this.selfItem3.UseSelectable = true;
+            this.selfItem3.SelectedIndexChanged += new System.EventHandler(this.selfItem3_SelectedIndexChanged);
             // 
             // label40
             // 
@@ -1710,30 +1747,32 @@
             this.label40.TabIndex = 138;
             this.label40.Text = "Item 3";
             // 
-            // pictureBox5
+            // selfItem2Pic
             // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Location = new System.Drawing.Point(270, 198);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox5.TabIndex = 137;
-            this.pictureBox5.TabStop = false;
+            this.selfItem2Pic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.selfItem2Pic.Location = new System.Drawing.Point(270, 198);
+            this.selfItem2Pic.Name = "selfItem2Pic";
+            this.selfItem2Pic.Size = new System.Drawing.Size(64, 64);
+            this.selfItem2Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.selfItem2Pic.TabIndex = 137;
+            this.selfItem2Pic.TabStop = false;
             // 
-            // metroTextBox11
+            // selfItem2Cost
             // 
-            this.metroTextBox11.Lines = new string[] {
+            this.selfItem2Cost.Lines = new string[] {
         "0"};
-            this.metroTextBox11.Location = new System.Drawing.Point(94, 240);
-            this.metroTextBox11.MaxLength = 32767;
-            this.metroTextBox11.Multiline = true;
-            this.metroTextBox11.Name = "metroTextBox11";
-            this.metroTextBox11.PasswordChar = '\0';
-            this.metroTextBox11.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox11.SelectedText = "";
-            this.metroTextBox11.Size = new System.Drawing.Size(165, 22);
-            this.metroTextBox11.TabIndex = 136;
-            this.metroTextBox11.Text = "0";
-            this.metroTextBox11.UseSelectable = true;
+            this.selfItem2Cost.Location = new System.Drawing.Point(94, 240);
+            this.selfItem2Cost.MaxLength = 32767;
+            this.selfItem2Cost.Multiline = true;
+            this.selfItem2Cost.Name = "selfItem2Cost";
+            this.selfItem2Cost.PasswordChar = '\0';
+            this.selfItem2Cost.ReadOnly = true;
+            this.selfItem2Cost.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfItem2Cost.SelectedText = "";
+            this.selfItem2Cost.Size = new System.Drawing.Size(165, 22);
+            this.selfItem2Cost.TabIndex = 136;
+            this.selfItem2Cost.Text = "0";
+            this.selfItem2Cost.UseSelectable = true;
             // 
             // label41
             // 
@@ -1745,15 +1784,16 @@
             this.label41.TabIndex = 135;
             this.label41.Text = "Cost";
             // 
-            // metroComboBox5
+            // selfItem2
             // 
-            this.metroComboBox5.FormattingEnabled = true;
-            this.metroComboBox5.ItemHeight = 23;
-            this.metroComboBox5.Location = new System.Drawing.Point(94, 198);
-            this.metroComboBox5.Name = "metroComboBox5";
-            this.metroComboBox5.Size = new System.Drawing.Size(165, 29);
-            this.metroComboBox5.TabIndex = 134;
-            this.metroComboBox5.UseSelectable = true;
+            this.selfItem2.FormattingEnabled = true;
+            this.selfItem2.ItemHeight = 23;
+            this.selfItem2.Location = new System.Drawing.Point(94, 198);
+            this.selfItem2.Name = "selfItem2";
+            this.selfItem2.Size = new System.Drawing.Size(165, 29);
+            this.selfItem2.TabIndex = 134;
+            this.selfItem2.UseSelectable = true;
+            this.selfItem2.SelectedIndexChanged += new System.EventHandler(this.selfItem2_SelectedIndexChanged);
             // 
             // label48
             // 
@@ -1765,41 +1805,43 @@
             this.label48.TabIndex = 133;
             this.label48.Text = "Item 2";
             // 
-            // label49
+            // selfGodLvlLabel
             // 
-            this.label49.AutoSize = true;
-            this.label49.BackColor = System.Drawing.Color.Transparent;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label49.Location = new System.Drawing.Point(314, 65);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(16, 17);
-            this.label49.TabIndex = 132;
-            this.label49.Text = "1";
+            this.selfGodLvlLabel.AutoSize = true;
+            this.selfGodLvlLabel.BackColor = System.Drawing.Color.Transparent;
+            this.selfGodLvlLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfGodLvlLabel.Location = new System.Drawing.Point(314, 65);
+            this.selfGodLvlLabel.Name = "selfGodLvlLabel";
+            this.selfGodLvlLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfGodLvlLabel.TabIndex = 132;
+            this.selfGodLvlLabel.Text = "1";
             // 
-            // pictureBox6
+            // selfItem1Pic
             // 
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox6.Location = new System.Drawing.Point(270, 116);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox6.TabIndex = 131;
-            this.pictureBox6.TabStop = false;
+            this.selfItem1Pic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.selfItem1Pic.Location = new System.Drawing.Point(270, 116);
+            this.selfItem1Pic.Name = "selfItem1Pic";
+            this.selfItem1Pic.Size = new System.Drawing.Size(64, 64);
+            this.selfItem1Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.selfItem1Pic.TabIndex = 131;
+            this.selfItem1Pic.TabStop = false;
             // 
-            // metroTextBox12
+            // selfItem1Cost
             // 
-            this.metroTextBox12.Lines = new string[] {
+            this.selfItem1Cost.Lines = new string[] {
         "0"};
-            this.metroTextBox12.Location = new System.Drawing.Point(94, 158);
-            this.metroTextBox12.MaxLength = 32767;
-            this.metroTextBox12.Multiline = true;
-            this.metroTextBox12.Name = "metroTextBox12";
-            this.metroTextBox12.PasswordChar = '\0';
-            this.metroTextBox12.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox12.SelectedText = "";
-            this.metroTextBox12.Size = new System.Drawing.Size(165, 22);
-            this.metroTextBox12.TabIndex = 130;
-            this.metroTextBox12.Text = "0";
-            this.metroTextBox12.UseSelectable = true;
+            this.selfItem1Cost.Location = new System.Drawing.Point(94, 158);
+            this.selfItem1Cost.MaxLength = 32767;
+            this.selfItem1Cost.Multiline = true;
+            this.selfItem1Cost.Name = "selfItem1Cost";
+            this.selfItem1Cost.PasswordChar = '\0';
+            this.selfItem1Cost.ReadOnly = true;
+            this.selfItem1Cost.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfItem1Cost.SelectedText = "";
+            this.selfItem1Cost.Size = new System.Drawing.Size(165, 22);
+            this.selfItem1Cost.TabIndex = 130;
+            this.selfItem1Cost.Text = "0";
+            this.selfItem1Cost.UseSelectable = true;
             // 
             // label50
             // 
@@ -1811,15 +1853,16 @@
             this.label50.TabIndex = 129;
             this.label50.Text = "Cost";
             // 
-            // metroComboBox6
+            // selfItem1
             // 
-            this.metroComboBox6.FormattingEnabled = true;
-            this.metroComboBox6.ItemHeight = 23;
-            this.metroComboBox6.Location = new System.Drawing.Point(94, 116);
-            this.metroComboBox6.Name = "metroComboBox6";
-            this.metroComboBox6.Size = new System.Drawing.Size(165, 29);
-            this.metroComboBox6.TabIndex = 128;
-            this.metroComboBox6.UseSelectable = true;
+            this.selfItem1.FormattingEnabled = true;
+            this.selfItem1.ItemHeight = 23;
+            this.selfItem1.Location = new System.Drawing.Point(94, 116);
+            this.selfItem1.Name = "selfItem1";
+            this.selfItem1.Size = new System.Drawing.Size(165, 29);
+            this.selfItem1.TabIndex = 128;
+            this.selfItem1.UseSelectable = true;
+            this.selfItem1.SelectedIndexChanged += new System.EventHandler(this.selfItem1_SelectedIndexChanged);
             // 
             // label51
             // 
@@ -1841,44 +1884,45 @@
             this.label52.TabIndex = 126;
             this.label52.Text = "Level";
             // 
-            // metroTrackBar1
+            // selfGodLvl
             // 
-            this.metroTrackBar1.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar1.Location = new System.Drawing.Point(94, 58);
-            this.metroTrackBar1.Maximum = 20;
-            this.metroTrackBar1.Minimum = 1;
-            this.metroTrackBar1.Name = "metroTrackBar1";
-            this.metroTrackBar1.Size = new System.Drawing.Size(214, 32);
-            this.metroTrackBar1.TabIndex = 125;
-            this.metroTrackBar1.Text = "metroTrackBar1";
-            this.metroTrackBar1.UseCustomBackColor = true;
-            this.metroTrackBar1.Value = 1;
+            this.selfGodLvl.BackColor = System.Drawing.Color.Transparent;
+            this.selfGodLvl.Location = new System.Drawing.Point(94, 58);
+            this.selfGodLvl.Maximum = 20;
+            this.selfGodLvl.Minimum = 1;
+            this.selfGodLvl.Name = "selfGodLvl";
+            this.selfGodLvl.Size = new System.Drawing.Size(214, 32);
+            this.selfGodLvl.TabIndex = 125;
+            this.selfGodLvl.Text = "metroTrackBar1";
+            this.selfGodLvl.UseCustomBackColor = true;
+            this.selfGodLvl.Value = 1;
+            this.selfGodLvl.ValueChanged += new System.EventHandler(this.selfGodLvl_ValueChanged);
             // 
-            // metroRadioButton1
+            // selfMagical
             // 
-            this.metroRadioButton1.AutoSize = true;
-            this.metroRadioButton1.Enabled = false;
-            this.metroRadioButton1.Location = new System.Drawing.Point(269, 39);
-            this.metroRadioButton1.Name = "metroRadioButton1";
-            this.metroRadioButton1.Size = new System.Drawing.Size(65, 15);
-            this.metroRadioButton1.Style = MetroFramework.MetroColorStyle.Teal;
-            this.metroRadioButton1.TabIndex = 124;
-            this.metroRadioButton1.Text = "Magical";
-            this.metroRadioButton1.UseCustomBackColor = true;
-            this.metroRadioButton1.UseSelectable = true;
+            this.selfMagical.AutoSize = true;
+            this.selfMagical.Enabled = false;
+            this.selfMagical.Location = new System.Drawing.Point(269, 39);
+            this.selfMagical.Name = "selfMagical";
+            this.selfMagical.Size = new System.Drawing.Size(65, 15);
+            this.selfMagical.Style = MetroFramework.MetroColorStyle.Teal;
+            this.selfMagical.TabIndex = 124;
+            this.selfMagical.Text = "Magical";
+            this.selfMagical.UseCustomBackColor = true;
+            this.selfMagical.UseSelectable = true;
             // 
-            // metroRadioButton2
+            // selfPhysical
             // 
-            this.metroRadioButton2.AutoSize = true;
-            this.metroRadioButton2.Enabled = false;
-            this.metroRadioButton2.Location = new System.Drawing.Point(269, 20);
-            this.metroRadioButton2.Name = "metroRadioButton2";
-            this.metroRadioButton2.Size = new System.Drawing.Size(66, 15);
-            this.metroRadioButton2.Style = MetroFramework.MetroColorStyle.Teal;
-            this.metroRadioButton2.TabIndex = 123;
-            this.metroRadioButton2.Text = "Physical";
-            this.metroRadioButton2.UseCustomBackColor = true;
-            this.metroRadioButton2.UseSelectable = true;
+            this.selfPhysical.AutoSize = true;
+            this.selfPhysical.Enabled = false;
+            this.selfPhysical.Location = new System.Drawing.Point(269, 20);
+            this.selfPhysical.Name = "selfPhysical";
+            this.selfPhysical.Size = new System.Drawing.Size(66, 15);
+            this.selfPhysical.Style = MetroFramework.MetroColorStyle.Teal;
+            this.selfPhysical.TabIndex = 123;
+            this.selfPhysical.Text = "Physical";
+            this.selfPhysical.UseCustomBackColor = true;
+            this.selfPhysical.UseSelectable = true;
             // 
             // label53
             // 
@@ -1890,15 +1934,16 @@
             this.label53.TabIndex = 122;
             this.label53.Text = "God";
             // 
-            // metroComboBox7
+            // selfGod
             // 
-            this.metroComboBox7.FormattingEnabled = true;
-            this.metroComboBox7.ItemHeight = 23;
-            this.metroComboBox7.Location = new System.Drawing.Point(94, 23);
-            this.metroComboBox7.Name = "metroComboBox7";
-            this.metroComboBox7.Size = new System.Drawing.Size(169, 29);
-            this.metroComboBox7.TabIndex = 121;
-            this.metroComboBox7.UseSelectable = true;
+            this.selfGod.FormattingEnabled = true;
+            this.selfGod.ItemHeight = 23;
+            this.selfGod.Location = new System.Drawing.Point(94, 23);
+            this.selfGod.Name = "selfGod";
+            this.selfGod.Size = new System.Drawing.Size(169, 29);
+            this.selfGod.TabIndex = 121;
+            this.selfGod.UseSelectable = true;
+            this.selfGod.SelectedIndexChanged += new System.EventHandler(this.selfGod_SelectedIndexChanged);
             // 
             // tabPage3
             // 
@@ -1958,12 +2003,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.targetItem1Pic)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem6Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem5Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem4Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem3Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem2Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selfItem1Pic)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2068,43 +2113,43 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox7;
+        private System.Windows.Forms.PictureBox selfItem6Pic;
+        private MetroFramework.Controls.MetroTextBox selfItem6Cost;
         private System.Windows.Forms.Label label33;
-        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroComboBox selfItem6;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private MetroFramework.Controls.MetroTextBox metroTextBox8;
+        private System.Windows.Forms.PictureBox selfItem5Pic;
+        private MetroFramework.Controls.MetroTextBox selfItem5Cost;
         private System.Windows.Forms.Label label35;
-        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private MetroFramework.Controls.MetroComboBox selfItem5;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private MetroFramework.Controls.MetroTextBox metroTextBox9;
+        private System.Windows.Forms.PictureBox selfItem4Pic;
+        private MetroFramework.Controls.MetroTextBox selfItem4Cost;
         private System.Windows.Forms.Label label37;
-        private MetroFramework.Controls.MetroComboBox metroComboBox3;
+        private MetroFramework.Controls.MetroComboBox selfItem4;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private MetroFramework.Controls.MetroTextBox metroTextBox10;
+        private System.Windows.Forms.PictureBox selfItem3Pic;
+        private MetroFramework.Controls.MetroTextBox selfItem3Cost;
         private System.Windows.Forms.Label label39;
-        private MetroFramework.Controls.MetroComboBox metroComboBox4;
+        private MetroFramework.Controls.MetroComboBox selfItem3;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private MetroFramework.Controls.MetroTextBox metroTextBox11;
+        private System.Windows.Forms.PictureBox selfItem2Pic;
+        private MetroFramework.Controls.MetroTextBox selfItem2Cost;
         private System.Windows.Forms.Label label41;
-        private MetroFramework.Controls.MetroComboBox metroComboBox5;
+        private MetroFramework.Controls.MetroComboBox selfItem2;
         private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private MetroFramework.Controls.MetroTextBox metroTextBox12;
+        private System.Windows.Forms.Label selfGodLvlLabel;
+        private System.Windows.Forms.PictureBox selfItem1Pic;
+        private MetroFramework.Controls.MetroTextBox selfItem1Cost;
         private System.Windows.Forms.Label label50;
-        private MetroFramework.Controls.MetroComboBox metroComboBox6;
+        private MetroFramework.Controls.MetroComboBox selfItem1;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar1;
-        private MetroFramework.Controls.MetroRadioButton metroRadioButton1;
-        private MetroFramework.Controls.MetroRadioButton metroRadioButton2;
+        private MetroFramework.Controls.MetroTrackBar selfGodLvl;
+        private MetroFramework.Controls.MetroRadioButton selfMagical;
+        private MetroFramework.Controls.MetroRadioButton selfPhysical;
         private System.Windows.Forms.Label label53;
-        private MetroFramework.Controls.MetroComboBox metroComboBox7;
+        private MetroFramework.Controls.MetroComboBox selfGod;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label targetWarlockStacksLabel;
@@ -2113,6 +2158,8 @@
         private MetroFramework.Controls.MetroTrackBar targetUrchinStacks;
         private System.Windows.Forms.Label targetItemsTotalCost;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label selfItemsTotalCost;
 
     }
 }

@@ -18,6 +18,10 @@ namespace KrettCalc {
         public bool TargetLotusCrown { get; set; }
         public bool TargetShifterShield { get; set; }
 
+        public GodStat SelfGod { get; set; }
+        public PlayerItems SelfItems { get; set; }
+        public int SelfLevel { get; set; }
+
         public double TargetBonusHealth {
             get { return TargetAdditionalHealth + (TargetItems.Any(i => i != null && i.Name == "Warlock's Sash") ? TargetWarlockStacks * 3 : 0); }
         }
@@ -89,6 +93,9 @@ namespace KrettCalc {
         public Calculations() {
             TargetItems = new PlayerItems();
             TargetLevel = 1;
+
+            SelfItems = new PlayerItems();
+            SelfLevel = 1;
         }
     }
 }

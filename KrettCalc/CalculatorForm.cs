@@ -40,9 +40,11 @@ namespace KrettCalc {
 
             foreach(GodStat god in gods) {
                 targetGod.Items.Add(god);
+                selfGod.Items.Add(god);
             }
 
             targetGod.SelectedIndex = 0;
+            selfGod.SelectedIndex = 0;
         }
 
         private void sliderTargetGodLvl_ValueChanged(object sender, EventArgs e) {
@@ -120,16 +122,19 @@ namespace KrettCalc {
             CalculateTarget();
         }
 
-        private void SetItem(ComboBox combo, MetroTextBox cost, PictureBox pic) {
+        private void SetItem(ComboBox combo, MetroTextBox cost, PictureBox pic, bool target = true) {
             ItemStat item = (ItemStat)combo.SelectedItem;
-            cost.Text = item.Cost.ToString();
+            cost.Text = item.Cost.ToString(CultureInfo.InvariantCulture);
             string name = item.Name.Replace(" ", "-").Replace("\'", "").ToLower();
             pic.ImageLocation = "images/" + name + ".png";
 
-            targetWarlockStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Warlock's Sash");
-            targetUrchinStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Hide of the Urchin");
-
-            CalculateTarget();
+            if(target) {
+                targetWarlockStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Warlock's Sash");
+                targetUrchinStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Hide of the Urchin");
+                CalculateTarget();
+            } else {
+                CalculateSelf();
+            }
         }
 
         private void targetItem1_SelectedIndexChanged(object sender, EventArgs e) {
@@ -162,7 +167,7 @@ namespace KrettCalc {
             SetItem(targetItem6, targetItem6Cost, targetItem6Pic);
         }
 
-        private void CalculateTarget() {
+        public void CalculateTarget() {
             if(dontCalculate) return;
 
             targetTotalHealth.Text = calculations.TargetHealth.ToString(CultureInfo.InvariantCulture);
@@ -278,6 +283,103 @@ namespace KrettCalc {
 
             dontCalculate = false;
             CalculateTarget();
+        }
+
+        public void CalculateSelf() {
+            if(dontCalculate) return;
+
+            double cost = calculations.SelfItems.Sum(i => i == null ? 0 : i.Cost);
+
+            selfItemsTotalCost.Text = cost.ToString(CultureInfo.InvariantCulture);
+        }
+
+        private void selfGod_SelectedIndexChanged(object sender, EventArgs e) {
+            GodStat god = (GodStat)selfGod.SelectedItem;
+            calculations.SelfGod = god;
+            if(god.PowerType == GodType.Physical) {
+                selfPhysical.Checked = true;
+            } else {
+                selfMagical.Checked = true;
+            }
+
+            ItemStat item1 = (ItemStat)selfItem1.SelectedItem;
+            ItemStat item2 = (ItemStat)selfItem2.SelectedItem;
+            ItemStat item3 = (ItemStat)selfItem3.SelectedItem;
+            ItemStat item4 = (ItemStat)selfItem4.SelectedItem;
+            ItemStat item5 = (ItemStat)selfItem5.SelectedItem;
+            ItemStat item6 = (ItemStat)selfItem6.SelectedItem;
+
+            selfItem1.Items.Clear();
+            selfItem2.Items.Clear();
+            selfItem3.Items.Clear();
+            selfItem4.Items.Clear();
+            selfItem5.Items.Clear();
+            selfItem6.Items.Clear();
+
+            foreach(ItemStat item in items) {
+                if(item.Name == "Empty") emptyItem = item;
+
+                if(item.ItemType == ItemType.Both || item.ItemType.ToString() == god.PowerType.ToString()) {
+                    selfItem1.Items.Add(item);
+                    selfItem2.Items.Add(item);
+                    selfItem3.Items.Add(item);
+                    selfItem4.Items.Add(item);
+                    selfItem5.Items.Add(item);
+                    selfItem6.Items.Add(item);
+
+                    if(item == item1) selfItem1.SelectedItem = item;
+                    if(item == item2) selfItem2.SelectedItem = item;
+                    if(item == item3) selfItem3.SelectedItem = item;
+                    if(item == item4) selfItem4.SelectedItem = item;
+                    if(item == item5) selfItem5.SelectedItem = item;
+                    if(item == item6) selfItem6.SelectedItem = item;
+                }
+            }
+
+            if(selfItem1.SelectedItem == null) selfItem1.SelectedItem = emptyItem;
+            if(selfItem2.SelectedItem == null) selfItem2.SelectedItem = emptyItem;
+            if(selfItem3.SelectedItem == null) selfItem3.SelectedItem = emptyItem;
+            if(selfItem4.SelectedItem == null) selfItem4.SelectedItem = emptyItem;
+            if(selfItem5.SelectedItem == null) selfItem5.SelectedItem = emptyItem;
+            if(selfItem6.SelectedItem == null) selfItem6.SelectedItem = emptyItem;
+
+            CalculateSelf();
+        }
+
+        private void selfGodLvl_ValueChanged(object sender, EventArgs e) {
+            selfGodLvlLabel.Text = selfGodLvl.Value.ToString();
+            calculations.SelfLevel = selfGodLvl.Value;
+            CalculateSelf();
+        }
+
+        private void selfItem1_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfItems.First = (ItemStat)selfItem1.SelectedItem;
+            SetItem(selfItem1, selfItem1Cost, selfItem1Pic, false);
+        }
+
+        private void selfItem2_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfItems.Second = (ItemStat)selfItem2.SelectedItem;
+            SetItem(selfItem2, selfItem2Cost, selfItem2Pic, false);
+        }
+
+        private void selfItem3_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfItems.Third = (ItemStat)selfItem3.SelectedItem;
+            SetItem(selfItem3, selfItem3Cost, selfItem3Pic, false);
+        }
+
+        private void selfItem4_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfItems.Fourth = (ItemStat)selfItem4.SelectedItem;
+            SetItem(selfItem4, selfItem4Cost, selfItem4Pic, false);
+        }
+
+        private void selfItem5_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfItems.Fifth = (ItemStat)selfItem5.SelectedItem;
+            SetItem(selfItem5, selfItem5Cost, selfItem5Pic, false);
+        }
+
+        private void selfItem6_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfItems.Sixth = (ItemStat)selfItem6.SelectedItem;
+            SetItem(selfItem6, selfItem6Cost, selfItem6Pic, false);
         }
     }
 }
