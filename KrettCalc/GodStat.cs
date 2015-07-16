@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System.Security.Policy;
+using System.Xml.Serialization;
 
 namespace KrettCalc {
     public enum AbilityType {
@@ -48,6 +49,22 @@ namespace KrettCalc {
         public bool ShouldSerializeScaling() {
             return Scaling > 0;
         }
+
+        public bool ShouldSerializeRefire() {
+            return Refire > 0;
+        }
+
+        public bool ShouldSerializePrecast() {
+            return Precast > 0;
+        }
+
+        public bool ShouldSerializePostcast() {
+            return Postcast > 0;
+        }
+
+        public bool ShouldSerializeDuration() {
+            return Duration > 0;
+        }
     }
 
     [XmlType("Steroid")]
@@ -78,6 +95,22 @@ namespace KrettCalc {
 
         [XmlAttribute]
         public double Duration;
+
+        public bool ShouldSerializeBaseDamage() {
+            return BaseDamage > 0;
+        }
+
+        public bool ShouldSerializePrecast() {
+            return Precast > 0;
+        }
+
+        public bool ShouldSerializePostcast() {
+            return Postcast > 0;
+        }
+
+        public bool ShouldSerializeDuration() {
+            return Duration > 0;
+        }
     }
 
     public enum GodType {
@@ -96,37 +129,37 @@ namespace KrettCalc {
         [XmlAttribute("HP")]
         public double BaseHealth;
 
-        [XmlAttribute("HPScaling")]
+        [XmlAttribute("HPScale")]
         public double HealthScaling;
 
         [XmlAttribute("PP")]
         public double BasePhysProtection;
 
-        [XmlAttribute("PPScaling")]
+        [XmlAttribute("PPScale")]
         public double PhysProtectionScaling;
 
         [XmlAttribute("MP")]
         public double BaseMagicalProtection;
 
-        [XmlAttribute("MPScaling")]
+        [XmlAttribute("MPScale")]
         public double MagicalProtectionScaling;
 
         [XmlAttribute("AS")]
         public double BaseAttackSpeed;
 
-        [XmlAttribute("ASScaling")]
+        [XmlAttribute("ASScale")]
         public double AttackSpeedScaling;
 
         [XmlAttribute("Atk")]
         public double BaseAttack;
 
-        [XmlAttribute("AtkScaling")]
+        [XmlAttribute("AtkScale")]
         public double AttackScaling;
 
         [XmlAttribute("Mana")]
         public double BaseMana;
 
-        [XmlAttribute]
+        [XmlAttribute("ManaScale")]
         public double ManaScaling;
 
         [XmlElement("Ability1")]
@@ -147,7 +180,7 @@ namespace KrettCalc {
         [XmlAttribute("Hp5")]
         public double BaseHp5;
 
-        [XmlAttribute]
+        [XmlAttribute("Hp5Scale")]
         public double Hp5Scaling;
 
         [XmlElement("Steroid1")]
@@ -187,6 +220,10 @@ namespace KrettCalc {
 
         public bool ShouldSerializeThirdSpecial() {
             return ThirdSpecial != null && ThirdSpecial.Name != "";
+        }
+
+        public bool ShouldSerializeMagicalProtectionScaling() {
+            return MagicalProtectionScaling > 0;
         }
     }
 }

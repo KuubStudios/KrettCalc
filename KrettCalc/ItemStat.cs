@@ -63,5 +63,61 @@ namespace KrettCalc {
         public override string ToString() {
             return Name;
         }
+
+        public bool ShouldSerializeCost() {
+            return Cost > 0;
+        }
+
+        public bool ShouldSerializeHealth() {
+            return Health > 0;
+        }
+
+        public bool ShouldSerializePhysicalProtection() {
+            return PhysicalProtection > 0;
+        }
+
+        public bool ShouldSerializeMagicalProtection() {
+            return MagicalProtection > 0;
+        }
+
+        public bool ShouldSerializePower() {
+            return Power > 0;
+        }
+
+        public bool ShouldSerializeAttackSpeed() {
+            return AttackSpeed > 0;
+        }
+
+        public bool ShouldSerializePercentPenetration() {
+            return PercentPenetration > 0;
+        }
+
+        public bool ShouldSerializeFlatPenetration() {
+            return FlatPenetration > 0;
+        }
+
+        public bool ShouldSerializeCritChance() {
+            return CritChance > 0;
+        }
+
+        public bool ShouldSerializeCooldownReduction() {
+            return CooldownReduction > 0;
+        }
+
+        public bool ShouldSerializeLifesteal() {
+            return Lifesteal > 0;
+        }
+
+        public bool ShouldSerializeMana() {
+            return Mana > 0;
+        }
+
+        public bool ShouldSerializeHp5() {
+            return Hp5 > 0;
+        }
+
+        public bool ShouldSerializeMoveSpeed() {
+            return MoveSpeed > 0;
+        }
     }
 }

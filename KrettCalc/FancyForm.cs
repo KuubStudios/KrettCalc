@@ -18,23 +18,6 @@ namespace KrettCalc {
         [DllImport("user32.dll")]
         public static extern IntPtr GetSystemMenu(IntPtr hWnd, bool bRevert);
 
-        private class MouseMessageFilter : IMessageFilter {
-            private const int WM_MOUSEMOVE = 0x0200;
-
-            public static event MouseEventHandler MouseMove;
-
-            public bool PreFilterMessage(ref Message m) {
-                if(m.Msg == WM_MOUSEMOVE) {
-                    if(MouseMove != null) {
-                        int x = Control.MousePosition.X, y = Control.MousePosition.Y;
-
-                        MouseMove(null, new MouseEventArgs(MouseButtons.None, 0, x, y, 0));
-                    }
-                }
-                return false;
-            }
-        }
-
         private const int STATUS_BAR_HEIGHT = 5;
         private const int MENU_WIDTH = 250;
         private const int ACTION_BAR_HEIGHT = 46;
@@ -45,10 +28,7 @@ namespace KrettCalc {
 
         private const int WM_NCLBUTTONDOWN = 0xA1;
         private const int HT_CAPTION = 0x2;
-        private const int WM_MOUSEMOVE = 0x0200;
         private const int WM_LBUTTONDOWN = 0x0201;
-        private const int WM_LBUTTONUP = 0x0202;
-        private const int WM_LBUTTONDBLCLK = 0x0203;
         private const int WM_RBUTTONDOWN = 0x0204;
 
         private const uint TPM_LEFTALIGN = 0x0000;
@@ -96,9 +76,6 @@ namespace KrettCalc {
             FormBorderStyle = FormBorderStyle.None;
             DoubleBuffered = true;
             SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
-
-            //Application.AddMessageFilter(new MouseMessageFilter());
-            //MouseMessageFilter.MouseMove += OnGlobalMouseMove;
 
             PrimaryColor = Color.FromArgb(0, 170, 173);
             DarkPrimaryColor = Color.FromArgb(25, 25, 31);
