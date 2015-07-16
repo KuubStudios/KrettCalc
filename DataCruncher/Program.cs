@@ -10,6 +10,10 @@ using Microsoft.VisualBasic.FileIO;
 
 namespace DataCruncher {
     internal class Program {
+        private static string CheckEnum(string field) {
+            return field != "" ? field : "None";
+        }
+
         public static void Main(string[] args) {
             List<GodStat> gods = new List<GodStat>();
             using(TextFieldParser parser = new TextFieldParser(@"God Stats.csv")) {
@@ -70,6 +74,57 @@ namespace DataCruncher {
                     god.Hp5Scaling = Double.Parse(fields[i++], CultureInfo.InvariantCulture);
 
                     gods.Add(god);
+                }
+            }
+
+            using(TextFieldParser parser = new TextFieldParser(@"Steroids.csv")) {
+                parser.TextFieldType = FieldType.Delimited;
+                parser.SetDelimiters(",");
+                parser.ReadLine();
+
+                while(!parser.EndOfData) {
+                    int i = 0;
+                    string[] fields = parser.ReadFields();
+
+                    string name = fields[i++];
+                    int god = gods.FindIndex(g => g.Name == name);
+
+                    gods[god].FirstSteroid = new GodSteroid() {
+                        NameEnable = fields[i++],
+                        NameDisable = fields[i++]
+                    };
+
+                    gods[god].SecondSteroid = new GodSteroid() {
+                        NameEnable = fields[i++],
+                        NameDisable = fields[i++]
+                    };
+
+                    gods[god].FirstSpecial = new GodSpecial() {
+                        Name = fields[i++],
+                        BaseDamage = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        CastType = (AbilityType)Enum.Parse(typeof(AbilityType), CheckEnum(fields[i++]), true),
+                        Precast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        Postcast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        Duration = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture)
+                    };
+
+                    gods[god].SecondSpecial = new GodSpecial() {
+                        Name = fields[i++],
+                        BaseDamage = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        CastType = (AbilityType)Enum.Parse(typeof(AbilityType), CheckEnum(fields[i++]), true),
+                        Precast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        Postcast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        Duration = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture)
+                    };
+
+                    gods[god].ThirdSpecial = new GodSpecial() {
+                        Name = fields[i++],
+                        BaseDamage = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        CastType = (AbilityType)Enum.Parse(typeof(AbilityType), CheckEnum(fields[i++]), true),
+                        Precast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        Postcast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
+                        Duration = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture)
+                    };
                 }
             }
 

@@ -2,6 +2,7 @@
 
 namespace KrettCalc {
     public enum AbilityType {
+        None,
         Field,
         Instant,
         Channel,
@@ -26,6 +27,48 @@ namespace KrettCalc {
 
         [XmlAttribute]
         public double Refire;
+
+        [XmlAttribute]
+        public double Precast;
+
+        [XmlAttribute]
+        public double Postcast;
+
+        [XmlAttribute]
+        public double Duration;
+
+        public bool ShouldSerializeBaseDamage() {
+            return BaseDamage > 0;
+        }
+
+        public bool ShouldSerializeRank() {
+            return Rank > 0;
+        }
+
+        public bool ShouldSerializeScaling() {
+            return Scaling > 0;
+        }
+    }
+
+    [XmlType("Steroid")]
+    public class GodSteroid {
+        [XmlAttribute("Enabled")]
+        public string NameEnable;
+
+        [XmlAttribute("Disabled")]
+        public string NameDisable;
+    }
+
+    [XmlType("Special")]
+    public class GodSpecial {
+        [XmlAttribute]
+        public string Name;
+
+        [XmlAttribute("Dmg")]
+        public double BaseDamage;
+
+        [XmlAttribute("Type")]
+        public AbilityType CastType;
 
         [XmlAttribute]
         public double Precast;
@@ -107,8 +150,43 @@ namespace KrettCalc {
         [XmlAttribute]
         public double Hp5Scaling;
 
+        [XmlElement("Steroid1")]
+        public GodSteroid FirstSteroid;
+
+        [XmlElement("Steroid2")]
+        public GodSteroid SecondSteroid;
+
+        [XmlElement("Special1")]
+        public GodSpecial FirstSpecial;
+
+        [XmlElement("Special2")]
+        public GodSpecial SecondSpecial;
+
+        [XmlElement("Special3")]
+        public GodSpecial ThirdSpecial;
+
         public override string ToString() {
             return Name;
+        }
+
+        public bool ShouldSerializeFirstSteroid() {
+            return FirstSteroid != null && FirstSteroid.NameEnable != "";
+        }
+
+        public bool ShouldSerializeSecondSteroid() {
+            return SecondSteroid != null && SecondSteroid.NameEnable != "";
+        }
+
+        public bool ShouldSerializeFirstSpecial() {
+            return FirstSpecial != null && FirstSpecial.Name != "";
+        }
+
+        public bool ShouldSerializeSecondSpecial() {
+            return SecondSpecial != null && SecondSpecial.Name != "";
+        }
+
+        public bool ShouldSerializeThirdSpecial() {
+            return ThirdSpecial != null && ThirdSpecial.Name != "";
         }
     }
 }
