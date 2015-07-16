@@ -38,7 +38,7 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.label54 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.targetReset = new MetroFramework.Controls.MetroButton();
             this.targetMagiCost = new System.Windows.Forms.Label();
             this.targetPhysCost = new System.Windows.Forms.Label();
             this.targetBonusHealth = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@
             this.targetBonusPhysProt = new System.Windows.Forms.Label();
             this.panel25 = new System.Windows.Forms.Panel();
             this.label43 = new System.Windows.Forms.Label();
-            this.metroTextBox29 = new MetroFramework.Controls.MetroTextBox();
+            this.targetLifesteal = new MetroFramework.Controls.MetroTextBox();
             this.panel26 = new System.Windows.Forms.Panel();
             this.label44 = new System.Windows.Forms.Label();
             this.targetShiftersPassive = new MetroFramework.Controls.MetroToggle();
@@ -264,7 +264,7 @@
             this.tabPage1.Controls.Add(this.panel8);
             this.tabPage1.Controls.Add(this.label54);
             this.tabPage1.Controls.Add(this.label24);
-            this.tabPage1.Controls.Add(this.metroButton1);
+            this.tabPage1.Controls.Add(this.targetReset);
             this.tabPage1.Controls.Add(this.targetMagiCost);
             this.tabPage1.Controls.Add(this.targetPhysCost);
             this.tabPage1.Controls.Add(this.targetBonusHealth);
@@ -272,7 +272,7 @@
             this.tabPage1.Controls.Add(this.targetBonusPhysProt);
             this.tabPage1.Controls.Add(this.panel25);
             this.tabPage1.Controls.Add(this.label43);
-            this.tabPage1.Controls.Add(this.metroTextBox29);
+            this.tabPage1.Controls.Add(this.targetLifesteal);
             this.tabPage1.Controls.Add(this.panel26);
             this.tabPage1.Controls.Add(this.label44);
             this.tabPage1.Controls.Add(this.targetShiftersPassive);
@@ -452,25 +452,26 @@
             this.label24.TabIndex = 174;
             this.label24.Text = "Total Stats";
             // 
-            // metroButton1
+            // targetReset
             // 
-            this.metroButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.metroButton1.ForeColor = System.Drawing.Color.White;
-            this.metroButton1.Location = new System.Drawing.Point(844, 514);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(243, 64);
-            this.metroButton1.TabIndex = 173;
-            this.metroButton1.Text = "Reset";
-            this.metroButton1.UseCustomBackColor = true;
-            this.metroButton1.UseCustomForeColor = true;
-            this.metroButton1.UseSelectable = true;
+            this.targetReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.targetReset.ForeColor = System.Drawing.Color.White;
+            this.targetReset.Location = new System.Drawing.Point(844, 514);
+            this.targetReset.Name = "targetReset";
+            this.targetReset.Size = new System.Drawing.Size(243, 64);
+            this.targetReset.TabIndex = 173;
+            this.targetReset.Text = "Reset";
+            this.targetReset.UseCustomBackColor = true;
+            this.targetReset.UseCustomForeColor = true;
+            this.targetReset.UseSelectable = true;
+            this.targetReset.Click += new System.EventHandler(this.targetReset_Click);
             // 
             // targetMagiCost
             // 
             this.targetMagiCost.AutoSize = true;
             this.targetMagiCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
             this.targetMagiCost.ForeColor = System.Drawing.Color.Orange;
-            this.targetMagiCost.Location = new System.Drawing.Point(1006, 293);
+            this.targetMagiCost.Location = new System.Drawing.Point(1010, 293);
             this.targetMagiCost.Name = "targetMagiCost";
             this.targetMagiCost.Size = new System.Drawing.Size(60, 17);
             this.targetMagiCost.TabIndex = 172;
@@ -503,7 +504,7 @@
             this.targetBonusMagiProt.AutoSize = true;
             this.targetBonusMagiProt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
             this.targetBonusMagiProt.ForeColor = System.Drawing.Color.Purple;
-            this.targetBonusMagiProt.Location = new System.Drawing.Point(971, 173);
+            this.targetBonusMagiProt.Location = new System.Drawing.Point(975, 173);
             this.targetBonusMagiProt.Name = "targetBonusMagiProt";
             this.targetBonusMagiProt.Size = new System.Drawing.Size(34, 17);
             this.targetBonusMagiProt.TabIndex = 169;
@@ -538,21 +539,21 @@
             this.label43.TabIndex = 165;
             this.label43.Text = "Warlocks Stacks";
             // 
-            // metroTextBox29
+            // targetLifesteal
             // 
-            this.metroTextBox29.Lines = new string[] {
+            this.targetLifesteal.Lines = new string[] {
         "0"};
-            this.metroTextBox29.Location = new System.Drawing.Point(464, 266);
-            this.metroTextBox29.MaxLength = 32767;
-            this.metroTextBox29.Multiline = true;
-            this.metroTextBox29.Name = "metroTextBox29";
-            this.metroTextBox29.PasswordChar = '\0';
-            this.metroTextBox29.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox29.SelectedText = "";
-            this.metroTextBox29.Size = new System.Drawing.Size(243, 22);
-            this.metroTextBox29.TabIndex = 164;
-            this.metroTextBox29.Text = "0";
-            this.metroTextBox29.UseSelectable = true;
+            this.targetLifesteal.Location = new System.Drawing.Point(464, 266);
+            this.targetLifesteal.MaxLength = 32767;
+            this.targetLifesteal.Multiline = true;
+            this.targetLifesteal.Name = "targetLifesteal";
+            this.targetLifesteal.PasswordChar = '\0';
+            this.targetLifesteal.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.targetLifesteal.SelectedText = "";
+            this.targetLifesteal.Size = new System.Drawing.Size(243, 22);
+            this.targetLifesteal.TabIndex = 164;
+            this.targetLifesteal.Text = "0";
+            this.targetLifesteal.UseSelectable = true;
             // 
             // panel26
             // 
@@ -1492,7 +1493,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(271, 536);
+            this.pictureBox1.Location = new System.Drawing.Point(271, 526);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(64, 64);
             this.pictureBox1.TabIndex = 157;
@@ -1502,7 +1503,7 @@
             // 
             this.metroTextBox7.Lines = new string[] {
         "0"};
-            this.metroTextBox7.Location = new System.Drawing.Point(95, 578);
+            this.metroTextBox7.Location = new System.Drawing.Point(95, 568);
             this.metroTextBox7.MaxLength = 32767;
             this.metroTextBox7.Multiline = true;
             this.metroTextBox7.Name = "metroTextBox7";
@@ -1518,7 +1519,7 @@
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label33.Location = new System.Drawing.Point(43, 580);
+            this.label33.Location = new System.Drawing.Point(43, 570);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(36, 17);
             this.label33.TabIndex = 155;
@@ -1528,7 +1529,7 @@
             // 
             this.metroComboBox1.FormattingEnabled = true;
             this.metroComboBox1.ItemHeight = 23;
-            this.metroComboBox1.Location = new System.Drawing.Point(95, 536);
+            this.metroComboBox1.Location = new System.Drawing.Point(95, 526);
             this.metroComboBox1.Name = "metroComboBox1";
             this.metroComboBox1.Size = new System.Drawing.Size(165, 29);
             this.metroComboBox1.TabIndex = 154;
@@ -1538,7 +1539,7 @@
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label34.Location = new System.Drawing.Point(43, 542);
+            this.label34.Location = new System.Drawing.Point(43, 532);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(46, 17);
             this.label34.TabIndex = 153;
@@ -1547,7 +1548,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(271, 454);
+            this.pictureBox2.Location = new System.Drawing.Point(271, 444);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(64, 64);
             this.pictureBox2.TabIndex = 152;
@@ -1557,7 +1558,7 @@
             // 
             this.metroTextBox8.Lines = new string[] {
         "0"};
-            this.metroTextBox8.Location = new System.Drawing.Point(95, 496);
+            this.metroTextBox8.Location = new System.Drawing.Point(95, 486);
             this.metroTextBox8.MaxLength = 32767;
             this.metroTextBox8.Multiline = true;
             this.metroTextBox8.Name = "metroTextBox8";
@@ -1573,7 +1574,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label35.Location = new System.Drawing.Point(43, 498);
+            this.label35.Location = new System.Drawing.Point(43, 488);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(36, 17);
             this.label35.TabIndex = 150;
@@ -1583,7 +1584,7 @@
             // 
             this.metroComboBox2.FormattingEnabled = true;
             this.metroComboBox2.ItemHeight = 23;
-            this.metroComboBox2.Location = new System.Drawing.Point(95, 454);
+            this.metroComboBox2.Location = new System.Drawing.Point(95, 444);
             this.metroComboBox2.Name = "metroComboBox2";
             this.metroComboBox2.Size = new System.Drawing.Size(165, 29);
             this.metroComboBox2.TabIndex = 149;
@@ -1593,7 +1594,7 @@
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label36.Location = new System.Drawing.Point(43, 460);
+            this.label36.Location = new System.Drawing.Point(43, 450);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(46, 17);
             this.label36.TabIndex = 148;
@@ -1602,7 +1603,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Location = new System.Drawing.Point(271, 372);
+            this.pictureBox3.Location = new System.Drawing.Point(271, 362);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(64, 64);
             this.pictureBox3.TabIndex = 147;
@@ -1612,7 +1613,7 @@
             // 
             this.metroTextBox9.Lines = new string[] {
         "0"};
-            this.metroTextBox9.Location = new System.Drawing.Point(95, 414);
+            this.metroTextBox9.Location = new System.Drawing.Point(95, 404);
             this.metroTextBox9.MaxLength = 32767;
             this.metroTextBox9.Multiline = true;
             this.metroTextBox9.Name = "metroTextBox9";
@@ -1628,7 +1629,7 @@
             // 
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label37.Location = new System.Drawing.Point(43, 416);
+            this.label37.Location = new System.Drawing.Point(43, 406);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(36, 17);
             this.label37.TabIndex = 145;
@@ -1638,7 +1639,7 @@
             // 
             this.metroComboBox3.FormattingEnabled = true;
             this.metroComboBox3.ItemHeight = 23;
-            this.metroComboBox3.Location = new System.Drawing.Point(95, 372);
+            this.metroComboBox3.Location = new System.Drawing.Point(95, 362);
             this.metroComboBox3.Name = "metroComboBox3";
             this.metroComboBox3.Size = new System.Drawing.Size(165, 29);
             this.metroComboBox3.TabIndex = 144;
@@ -1648,7 +1649,7 @@
             // 
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label38.Location = new System.Drawing.Point(43, 378);
+            this.label38.Location = new System.Drawing.Point(43, 368);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(46, 17);
             this.label38.TabIndex = 143;
@@ -1657,7 +1658,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Location = new System.Drawing.Point(270, 290);
+            this.pictureBox4.Location = new System.Drawing.Point(270, 280);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(64, 64);
             this.pictureBox4.TabIndex = 142;
@@ -1667,7 +1668,7 @@
             // 
             this.metroTextBox10.Lines = new string[] {
         "0"};
-            this.metroTextBox10.Location = new System.Drawing.Point(94, 332);
+            this.metroTextBox10.Location = new System.Drawing.Point(94, 322);
             this.metroTextBox10.MaxLength = 32767;
             this.metroTextBox10.Multiline = true;
             this.metroTextBox10.Name = "metroTextBox10";
@@ -1683,7 +1684,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label39.Location = new System.Drawing.Point(42, 334);
+            this.label39.Location = new System.Drawing.Point(42, 324);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(36, 17);
             this.label39.TabIndex = 140;
@@ -1693,7 +1694,7 @@
             // 
             this.metroComboBox4.FormattingEnabled = true;
             this.metroComboBox4.ItemHeight = 23;
-            this.metroComboBox4.Location = new System.Drawing.Point(94, 290);
+            this.metroComboBox4.Location = new System.Drawing.Point(94, 280);
             this.metroComboBox4.Name = "metroComboBox4";
             this.metroComboBox4.Size = new System.Drawing.Size(165, 29);
             this.metroComboBox4.TabIndex = 139;
@@ -1703,7 +1704,7 @@
             // 
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label40.Location = new System.Drawing.Point(42, 296);
+            this.label40.Location = new System.Drawing.Point(42, 286);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(46, 17);
             this.label40.TabIndex = 138;
@@ -1712,7 +1713,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Location = new System.Drawing.Point(270, 208);
+            this.pictureBox5.Location = new System.Drawing.Point(270, 198);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(64, 64);
             this.pictureBox5.TabIndex = 137;
@@ -1722,7 +1723,7 @@
             // 
             this.metroTextBox11.Lines = new string[] {
         "0"};
-            this.metroTextBox11.Location = new System.Drawing.Point(94, 250);
+            this.metroTextBox11.Location = new System.Drawing.Point(94, 240);
             this.metroTextBox11.MaxLength = 32767;
             this.metroTextBox11.Multiline = true;
             this.metroTextBox11.Name = "metroTextBox11";
@@ -1738,7 +1739,7 @@
             // 
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label41.Location = new System.Drawing.Point(42, 252);
+            this.label41.Location = new System.Drawing.Point(42, 242);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(36, 17);
             this.label41.TabIndex = 135;
@@ -1748,7 +1749,7 @@
             // 
             this.metroComboBox5.FormattingEnabled = true;
             this.metroComboBox5.ItemHeight = 23;
-            this.metroComboBox5.Location = new System.Drawing.Point(94, 208);
+            this.metroComboBox5.Location = new System.Drawing.Point(94, 198);
             this.metroComboBox5.Name = "metroComboBox5";
             this.metroComboBox5.Size = new System.Drawing.Size(165, 29);
             this.metroComboBox5.TabIndex = 134;
@@ -1758,7 +1759,7 @@
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label48.Location = new System.Drawing.Point(42, 214);
+            this.label48.Location = new System.Drawing.Point(42, 204);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(46, 17);
             this.label48.TabIndex = 133;
@@ -1769,7 +1770,7 @@
             this.label49.AutoSize = true;
             this.label49.BackColor = System.Drawing.Color.Transparent;
             this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label49.Location = new System.Drawing.Point(314, 75);
+            this.label49.Location = new System.Drawing.Point(314, 65);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(16, 17);
             this.label49.TabIndex = 132;
@@ -1778,7 +1779,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox6.Location = new System.Drawing.Point(270, 126);
+            this.pictureBox6.Location = new System.Drawing.Point(270, 116);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(64, 64);
             this.pictureBox6.TabIndex = 131;
@@ -1788,7 +1789,7 @@
             // 
             this.metroTextBox12.Lines = new string[] {
         "0"};
-            this.metroTextBox12.Location = new System.Drawing.Point(94, 168);
+            this.metroTextBox12.Location = new System.Drawing.Point(94, 158);
             this.metroTextBox12.MaxLength = 32767;
             this.metroTextBox12.Multiline = true;
             this.metroTextBox12.Name = "metroTextBox12";
@@ -1804,7 +1805,7 @@
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label50.Location = new System.Drawing.Point(42, 170);
+            this.label50.Location = new System.Drawing.Point(42, 160);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(36, 17);
             this.label50.TabIndex = 129;
@@ -1814,7 +1815,7 @@
             // 
             this.metroComboBox6.FormattingEnabled = true;
             this.metroComboBox6.ItemHeight = 23;
-            this.metroComboBox6.Location = new System.Drawing.Point(94, 126);
+            this.metroComboBox6.Location = new System.Drawing.Point(94, 116);
             this.metroComboBox6.Name = "metroComboBox6";
             this.metroComboBox6.Size = new System.Drawing.Size(165, 29);
             this.metroComboBox6.TabIndex = 128;
@@ -1824,7 +1825,7 @@
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label51.Location = new System.Drawing.Point(42, 132);
+            this.label51.Location = new System.Drawing.Point(42, 122);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(46, 17);
             this.label51.TabIndex = 127;
@@ -1834,7 +1835,7 @@
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label52.Location = new System.Drawing.Point(42, 75);
+            this.label52.Location = new System.Drawing.Point(42, 65);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(42, 17);
             this.label52.TabIndex = 126;
@@ -1843,7 +1844,7 @@
             // metroTrackBar1
             // 
             this.metroTrackBar1.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar1.Location = new System.Drawing.Point(94, 68);
+            this.metroTrackBar1.Location = new System.Drawing.Point(94, 58);
             this.metroTrackBar1.Maximum = 20;
             this.metroTrackBar1.Minimum = 1;
             this.metroTrackBar1.Name = "metroTrackBar1";
@@ -1857,7 +1858,7 @@
             // 
             this.metroRadioButton1.AutoSize = true;
             this.metroRadioButton1.Enabled = false;
-            this.metroRadioButton1.Location = new System.Drawing.Point(269, 49);
+            this.metroRadioButton1.Location = new System.Drawing.Point(269, 39);
             this.metroRadioButton1.Name = "metroRadioButton1";
             this.metroRadioButton1.Size = new System.Drawing.Size(65, 15);
             this.metroRadioButton1.Style = MetroFramework.MetroColorStyle.Teal;
@@ -1870,7 +1871,7 @@
             // 
             this.metroRadioButton2.AutoSize = true;
             this.metroRadioButton2.Enabled = false;
-            this.metroRadioButton2.Location = new System.Drawing.Point(269, 30);
+            this.metroRadioButton2.Location = new System.Drawing.Point(269, 20);
             this.metroRadioButton2.Name = "metroRadioButton2";
             this.metroRadioButton2.Size = new System.Drawing.Size(66, 15);
             this.metroRadioButton2.Style = MetroFramework.MetroColorStyle.Teal;
@@ -1883,7 +1884,7 @@
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(42, 39);
+            this.label53.Location = new System.Drawing.Point(42, 29);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(37, 18);
             this.label53.TabIndex = 122;
@@ -1893,7 +1894,7 @@
             // 
             this.metroComboBox7.FormattingEnabled = true;
             this.metroComboBox7.ItemHeight = 23;
-            this.metroComboBox7.Location = new System.Drawing.Point(94, 33);
+            this.metroComboBox7.Location = new System.Drawing.Point(94, 23);
             this.metroComboBox7.Name = "metroComboBox7";
             this.metroComboBox7.Size = new System.Drawing.Size(169, 29);
             this.metroComboBox7.TabIndex = 121;
@@ -2022,7 +2023,7 @@
         private System.Windows.Forms.Label targetBonusPhysProt;
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.Label label43;
-        private MetroFramework.Controls.MetroTextBox metroTextBox29;
+        private MetroFramework.Controls.MetroTextBox targetLifesteal;
         private System.Windows.Forms.Panel panel26;
         private System.Windows.Forms.Label label44;
         private MetroFramework.Controls.MetroToggle targetShiftersPassive;
@@ -2062,7 +2063,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label23;
         private MetroFramework.Controls.MetroTextBox targetTotalHealth;
-        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroButton targetReset;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;

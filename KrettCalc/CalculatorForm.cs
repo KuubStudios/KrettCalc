@@ -16,6 +16,9 @@ namespace KrettCalc {
 
         private readonly Calculations calculations = new Calculations();
 
+        private bool dontCalculate;
+        private ItemStat emptyItem;
+
         public CalculatorForm() {
             InitializeComponent();
         }
@@ -73,7 +76,6 @@ namespace KrettCalc {
                 targetMagical.Checked = true;
             }
 
-            ItemStat emptyItem = null;
             ItemStat item1 = (ItemStat)targetItem1.SelectedItem;
             ItemStat item2 = (ItemStat)targetItem2.SelectedItem;
             ItemStat item3 = (ItemStat)targetItem3.SelectedItem;
@@ -161,6 +163,8 @@ namespace KrettCalc {
         }
 
         private void CalculateTarget() {
+            if(dontCalculate) return;
+
             targetTotalHealth.Text = calculations.TargetHealth.ToString(CultureInfo.InvariantCulture);
             targetBonusHealth.Text = String.Format("(+{0})", calculations.TargetBonusHealth);
 
@@ -214,7 +218,7 @@ namespace KrettCalc {
 
         private void targetAdditionalPhysProt_TextChanged(object sender, EventArgs e) {
             double phys;
-            if (Double.TryParse(targetAdditionalPhysProt.Text, out phys)) {
+            if(Double.TryParse(targetAdditionalPhysProt.Text, out phys)) {
                 calculations.TargetAdditionalPhysProtection = phys;
                 CalculateTarget();
                 targetAdditionalPhysProt.ForeColor = SystemColors.ControlText;
@@ -225,7 +229,7 @@ namespace KrettCalc {
 
         private void targetAdditionalMagiProt_TextChanged(object sender, EventArgs e) {
             double magi;
-            if (Double.TryParse(targetAdditionalMagiProt.Text, out magi)) {
+            if(Double.TryParse(targetAdditionalMagiProt.Text, out magi)) {
                 calculations.TargetAdditionalMagicalProtection = magi;
                 CalculateTarget();
                 targetAdditionalMagiProt.ForeColor = SystemColors.ControlText;
@@ -244,6 +248,36 @@ namespace KrettCalc {
             targetUrchinStacksLabel.Text = targetUrchinStacks.Value.ToString();
             calculations.TargetUrchinStacks = targetUrchinStacks.Value;
             CalculateTarget();
-        }       
+        }
+
+        private void targetReset_Click(object sender, EventArgs e) {
+            dontCalculate = true;
+
+            targetGod.SelectedIndex = 0;
+            targetGodLvl.Value = 1;
+
+            targetItem1.SelectedItem = emptyItem;
+            targetItem2.SelectedItem = emptyItem;
+            targetItem3.SelectedItem = emptyItem;
+            targetItem4.SelectedItem = emptyItem;
+            targetItem5.SelectedItem = emptyItem;
+            targetItem6.SelectedItem = emptyItem;
+
+            targetAdditionalHealth.Text = "0";
+            targetAdditionalPhysProt.Text = "0";
+            targetAdditionalMagiProt.Text = "0";
+            targetLifesteal.Text = "0";
+
+            targetWarlockStacks.Value = 0;
+            targetUrchinStacks.Value = 0;
+
+            targetSovAura.Checked = false;
+            targetHeartward.Checked = false;
+            targetLotusPassive.Checked = false;
+            targetShiftersPassive.Checked = false;
+
+            dontCalculate = false;
+            CalculateTarget();
+        }
     }
 }
