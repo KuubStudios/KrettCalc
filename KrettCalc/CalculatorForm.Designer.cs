@@ -125,6 +125,86 @@
             this.label11 = new System.Windows.Forms.Label();
             this.targetGod = new MetroFramework.Controls.MetroComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.metroTextBox20 = new MetroFramework.Controls.MetroTextBox();
+            this.label90 = new System.Windows.Forms.Label();
+            this.metroTextBox21 = new MetroFramework.Controls.MetroTextBox();
+            this.label91 = new System.Windows.Forms.Label();
+            this.metroTextBox18 = new MetroFramework.Controls.MetroTextBox();
+            this.label88 = new System.Windows.Forms.Label();
+            this.metroTextBox19 = new MetroFramework.Controls.MetroTextBox();
+            this.label89 = new System.Windows.Forms.Label();
+            this.metroTextBox17 = new MetroFramework.Controls.MetroTextBox();
+            this.label87 = new System.Windows.Forms.Label();
+            this.metroTextBox15 = new MetroFramework.Controls.MetroTextBox();
+            this.label83 = new System.Windows.Forms.Label();
+            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.label84 = new System.Windows.Forms.Label();
+            this.metroTextBox16 = new MetroFramework.Controls.MetroTextBox();
+            this.label86 = new System.Windows.Forms.Label();
+            this.metroTextBox14 = new MetroFramework.Controls.MetroTextBox();
+            this.label85 = new System.Windows.Forms.Label();
+            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.label82 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.label81 = new System.Windows.Forms.Label();
+            this.metroToggle4 = new MetroFramework.Controls.MetroToggle();
+            this.label80 = new System.Windows.Forms.Label();
+            this.metroToggle3 = new MetroFramework.Controls.MetroToggle();
+            this.label79 = new System.Windows.Forms.Label();
+            this.metroToggle2 = new MetroFramework.Controls.MetroToggle();
+            this.label78 = new System.Windows.Forms.Label();
+            this.metroToggle1 = new MetroFramework.Controls.MetroToggle();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.label76 = new System.Windows.Forms.Label();
+            this.metroTrackBar7 = new MetroFramework.Controls.MetroTrackBar();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.metroTrackBar5 = new MetroFramework.Controls.MetroTrackBar();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.metroTrackBar6 = new MetroFramework.Controls.MetroTrackBar();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.metroTrackBar3 = new MetroFramework.Controls.MetroTrackBar();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.metroTrackBar4 = new MetroFramework.Controls.MetroTrackBar();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.metroTrackBar2 = new MetroFramework.Controls.MetroTrackBar();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.metroTrackBar1 = new MetroFramework.Controls.MetroTrackBar();
+            this.label70 = new System.Windows.Forms.Label();
+            this.metroTextBox13 = new MetroFramework.Controls.MetroTextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.metroTextBox12 = new MetroFramework.Controls.MetroTextBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.metroTextBox11 = new MetroFramework.Controls.MetroTextBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.metroTextBox10 = new MetroFramework.Controls.MetroTextBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.metroTextBox9 = new MetroFramework.Controls.MetroTextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.metroTextBox6 = new MetroFramework.Controls.MetroTextBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.metroTextBox7 = new MetroFramework.Controls.MetroTextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.metroTextBox8 = new MetroFramework.Controls.MetroTextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.label32 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.selfItemsTotalCost = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -373,11 +453,11 @@
             // targetItemsTotalCost
             // 
             this.targetItemsTotalCost.AutoSize = true;
-            this.targetItemsTotalCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.targetItemsTotalCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.targetItemsTotalCost.ForeColor = System.Drawing.Color.Orange;
             this.targetItemsTotalCost.Location = new System.Drawing.Point(121, 603);
             this.targetItemsTotalCost.Name = "targetItemsTotalCost";
-            this.targetItemsTotalCost.Size = new System.Drawing.Size(16, 17);
+            this.targetItemsTotalCost.Size = new System.Drawing.Size(16, 18);
             this.targetItemsTotalCost.TabIndex = 182;
             this.targetItemsTotalCost.Text = "0";
             // 
@@ -1438,6 +1518,86 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.metroTextBox20);
+            this.tabPage2.Controls.Add(this.label90);
+            this.tabPage2.Controls.Add(this.metroTextBox21);
+            this.tabPage2.Controls.Add(this.label91);
+            this.tabPage2.Controls.Add(this.metroTextBox18);
+            this.tabPage2.Controls.Add(this.label88);
+            this.tabPage2.Controls.Add(this.metroTextBox19);
+            this.tabPage2.Controls.Add(this.label89);
+            this.tabPage2.Controls.Add(this.metroTextBox17);
+            this.tabPage2.Controls.Add(this.label87);
+            this.tabPage2.Controls.Add(this.metroTextBox15);
+            this.tabPage2.Controls.Add(this.label83);
+            this.tabPage2.Controls.Add(this.metroComboBox2);
+            this.tabPage2.Controls.Add(this.label84);
+            this.tabPage2.Controls.Add(this.metroTextBox16);
+            this.tabPage2.Controls.Add(this.label86);
+            this.tabPage2.Controls.Add(this.metroTextBox14);
+            this.tabPage2.Controls.Add(this.label85);
+            this.tabPage2.Controls.Add(this.metroComboBox1);
+            this.tabPage2.Controls.Add(this.label82);
+            this.tabPage2.Controls.Add(this.panel17);
+            this.tabPage2.Controls.Add(this.label81);
+            this.tabPage2.Controls.Add(this.metroToggle4);
+            this.tabPage2.Controls.Add(this.label80);
+            this.tabPage2.Controls.Add(this.metroToggle3);
+            this.tabPage2.Controls.Add(this.label79);
+            this.tabPage2.Controls.Add(this.metroToggle2);
+            this.tabPage2.Controls.Add(this.label78);
+            this.tabPage2.Controls.Add(this.metroToggle1);
+            this.tabPage2.Controls.Add(this.panel16);
+            this.tabPage2.Controls.Add(this.panel15);
+            this.tabPage2.Controls.Add(this.label76);
+            this.tabPage2.Controls.Add(this.metroTrackBar7);
+            this.tabPage2.Controls.Add(this.label77);
+            this.tabPage2.Controls.Add(this.label72);
+            this.tabPage2.Controls.Add(this.metroTrackBar5);
+            this.tabPage2.Controls.Add(this.label73);
+            this.tabPage2.Controls.Add(this.label74);
+            this.tabPage2.Controls.Add(this.metroTrackBar6);
+            this.tabPage2.Controls.Add(this.label75);
+            this.tabPage2.Controls.Add(this.label67);
+            this.tabPage2.Controls.Add(this.metroTrackBar3);
+            this.tabPage2.Controls.Add(this.label68);
+            this.tabPage2.Controls.Add(this.label69);
+            this.tabPage2.Controls.Add(this.metroTrackBar4);
+            this.tabPage2.Controls.Add(this.label71);
+            this.tabPage2.Controls.Add(this.label65);
+            this.tabPage2.Controls.Add(this.metroTrackBar2);
+            this.tabPage2.Controls.Add(this.label66);
+            this.tabPage2.Controls.Add(this.label64);
+            this.tabPage2.Controls.Add(this.metroTrackBar1);
+            this.tabPage2.Controls.Add(this.label70);
+            this.tabPage2.Controls.Add(this.metroTextBox13);
+            this.tabPage2.Controls.Add(this.label63);
+            this.tabPage2.Controls.Add(this.metroTextBox12);
+            this.tabPage2.Controls.Add(this.label62);
+            this.tabPage2.Controls.Add(this.metroTextBox11);
+            this.tabPage2.Controls.Add(this.label61);
+            this.tabPage2.Controls.Add(this.metroTextBox10);
+            this.tabPage2.Controls.Add(this.label60);
+            this.tabPage2.Controls.Add(this.metroTextBox9);
+            this.tabPage2.Controls.Add(this.label59);
+            this.tabPage2.Controls.Add(this.panel9);
+            this.tabPage2.Controls.Add(this.metroTextBox5);
+            this.tabPage2.Controls.Add(this.label55);
+            this.tabPage2.Controls.Add(this.metroTextBox6);
+            this.tabPage2.Controls.Add(this.label56);
+            this.tabPage2.Controls.Add(this.metroTextBox7);
+            this.tabPage2.Controls.Add(this.label57);
+            this.tabPage2.Controls.Add(this.metroTextBox8);
+            this.tabPage2.Controls.Add(this.label58);
+            this.tabPage2.Controls.Add(this.metroTextBox3);
+            this.tabPage2.Controls.Add(this.label47);
+            this.tabPage2.Controls.Add(this.metroTextBox4);
+            this.tabPage2.Controls.Add(this.label49);
+            this.tabPage2.Controls.Add(this.label46);
+            this.tabPage2.Controls.Add(this.metroTextBox2);
+            this.tabPage2.Controls.Add(this.label45);
+            this.tabPage2.Controls.Add(this.metroTextBox1);
+            this.tabPage2.Controls.Add(this.label32);
             this.tabPage2.Controls.Add(this.label17);
             this.tabPage2.Controls.Add(this.selfItemsTotalCost);
             this.tabPage2.Controls.Add(this.panel6);
@@ -1485,6 +1645,966 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // metroTextBox20
+            // 
+            this.metroTextBox20.Lines = new string[] {
+        "0"};
+            this.metroTextBox20.Location = new System.Drawing.Point(997, 570);
+            this.metroTextBox20.MaxLength = 32767;
+            this.metroTextBox20.Multiline = true;
+            this.metroTextBox20.Name = "metroTextBox20";
+            this.metroTextBox20.PasswordChar = '\0';
+            this.metroTextBox20.ReadOnly = true;
+            this.metroTextBox20.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox20.SelectedText = "";
+            this.metroTextBox20.Size = new System.Drawing.Size(109, 22);
+            this.metroTextBox20.TabIndex = 285;
+            this.metroTextBox20.Text = "0";
+            this.metroTextBox20.UseSelectable = true;
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label90.Location = new System.Drawing.Point(991, 547);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(134, 17);
+            this.label90.TabIndex = 284;
+            this.label90.Text = "Mitigated Burst DPS";
+            // 
+            // metroTextBox21
+            // 
+            this.metroTextBox21.Lines = new string[] {
+        "0"};
+            this.metroTextBox21.Location = new System.Drawing.Point(997, 513);
+            this.metroTextBox21.MaxLength = 32767;
+            this.metroTextBox21.Multiline = true;
+            this.metroTextBox21.Name = "metroTextBox21";
+            this.metroTextBox21.PasswordChar = '\0';
+            this.metroTextBox21.ReadOnly = true;
+            this.metroTextBox21.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox21.SelectedText = "";
+            this.metroTextBox21.Size = new System.Drawing.Size(109, 22);
+            this.metroTextBox21.TabIndex = 283;
+            this.metroTextBox21.Text = "0";
+            this.metroTextBox21.UseSelectable = true;
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label91.Location = new System.Drawing.Point(991, 490);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(104, 17);
+            this.label91.TabIndex = 282;
+            this.label91.Text = "Raw Burst DPS";
+            // 
+            // metroTextBox18
+            // 
+            this.metroTextBox18.Lines = new string[] {
+        "0"};
+            this.metroTextBox18.Location = new System.Drawing.Point(855, 570);
+            this.metroTextBox18.MaxLength = 32767;
+            this.metroTextBox18.Multiline = true;
+            this.metroTextBox18.Name = "metroTextBox18";
+            this.metroTextBox18.PasswordChar = '\0';
+            this.metroTextBox18.ReadOnly = true;
+            this.metroTextBox18.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox18.SelectedText = "";
+            this.metroTextBox18.Size = new System.Drawing.Size(109, 22);
+            this.metroTextBox18.TabIndex = 281;
+            this.metroTextBox18.Text = "0";
+            this.metroTextBox18.UseSelectable = true;
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label88.Location = new System.Drawing.Point(849, 547);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(135, 17);
+            this.label88.TabIndex = 280;
+            this.label88.Text = "Mitigated Cycle DPS";
+            // 
+            // metroTextBox19
+            // 
+            this.metroTextBox19.Lines = new string[] {
+        "0"};
+            this.metroTextBox19.Location = new System.Drawing.Point(855, 513);
+            this.metroTextBox19.MaxLength = 32767;
+            this.metroTextBox19.Multiline = true;
+            this.metroTextBox19.Name = "metroTextBox19";
+            this.metroTextBox19.PasswordChar = '\0';
+            this.metroTextBox19.ReadOnly = true;
+            this.metroTextBox19.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox19.SelectedText = "";
+            this.metroTextBox19.Size = new System.Drawing.Size(109, 22);
+            this.metroTextBox19.TabIndex = 279;
+            this.metroTextBox19.Text = "0";
+            this.metroTextBox19.UseSelectable = true;
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label89.Location = new System.Drawing.Point(849, 490);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(105, 17);
+            this.label89.TabIndex = 278;
+            this.label89.Text = "Raw Cycle DPS";
+            // 
+            // metroTextBox17
+            // 
+            this.metroTextBox17.Lines = new string[] {
+        "0"};
+            this.metroTextBox17.Location = new System.Drawing.Point(726, 570);
+            this.metroTextBox17.MaxLength = 32767;
+            this.metroTextBox17.Multiline = true;
+            this.metroTextBox17.Name = "metroTextBox17";
+            this.metroTextBox17.PasswordChar = '\0';
+            this.metroTextBox17.ReadOnly = true;
+            this.metroTextBox17.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox17.SelectedText = "";
+            this.metroTextBox17.Size = new System.Drawing.Size(109, 22);
+            this.metroTextBox17.TabIndex = 277;
+            this.metroTextBox17.Text = "0";
+            this.metroTextBox17.UseSelectable = true;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label87.Location = new System.Drawing.Point(720, 547);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(122, 17);
+            this.label87.TabIndex = 276;
+            this.label87.Text = "Mitigated Damage";
+            // 
+            // metroTextBox15
+            // 
+            this.metroTextBox15.Lines = new string[] {
+        "0"};
+            this.metroTextBox15.Location = new System.Drawing.Point(578, 570);
+            this.metroTextBox15.MaxLength = 32767;
+            this.metroTextBox15.Multiline = true;
+            this.metroTextBox15.Name = "metroTextBox15";
+            this.metroTextBox15.PasswordChar = '\0';
+            this.metroTextBox15.ReadOnly = true;
+            this.metroTextBox15.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox15.SelectedText = "";
+            this.metroTextBox15.Size = new System.Drawing.Size(130, 22);
+            this.metroTextBox15.TabIndex = 275;
+            this.metroTextBox15.Text = "0";
+            this.metroTextBox15.UseSelectable = true;
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label83.Location = new System.Drawing.Point(572, 547);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(119, 17);
+            this.label83.TabIndex = 274;
+            this.label83.Text = "Steroid 2 Stacks?";
+            // 
+            // metroComboBox2
+            // 
+            this.metroComboBox2.FormattingEnabled = true;
+            this.metroComboBox2.ItemHeight = 23;
+            this.metroComboBox2.Location = new System.Drawing.Point(575, 506);
+            this.metroComboBox2.Name = "metroComboBox2";
+            this.metroComboBox2.Size = new System.Drawing.Size(133, 29);
+            this.metroComboBox2.TabIndex = 273;
+            this.metroComboBox2.UseSelectable = true;
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label84.Location = new System.Drawing.Point(572, 486);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(65, 17);
+            this.label84.TabIndex = 272;
+            this.label84.Text = "Steroid 2";
+            // 
+            // metroTextBox16
+            // 
+            this.metroTextBox16.Lines = new string[] {
+        "0"};
+            this.metroTextBox16.Location = new System.Drawing.Point(726, 513);
+            this.metroTextBox16.MaxLength = 32767;
+            this.metroTextBox16.Multiline = true;
+            this.metroTextBox16.Name = "metroTextBox16";
+            this.metroTextBox16.PasswordChar = '\0';
+            this.metroTextBox16.ReadOnly = true;
+            this.metroTextBox16.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox16.SelectedText = "";
+            this.metroTextBox16.Size = new System.Drawing.Size(109, 22);
+            this.metroTextBox16.TabIndex = 271;
+            this.metroTextBox16.Text = "0";
+            this.metroTextBox16.UseSelectable = true;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label86.Location = new System.Drawing.Point(720, 490);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(92, 17);
+            this.label86.TabIndex = 270;
+            this.label86.Text = "Raw Damage";
+            // 
+            // metroTextBox14
+            // 
+            this.metroTextBox14.Lines = new string[] {
+        "0"};
+            this.metroTextBox14.Location = new System.Drawing.Point(437, 570);
+            this.metroTextBox14.MaxLength = 32767;
+            this.metroTextBox14.Multiline = true;
+            this.metroTextBox14.Name = "metroTextBox14";
+            this.metroTextBox14.PasswordChar = '\0';
+            this.metroTextBox14.ReadOnly = true;
+            this.metroTextBox14.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox14.SelectedText = "";
+            this.metroTextBox14.Size = new System.Drawing.Size(130, 22);
+            this.metroTextBox14.TabIndex = 268;
+            this.metroTextBox14.Text = "0";
+            this.metroTextBox14.UseSelectable = true;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label85.Location = new System.Drawing.Point(431, 547);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(119, 17);
+            this.label85.TabIndex = 266;
+            this.label85.Text = "Steroid 1 Stacks?";
+            // 
+            // metroComboBox1
+            // 
+            this.metroComboBox1.FormattingEnabled = true;
+            this.metroComboBox1.ItemHeight = 23;
+            this.metroComboBox1.Location = new System.Drawing.Point(434, 506);
+            this.metroComboBox1.Name = "metroComboBox1";
+            this.metroComboBox1.Size = new System.Drawing.Size(133, 29);
+            this.metroComboBox1.TabIndex = 264;
+            this.metroComboBox1.UseSelectable = true;
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label82.Location = new System.Drawing.Point(431, 486);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(65, 17);
+            this.label82.TabIndex = 262;
+            this.label82.Text = "Steroid 1";
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(194)))), ((int)(((byte)(194)))));
+            this.panel17.Location = new System.Drawing.Point(437, 466);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(664, 1);
+            this.panel17.TabIndex = 261;
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label81.Location = new System.Drawing.Point(773, 406);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(104, 17);
+            this.label81.TabIndex = 260;
+            this.label81.Text = "Pythag\'s Aura?";
+            // 
+            // metroToggle4
+            // 
+            this.metroToggle4.AutoSize = true;
+            this.metroToggle4.BackColor = System.Drawing.Color.Transparent;
+            this.metroToggle4.Checked = true;
+            this.metroToggle4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.metroToggle4.Location = new System.Drawing.Point(776, 426);
+            this.metroToggle4.Name = "metroToggle4";
+            this.metroToggle4.Size = new System.Drawing.Size(80, 17);
+            this.metroToggle4.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroToggle4.TabIndex = 259;
+            this.metroToggle4.Text = "On";
+            this.metroToggle4.UseCustomBackColor = true;
+            this.metroToggle4.UseSelectable = true;
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label80.Location = new System.Drawing.Point(595, 406);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(170, 17);
+            this.label80.TabIndex = 258;
+            this.label80.Text = "Do you have Purple Buff?";
+            // 
+            // metroToggle3
+            // 
+            this.metroToggle3.AutoSize = true;
+            this.metroToggle3.BackColor = System.Drawing.Color.Transparent;
+            this.metroToggle3.Checked = true;
+            this.metroToggle3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.metroToggle3.Location = new System.Drawing.Point(598, 426);
+            this.metroToggle3.Name = "metroToggle3";
+            this.metroToggle3.Size = new System.Drawing.Size(80, 17);
+            this.metroToggle3.Style = MetroFramework.MetroColorStyle.Purple;
+            this.metroToggle3.TabIndex = 257;
+            this.metroToggle3.Text = "On";
+            this.metroToggle3.UseCustomBackColor = true;
+            this.metroToggle3.UseSelectable = true;
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label79.Location = new System.Drawing.Point(894, 406);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(207, 17);
+            this.label79.TabIndex = 256;
+            this.label79.Text = "Teammate applying Voidstone?";
+            // 
+            // metroToggle2
+            // 
+            this.metroToggle2.AutoSize = true;
+            this.metroToggle2.BackColor = System.Drawing.Color.Transparent;
+            this.metroToggle2.Checked = true;
+            this.metroToggle2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.metroToggle2.Location = new System.Drawing.Point(897, 426);
+            this.metroToggle2.Name = "metroToggle2";
+            this.metroToggle2.Size = new System.Drawing.Size(80, 17);
+            this.metroToggle2.Style = MetroFramework.MetroColorStyle.Teal;
+            this.metroToggle2.TabIndex = 255;
+            this.metroToggle2.Text = "On";
+            this.metroToggle2.UseCustomBackColor = true;
+            this.metroToggle2.UseSelectable = true;
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label78.Location = new System.Drawing.Point(431, 406);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(155, 17);
+            this.label78.TabIndex = 254;
+            this.label78.Text = "Do you have Red Buff?";
+            // 
+            // metroToggle1
+            // 
+            this.metroToggle1.AutoSize = true;
+            this.metroToggle1.BackColor = System.Drawing.Color.Transparent;
+            this.metroToggle1.Checked = true;
+            this.metroToggle1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.metroToggle1.Location = new System.Drawing.Point(434, 426);
+            this.metroToggle1.Name = "metroToggle1";
+            this.metroToggle1.Size = new System.Drawing.Size(80, 17);
+            this.metroToggle1.Style = MetroFramework.MetroColorStyle.Red;
+            this.metroToggle1.TabIndex = 250;
+            this.metroToggle1.Text = "On";
+            this.metroToggle1.UseCustomBackColor = true;
+            this.metroToggle1.UseSelectable = true;
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(194)))), ((int)(((byte)(194)))));
+            this.panel16.Location = new System.Drawing.Point(434, 384);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(664, 1);
+            this.panel16.TabIndex = 249;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(194)))), ((int)(((byte)(194)))));
+            this.panel15.Location = new System.Drawing.Point(434, 240);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(664, 1);
+            this.panel15.TabIndex = 248;
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label76.Location = new System.Drawing.Point(1082, 283);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(16, 17);
+            this.label76.TabIndex = 247;
+            this.label76.Text = "0";
+            // 
+            // metroTrackBar7
+            // 
+            this.metroTrackBar7.BackColor = System.Drawing.Color.Transparent;
+            this.metroTrackBar7.Location = new System.Drawing.Point(952, 281);
+            this.metroTrackBar7.Name = "metroTrackBar7";
+            this.metroTrackBar7.Size = new System.Drawing.Size(133, 22);
+            this.metroTrackBar7.TabIndex = 246;
+            this.metroTrackBar7.Text = "metroTrackBar7";
+            this.metroTrackBar7.UseCustomBackColor = true;
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label77.Location = new System.Drawing.Point(949, 261);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(119, 17);
+            this.label77.TabIndex = 245;
+            this.label77.Text = "Doom Orb Stacks";
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label72.Location = new System.Drawing.Point(912, 337);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(16, 17);
+            this.label72.TabIndex = 244;
+            this.label72.Text = "0";
+            // 
+            // metroTrackBar5
+            // 
+            this.metroTrackBar5.BackColor = System.Drawing.Color.Transparent;
+            this.metroTrackBar5.Location = new System.Drawing.Point(776, 335);
+            this.metroTrackBar5.Name = "metroTrackBar5";
+            this.metroTrackBar5.Size = new System.Drawing.Size(133, 22);
+            this.metroTrackBar5.TabIndex = 243;
+            this.metroTrackBar5.Text = "metroTrackBar5";
+            this.metroTrackBar5.UseCustomBackColor = true;
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label73.Location = new System.Drawing.Point(773, 315);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(92, 17);
+            this.label73.TabIndex = 242;
+            this.label73.Text = "Ancile Stacks";
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label74.Location = new System.Drawing.Point(912, 283);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(16, 17);
+            this.label74.TabIndex = 241;
+            this.label74.Text = "0";
+            // 
+            // metroTrackBar6
+            // 
+            this.metroTrackBar6.BackColor = System.Drawing.Color.Transparent;
+            this.metroTrackBar6.Location = new System.Drawing.Point(776, 281);
+            this.metroTrackBar6.Name = "metroTrackBar6";
+            this.metroTrackBar6.Size = new System.Drawing.Size(133, 22);
+            this.metroTrackBar6.TabIndex = 240;
+            this.metroTrackBar6.Text = "metroTrackBar6";
+            this.metroTrackBar6.UseCustomBackColor = true;
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label75.Location = new System.Drawing.Point(773, 261);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(132, 17);
+            this.label75.TabIndex = 239;
+            this.label75.Text = "Heartseeker Stacks";
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label67.Location = new System.Drawing.Point(741, 337);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(16, 17);
+            this.label67.TabIndex = 238;
+            this.label67.Text = "0";
+            // 
+            // metroTrackBar3
+            // 
+            this.metroTrackBar3.BackColor = System.Drawing.Color.Transparent;
+            this.metroTrackBar3.Location = new System.Drawing.Point(605, 335);
+            this.metroTrackBar3.Name = "metroTrackBar3";
+            this.metroTrackBar3.Size = new System.Drawing.Size(133, 22);
+            this.metroTrackBar3.TabIndex = 237;
+            this.metroTrackBar3.Text = "metroTrackBar3";
+            this.metroTrackBar3.UseCustomBackColor = true;
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label68.Location = new System.Drawing.Point(602, 315);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(105, 17);
+            this.label68.TabIndex = 236;
+            this.label68.Text = "Warlock Stacks";
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label69.Location = new System.Drawing.Point(741, 283);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(16, 17);
+            this.label69.TabIndex = 235;
+            this.label69.Text = "0";
+            // 
+            // metroTrackBar4
+            // 
+            this.metroTrackBar4.BackColor = System.Drawing.Color.Transparent;
+            this.metroTrackBar4.Location = new System.Drawing.Point(605, 281);
+            this.metroTrackBar4.Name = "metroTrackBar4";
+            this.metroTrackBar4.Size = new System.Drawing.Size(133, 22);
+            this.metroTrackBar4.TabIndex = 234;
+            this.metroTrackBar4.Text = "metroTrackBar4";
+            this.metroTrackBar4.UseCustomBackColor = true;
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label71.Location = new System.Drawing.Point(602, 261);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(153, 17);
+            this.label71.TabIndex = 233;
+            this.label71.Text = "Transcendence Stacks";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label65.Location = new System.Drawing.Point(570, 337);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(16, 17);
+            this.label65.TabIndex = 232;
+            this.label65.Text = "0";
+            // 
+            // metroTrackBar2
+            // 
+            this.metroTrackBar2.BackColor = System.Drawing.Color.Transparent;
+            this.metroTrackBar2.Location = new System.Drawing.Point(434, 335);
+            this.metroTrackBar2.Name = "metroTrackBar2";
+            this.metroTrackBar2.Size = new System.Drawing.Size(133, 22);
+            this.metroTrackBar2.TabIndex = 231;
+            this.metroTrackBar2.Text = "metroTrackBar2";
+            this.metroTrackBar2.UseCustomBackColor = true;
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label66.Location = new System.Drawing.Point(431, 315);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(91, 17);
+            this.label66.TabIndex = 230;
+            this.label66.Text = "Thoth Stacks";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label64.Location = new System.Drawing.Point(570, 283);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(16, 17);
+            this.label64.TabIndex = 229;
+            this.label64.Text = "0";
+            // 
+            // metroTrackBar1
+            // 
+            this.metroTrackBar1.BackColor = System.Drawing.Color.Transparent;
+            this.metroTrackBar1.Location = new System.Drawing.Point(434, 281);
+            this.metroTrackBar1.Name = "metroTrackBar1";
+            this.metroTrackBar1.Size = new System.Drawing.Size(133, 22);
+            this.metroTrackBar1.TabIndex = 228;
+            this.metroTrackBar1.Text = "metroTrackBar1";
+            this.metroTrackBar1.UseCustomBackColor = true;
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label70.Location = new System.Drawing.Point(431, 261);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(123, 17);
+            this.label70.TabIndex = 215;
+            this.label70.Text = "Devourer\'s Stacks";
+            // 
+            // metroTextBox13
+            // 
+            this.metroTextBox13.Lines = new string[] {
+        "0"};
+            this.metroTextBox13.Location = new System.Drawing.Point(1040, 89);
+            this.metroTextBox13.MaxLength = 32767;
+            this.metroTextBox13.Multiline = true;
+            this.metroTextBox13.Name = "metroTextBox13";
+            this.metroTextBox13.PasswordChar = '\0';
+            this.metroTextBox13.ReadOnly = true;
+            this.metroTextBox13.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox13.SelectedText = "";
+            this.metroTextBox13.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox13.TabIndex = 214;
+            this.metroTextBox13.Text = "0";
+            this.metroTextBox13.UseSelectable = true;
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label63.Location = new System.Drawing.Point(1037, 48);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(69, 34);
+            this.label63.TabIndex = 213;
+            this.label63.Text = "OBow \r\nProc DPS";
+            // 
+            // metroTextBox12
+            // 
+            this.metroTextBox12.Lines = new string[] {
+        "0"};
+            this.metroTextBox12.Location = new System.Drawing.Point(962, 188);
+            this.metroTextBox12.MaxLength = 32767;
+            this.metroTextBox12.Multiline = true;
+            this.metroTextBox12.Name = "metroTextBox12";
+            this.metroTextBox12.PasswordChar = '\0';
+            this.metroTextBox12.ReadOnly = true;
+            this.metroTextBox12.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox12.SelectedText = "";
+            this.metroTextBox12.Size = new System.Drawing.Size(136, 22);
+            this.metroTextBox12.TabIndex = 211;
+            this.metroTextBox12.Text = "0";
+            this.metroTextBox12.UseSelectable = true;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label62.Location = new System.Drawing.Point(959, 162);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(139, 17);
+            this.label62.TabIndex = 210;
+            this.label62.Text = "Lifesteal Per Second";
+            // 
+            // metroTextBox11
+            // 
+            this.metroTextBox11.Lines = new string[] {
+        "0"};
+            this.metroTextBox11.Location = new System.Drawing.Point(785, 188);
+            this.metroTextBox11.MaxLength = 32767;
+            this.metroTextBox11.Multiline = true;
+            this.metroTextBox11.Name = "metroTextBox11";
+            this.metroTextBox11.PasswordChar = '\0';
+            this.metroTextBox11.ReadOnly = true;
+            this.metroTextBox11.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox11.SelectedText = "";
+            this.metroTextBox11.Size = new System.Drawing.Size(121, 22);
+            this.metroTextBox11.TabIndex = 209;
+            this.metroTextBox11.Text = "0";
+            this.metroTextBox11.UseSelectable = true;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label61.Location = new System.Drawing.Point(782, 162);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(79, 17);
+            this.label61.TabIndex = 208;
+            this.label61.Text = "Last Hit HP";
+            // 
+            // metroTextBox10
+            // 
+            this.metroTextBox10.Lines = new string[] {
+        "0"};
+            this.metroTextBox10.Location = new System.Drawing.Point(613, 188);
+            this.metroTextBox10.MaxLength = 32767;
+            this.metroTextBox10.Multiline = true;
+            this.metroTextBox10.Name = "metroTextBox10";
+            this.metroTextBox10.PasswordChar = '\0';
+            this.metroTextBox10.ReadOnly = true;
+            this.metroTextBox10.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox10.SelectedText = "";
+            this.metroTextBox10.Size = new System.Drawing.Size(121, 22);
+            this.metroTextBox10.TabIndex = 207;
+            this.metroTextBox10.Text = "0";
+            this.metroTextBox10.UseSelectable = true;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label60.Location = new System.Drawing.Point(610, 162);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(87, 17);
+            this.label60.TabIndex = 206;
+            this.label60.Text = "Shots To Kill";
+            // 
+            // metroTextBox9
+            // 
+            this.metroTextBox9.Lines = new string[] {
+        "0"};
+            this.metroTextBox9.Location = new System.Drawing.Point(434, 188);
+            this.metroTextBox9.MaxLength = 32767;
+            this.metroTextBox9.Multiline = true;
+            this.metroTextBox9.Name = "metroTextBox9";
+            this.metroTextBox9.PasswordChar = '\0';
+            this.metroTextBox9.ReadOnly = true;
+            this.metroTextBox9.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox9.SelectedText = "";
+            this.metroTextBox9.Size = new System.Drawing.Size(121, 22);
+            this.metroTextBox9.TabIndex = 205;
+            this.metroTextBox9.Text = "0";
+            this.metroTextBox9.UseSelectable = true;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label59.Location = new System.Drawing.Point(431, 147);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(120, 34);
+            this.label59.TabIndex = 204;
+            this.label59.Text = "TTK W/ First Auto\r\n At 0 Seconds";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(194)))), ((int)(((byte)(194)))));
+            this.panel9.Location = new System.Drawing.Point(434, 130);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(664, 1);
+            this.panel9.TabIndex = 203;
+            // 
+            // metroTextBox5
+            // 
+            this.metroTextBox5.Lines = new string[] {
+        "0"};
+            this.metroTextBox5.Location = new System.Drawing.Point(965, 89);
+            this.metroTextBox5.MaxLength = 32767;
+            this.metroTextBox5.Multiline = true;
+            this.metroTextBox5.Name = "metroTextBox5";
+            this.metroTextBox5.PasswordChar = '\0';
+            this.metroTextBox5.ReadOnly = true;
+            this.metroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox5.SelectedText = "";
+            this.metroTextBox5.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox5.TabIndex = 202;
+            this.metroTextBox5.Text = "0";
+            this.metroTextBox5.UseSelectable = true;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label55.Location = new System.Drawing.Point(962, 48);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(65, 34);
+            this.label55.TabIndex = 201;
+            this.label55.Text = "Mitigated\r\nDPS";
+            // 
+            // metroTextBox6
+            // 
+            this.metroTextBox6.Lines = new string[] {
+        "0"};
+            this.metroTextBox6.Location = new System.Drawing.Point(895, 89);
+            this.metroTextBox6.MaxLength = 32767;
+            this.metroTextBox6.Multiline = true;
+            this.metroTextBox6.Name = "metroTextBox6";
+            this.metroTextBox6.PasswordChar = '\0';
+            this.metroTextBox6.ReadOnly = true;
+            this.metroTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox6.SelectedText = "";
+            this.metroTextBox6.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox6.TabIndex = 200;
+            this.metroTextBox6.Text = "0";
+            this.metroTextBox6.UseSelectable = true;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label56.Location = new System.Drawing.Point(892, 48);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(36, 34);
+            this.label56.TabIndex = 199;
+            this.label56.Text = "Raw\r\nDPS";
+            // 
+            // metroTextBox7
+            // 
+            this.metroTextBox7.Lines = new string[] {
+        "0"};
+            this.metroTextBox7.Location = new System.Drawing.Point(818, 89);
+            this.metroTextBox7.MaxLength = 32767;
+            this.metroTextBox7.Multiline = true;
+            this.metroTextBox7.Name = "metroTextBox7";
+            this.metroTextBox7.PasswordChar = '\0';
+            this.metroTextBox7.ReadOnly = true;
+            this.metroTextBox7.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox7.SelectedText = "";
+            this.metroTextBox7.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox7.TabIndex = 198;
+            this.metroTextBox7.Text = "0";
+            this.metroTextBox7.UseSelectable = true;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label57.Location = new System.Drawing.Point(815, 48);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(69, 34);
+            this.label57.TabIndex = 197;
+            this.label57.Text = "Attack\r\nCooldown";
+            // 
+            // metroTextBox8
+            // 
+            this.metroTextBox8.Lines = new string[] {
+        "0"};
+            this.metroTextBox8.Location = new System.Drawing.Point(742, 89);
+            this.metroTextBox8.MaxLength = 32767;
+            this.metroTextBox8.Multiline = true;
+            this.metroTextBox8.Name = "metroTextBox8";
+            this.metroTextBox8.PasswordChar = '\0';
+            this.metroTextBox8.ReadOnly = true;
+            this.metroTextBox8.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox8.SelectedText = "";
+            this.metroTextBox8.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox8.TabIndex = 196;
+            this.metroTextBox8.Text = "0";
+            this.metroTextBox8.UseSelectable = true;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label58.Location = new System.Drawing.Point(739, 65);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(37, 17);
+            this.label58.TabIndex = 195;
+            this.label58.Text = "CDR";
+            // 
+            // metroTextBox3
+            // 
+            this.metroTextBox3.Lines = new string[] {
+        "0"};
+            this.metroTextBox3.Location = new System.Drawing.Point(664, 89);
+            this.metroTextBox3.MaxLength = 32767;
+            this.metroTextBox3.Multiline = true;
+            this.metroTextBox3.Name = "metroTextBox3";
+            this.metroTextBox3.PasswordChar = '\0';
+            this.metroTextBox3.ReadOnly = true;
+            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox3.SelectedText = "";
+            this.metroTextBox3.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox3.TabIndex = 194;
+            this.metroTextBox3.Text = "0";
+            this.metroTextBox3.UseSelectable = true;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label47.Location = new System.Drawing.Point(661, 48);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(47, 34);
+            this.label47.TabIndex = 193;
+            this.label47.Text = "Magic\r\nPower";
+            // 
+            // metroTextBox4
+            // 
+            this.metroTextBox4.Lines = new string[] {
+        "0"};
+            this.metroTextBox4.Location = new System.Drawing.Point(587, 89);
+            this.metroTextBox4.MaxLength = 32767;
+            this.metroTextBox4.Multiline = true;
+            this.metroTextBox4.Name = "metroTextBox4";
+            this.metroTextBox4.PasswordChar = '\0';
+            this.metroTextBox4.ReadOnly = true;
+            this.metroTextBox4.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox4.SelectedText = "";
+            this.metroTextBox4.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox4.TabIndex = 192;
+            this.metroTextBox4.Text = "0";
+            this.metroTextBox4.UseSelectable = true;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label49.Location = new System.Drawing.Point(584, 48);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(56, 34);
+            this.label49.TabIndex = 191;
+            this.label49.Text = "Crit\r\nChance";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label46.Location = new System.Drawing.Point(725, 18);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(76, 17);
+            this.label46.TabIndex = 190;
+            this.label46.Text = "Total Stats";
+            // 
+            // metroTextBox2
+            // 
+            this.metroTextBox2.Lines = new string[] {
+        "0"};
+            this.metroTextBox2.Location = new System.Drawing.Point(509, 89);
+            this.metroTextBox2.MaxLength = 32767;
+            this.metroTextBox2.Multiline = true;
+            this.metroTextBox2.Name = "metroTextBox2";
+            this.metroTextBox2.PasswordChar = '\0';
+            this.metroTextBox2.ReadOnly = true;
+            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox2.SelectedText = "";
+            this.metroTextBox2.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox2.TabIndex = 189;
+            this.metroTextBox2.Text = "0";
+            this.metroTextBox2.UseSelectable = true;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label45.Location = new System.Drawing.Point(506, 48);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(51, 34);
+            this.label45.TabIndex = 188;
+            this.label45.Text = "Attack \r\nSpeed";
+            // 
+            // metroTextBox1
+            // 
+            this.metroTextBox1.Lines = new string[] {
+        "0"};
+            this.metroTextBox1.Location = new System.Drawing.Point(434, 89);
+            this.metroTextBox1.MaxLength = 32767;
+            this.metroTextBox1.Multiline = true;
+            this.metroTextBox1.Name = "metroTextBox1";
+            this.metroTextBox1.PasswordChar = '\0';
+            this.metroTextBox1.ReadOnly = true;
+            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox1.SelectedText = "";
+            this.metroTextBox1.Size = new System.Drawing.Size(58, 22);
+            this.metroTextBox1.TabIndex = 187;
+            this.metroTextBox1.Text = "0";
+            this.metroTextBox1.UseSelectable = true;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label32.Location = new System.Drawing.Point(431, 48);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(61, 34);
+            this.label32.TabIndex = 186;
+            this.label32.Text = "In-hand \r\nDamage";
             // 
             // label17
             // 
@@ -2160,6 +3280,86 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label selfItemsTotalCost;
+        private System.Windows.Forms.Label label45;
+        private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private System.Windows.Forms.Label label32;
+        private MetroFramework.Controls.MetroTextBox metroTextBox20;
+        private System.Windows.Forms.Label label90;
+        private MetroFramework.Controls.MetroTextBox metroTextBox21;
+        private System.Windows.Forms.Label label91;
+        private MetroFramework.Controls.MetroTextBox metroTextBox18;
+        private System.Windows.Forms.Label label88;
+        private MetroFramework.Controls.MetroTextBox metroTextBox19;
+        private System.Windows.Forms.Label label89;
+        private MetroFramework.Controls.MetroTextBox metroTextBox17;
+        private System.Windows.Forms.Label label87;
+        private MetroFramework.Controls.MetroTextBox metroTextBox15;
+        private System.Windows.Forms.Label label83;
+        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private System.Windows.Forms.Label label84;
+        private MetroFramework.Controls.MetroTextBox metroTextBox16;
+        private System.Windows.Forms.Label label86;
+        private MetroFramework.Controls.MetroTextBox metroTextBox14;
+        private System.Windows.Forms.Label label85;
+        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Label label81;
+        private MetroFramework.Controls.MetroToggle metroToggle4;
+        private System.Windows.Forms.Label label80;
+        private MetroFramework.Controls.MetroToggle metroToggle3;
+        private System.Windows.Forms.Label label79;
+        private MetroFramework.Controls.MetroToggle metroToggle2;
+        private System.Windows.Forms.Label label78;
+        private MetroFramework.Controls.MetroToggle metroToggle1;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Label label76;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar7;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Label label72;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar5;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.Label label74;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar6;
+        private System.Windows.Forms.Label label75;
+        private System.Windows.Forms.Label label67;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar3;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label label69;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar4;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label65;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar2;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label64;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar1;
+        private System.Windows.Forms.Label label70;
+        private MetroFramework.Controls.MetroTextBox metroTextBox13;
+        private System.Windows.Forms.Label label63;
+        private MetroFramework.Controls.MetroTextBox metroTextBox12;
+        private System.Windows.Forms.Label label62;
+        private MetroFramework.Controls.MetroTextBox metroTextBox11;
+        private System.Windows.Forms.Label label61;
+        private MetroFramework.Controls.MetroTextBox metroTextBox10;
+        private System.Windows.Forms.Label label60;
+        private MetroFramework.Controls.MetroTextBox metroTextBox9;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Panel panel9;
+        private MetroFramework.Controls.MetroTextBox metroTextBox5;
+        private System.Windows.Forms.Label label55;
+        private MetroFramework.Controls.MetroTextBox metroTextBox6;
+        private System.Windows.Forms.Label label56;
+        private MetroFramework.Controls.MetroTextBox metroTextBox7;
+        private System.Windows.Forms.Label label57;
+        private MetroFramework.Controls.MetroTextBox metroTextBox8;
+        private System.Windows.Forms.Label label58;
+        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private System.Windows.Forms.Label label47;
+        private MetroFramework.Controls.MetroTextBox metroTextBox4;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label46;
+        private MetroFramework.Controls.MetroTextBox metroTextBox2;
 
     }
 }

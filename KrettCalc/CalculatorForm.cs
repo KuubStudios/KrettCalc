@@ -381,5 +381,10 @@ namespace KrettCalc {
             calculations.SelfItems.Sixth = (ItemStat)selfItem6.SelectedItem;
             SetItem(selfItem6, selfItem6Cost, selfItem6Pic, false);
         }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
