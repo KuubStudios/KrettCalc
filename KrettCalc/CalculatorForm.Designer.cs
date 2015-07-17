@@ -125,85 +125,92 @@
             this.label11 = new System.Windows.Forms.Label();
             this.targetGod = new MetroFramework.Controls.MetroComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.metroTextBox20 = new MetroFramework.Controls.MetroTextBox();
+            this.selfQinsDPS = new MetroFramework.Controls.MetroTextBox();
+            this.label95 = new System.Windows.Forms.Label();
+            this.selfHealthPercLabel = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.selfHealthPerc = new MetroFramework.Controls.MetroTrackBar();
+            this.label92 = new System.Windows.Forms.Label();
+            this.selfAchillesToggle = new MetroFramework.Controls.MetroToggle();
+            this.selfMitiBurstDPS = new MetroFramework.Controls.MetroTextBox();
             this.label90 = new System.Windows.Forms.Label();
-            this.metroTextBox21 = new MetroFramework.Controls.MetroTextBox();
+            this.selfRawBurstDPS = new MetroFramework.Controls.MetroTextBox();
             this.label91 = new System.Windows.Forms.Label();
-            this.metroTextBox18 = new MetroFramework.Controls.MetroTextBox();
+            this.selfMitiCycleDPS = new MetroFramework.Controls.MetroTextBox();
             this.label88 = new System.Windows.Forms.Label();
-            this.metroTextBox19 = new MetroFramework.Controls.MetroTextBox();
+            this.selfRawCycleDPS = new MetroFramework.Controls.MetroTextBox();
             this.label89 = new System.Windows.Forms.Label();
-            this.metroTextBox17 = new MetroFramework.Controls.MetroTextBox();
+            this.selfMitigatedDamage = new MetroFramework.Controls.MetroTextBox();
             this.label87 = new System.Windows.Forms.Label();
-            this.metroTextBox15 = new MetroFramework.Controls.MetroTextBox();
+            this.selfSteroid2Stacks = new MetroFramework.Controls.MetroTextBox();
             this.label83 = new System.Windows.Forms.Label();
-            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.selfSteroid2Drop = new MetroFramework.Controls.MetroComboBox();
             this.label84 = new System.Windows.Forms.Label();
-            this.metroTextBox16 = new MetroFramework.Controls.MetroTextBox();
+            this.selfRawDamage = new MetroFramework.Controls.MetroTextBox();
             this.label86 = new System.Windows.Forms.Label();
-            this.metroTextBox14 = new MetroFramework.Controls.MetroTextBox();
+            this.selfSteroid1Stacks = new MetroFramework.Controls.MetroTextBox();
             this.label85 = new System.Windows.Forms.Label();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.selfSteroid1Drop = new MetroFramework.Controls.MetroComboBox();
             this.label82 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
             this.label81 = new System.Windows.Forms.Label();
-            this.metroToggle4 = new MetroFramework.Controls.MetroToggle();
+            this.selfPythagToggle = new MetroFramework.Controls.MetroToggle();
             this.label80 = new System.Windows.Forms.Label();
-            this.metroToggle3 = new MetroFramework.Controls.MetroToggle();
+            this.selfPurpleBuffToggle = new MetroFramework.Controls.MetroToggle();
             this.label79 = new System.Windows.Forms.Label();
-            this.metroToggle2 = new MetroFramework.Controls.MetroToggle();
+            this.selfVoidstoneToggle = new MetroFramework.Controls.MetroToggle();
             this.label78 = new System.Windows.Forms.Label();
-            this.metroToggle1 = new MetroFramework.Controls.MetroToggle();
+            this.selfRedBuffToggle = new MetroFramework.Controls.MetroToggle();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.label76 = new System.Windows.Forms.Label();
-            this.metroTrackBar7 = new MetroFramework.Controls.MetroTrackBar();
+            this.selfDoomStacksLabel = new System.Windows.Forms.Label();
+            this.selfDoomStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label77 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.metroTrackBar5 = new MetroFramework.Controls.MetroTrackBar();
+            this.selfAncileStacksLabel = new System.Windows.Forms.Label();
+            this.selfAncileStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.metroTrackBar6 = new MetroFramework.Controls.MetroTrackBar();
+            this.selfHeartStacksLabel = new System.Windows.Forms.Label();
+            this.selfHeartStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label75 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.metroTrackBar3 = new MetroFramework.Controls.MetroTrackBar();
+            this.selfWarlockStacksLabel = new System.Windows.Forms.Label();
+            this.selfWarlockStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label68 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.metroTrackBar4 = new MetroFramework.Controls.MetroTrackBar();
+            this.selfTransStacksLabel = new System.Windows.Forms.Label();
+            this.selfTransStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label71 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.metroTrackBar2 = new MetroFramework.Controls.MetroTrackBar();
+            this.selfThothStacksLabel = new System.Windows.Forms.Label();
+            this.selfThothStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label66 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
-            this.metroTrackBar1 = new MetroFramework.Controls.MetroTrackBar();
+            this.selfDevoStacksLabel = new MetroFramework.Controls.MetroTrackBar();
             this.label70 = new System.Windows.Forms.Label();
-            this.metroTextBox13 = new MetroFramework.Controls.MetroTextBox();
+            this.selfObowDPS = new MetroFramework.Controls.MetroTextBox();
             this.label63 = new System.Windows.Forms.Label();
-            this.metroTextBox12 = new MetroFramework.Controls.MetroTextBox();
+            this.selfLifestealSecond = new MetroFramework.Controls.MetroTextBox();
             this.label62 = new System.Windows.Forms.Label();
-            this.metroTextBox11 = new MetroFramework.Controls.MetroTextBox();
+            this.selfLastHitHP = new MetroFramework.Controls.MetroTextBox();
             this.label61 = new System.Windows.Forms.Label();
-            this.metroTextBox10 = new MetroFramework.Controls.MetroTextBox();
+            this.selfShotsToKill = new MetroFramework.Controls.MetroTextBox();
             this.label60 = new System.Windows.Forms.Label();
-            this.metroTextBox9 = new MetroFramework.Controls.MetroTextBox();
+            this.TTKFirstAuto = new MetroFramework.Controls.MetroTextBox();
             this.label59 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
+            this.selfMitiDPS = new MetroFramework.Controls.MetroTextBox();
             this.label55 = new System.Windows.Forms.Label();
-            this.metroTextBox6 = new MetroFramework.Controls.MetroTextBox();
+            this.selfRawDPS = new MetroFramework.Controls.MetroTextBox();
             this.label56 = new System.Windows.Forms.Label();
-            this.metroTextBox7 = new MetroFramework.Controls.MetroTextBox();
+            this.selfAttCooldown = new MetroFramework.Controls.MetroTextBox();
             this.label57 = new System.Windows.Forms.Label();
-            this.metroTextBox8 = new MetroFramework.Controls.MetroTextBox();
+            this.selfCDR = new MetroFramework.Controls.MetroTextBox();
             this.label58 = new System.Windows.Forms.Label();
-            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.selfMagicPower = new MetroFramework.Controls.MetroTextBox();
             this.label47 = new System.Windows.Forms.Label();
-            this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
+            this.selfCritChance = new MetroFramework.Controls.MetroTextBox();
             this.label49 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.selfAttackSpeed = new MetroFramework.Controls.MetroTextBox();
             this.label45 = new System.Windows.Forms.Label();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.selfInhandDamage = new MetroFramework.Controls.MetroTextBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.selfItemsTotalCost = new System.Windows.Forms.Label();
@@ -248,13 +255,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.metroToggle5 = new MetroFramework.Controls.MetroToggle();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.metroTrackBar8 = new MetroFramework.Controls.MetroTrackBar();
-            this.metroTextBox22 = new MetroFramework.Controls.MetroTextBox();
-            this.label95 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.targetItem6Pic)).BeginInit();
@@ -1525,92 +1525,92 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.metroTextBox22);
+            this.tabPage2.Controls.Add(this.selfQinsDPS);
             this.tabPage2.Controls.Add(this.label95);
-            this.tabPage2.Controls.Add(this.label93);
+            this.tabPage2.Controls.Add(this.selfHealthPercLabel);
             this.tabPage2.Controls.Add(this.label94);
-            this.tabPage2.Controls.Add(this.metroTrackBar8);
+            this.tabPage2.Controls.Add(this.selfHealthPerc);
             this.tabPage2.Controls.Add(this.label92);
-            this.tabPage2.Controls.Add(this.metroToggle5);
-            this.tabPage2.Controls.Add(this.metroTextBox20);
+            this.tabPage2.Controls.Add(this.selfAchillesToggle);
+            this.tabPage2.Controls.Add(this.selfMitiBurstDPS);
             this.tabPage2.Controls.Add(this.label90);
-            this.tabPage2.Controls.Add(this.metroTextBox21);
+            this.tabPage2.Controls.Add(this.selfRawBurstDPS);
             this.tabPage2.Controls.Add(this.label91);
-            this.tabPage2.Controls.Add(this.metroTextBox18);
+            this.tabPage2.Controls.Add(this.selfMitiCycleDPS);
             this.tabPage2.Controls.Add(this.label88);
-            this.tabPage2.Controls.Add(this.metroTextBox19);
+            this.tabPage2.Controls.Add(this.selfRawCycleDPS);
             this.tabPage2.Controls.Add(this.label89);
-            this.tabPage2.Controls.Add(this.metroTextBox17);
+            this.tabPage2.Controls.Add(this.selfMitigatedDamage);
             this.tabPage2.Controls.Add(this.label87);
-            this.tabPage2.Controls.Add(this.metroTextBox15);
+            this.tabPage2.Controls.Add(this.selfSteroid2Stacks);
             this.tabPage2.Controls.Add(this.label83);
-            this.tabPage2.Controls.Add(this.metroComboBox2);
+            this.tabPage2.Controls.Add(this.selfSteroid2Drop);
             this.tabPage2.Controls.Add(this.label84);
-            this.tabPage2.Controls.Add(this.metroTextBox16);
+            this.tabPage2.Controls.Add(this.selfRawDamage);
             this.tabPage2.Controls.Add(this.label86);
-            this.tabPage2.Controls.Add(this.metroTextBox14);
+            this.tabPage2.Controls.Add(this.selfSteroid1Stacks);
             this.tabPage2.Controls.Add(this.label85);
-            this.tabPage2.Controls.Add(this.metroComboBox1);
+            this.tabPage2.Controls.Add(this.selfSteroid1Drop);
             this.tabPage2.Controls.Add(this.label82);
             this.tabPage2.Controls.Add(this.panel17);
             this.tabPage2.Controls.Add(this.label81);
-            this.tabPage2.Controls.Add(this.metroToggle4);
+            this.tabPage2.Controls.Add(this.selfPythagToggle);
             this.tabPage2.Controls.Add(this.label80);
-            this.tabPage2.Controls.Add(this.metroToggle3);
+            this.tabPage2.Controls.Add(this.selfPurpleBuffToggle);
             this.tabPage2.Controls.Add(this.label79);
-            this.tabPage2.Controls.Add(this.metroToggle2);
+            this.tabPage2.Controls.Add(this.selfVoidstoneToggle);
             this.tabPage2.Controls.Add(this.label78);
-            this.tabPage2.Controls.Add(this.metroToggle1);
+            this.tabPage2.Controls.Add(this.selfRedBuffToggle);
             this.tabPage2.Controls.Add(this.panel16);
             this.tabPage2.Controls.Add(this.panel15);
-            this.tabPage2.Controls.Add(this.label76);
-            this.tabPage2.Controls.Add(this.metroTrackBar7);
+            this.tabPage2.Controls.Add(this.selfDoomStacksLabel);
+            this.tabPage2.Controls.Add(this.selfDoomStacks);
             this.tabPage2.Controls.Add(this.label77);
-            this.tabPage2.Controls.Add(this.label72);
-            this.tabPage2.Controls.Add(this.metroTrackBar5);
+            this.tabPage2.Controls.Add(this.selfAncileStacksLabel);
+            this.tabPage2.Controls.Add(this.selfAncileStacks);
             this.tabPage2.Controls.Add(this.label73);
-            this.tabPage2.Controls.Add(this.label74);
-            this.tabPage2.Controls.Add(this.metroTrackBar6);
+            this.tabPage2.Controls.Add(this.selfHeartStacksLabel);
+            this.tabPage2.Controls.Add(this.selfHeartStacks);
             this.tabPage2.Controls.Add(this.label75);
-            this.tabPage2.Controls.Add(this.label67);
-            this.tabPage2.Controls.Add(this.metroTrackBar3);
+            this.tabPage2.Controls.Add(this.selfWarlockStacksLabel);
+            this.tabPage2.Controls.Add(this.selfWarlockStacks);
             this.tabPage2.Controls.Add(this.label68);
-            this.tabPage2.Controls.Add(this.label69);
-            this.tabPage2.Controls.Add(this.metroTrackBar4);
+            this.tabPage2.Controls.Add(this.selfTransStacksLabel);
+            this.tabPage2.Controls.Add(this.selfTransStacks);
             this.tabPage2.Controls.Add(this.label71);
-            this.tabPage2.Controls.Add(this.label65);
-            this.tabPage2.Controls.Add(this.metroTrackBar2);
+            this.tabPage2.Controls.Add(this.selfThothStacksLabel);
+            this.tabPage2.Controls.Add(this.selfThothStacks);
             this.tabPage2.Controls.Add(this.label66);
             this.tabPage2.Controls.Add(this.label64);
-            this.tabPage2.Controls.Add(this.metroTrackBar1);
+            this.tabPage2.Controls.Add(this.selfDevoStacksLabel);
             this.tabPage2.Controls.Add(this.label70);
-            this.tabPage2.Controls.Add(this.metroTextBox13);
+            this.tabPage2.Controls.Add(this.selfObowDPS);
             this.tabPage2.Controls.Add(this.label63);
-            this.tabPage2.Controls.Add(this.metroTextBox12);
+            this.tabPage2.Controls.Add(this.selfLifestealSecond);
             this.tabPage2.Controls.Add(this.label62);
-            this.tabPage2.Controls.Add(this.metroTextBox11);
+            this.tabPage2.Controls.Add(this.selfLastHitHP);
             this.tabPage2.Controls.Add(this.label61);
-            this.tabPage2.Controls.Add(this.metroTextBox10);
+            this.tabPage2.Controls.Add(this.selfShotsToKill);
             this.tabPage2.Controls.Add(this.label60);
-            this.tabPage2.Controls.Add(this.metroTextBox9);
+            this.tabPage2.Controls.Add(this.TTKFirstAuto);
             this.tabPage2.Controls.Add(this.label59);
             this.tabPage2.Controls.Add(this.panel9);
-            this.tabPage2.Controls.Add(this.metroTextBox5);
+            this.tabPage2.Controls.Add(this.selfMitiDPS);
             this.tabPage2.Controls.Add(this.label55);
-            this.tabPage2.Controls.Add(this.metroTextBox6);
+            this.tabPage2.Controls.Add(this.selfRawDPS);
             this.tabPage2.Controls.Add(this.label56);
-            this.tabPage2.Controls.Add(this.metroTextBox7);
+            this.tabPage2.Controls.Add(this.selfAttCooldown);
             this.tabPage2.Controls.Add(this.label57);
-            this.tabPage2.Controls.Add(this.metroTextBox8);
+            this.tabPage2.Controls.Add(this.selfCDR);
             this.tabPage2.Controls.Add(this.label58);
-            this.tabPage2.Controls.Add(this.metroTextBox3);
+            this.tabPage2.Controls.Add(this.selfMagicPower);
             this.tabPage2.Controls.Add(this.label47);
-            this.tabPage2.Controls.Add(this.metroTextBox4);
+            this.tabPage2.Controls.Add(this.selfCritChance);
             this.tabPage2.Controls.Add(this.label49);
             this.tabPage2.Controls.Add(this.label46);
-            this.tabPage2.Controls.Add(this.metroTextBox2);
+            this.tabPage2.Controls.Add(this.selfAttackSpeed);
             this.tabPage2.Controls.Add(this.label45);
-            this.tabPage2.Controls.Add(this.metroTextBox1);
+            this.tabPage2.Controls.Add(this.selfInhandDamage);
             this.tabPage2.Controls.Add(this.label32);
             this.tabPage2.Controls.Add(this.label17);
             this.tabPage2.Controls.Add(this.selfItemsTotalCost);
@@ -1661,22 +1661,107 @@
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
-            // metroTextBox20
+            // selfQinsDPS
             // 
-            this.metroTextBox20.Lines = new string[] {
+            this.selfQinsDPS.Lines = new string[] {
         "0"};
-            this.metroTextBox20.Location = new System.Drawing.Point(997, 570);
-            this.metroTextBox20.MaxLength = 32767;
-            this.metroTextBox20.Multiline = true;
-            this.metroTextBox20.Name = "metroTextBox20";
-            this.metroTextBox20.PasswordChar = '\0';
-            this.metroTextBox20.ReadOnly = true;
-            this.metroTextBox20.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox20.SelectedText = "";
-            this.metroTextBox20.Size = new System.Drawing.Size(109, 22);
-            this.metroTextBox20.TabIndex = 285;
-            this.metroTextBox20.Text = "0";
-            this.metroTextBox20.UseSelectable = true;
+            this.selfQinsDPS.Location = new System.Drawing.Point(970, 188);
+            this.selfQinsDPS.MaxLength = 32767;
+            this.selfQinsDPS.Multiline = true;
+            this.selfQinsDPS.Name = "selfQinsDPS";
+            this.selfQinsDPS.PasswordChar = '\0';
+            this.selfQinsDPS.ReadOnly = true;
+            this.selfQinsDPS.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfQinsDPS.SelectedText = "";
+            this.selfQinsDPS.Size = new System.Drawing.Size(125, 22);
+            this.selfQinsDPS.TabIndex = 292;
+            this.selfQinsDPS.Text = "0";
+            this.selfQinsDPS.UseSelectable = true;
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label95.Location = new System.Drawing.Point(967, 162);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(69, 17);
+            this.label95.TabIndex = 291;
+            this.label95.Text = "Qins DPS";
+            // 
+            // selfHealthPercLabel
+            // 
+            this.selfHealthPercLabel.AutoSize = true;
+            this.selfHealthPercLabel.BackColor = System.Drawing.Color.Transparent;
+            this.selfHealthPercLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfHealthPercLabel.Location = new System.Drawing.Point(314, 89);
+            this.selfHealthPercLabel.Name = "selfHealthPercLabel";
+            this.selfHealthPercLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfHealthPercLabel.TabIndex = 290;
+            this.selfHealthPercLabel.Text = "1";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label94.Location = new System.Drawing.Point(20, 89);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(65, 17);
+            this.label94.TabIndex = 289;
+            this.label94.Text = "Health %";
+            // 
+            // selfHealthPerc
+            // 
+            this.selfHealthPerc.BackColor = System.Drawing.Color.Transparent;
+            this.selfHealthPerc.Location = new System.Drawing.Point(94, 89);
+            this.selfHealthPerc.Minimum = 1;
+            this.selfHealthPerc.Name = "selfHealthPerc";
+            this.selfHealthPerc.Size = new System.Drawing.Size(214, 19);
+            this.selfHealthPerc.TabIndex = 288;
+            this.selfHealthPerc.UseCustomBackColor = true;
+            this.selfHealthPerc.Value = 1;
+            this.selfHealthPerc.Scroll += new System.Windows.Forms.ScrollEventHandler(this.selfHealthPerc_Scroll);
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label92.Location = new System.Drawing.Point(994, 406);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(98, 17);
+            this.label92.TabIndex = 287;
+            this.label92.Text = "Achilles Spear";
+            // 
+            // selfAchillesToggle
+            // 
+            this.selfAchillesToggle.AutoSize = true;
+            this.selfAchillesToggle.BackColor = System.Drawing.Color.Transparent;
+            this.selfAchillesToggle.Checked = true;
+            this.selfAchillesToggle.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.selfAchillesToggle.Location = new System.Drawing.Point(997, 426);
+            this.selfAchillesToggle.Name = "selfAchillesToggle";
+            this.selfAchillesToggle.Size = new System.Drawing.Size(80, 17);
+            this.selfAchillesToggle.Style = MetroFramework.MetroColorStyle.Orange;
+            this.selfAchillesToggle.TabIndex = 286;
+            this.selfAchillesToggle.Text = "On";
+            this.selfAchillesToggle.UseCustomBackColor = true;
+            this.selfAchillesToggle.UseSelectable = true;
+            // 
+            // selfMitiBurstDPS
+            // 
+            this.selfMitiBurstDPS.Lines = new string[] {
+        "0"};
+            this.selfMitiBurstDPS.Location = new System.Drawing.Point(997, 570);
+            this.selfMitiBurstDPS.MaxLength = 32767;
+            this.selfMitiBurstDPS.Multiline = true;
+            this.selfMitiBurstDPS.Name = "selfMitiBurstDPS";
+            this.selfMitiBurstDPS.PasswordChar = '\0';
+            this.selfMitiBurstDPS.ReadOnly = true;
+            this.selfMitiBurstDPS.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfMitiBurstDPS.SelectedText = "";
+            this.selfMitiBurstDPS.Size = new System.Drawing.Size(109, 22);
+            this.selfMitiBurstDPS.TabIndex = 285;
+            this.selfMitiBurstDPS.Text = "0";
+            this.selfMitiBurstDPS.UseSelectable = true;
             // 
             // label90
             // 
@@ -1688,22 +1773,22 @@
             this.label90.TabIndex = 284;
             this.label90.Text = "Mitigated Burst DPS";
             // 
-            // metroTextBox21
+            // selfRawBurstDPS
             // 
-            this.metroTextBox21.Lines = new string[] {
+            this.selfRawBurstDPS.Lines = new string[] {
         "0"};
-            this.metroTextBox21.Location = new System.Drawing.Point(997, 513);
-            this.metroTextBox21.MaxLength = 32767;
-            this.metroTextBox21.Multiline = true;
-            this.metroTextBox21.Name = "metroTextBox21";
-            this.metroTextBox21.PasswordChar = '\0';
-            this.metroTextBox21.ReadOnly = true;
-            this.metroTextBox21.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox21.SelectedText = "";
-            this.metroTextBox21.Size = new System.Drawing.Size(109, 22);
-            this.metroTextBox21.TabIndex = 283;
-            this.metroTextBox21.Text = "0";
-            this.metroTextBox21.UseSelectable = true;
+            this.selfRawBurstDPS.Location = new System.Drawing.Point(997, 513);
+            this.selfRawBurstDPS.MaxLength = 32767;
+            this.selfRawBurstDPS.Multiline = true;
+            this.selfRawBurstDPS.Name = "selfRawBurstDPS";
+            this.selfRawBurstDPS.PasswordChar = '\0';
+            this.selfRawBurstDPS.ReadOnly = true;
+            this.selfRawBurstDPS.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfRawBurstDPS.SelectedText = "";
+            this.selfRawBurstDPS.Size = new System.Drawing.Size(109, 22);
+            this.selfRawBurstDPS.TabIndex = 283;
+            this.selfRawBurstDPS.Text = "0";
+            this.selfRawBurstDPS.UseSelectable = true;
             // 
             // label91
             // 
@@ -1715,22 +1800,22 @@
             this.label91.TabIndex = 282;
             this.label91.Text = "Raw Burst DPS";
             // 
-            // metroTextBox18
+            // selfMitiCycleDPS
             // 
-            this.metroTextBox18.Lines = new string[] {
+            this.selfMitiCycleDPS.Lines = new string[] {
         "0"};
-            this.metroTextBox18.Location = new System.Drawing.Point(855, 570);
-            this.metroTextBox18.MaxLength = 32767;
-            this.metroTextBox18.Multiline = true;
-            this.metroTextBox18.Name = "metroTextBox18";
-            this.metroTextBox18.PasswordChar = '\0';
-            this.metroTextBox18.ReadOnly = true;
-            this.metroTextBox18.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox18.SelectedText = "";
-            this.metroTextBox18.Size = new System.Drawing.Size(109, 22);
-            this.metroTextBox18.TabIndex = 281;
-            this.metroTextBox18.Text = "0";
-            this.metroTextBox18.UseSelectable = true;
+            this.selfMitiCycleDPS.Location = new System.Drawing.Point(855, 570);
+            this.selfMitiCycleDPS.MaxLength = 32767;
+            this.selfMitiCycleDPS.Multiline = true;
+            this.selfMitiCycleDPS.Name = "selfMitiCycleDPS";
+            this.selfMitiCycleDPS.PasswordChar = '\0';
+            this.selfMitiCycleDPS.ReadOnly = true;
+            this.selfMitiCycleDPS.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfMitiCycleDPS.SelectedText = "";
+            this.selfMitiCycleDPS.Size = new System.Drawing.Size(109, 22);
+            this.selfMitiCycleDPS.TabIndex = 281;
+            this.selfMitiCycleDPS.Text = "0";
+            this.selfMitiCycleDPS.UseSelectable = true;
             // 
             // label88
             // 
@@ -1742,22 +1827,22 @@
             this.label88.TabIndex = 280;
             this.label88.Text = "Mitigated Cycle DPS";
             // 
-            // metroTextBox19
+            // selfRawCycleDPS
             // 
-            this.metroTextBox19.Lines = new string[] {
+            this.selfRawCycleDPS.Lines = new string[] {
         "0"};
-            this.metroTextBox19.Location = new System.Drawing.Point(855, 513);
-            this.metroTextBox19.MaxLength = 32767;
-            this.metroTextBox19.Multiline = true;
-            this.metroTextBox19.Name = "metroTextBox19";
-            this.metroTextBox19.PasswordChar = '\0';
-            this.metroTextBox19.ReadOnly = true;
-            this.metroTextBox19.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox19.SelectedText = "";
-            this.metroTextBox19.Size = new System.Drawing.Size(109, 22);
-            this.metroTextBox19.TabIndex = 279;
-            this.metroTextBox19.Text = "0";
-            this.metroTextBox19.UseSelectable = true;
+            this.selfRawCycleDPS.Location = new System.Drawing.Point(855, 513);
+            this.selfRawCycleDPS.MaxLength = 32767;
+            this.selfRawCycleDPS.Multiline = true;
+            this.selfRawCycleDPS.Name = "selfRawCycleDPS";
+            this.selfRawCycleDPS.PasswordChar = '\0';
+            this.selfRawCycleDPS.ReadOnly = true;
+            this.selfRawCycleDPS.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfRawCycleDPS.SelectedText = "";
+            this.selfRawCycleDPS.Size = new System.Drawing.Size(109, 22);
+            this.selfRawCycleDPS.TabIndex = 279;
+            this.selfRawCycleDPS.Text = "0";
+            this.selfRawCycleDPS.UseSelectable = true;
             // 
             // label89
             // 
@@ -1769,22 +1854,22 @@
             this.label89.TabIndex = 278;
             this.label89.Text = "Raw Cycle DPS";
             // 
-            // metroTextBox17
+            // selfMitigatedDamage
             // 
-            this.metroTextBox17.Lines = new string[] {
+            this.selfMitigatedDamage.Lines = new string[] {
         "0"};
-            this.metroTextBox17.Location = new System.Drawing.Point(726, 570);
-            this.metroTextBox17.MaxLength = 32767;
-            this.metroTextBox17.Multiline = true;
-            this.metroTextBox17.Name = "metroTextBox17";
-            this.metroTextBox17.PasswordChar = '\0';
-            this.metroTextBox17.ReadOnly = true;
-            this.metroTextBox17.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox17.SelectedText = "";
-            this.metroTextBox17.Size = new System.Drawing.Size(109, 22);
-            this.metroTextBox17.TabIndex = 277;
-            this.metroTextBox17.Text = "0";
-            this.metroTextBox17.UseSelectable = true;
+            this.selfMitigatedDamage.Location = new System.Drawing.Point(726, 570);
+            this.selfMitigatedDamage.MaxLength = 32767;
+            this.selfMitigatedDamage.Multiline = true;
+            this.selfMitigatedDamage.Name = "selfMitigatedDamage";
+            this.selfMitigatedDamage.PasswordChar = '\0';
+            this.selfMitigatedDamage.ReadOnly = true;
+            this.selfMitigatedDamage.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfMitigatedDamage.SelectedText = "";
+            this.selfMitigatedDamage.Size = new System.Drawing.Size(109, 22);
+            this.selfMitigatedDamage.TabIndex = 277;
+            this.selfMitigatedDamage.Text = "0";
+            this.selfMitigatedDamage.UseSelectable = true;
             // 
             // label87
             // 
@@ -1796,22 +1881,22 @@
             this.label87.TabIndex = 276;
             this.label87.Text = "Mitigated Damage";
             // 
-            // metroTextBox15
+            // selfSteroid2Stacks
             // 
-            this.metroTextBox15.Lines = new string[] {
+            this.selfSteroid2Stacks.Lines = new string[] {
         "0"};
-            this.metroTextBox15.Location = new System.Drawing.Point(578, 570);
-            this.metroTextBox15.MaxLength = 32767;
-            this.metroTextBox15.Multiline = true;
-            this.metroTextBox15.Name = "metroTextBox15";
-            this.metroTextBox15.PasswordChar = '\0';
-            this.metroTextBox15.ReadOnly = true;
-            this.metroTextBox15.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox15.SelectedText = "";
-            this.metroTextBox15.Size = new System.Drawing.Size(130, 22);
-            this.metroTextBox15.TabIndex = 275;
-            this.metroTextBox15.Text = "0";
-            this.metroTextBox15.UseSelectable = true;
+            this.selfSteroid2Stacks.Location = new System.Drawing.Point(578, 570);
+            this.selfSteroid2Stacks.MaxLength = 32767;
+            this.selfSteroid2Stacks.Multiline = true;
+            this.selfSteroid2Stacks.Name = "selfSteroid2Stacks";
+            this.selfSteroid2Stacks.PasswordChar = '\0';
+            this.selfSteroid2Stacks.ReadOnly = true;
+            this.selfSteroid2Stacks.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfSteroid2Stacks.SelectedText = "";
+            this.selfSteroid2Stacks.Size = new System.Drawing.Size(130, 22);
+            this.selfSteroid2Stacks.TabIndex = 275;
+            this.selfSteroid2Stacks.Text = "0";
+            this.selfSteroid2Stacks.UseSelectable = true;
             // 
             // label83
             // 
@@ -1823,15 +1908,15 @@
             this.label83.TabIndex = 274;
             this.label83.Text = "Steroid 2 Stacks?";
             // 
-            // metroComboBox2
+            // selfSteroid2Drop
             // 
-            this.metroComboBox2.FormattingEnabled = true;
-            this.metroComboBox2.ItemHeight = 23;
-            this.metroComboBox2.Location = new System.Drawing.Point(575, 506);
-            this.metroComboBox2.Name = "metroComboBox2";
-            this.metroComboBox2.Size = new System.Drawing.Size(133, 29);
-            this.metroComboBox2.TabIndex = 273;
-            this.metroComboBox2.UseSelectable = true;
+            this.selfSteroid2Drop.FormattingEnabled = true;
+            this.selfSteroid2Drop.ItemHeight = 23;
+            this.selfSteroid2Drop.Location = new System.Drawing.Point(575, 506);
+            this.selfSteroid2Drop.Name = "selfSteroid2Drop";
+            this.selfSteroid2Drop.Size = new System.Drawing.Size(133, 29);
+            this.selfSteroid2Drop.TabIndex = 273;
+            this.selfSteroid2Drop.UseSelectable = true;
             // 
             // label84
             // 
@@ -1843,22 +1928,22 @@
             this.label84.TabIndex = 272;
             this.label84.Text = "Steroid 2";
             // 
-            // metroTextBox16
+            // selfRawDamage
             // 
-            this.metroTextBox16.Lines = new string[] {
+            this.selfRawDamage.Lines = new string[] {
         "0"};
-            this.metroTextBox16.Location = new System.Drawing.Point(726, 513);
-            this.metroTextBox16.MaxLength = 32767;
-            this.metroTextBox16.Multiline = true;
-            this.metroTextBox16.Name = "metroTextBox16";
-            this.metroTextBox16.PasswordChar = '\0';
-            this.metroTextBox16.ReadOnly = true;
-            this.metroTextBox16.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox16.SelectedText = "";
-            this.metroTextBox16.Size = new System.Drawing.Size(109, 22);
-            this.metroTextBox16.TabIndex = 271;
-            this.metroTextBox16.Text = "0";
-            this.metroTextBox16.UseSelectable = true;
+            this.selfRawDamage.Location = new System.Drawing.Point(726, 513);
+            this.selfRawDamage.MaxLength = 32767;
+            this.selfRawDamage.Multiline = true;
+            this.selfRawDamage.Name = "selfRawDamage";
+            this.selfRawDamage.PasswordChar = '\0';
+            this.selfRawDamage.ReadOnly = true;
+            this.selfRawDamage.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfRawDamage.SelectedText = "";
+            this.selfRawDamage.Size = new System.Drawing.Size(109, 22);
+            this.selfRawDamage.TabIndex = 271;
+            this.selfRawDamage.Text = "0";
+            this.selfRawDamage.UseSelectable = true;
             // 
             // label86
             // 
@@ -1870,22 +1955,22 @@
             this.label86.TabIndex = 270;
             this.label86.Text = "Raw Damage";
             // 
-            // metroTextBox14
+            // selfSteroid1Stacks
             // 
-            this.metroTextBox14.Lines = new string[] {
+            this.selfSteroid1Stacks.Lines = new string[] {
         "0"};
-            this.metroTextBox14.Location = new System.Drawing.Point(437, 570);
-            this.metroTextBox14.MaxLength = 32767;
-            this.metroTextBox14.Multiline = true;
-            this.metroTextBox14.Name = "metroTextBox14";
-            this.metroTextBox14.PasswordChar = '\0';
-            this.metroTextBox14.ReadOnly = true;
-            this.metroTextBox14.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox14.SelectedText = "";
-            this.metroTextBox14.Size = new System.Drawing.Size(130, 22);
-            this.metroTextBox14.TabIndex = 268;
-            this.metroTextBox14.Text = "0";
-            this.metroTextBox14.UseSelectable = true;
+            this.selfSteroid1Stacks.Location = new System.Drawing.Point(437, 570);
+            this.selfSteroid1Stacks.MaxLength = 32767;
+            this.selfSteroid1Stacks.Multiline = true;
+            this.selfSteroid1Stacks.Name = "selfSteroid1Stacks";
+            this.selfSteroid1Stacks.PasswordChar = '\0';
+            this.selfSteroid1Stacks.ReadOnly = true;
+            this.selfSteroid1Stacks.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfSteroid1Stacks.SelectedText = "";
+            this.selfSteroid1Stacks.Size = new System.Drawing.Size(130, 22);
+            this.selfSteroid1Stacks.TabIndex = 268;
+            this.selfSteroid1Stacks.Text = "0";
+            this.selfSteroid1Stacks.UseSelectable = true;
             // 
             // label85
             // 
@@ -1897,15 +1982,15 @@
             this.label85.TabIndex = 266;
             this.label85.Text = "Steroid 1 Stacks?";
             // 
-            // metroComboBox1
+            // selfSteroid1Drop
             // 
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ItemHeight = 23;
-            this.metroComboBox1.Location = new System.Drawing.Point(434, 506);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Size = new System.Drawing.Size(133, 29);
-            this.metroComboBox1.TabIndex = 264;
-            this.metroComboBox1.UseSelectable = true;
+            this.selfSteroid1Drop.FormattingEnabled = true;
+            this.selfSteroid1Drop.ItemHeight = 23;
+            this.selfSteroid1Drop.Location = new System.Drawing.Point(434, 506);
+            this.selfSteroid1Drop.Name = "selfSteroid1Drop";
+            this.selfSteroid1Drop.Size = new System.Drawing.Size(133, 29);
+            this.selfSteroid1Drop.TabIndex = 264;
+            this.selfSteroid1Drop.UseSelectable = true;
             // 
             // label82
             // 
@@ -1935,20 +2020,20 @@
             this.label81.TabIndex = 260;
             this.label81.Text = "Pythag\'s Aura?";
             // 
-            // metroToggle4
+            // selfPythagToggle
             // 
-            this.metroToggle4.AutoSize = true;
-            this.metroToggle4.BackColor = System.Drawing.Color.Transparent;
-            this.metroToggle4.Checked = true;
-            this.metroToggle4.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.metroToggle4.Location = new System.Drawing.Point(703, 426);
-            this.metroToggle4.Name = "metroToggle4";
-            this.metroToggle4.Size = new System.Drawing.Size(80, 17);
-            this.metroToggle4.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroToggle4.TabIndex = 259;
-            this.metroToggle4.Text = "On";
-            this.metroToggle4.UseCustomBackColor = true;
-            this.metroToggle4.UseSelectable = true;
+            this.selfPythagToggle.AutoSize = true;
+            this.selfPythagToggle.BackColor = System.Drawing.Color.Transparent;
+            this.selfPythagToggle.Checked = true;
+            this.selfPythagToggle.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.selfPythagToggle.Location = new System.Drawing.Point(703, 426);
+            this.selfPythagToggle.Name = "selfPythagToggle";
+            this.selfPythagToggle.Size = new System.Drawing.Size(80, 17);
+            this.selfPythagToggle.Style = MetroFramework.MetroColorStyle.Green;
+            this.selfPythagToggle.TabIndex = 259;
+            this.selfPythagToggle.Text = "On";
+            this.selfPythagToggle.UseCustomBackColor = true;
+            this.selfPythagToggle.UseSelectable = true;
             // 
             // label80
             // 
@@ -1960,20 +2045,20 @@
             this.label80.TabIndex = 258;
             this.label80.Text = "Have Purple Buff?";
             // 
-            // metroToggle3
+            // selfPurpleBuffToggle
             // 
-            this.metroToggle3.AutoSize = true;
-            this.metroToggle3.BackColor = System.Drawing.Color.Transparent;
-            this.metroToggle3.Checked = true;
-            this.metroToggle3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.metroToggle3.Location = new System.Drawing.Point(567, 426);
-            this.metroToggle3.Name = "metroToggle3";
-            this.metroToggle3.Size = new System.Drawing.Size(80, 17);
-            this.metroToggle3.Style = MetroFramework.MetroColorStyle.Purple;
-            this.metroToggle3.TabIndex = 257;
-            this.metroToggle3.Text = "On";
-            this.metroToggle3.UseCustomBackColor = true;
-            this.metroToggle3.UseSelectable = true;
+            this.selfPurpleBuffToggle.AutoSize = true;
+            this.selfPurpleBuffToggle.BackColor = System.Drawing.Color.Transparent;
+            this.selfPurpleBuffToggle.Checked = true;
+            this.selfPurpleBuffToggle.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.selfPurpleBuffToggle.Location = new System.Drawing.Point(567, 426);
+            this.selfPurpleBuffToggle.Name = "selfPurpleBuffToggle";
+            this.selfPurpleBuffToggle.Size = new System.Drawing.Size(80, 17);
+            this.selfPurpleBuffToggle.Style = MetroFramework.MetroColorStyle.Purple;
+            this.selfPurpleBuffToggle.TabIndex = 257;
+            this.selfPurpleBuffToggle.Text = "On";
+            this.selfPurpleBuffToggle.UseCustomBackColor = true;
+            this.selfPurpleBuffToggle.UseSelectable = true;
             // 
             // label79
             // 
@@ -1985,20 +2070,20 @@
             this.label79.TabIndex = 256;
             this.label79.Text = "Teammate Voidstone?";
             // 
-            // metroToggle2
+            // selfVoidstoneToggle
             // 
-            this.metroToggle2.AutoSize = true;
-            this.metroToggle2.BackColor = System.Drawing.Color.Transparent;
-            this.metroToggle2.Checked = true;
-            this.metroToggle2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.metroToggle2.Location = new System.Drawing.Point(824, 426);
-            this.metroToggle2.Name = "metroToggle2";
-            this.metroToggle2.Size = new System.Drawing.Size(80, 17);
-            this.metroToggle2.Style = MetroFramework.MetroColorStyle.Teal;
-            this.metroToggle2.TabIndex = 255;
-            this.metroToggle2.Text = "On";
-            this.metroToggle2.UseCustomBackColor = true;
-            this.metroToggle2.UseSelectable = true;
+            this.selfVoidstoneToggle.AutoSize = true;
+            this.selfVoidstoneToggle.BackColor = System.Drawing.Color.Transparent;
+            this.selfVoidstoneToggle.Checked = true;
+            this.selfVoidstoneToggle.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.selfVoidstoneToggle.Location = new System.Drawing.Point(824, 426);
+            this.selfVoidstoneToggle.Name = "selfVoidstoneToggle";
+            this.selfVoidstoneToggle.Size = new System.Drawing.Size(80, 17);
+            this.selfVoidstoneToggle.Style = MetroFramework.MetroColorStyle.Teal;
+            this.selfVoidstoneToggle.TabIndex = 255;
+            this.selfVoidstoneToggle.Text = "On";
+            this.selfVoidstoneToggle.UseCustomBackColor = true;
+            this.selfVoidstoneToggle.UseSelectable = true;
             // 
             // label78
             // 
@@ -2010,20 +2095,20 @@
             this.label78.TabIndex = 254;
             this.label78.Text = "Have Red Buff?";
             // 
-            // metroToggle1
+            // selfRedBuffToggle
             // 
-            this.metroToggle1.AutoSize = true;
-            this.metroToggle1.BackColor = System.Drawing.Color.Transparent;
-            this.metroToggle1.Checked = true;
-            this.metroToggle1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.metroToggle1.Location = new System.Drawing.Point(434, 426);
-            this.metroToggle1.Name = "metroToggle1";
-            this.metroToggle1.Size = new System.Drawing.Size(80, 17);
-            this.metroToggle1.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroToggle1.TabIndex = 250;
-            this.metroToggle1.Text = "On";
-            this.metroToggle1.UseCustomBackColor = true;
-            this.metroToggle1.UseSelectable = true;
+            this.selfRedBuffToggle.AutoSize = true;
+            this.selfRedBuffToggle.BackColor = System.Drawing.Color.Transparent;
+            this.selfRedBuffToggle.Checked = true;
+            this.selfRedBuffToggle.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.selfRedBuffToggle.Location = new System.Drawing.Point(434, 426);
+            this.selfRedBuffToggle.Name = "selfRedBuffToggle";
+            this.selfRedBuffToggle.Size = new System.Drawing.Size(80, 17);
+            this.selfRedBuffToggle.Style = MetroFramework.MetroColorStyle.Red;
+            this.selfRedBuffToggle.TabIndex = 250;
+            this.selfRedBuffToggle.Text = "On";
+            this.selfRedBuffToggle.UseCustomBackColor = true;
+            this.selfRedBuffToggle.UseSelectable = true;
             // 
             // panel16
             // 
@@ -2041,25 +2126,25 @@
             this.panel15.Size = new System.Drawing.Size(664, 1);
             this.panel15.TabIndex = 248;
             // 
-            // label76
+            // selfDoomStacksLabel
             // 
-            this.label76.AutoSize = true;
-            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label76.Location = new System.Drawing.Point(1082, 283);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(16, 17);
-            this.label76.TabIndex = 247;
-            this.label76.Text = "0";
+            this.selfDoomStacksLabel.AutoSize = true;
+            this.selfDoomStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfDoomStacksLabel.Location = new System.Drawing.Point(1082, 283);
+            this.selfDoomStacksLabel.Name = "selfDoomStacksLabel";
+            this.selfDoomStacksLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfDoomStacksLabel.TabIndex = 247;
+            this.selfDoomStacksLabel.Text = "0";
             // 
-            // metroTrackBar7
+            // selfDoomStacks
             // 
-            this.metroTrackBar7.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar7.Location = new System.Drawing.Point(952, 281);
-            this.metroTrackBar7.Name = "metroTrackBar7";
-            this.metroTrackBar7.Size = new System.Drawing.Size(133, 22);
-            this.metroTrackBar7.TabIndex = 246;
-            this.metroTrackBar7.Text = "metroTrackBar7";
-            this.metroTrackBar7.UseCustomBackColor = true;
+            this.selfDoomStacks.BackColor = System.Drawing.Color.Transparent;
+            this.selfDoomStacks.Location = new System.Drawing.Point(952, 281);
+            this.selfDoomStacks.Name = "selfDoomStacks";
+            this.selfDoomStacks.Size = new System.Drawing.Size(133, 22);
+            this.selfDoomStacks.TabIndex = 246;
+            this.selfDoomStacks.Text = "metroTrackBar7";
+            this.selfDoomStacks.UseCustomBackColor = true;
             // 
             // label77
             // 
@@ -2071,25 +2156,25 @@
             this.label77.TabIndex = 245;
             this.label77.Text = "Doom Orb Stacks";
             // 
-            // label72
+            // selfAncileStacksLabel
             // 
-            this.label72.AutoSize = true;
-            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label72.Location = new System.Drawing.Point(912, 337);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(16, 17);
-            this.label72.TabIndex = 244;
-            this.label72.Text = "0";
+            this.selfAncileStacksLabel.AutoSize = true;
+            this.selfAncileStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfAncileStacksLabel.Location = new System.Drawing.Point(912, 337);
+            this.selfAncileStacksLabel.Name = "selfAncileStacksLabel";
+            this.selfAncileStacksLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfAncileStacksLabel.TabIndex = 244;
+            this.selfAncileStacksLabel.Text = "0";
             // 
-            // metroTrackBar5
+            // selfAncileStacks
             // 
-            this.metroTrackBar5.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar5.Location = new System.Drawing.Point(776, 335);
-            this.metroTrackBar5.Name = "metroTrackBar5";
-            this.metroTrackBar5.Size = new System.Drawing.Size(133, 22);
-            this.metroTrackBar5.TabIndex = 243;
-            this.metroTrackBar5.Text = "metroTrackBar5";
-            this.metroTrackBar5.UseCustomBackColor = true;
+            this.selfAncileStacks.BackColor = System.Drawing.Color.Transparent;
+            this.selfAncileStacks.Location = new System.Drawing.Point(776, 335);
+            this.selfAncileStacks.Name = "selfAncileStacks";
+            this.selfAncileStacks.Size = new System.Drawing.Size(133, 22);
+            this.selfAncileStacks.TabIndex = 243;
+            this.selfAncileStacks.Text = "metroTrackBar5";
+            this.selfAncileStacks.UseCustomBackColor = true;
             // 
             // label73
             // 
@@ -2101,25 +2186,25 @@
             this.label73.TabIndex = 242;
             this.label73.Text = "Ancile Stacks";
             // 
-            // label74
+            // selfHeartStacksLabel
             // 
-            this.label74.AutoSize = true;
-            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label74.Location = new System.Drawing.Point(912, 283);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(16, 17);
-            this.label74.TabIndex = 241;
-            this.label74.Text = "0";
+            this.selfHeartStacksLabel.AutoSize = true;
+            this.selfHeartStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfHeartStacksLabel.Location = new System.Drawing.Point(912, 283);
+            this.selfHeartStacksLabel.Name = "selfHeartStacksLabel";
+            this.selfHeartStacksLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfHeartStacksLabel.TabIndex = 241;
+            this.selfHeartStacksLabel.Text = "0";
             // 
-            // metroTrackBar6
+            // selfHeartStacks
             // 
-            this.metroTrackBar6.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar6.Location = new System.Drawing.Point(776, 281);
-            this.metroTrackBar6.Name = "metroTrackBar6";
-            this.metroTrackBar6.Size = new System.Drawing.Size(133, 22);
-            this.metroTrackBar6.TabIndex = 240;
-            this.metroTrackBar6.Text = "metroTrackBar6";
-            this.metroTrackBar6.UseCustomBackColor = true;
+            this.selfHeartStacks.BackColor = System.Drawing.Color.Transparent;
+            this.selfHeartStacks.Location = new System.Drawing.Point(776, 281);
+            this.selfHeartStacks.Name = "selfHeartStacks";
+            this.selfHeartStacks.Size = new System.Drawing.Size(133, 22);
+            this.selfHeartStacks.TabIndex = 240;
+            this.selfHeartStacks.Text = "metroTrackBar6";
+            this.selfHeartStacks.UseCustomBackColor = true;
             // 
             // label75
             // 
@@ -2131,25 +2216,25 @@
             this.label75.TabIndex = 239;
             this.label75.Text = "Heartseeker Stacks";
             // 
-            // label67
+            // selfWarlockStacksLabel
             // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label67.Location = new System.Drawing.Point(741, 337);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(16, 17);
-            this.label67.TabIndex = 238;
-            this.label67.Text = "0";
+            this.selfWarlockStacksLabel.AutoSize = true;
+            this.selfWarlockStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfWarlockStacksLabel.Location = new System.Drawing.Point(741, 337);
+            this.selfWarlockStacksLabel.Name = "selfWarlockStacksLabel";
+            this.selfWarlockStacksLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfWarlockStacksLabel.TabIndex = 238;
+            this.selfWarlockStacksLabel.Text = "0";
             // 
-            // metroTrackBar3
+            // selfWarlockStacks
             // 
-            this.metroTrackBar3.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar3.Location = new System.Drawing.Point(605, 335);
-            this.metroTrackBar3.Name = "metroTrackBar3";
-            this.metroTrackBar3.Size = new System.Drawing.Size(133, 22);
-            this.metroTrackBar3.TabIndex = 237;
-            this.metroTrackBar3.Text = "metroTrackBar3";
-            this.metroTrackBar3.UseCustomBackColor = true;
+            this.selfWarlockStacks.BackColor = System.Drawing.Color.Transparent;
+            this.selfWarlockStacks.Location = new System.Drawing.Point(605, 335);
+            this.selfWarlockStacks.Name = "selfWarlockStacks";
+            this.selfWarlockStacks.Size = new System.Drawing.Size(133, 22);
+            this.selfWarlockStacks.TabIndex = 237;
+            this.selfWarlockStacks.Text = "metroTrackBar3";
+            this.selfWarlockStacks.UseCustomBackColor = true;
             // 
             // label68
             // 
@@ -2161,25 +2246,25 @@
             this.label68.TabIndex = 236;
             this.label68.Text = "Warlock Stacks";
             // 
-            // label69
+            // selfTransStacksLabel
             // 
-            this.label69.AutoSize = true;
-            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label69.Location = new System.Drawing.Point(741, 283);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(16, 17);
-            this.label69.TabIndex = 235;
-            this.label69.Text = "0";
+            this.selfTransStacksLabel.AutoSize = true;
+            this.selfTransStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfTransStacksLabel.Location = new System.Drawing.Point(741, 283);
+            this.selfTransStacksLabel.Name = "selfTransStacksLabel";
+            this.selfTransStacksLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfTransStacksLabel.TabIndex = 235;
+            this.selfTransStacksLabel.Text = "0";
             // 
-            // metroTrackBar4
+            // selfTransStacks
             // 
-            this.metroTrackBar4.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar4.Location = new System.Drawing.Point(605, 281);
-            this.metroTrackBar4.Name = "metroTrackBar4";
-            this.metroTrackBar4.Size = new System.Drawing.Size(133, 22);
-            this.metroTrackBar4.TabIndex = 234;
-            this.metroTrackBar4.Text = "metroTrackBar4";
-            this.metroTrackBar4.UseCustomBackColor = true;
+            this.selfTransStacks.BackColor = System.Drawing.Color.Transparent;
+            this.selfTransStacks.Location = new System.Drawing.Point(605, 281);
+            this.selfTransStacks.Name = "selfTransStacks";
+            this.selfTransStacks.Size = new System.Drawing.Size(133, 22);
+            this.selfTransStacks.TabIndex = 234;
+            this.selfTransStacks.Text = "metroTrackBar4";
+            this.selfTransStacks.UseCustomBackColor = true;
             // 
             // label71
             // 
@@ -2191,25 +2276,25 @@
             this.label71.TabIndex = 233;
             this.label71.Text = "Transcendence Stacks";
             // 
-            // label65
+            // selfThothStacksLabel
             // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label65.Location = new System.Drawing.Point(570, 337);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(16, 17);
-            this.label65.TabIndex = 232;
-            this.label65.Text = "0";
+            this.selfThothStacksLabel.AutoSize = true;
+            this.selfThothStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfThothStacksLabel.Location = new System.Drawing.Point(570, 337);
+            this.selfThothStacksLabel.Name = "selfThothStacksLabel";
+            this.selfThothStacksLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfThothStacksLabel.TabIndex = 232;
+            this.selfThothStacksLabel.Text = "0";
             // 
-            // metroTrackBar2
+            // selfThothStacks
             // 
-            this.metroTrackBar2.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar2.Location = new System.Drawing.Point(434, 335);
-            this.metroTrackBar2.Name = "metroTrackBar2";
-            this.metroTrackBar2.Size = new System.Drawing.Size(133, 22);
-            this.metroTrackBar2.TabIndex = 231;
-            this.metroTrackBar2.Text = "metroTrackBar2";
-            this.metroTrackBar2.UseCustomBackColor = true;
+            this.selfThothStacks.BackColor = System.Drawing.Color.Transparent;
+            this.selfThothStacks.Location = new System.Drawing.Point(434, 335);
+            this.selfThothStacks.Name = "selfThothStacks";
+            this.selfThothStacks.Size = new System.Drawing.Size(133, 22);
+            this.selfThothStacks.TabIndex = 231;
+            this.selfThothStacks.Text = "metroTrackBar2";
+            this.selfThothStacks.UseCustomBackColor = true;
             // 
             // label66
             // 
@@ -2231,15 +2316,15 @@
             this.label64.TabIndex = 229;
             this.label64.Text = "0";
             // 
-            // metroTrackBar1
+            // selfDevoStacksLabel
             // 
-            this.metroTrackBar1.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar1.Location = new System.Drawing.Point(434, 281);
-            this.metroTrackBar1.Name = "metroTrackBar1";
-            this.metroTrackBar1.Size = new System.Drawing.Size(133, 22);
-            this.metroTrackBar1.TabIndex = 228;
-            this.metroTrackBar1.Text = "metroTrackBar1";
-            this.metroTrackBar1.UseCustomBackColor = true;
+            this.selfDevoStacksLabel.BackColor = System.Drawing.Color.Transparent;
+            this.selfDevoStacksLabel.Location = new System.Drawing.Point(434, 281);
+            this.selfDevoStacksLabel.Name = "selfDevoStacksLabel";
+            this.selfDevoStacksLabel.Size = new System.Drawing.Size(133, 22);
+            this.selfDevoStacksLabel.TabIndex = 228;
+            this.selfDevoStacksLabel.Text = "metroTrackBar1";
+            this.selfDevoStacksLabel.UseCustomBackColor = true;
             // 
             // label70
             // 
@@ -2251,22 +2336,22 @@
             this.label70.TabIndex = 215;
             this.label70.Text = "Devourer\'s Stacks";
             // 
-            // metroTextBox13
+            // selfObowDPS
             // 
-            this.metroTextBox13.Lines = new string[] {
+            this.selfObowDPS.Lines = new string[] {
         "0"};
-            this.metroTextBox13.Location = new System.Drawing.Point(1040, 89);
-            this.metroTextBox13.MaxLength = 32767;
-            this.metroTextBox13.Multiline = true;
-            this.metroTextBox13.Name = "metroTextBox13";
-            this.metroTextBox13.PasswordChar = '\0';
-            this.metroTextBox13.ReadOnly = true;
-            this.metroTextBox13.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox13.SelectedText = "";
-            this.metroTextBox13.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox13.TabIndex = 214;
-            this.metroTextBox13.Text = "0";
-            this.metroTextBox13.UseSelectable = true;
+            this.selfObowDPS.Location = new System.Drawing.Point(1040, 89);
+            this.selfObowDPS.MaxLength = 32767;
+            this.selfObowDPS.Multiline = true;
+            this.selfObowDPS.Name = "selfObowDPS";
+            this.selfObowDPS.PasswordChar = '\0';
+            this.selfObowDPS.ReadOnly = true;
+            this.selfObowDPS.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfObowDPS.SelectedText = "";
+            this.selfObowDPS.Size = new System.Drawing.Size(58, 22);
+            this.selfObowDPS.TabIndex = 214;
+            this.selfObowDPS.Text = "0";
+            this.selfObowDPS.UseSelectable = true;
             // 
             // label63
             // 
@@ -2278,22 +2363,22 @@
             this.label63.TabIndex = 213;
             this.label63.Text = "OBow \r\nProc DPS";
             // 
-            // metroTextBox12
+            // selfLifestealSecond
             // 
-            this.metroTextBox12.Lines = new string[] {
+            this.selfLifestealSecond.Lines = new string[] {
         "0"};
-            this.metroTextBox12.Location = new System.Drawing.Point(824, 188);
-            this.metroTextBox12.MaxLength = 32767;
-            this.metroTextBox12.Multiline = true;
-            this.metroTextBox12.Name = "metroTextBox12";
-            this.metroTextBox12.PasswordChar = '\0';
-            this.metroTextBox12.ReadOnly = true;
-            this.metroTextBox12.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox12.SelectedText = "";
-            this.metroTextBox12.Size = new System.Drawing.Size(136, 22);
-            this.metroTextBox12.TabIndex = 211;
-            this.metroTextBox12.Text = "0";
-            this.metroTextBox12.UseSelectable = true;
+            this.selfLifestealSecond.Location = new System.Drawing.Point(824, 188);
+            this.selfLifestealSecond.MaxLength = 32767;
+            this.selfLifestealSecond.Multiline = true;
+            this.selfLifestealSecond.Name = "selfLifestealSecond";
+            this.selfLifestealSecond.PasswordChar = '\0';
+            this.selfLifestealSecond.ReadOnly = true;
+            this.selfLifestealSecond.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfLifestealSecond.SelectedText = "";
+            this.selfLifestealSecond.Size = new System.Drawing.Size(136, 22);
+            this.selfLifestealSecond.TabIndex = 211;
+            this.selfLifestealSecond.Text = "0";
+            this.selfLifestealSecond.UseSelectable = true;
             // 
             // label62
             // 
@@ -2305,22 +2390,22 @@
             this.label62.TabIndex = 210;
             this.label62.Text = "Lifesteal Per Second";
             // 
-            // metroTextBox11
+            // selfLastHitHP
             // 
-            this.metroTextBox11.Lines = new string[] {
+            this.selfLastHitHP.Lines = new string[] {
         "0"};
-            this.metroTextBox11.Location = new System.Drawing.Point(693, 188);
-            this.metroTextBox11.MaxLength = 32767;
-            this.metroTextBox11.Multiline = true;
-            this.metroTextBox11.Name = "metroTextBox11";
-            this.metroTextBox11.PasswordChar = '\0';
-            this.metroTextBox11.ReadOnly = true;
-            this.metroTextBox11.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox11.SelectedText = "";
-            this.metroTextBox11.Size = new System.Drawing.Size(121, 22);
-            this.metroTextBox11.TabIndex = 209;
-            this.metroTextBox11.Text = "0";
-            this.metroTextBox11.UseSelectable = true;
+            this.selfLastHitHP.Location = new System.Drawing.Point(693, 188);
+            this.selfLastHitHP.MaxLength = 32767;
+            this.selfLastHitHP.Multiline = true;
+            this.selfLastHitHP.Name = "selfLastHitHP";
+            this.selfLastHitHP.PasswordChar = '\0';
+            this.selfLastHitHP.ReadOnly = true;
+            this.selfLastHitHP.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfLastHitHP.SelectedText = "";
+            this.selfLastHitHP.Size = new System.Drawing.Size(121, 22);
+            this.selfLastHitHP.TabIndex = 209;
+            this.selfLastHitHP.Text = "0";
+            this.selfLastHitHP.UseSelectable = true;
             // 
             // label61
             // 
@@ -2332,22 +2417,22 @@
             this.label61.TabIndex = 208;
             this.label61.Text = "Last Hit HP";
             // 
-            // metroTextBox10
+            // selfShotsToKill
             // 
-            this.metroTextBox10.Lines = new string[] {
+            this.selfShotsToKill.Lines = new string[] {
         "0"};
-            this.metroTextBox10.Location = new System.Drawing.Point(566, 188);
-            this.metroTextBox10.MaxLength = 32767;
-            this.metroTextBox10.Multiline = true;
-            this.metroTextBox10.Name = "metroTextBox10";
-            this.metroTextBox10.PasswordChar = '\0';
-            this.metroTextBox10.ReadOnly = true;
-            this.metroTextBox10.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox10.SelectedText = "";
-            this.metroTextBox10.Size = new System.Drawing.Size(121, 22);
-            this.metroTextBox10.TabIndex = 207;
-            this.metroTextBox10.Text = "0";
-            this.metroTextBox10.UseSelectable = true;
+            this.selfShotsToKill.Location = new System.Drawing.Point(566, 188);
+            this.selfShotsToKill.MaxLength = 32767;
+            this.selfShotsToKill.Multiline = true;
+            this.selfShotsToKill.Name = "selfShotsToKill";
+            this.selfShotsToKill.PasswordChar = '\0';
+            this.selfShotsToKill.ReadOnly = true;
+            this.selfShotsToKill.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfShotsToKill.SelectedText = "";
+            this.selfShotsToKill.Size = new System.Drawing.Size(121, 22);
+            this.selfShotsToKill.TabIndex = 207;
+            this.selfShotsToKill.Text = "0";
+            this.selfShotsToKill.UseSelectable = true;
             // 
             // label60
             // 
@@ -2359,22 +2444,22 @@
             this.label60.TabIndex = 206;
             this.label60.Text = "Shots To Kill";
             // 
-            // metroTextBox9
+            // TTKFirstAuto
             // 
-            this.metroTextBox9.Lines = new string[] {
+            this.TTKFirstAuto.Lines = new string[] {
         "0"};
-            this.metroTextBox9.Location = new System.Drawing.Point(434, 188);
-            this.metroTextBox9.MaxLength = 32767;
-            this.metroTextBox9.Multiline = true;
-            this.metroTextBox9.Name = "metroTextBox9";
-            this.metroTextBox9.PasswordChar = '\0';
-            this.metroTextBox9.ReadOnly = true;
-            this.metroTextBox9.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox9.SelectedText = "";
-            this.metroTextBox9.Size = new System.Drawing.Size(121, 22);
-            this.metroTextBox9.TabIndex = 205;
-            this.metroTextBox9.Text = "0";
-            this.metroTextBox9.UseSelectable = true;
+            this.TTKFirstAuto.Location = new System.Drawing.Point(434, 188);
+            this.TTKFirstAuto.MaxLength = 32767;
+            this.TTKFirstAuto.Multiline = true;
+            this.TTKFirstAuto.Name = "TTKFirstAuto";
+            this.TTKFirstAuto.PasswordChar = '\0';
+            this.TTKFirstAuto.ReadOnly = true;
+            this.TTKFirstAuto.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TTKFirstAuto.SelectedText = "";
+            this.TTKFirstAuto.Size = new System.Drawing.Size(121, 22);
+            this.TTKFirstAuto.TabIndex = 205;
+            this.TTKFirstAuto.Text = "0";
+            this.TTKFirstAuto.UseSelectable = true;
             // 
             // label59
             // 
@@ -2394,22 +2479,22 @@
             this.panel9.Size = new System.Drawing.Size(664, 1);
             this.panel9.TabIndex = 203;
             // 
-            // metroTextBox5
+            // selfMitiDPS
             // 
-            this.metroTextBox5.Lines = new string[] {
+            this.selfMitiDPS.Lines = new string[] {
         "0"};
-            this.metroTextBox5.Location = new System.Drawing.Point(965, 89);
-            this.metroTextBox5.MaxLength = 32767;
-            this.metroTextBox5.Multiline = true;
-            this.metroTextBox5.Name = "metroTextBox5";
-            this.metroTextBox5.PasswordChar = '\0';
-            this.metroTextBox5.ReadOnly = true;
-            this.metroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox5.SelectedText = "";
-            this.metroTextBox5.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox5.TabIndex = 202;
-            this.metroTextBox5.Text = "0";
-            this.metroTextBox5.UseSelectable = true;
+            this.selfMitiDPS.Location = new System.Drawing.Point(965, 89);
+            this.selfMitiDPS.MaxLength = 32767;
+            this.selfMitiDPS.Multiline = true;
+            this.selfMitiDPS.Name = "selfMitiDPS";
+            this.selfMitiDPS.PasswordChar = '\0';
+            this.selfMitiDPS.ReadOnly = true;
+            this.selfMitiDPS.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfMitiDPS.SelectedText = "";
+            this.selfMitiDPS.Size = new System.Drawing.Size(58, 22);
+            this.selfMitiDPS.TabIndex = 202;
+            this.selfMitiDPS.Text = "0";
+            this.selfMitiDPS.UseSelectable = true;
             // 
             // label55
             // 
@@ -2421,22 +2506,22 @@
             this.label55.TabIndex = 201;
             this.label55.Text = "Mitigated\r\nDPS";
             // 
-            // metroTextBox6
+            // selfRawDPS
             // 
-            this.metroTextBox6.Lines = new string[] {
+            this.selfRawDPS.Lines = new string[] {
         "0"};
-            this.metroTextBox6.Location = new System.Drawing.Point(895, 89);
-            this.metroTextBox6.MaxLength = 32767;
-            this.metroTextBox6.Multiline = true;
-            this.metroTextBox6.Name = "metroTextBox6";
-            this.metroTextBox6.PasswordChar = '\0';
-            this.metroTextBox6.ReadOnly = true;
-            this.metroTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox6.SelectedText = "";
-            this.metroTextBox6.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox6.TabIndex = 200;
-            this.metroTextBox6.Text = "0";
-            this.metroTextBox6.UseSelectable = true;
+            this.selfRawDPS.Location = new System.Drawing.Point(895, 89);
+            this.selfRawDPS.MaxLength = 32767;
+            this.selfRawDPS.Multiline = true;
+            this.selfRawDPS.Name = "selfRawDPS";
+            this.selfRawDPS.PasswordChar = '\0';
+            this.selfRawDPS.ReadOnly = true;
+            this.selfRawDPS.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfRawDPS.SelectedText = "";
+            this.selfRawDPS.Size = new System.Drawing.Size(58, 22);
+            this.selfRawDPS.TabIndex = 200;
+            this.selfRawDPS.Text = "0";
+            this.selfRawDPS.UseSelectable = true;
             // 
             // label56
             // 
@@ -2448,22 +2533,22 @@
             this.label56.TabIndex = 199;
             this.label56.Text = "Raw\r\nDPS";
             // 
-            // metroTextBox7
+            // selfAttCooldown
             // 
-            this.metroTextBox7.Lines = new string[] {
+            this.selfAttCooldown.Lines = new string[] {
         "0"};
-            this.metroTextBox7.Location = new System.Drawing.Point(818, 89);
-            this.metroTextBox7.MaxLength = 32767;
-            this.metroTextBox7.Multiline = true;
-            this.metroTextBox7.Name = "metroTextBox7";
-            this.metroTextBox7.PasswordChar = '\0';
-            this.metroTextBox7.ReadOnly = true;
-            this.metroTextBox7.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox7.SelectedText = "";
-            this.metroTextBox7.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox7.TabIndex = 198;
-            this.metroTextBox7.Text = "0";
-            this.metroTextBox7.UseSelectable = true;
+            this.selfAttCooldown.Location = new System.Drawing.Point(818, 89);
+            this.selfAttCooldown.MaxLength = 32767;
+            this.selfAttCooldown.Multiline = true;
+            this.selfAttCooldown.Name = "selfAttCooldown";
+            this.selfAttCooldown.PasswordChar = '\0';
+            this.selfAttCooldown.ReadOnly = true;
+            this.selfAttCooldown.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfAttCooldown.SelectedText = "";
+            this.selfAttCooldown.Size = new System.Drawing.Size(58, 22);
+            this.selfAttCooldown.TabIndex = 198;
+            this.selfAttCooldown.Text = "0";
+            this.selfAttCooldown.UseSelectable = true;
             // 
             // label57
             // 
@@ -2475,22 +2560,22 @@
             this.label57.TabIndex = 197;
             this.label57.Text = "Attack\r\nCooldown";
             // 
-            // metroTextBox8
+            // selfCDR
             // 
-            this.metroTextBox8.Lines = new string[] {
+            this.selfCDR.Lines = new string[] {
         "0"};
-            this.metroTextBox8.Location = new System.Drawing.Point(742, 89);
-            this.metroTextBox8.MaxLength = 32767;
-            this.metroTextBox8.Multiline = true;
-            this.metroTextBox8.Name = "metroTextBox8";
-            this.metroTextBox8.PasswordChar = '\0';
-            this.metroTextBox8.ReadOnly = true;
-            this.metroTextBox8.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox8.SelectedText = "";
-            this.metroTextBox8.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox8.TabIndex = 196;
-            this.metroTextBox8.Text = "0";
-            this.metroTextBox8.UseSelectable = true;
+            this.selfCDR.Location = new System.Drawing.Point(742, 89);
+            this.selfCDR.MaxLength = 32767;
+            this.selfCDR.Multiline = true;
+            this.selfCDR.Name = "selfCDR";
+            this.selfCDR.PasswordChar = '\0';
+            this.selfCDR.ReadOnly = true;
+            this.selfCDR.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfCDR.SelectedText = "";
+            this.selfCDR.Size = new System.Drawing.Size(58, 22);
+            this.selfCDR.TabIndex = 196;
+            this.selfCDR.Text = "0";
+            this.selfCDR.UseSelectable = true;
             // 
             // label58
             // 
@@ -2502,22 +2587,22 @@
             this.label58.TabIndex = 195;
             this.label58.Text = "CDR";
             // 
-            // metroTextBox3
+            // selfMagicPower
             // 
-            this.metroTextBox3.Lines = new string[] {
+            this.selfMagicPower.Lines = new string[] {
         "0"};
-            this.metroTextBox3.Location = new System.Drawing.Point(664, 89);
-            this.metroTextBox3.MaxLength = 32767;
-            this.metroTextBox3.Multiline = true;
-            this.metroTextBox3.Name = "metroTextBox3";
-            this.metroTextBox3.PasswordChar = '\0';
-            this.metroTextBox3.ReadOnly = true;
-            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox3.SelectedText = "";
-            this.metroTextBox3.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox3.TabIndex = 194;
-            this.metroTextBox3.Text = "0";
-            this.metroTextBox3.UseSelectable = true;
+            this.selfMagicPower.Location = new System.Drawing.Point(664, 89);
+            this.selfMagicPower.MaxLength = 32767;
+            this.selfMagicPower.Multiline = true;
+            this.selfMagicPower.Name = "selfMagicPower";
+            this.selfMagicPower.PasswordChar = '\0';
+            this.selfMagicPower.ReadOnly = true;
+            this.selfMagicPower.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfMagicPower.SelectedText = "";
+            this.selfMagicPower.Size = new System.Drawing.Size(58, 22);
+            this.selfMagicPower.TabIndex = 194;
+            this.selfMagicPower.Text = "0";
+            this.selfMagicPower.UseSelectable = true;
             // 
             // label47
             // 
@@ -2529,22 +2614,22 @@
             this.label47.TabIndex = 193;
             this.label47.Text = "Magic\r\nPower";
             // 
-            // metroTextBox4
+            // selfCritChance
             // 
-            this.metroTextBox4.Lines = new string[] {
+            this.selfCritChance.Lines = new string[] {
         "0"};
-            this.metroTextBox4.Location = new System.Drawing.Point(587, 89);
-            this.metroTextBox4.MaxLength = 32767;
-            this.metroTextBox4.Multiline = true;
-            this.metroTextBox4.Name = "metroTextBox4";
-            this.metroTextBox4.PasswordChar = '\0';
-            this.metroTextBox4.ReadOnly = true;
-            this.metroTextBox4.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox4.SelectedText = "";
-            this.metroTextBox4.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox4.TabIndex = 192;
-            this.metroTextBox4.Text = "0";
-            this.metroTextBox4.UseSelectable = true;
+            this.selfCritChance.Location = new System.Drawing.Point(587, 89);
+            this.selfCritChance.MaxLength = 32767;
+            this.selfCritChance.Multiline = true;
+            this.selfCritChance.Name = "selfCritChance";
+            this.selfCritChance.PasswordChar = '\0';
+            this.selfCritChance.ReadOnly = true;
+            this.selfCritChance.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfCritChance.SelectedText = "";
+            this.selfCritChance.Size = new System.Drawing.Size(58, 22);
+            this.selfCritChance.TabIndex = 192;
+            this.selfCritChance.Text = "0";
+            this.selfCritChance.UseSelectable = true;
             // 
             // label49
             // 
@@ -2566,22 +2651,22 @@
             this.label46.TabIndex = 190;
             this.label46.Text = "Total Stats";
             // 
-            // metroTextBox2
+            // selfAttackSpeed
             // 
-            this.metroTextBox2.Lines = new string[] {
+            this.selfAttackSpeed.Lines = new string[] {
         "0"};
-            this.metroTextBox2.Location = new System.Drawing.Point(509, 89);
-            this.metroTextBox2.MaxLength = 32767;
-            this.metroTextBox2.Multiline = true;
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.PasswordChar = '\0';
-            this.metroTextBox2.ReadOnly = true;
-            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox2.SelectedText = "";
-            this.metroTextBox2.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox2.TabIndex = 189;
-            this.metroTextBox2.Text = "0";
-            this.metroTextBox2.UseSelectable = true;
+            this.selfAttackSpeed.Location = new System.Drawing.Point(509, 89);
+            this.selfAttackSpeed.MaxLength = 32767;
+            this.selfAttackSpeed.Multiline = true;
+            this.selfAttackSpeed.Name = "selfAttackSpeed";
+            this.selfAttackSpeed.PasswordChar = '\0';
+            this.selfAttackSpeed.ReadOnly = true;
+            this.selfAttackSpeed.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfAttackSpeed.SelectedText = "";
+            this.selfAttackSpeed.Size = new System.Drawing.Size(58, 22);
+            this.selfAttackSpeed.TabIndex = 189;
+            this.selfAttackSpeed.Text = "0";
+            this.selfAttackSpeed.UseSelectable = true;
             // 
             // label45
             // 
@@ -2593,22 +2678,22 @@
             this.label45.TabIndex = 188;
             this.label45.Text = "Attack \r\nSpeed";
             // 
-            // metroTextBox1
+            // selfInhandDamage
             // 
-            this.metroTextBox1.Lines = new string[] {
+            this.selfInhandDamage.Lines = new string[] {
         "0"};
-            this.metroTextBox1.Location = new System.Drawing.Point(434, 89);
-            this.metroTextBox1.MaxLength = 32767;
-            this.metroTextBox1.Multiline = true;
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.PasswordChar = '\0';
-            this.metroTextBox1.ReadOnly = true;
-            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox1.SelectedText = "";
-            this.metroTextBox1.Size = new System.Drawing.Size(58, 22);
-            this.metroTextBox1.TabIndex = 187;
-            this.metroTextBox1.Text = "0";
-            this.metroTextBox1.UseSelectable = true;
+            this.selfInhandDamage.Location = new System.Drawing.Point(434, 89);
+            this.selfInhandDamage.MaxLength = 32767;
+            this.selfInhandDamage.Multiline = true;
+            this.selfInhandDamage.Name = "selfInhandDamage";
+            this.selfInhandDamage.PasswordChar = '\0';
+            this.selfInhandDamage.ReadOnly = true;
+            this.selfInhandDamage.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.selfInhandDamage.SelectedText = "";
+            this.selfInhandDamage.Size = new System.Drawing.Size(58, 22);
+            this.selfInhandDamage.TabIndex = 187;
+            this.selfInhandDamage.Text = "0";
+            this.selfInhandDamage.UseSelectable = true;
             // 
             // label32
             // 
@@ -3031,6 +3116,7 @@
             this.selfGodLvl.UseCustomBackColor = true;
             this.selfGodLvl.Value = 1;
             this.selfGodLvl.ValueChanged += new System.EventHandler(this.selfGodLvl_ValueChanged);
+            this.selfGodLvl.Scroll += new System.Windows.Forms.ScrollEventHandler(this.selfGodLvl_Scroll);
             // 
             // selfMagical
             // 
@@ -3110,92 +3196,6 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "KrettCalc \r\n3.0";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label92.Location = new System.Drawing.Point(994, 406);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(98, 17);
-            this.label92.TabIndex = 287;
-            this.label92.Text = "Achilles Spear";
-            // 
-            // metroToggle5
-            // 
-            this.metroToggle5.AutoSize = true;
-            this.metroToggle5.BackColor = System.Drawing.Color.Transparent;
-            this.metroToggle5.Checked = true;
-            this.metroToggle5.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.metroToggle5.Location = new System.Drawing.Point(997, 426);
-            this.metroToggle5.Name = "metroToggle5";
-            this.metroToggle5.Size = new System.Drawing.Size(80, 17);
-            this.metroToggle5.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroToggle5.TabIndex = 286;
-            this.metroToggle5.Text = "On";
-            this.metroToggle5.UseCustomBackColor = true;
-            this.metroToggle5.UseSelectable = true;
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.BackColor = System.Drawing.Color.Transparent;
-            this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label93.Location = new System.Drawing.Point(314, 89);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(16, 17);
-            this.label93.TabIndex = 290;
-            this.label93.Text = "1";
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label94.Location = new System.Drawing.Point(20, 89);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(65, 17);
-            this.label94.TabIndex = 289;
-            this.label94.Text = "Health %";
-            // 
-            // metroTrackBar8
-            // 
-            this.metroTrackBar8.BackColor = System.Drawing.Color.Transparent;
-            this.metroTrackBar8.Location = new System.Drawing.Point(94, 89);
-            this.metroTrackBar8.Maximum = 20;
-            this.metroTrackBar8.Minimum = 1;
-            this.metroTrackBar8.Name = "metroTrackBar8";
-            this.metroTrackBar8.Size = new System.Drawing.Size(214, 19);
-            this.metroTrackBar8.TabIndex = 288;
-            this.metroTrackBar8.Text = "metroTrackBar1";
-            this.metroTrackBar8.UseCustomBackColor = true;
-            this.metroTrackBar8.Value = 1;
-            // 
-            // metroTextBox22
-            // 
-            this.metroTextBox22.Lines = new string[] {
-        "0"};
-            this.metroTextBox22.Location = new System.Drawing.Point(970, 188);
-            this.metroTextBox22.MaxLength = 32767;
-            this.metroTextBox22.Multiline = true;
-            this.metroTextBox22.Name = "metroTextBox22";
-            this.metroTextBox22.PasswordChar = '\0';
-            this.metroTextBox22.ReadOnly = true;
-            this.metroTextBox22.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox22.SelectedText = "";
-            this.metroTextBox22.Size = new System.Drawing.Size(125, 22);
-            this.metroTextBox22.TabIndex = 292;
-            this.metroTextBox22.Text = "0";
-            this.metroTextBox22.UseSelectable = true;
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label95.Location = new System.Drawing.Point(967, 162);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(69, 17);
-            this.label95.TabIndex = 291;
-            this.label95.Text = "Qins DPS";
             // 
             // CalculatorForm
             // 
@@ -3381,92 +3381,92 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label selfItemsTotalCost;
         private System.Windows.Forms.Label label45;
-        private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private MetroFramework.Controls.MetroTextBox selfInhandDamage;
         private System.Windows.Forms.Label label32;
-        private MetroFramework.Controls.MetroTextBox metroTextBox20;
+        private MetroFramework.Controls.MetroTextBox selfMitiBurstDPS;
         private System.Windows.Forms.Label label90;
-        private MetroFramework.Controls.MetroTextBox metroTextBox21;
+        private MetroFramework.Controls.MetroTextBox selfRawBurstDPS;
         private System.Windows.Forms.Label label91;
-        private MetroFramework.Controls.MetroTextBox metroTextBox18;
+        private MetroFramework.Controls.MetroTextBox selfMitiCycleDPS;
         private System.Windows.Forms.Label label88;
-        private MetroFramework.Controls.MetroTextBox metroTextBox19;
+        private MetroFramework.Controls.MetroTextBox selfRawCycleDPS;
         private System.Windows.Forms.Label label89;
-        private MetroFramework.Controls.MetroTextBox metroTextBox17;
+        private MetroFramework.Controls.MetroTextBox selfMitigatedDamage;
         private System.Windows.Forms.Label label87;
-        private MetroFramework.Controls.MetroTextBox metroTextBox15;
+        private MetroFramework.Controls.MetroTextBox selfSteroid2Stacks;
         private System.Windows.Forms.Label label83;
-        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private MetroFramework.Controls.MetroComboBox selfSteroid2Drop;
         private System.Windows.Forms.Label label84;
-        private MetroFramework.Controls.MetroTextBox metroTextBox16;
+        private MetroFramework.Controls.MetroTextBox selfRawDamage;
         private System.Windows.Forms.Label label86;
-        private MetroFramework.Controls.MetroTextBox metroTextBox14;
+        private MetroFramework.Controls.MetroTextBox selfSteroid1Stacks;
         private System.Windows.Forms.Label label85;
-        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroComboBox selfSteroid1Drop;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Label label81;
-        private MetroFramework.Controls.MetroToggle metroToggle4;
+        private MetroFramework.Controls.MetroToggle selfPythagToggle;
         private System.Windows.Forms.Label label80;
-        private MetroFramework.Controls.MetroToggle metroToggle3;
+        private MetroFramework.Controls.MetroToggle selfPurpleBuffToggle;
         private System.Windows.Forms.Label label79;
-        private MetroFramework.Controls.MetroToggle metroToggle2;
+        private MetroFramework.Controls.MetroToggle selfVoidstoneToggle;
         private System.Windows.Forms.Label label78;
-        private MetroFramework.Controls.MetroToggle metroToggle1;
+        private MetroFramework.Controls.MetroToggle selfRedBuffToggle;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label76;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar7;
+        private System.Windows.Forms.Label selfDoomStacksLabel;
+        private MetroFramework.Controls.MetroTrackBar selfDoomStacks;
         private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Label label72;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar5;
+        private System.Windows.Forms.Label selfAncileStacksLabel;
+        private MetroFramework.Controls.MetroTrackBar selfAncileStacks;
         private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label74;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar6;
+        private System.Windows.Forms.Label selfHeartStacksLabel;
+        private MetroFramework.Controls.MetroTrackBar selfHeartStacks;
         private System.Windows.Forms.Label label75;
-        private System.Windows.Forms.Label label67;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar3;
+        private System.Windows.Forms.Label selfWarlockStacksLabel;
+        private MetroFramework.Controls.MetroTrackBar selfWarlockStacks;
         private System.Windows.Forms.Label label68;
-        private System.Windows.Forms.Label label69;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar4;
+        private System.Windows.Forms.Label selfTransStacksLabel;
+        private MetroFramework.Controls.MetroTrackBar selfTransStacks;
         private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Label label65;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar2;
+        private System.Windows.Forms.Label selfThothStacksLabel;
+        private MetroFramework.Controls.MetroTrackBar selfThothStacks;
         private System.Windows.Forms.Label label66;
         private System.Windows.Forms.Label label64;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar1;
+        private MetroFramework.Controls.MetroTrackBar selfDevoStacksLabel;
         private System.Windows.Forms.Label label70;
-        private MetroFramework.Controls.MetroTextBox metroTextBox13;
+        private MetroFramework.Controls.MetroTextBox selfObowDPS;
         private System.Windows.Forms.Label label63;
-        private MetroFramework.Controls.MetroTextBox metroTextBox12;
+        private MetroFramework.Controls.MetroTextBox selfLifestealSecond;
         private System.Windows.Forms.Label label62;
-        private MetroFramework.Controls.MetroTextBox metroTextBox11;
+        private MetroFramework.Controls.MetroTextBox selfLastHitHP;
         private System.Windows.Forms.Label label61;
-        private MetroFramework.Controls.MetroTextBox metroTextBox10;
+        private MetroFramework.Controls.MetroTextBox selfShotsToKill;
         private System.Windows.Forms.Label label60;
-        private MetroFramework.Controls.MetroTextBox metroTextBox9;
+        private MetroFramework.Controls.MetroTextBox TTKFirstAuto;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Panel panel9;
-        private MetroFramework.Controls.MetroTextBox metroTextBox5;
+        private MetroFramework.Controls.MetroTextBox selfMitiDPS;
         private System.Windows.Forms.Label label55;
-        private MetroFramework.Controls.MetroTextBox metroTextBox6;
+        private MetroFramework.Controls.MetroTextBox selfRawDPS;
         private System.Windows.Forms.Label label56;
-        private MetroFramework.Controls.MetroTextBox metroTextBox7;
+        private MetroFramework.Controls.MetroTextBox selfAttCooldown;
         private System.Windows.Forms.Label label57;
-        private MetroFramework.Controls.MetroTextBox metroTextBox8;
+        private MetroFramework.Controls.MetroTextBox selfCDR;
         private System.Windows.Forms.Label label58;
-        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private MetroFramework.Controls.MetroTextBox selfMagicPower;
         private System.Windows.Forms.Label label47;
-        private MetroFramework.Controls.MetroTextBox metroTextBox4;
+        private MetroFramework.Controls.MetroTextBox selfCritChance;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label46;
-        private MetroFramework.Controls.MetroTextBox metroTextBox2;
-        private MetroFramework.Controls.MetroTextBox metroTextBox22;
+        private MetroFramework.Controls.MetroTextBox selfAttackSpeed;
+        private MetroFramework.Controls.MetroTextBox selfQinsDPS;
         private System.Windows.Forms.Label label95;
-        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label selfHealthPercLabel;
         private System.Windows.Forms.Label label94;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar8;
+        private MetroFramework.Controls.MetroTrackBar selfHealthPerc;
         private System.Windows.Forms.Label label92;
-        private MetroFramework.Controls.MetroToggle metroToggle5;
+        private MetroFramework.Controls.MetroToggle selfAchillesToggle;
 
     }
 }

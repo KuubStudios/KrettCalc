@@ -386,5 +386,15 @@ namespace KrettCalc {
         {
 
         }
+
+        private void selfHealthPerc_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void selfGodLvl_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
     }
 }
