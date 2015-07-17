@@ -870,9 +870,9 @@
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
             this.label31.Location = new System.Drawing.Point(453, 538);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(142, 17);
+            this.label31.Size = new System.Drawing.Size(147, 17);
             this.label31.TabIndex = 140;
-            this.label31.Text = "Lotus Cown Passive?";
+            this.label31.Text = "Lotus Crown Passive?";
             // 
             // targetHeartward
             // 

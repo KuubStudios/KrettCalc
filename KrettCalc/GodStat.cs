@@ -1,5 +1,4 @@
-﻿using System.Security.Policy;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 
 namespace KrettCalc {
     public enum AbilityType {
