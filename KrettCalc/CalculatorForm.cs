@@ -345,6 +345,26 @@ namespace KrettCalc {
             if(selfItem5.SelectedItem == null) selfItem5.SelectedItem = emptyItem;
             if(selfItem6.SelectedItem == null) selfItem6.SelectedItem = emptyItem;
 
+            selfSteroid1Drop.Items.Clear();
+            selfSteroid1Drop.Invalidate();
+
+            selfSteroid2Drop.Items.Clear();
+            selfSteroid2Drop.Invalidate();
+
+            if(god.FirstSteroid != null) {
+                if(god.FirstSteroid.NameEnable != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.NameEnable);
+                if(god.FirstSteroid.NameDisable != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.NameDisable);
+
+                selfSteroid1Drop.SelectedIndex = 0;
+            }
+
+            if(god.SecondSteroid != null) {
+                if(god.SecondSteroid.NameEnable != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.NameEnable);
+                if(god.SecondSteroid.NameDisable != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.NameDisable);
+
+                selfSteroid2Drop.SelectedIndex = 0;
+            }
+
             CalculateSelf();
         }
 
@@ -382,21 +402,6 @@ namespace KrettCalc {
         private void selfItem6_SelectedIndexChanged(object sender, EventArgs e) {
             calculations.SelfItems.Sixth = (ItemStat)selfItem6.SelectedItem;
             SetItem(selfItem6, selfItem6Cost, selfItem6Pic, false);
-        }
-
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void selfHealthPerc_Scroll(object sender, ScrollEventArgs e)
-        {
-
-        }
-
-        private void selfGodLvl_Scroll(object sender, ScrollEventArgs e)
-        {
-
         }
     }
 }
