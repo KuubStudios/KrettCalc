@@ -90,13 +90,25 @@ namespace DataCruncher {
                     int god = gods.FindIndex(g => g.Name == name);
 
                     gods[god].FirstSteroid = new GodSteroid() {
-                        NameEnable = fields[i++],
-                        NameDisable = fields[i++]
+                        Enabled = new GodSteroidState()
+                                  {
+                                      Name = fields[i++],
+                                  },
+                        Disabled = new GodSteroidState()
+                                   {
+                                       Name = fields[i++],
+                                   }
                     };
 
                     gods[god].SecondSteroid = new GodSteroid() {
-                        NameEnable = fields[i++],
-                        NameDisable = fields[i++]
+                        Enabled = new GodSteroidState()
+                        {
+                            Name = fields[i++],
+                        },
+                        Disabled = new GodSteroidState()
+                        {
+                            Name = fields[i++],
+                        }
                     };
 
                     gods[god].FirstSpecial = new GodSpecial() {

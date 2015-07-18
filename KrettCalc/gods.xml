@@ -12,8 +12,10 @@
     <Ability2 Name="Swarm" Dmg="60" Rank="55" Scaling="0.8" Type="Instant" Refire="12" Precast="0.2" Postcast="0.1" />
     <Ability3 Name="Honey" Dmg="64" Rank="104" Scaling="0.15" Type="Field" Refire="10" Postcast="1" Duration="4" />
     <Ability4 Name="Stinger" Dmg="275" Rank="80" Scaling="1.1" Type="Instant" Refire="90" Precast="0.35" Postcast="0.1" />
-    <Steroid1 Enabled="Enable Hive" Disabled="Disable Hive" />
-    <Steroid2 Enabled="Bees! counts as an ability" Disabled="" />
+    <Steroid1>
+      <Enabled Name="Enable Hive" />
+      <Disabled Name="Disable Hive" />
+    </Steroid1>
     <Special1 Name="Bees!" Dmg="118.5" Type="Instant" />
   </God>
   <God Name="Ah Puch" Type="Magical" HP="375" HPScale="70" PP="9" PPScale="2.7" MP="30" AS="0.86" ASScale="0.95" Atk="35" AtkScale="1.5" Mana="265" ManaScale="55" Passive="Hollow Ground" Hp5="6" Hp5Scale="0.45">
@@ -28,8 +30,10 @@
     <Ability2 Name="Impale" Dmg="90" Rank="65" Scaling="0.8" Type="Instant" Refire="12" Precast="0.2" Postcast="0.3" />
     <Ability3 Name="Disperse" Dmg="50" Rank="40" Scaling="0.6" Type="Channel" Refire="15" Precast="0.275" Duration="0.925" />
     <Ability4 Name="Desert Fury" Dmg="480" Rank="120" Scaling="1.2" Type="Channel" Refire="90" Precast="0.5" Postcast="0.1" Duration="1.5" />
-    <Steroid1 Enabled="Enable Shifting Sands" Disabled="Disable Shifting Sands" />
-    <Steroid2 Enabled="Enfeeblement is automated" Disabled="" />
+    <Steroid1>
+      <Enabled Name="Enable Shifting Sands" />
+      <Disabled Name="Disable Shifting Sands" />
+    </Steroid1>
   </God>
   <God Name="Anubis" Type="Magical" HP="350" HPScale="66" PP="10" PPScale="2.5" MP="30" AS="0.86" ASScale="0.99" Atk="35" AtkScale="1.5" Mana="280" ManaScale="58" Passive="Sorrow" Hp5="7" Hp5Scale="0.45">
     <Ability1 Name="Plague of Locusts" Dmg="210" Rank="90" Scaling="2.4" Type="Channel" Refire="11" Precast="0.2" Duration="2.5" />
@@ -42,8 +46,10 @@
     <Ability2 Name="Dragon Call" Type="Instant" Refire="11" Precast="0.3" Postcast="0.2" />
     <Ability3 Name="Wild Storm" Dmg="90" Rank="50" Scaling="0.5" Type="Instant" Refire="5" Precast="0.25" Postcast="0.15" />
     <Ability4 Name="King of the Eastern Seas" Dmg="90" Rank="50" Scaling="0.5" Type="Instant" Refire="90" Precast="0.35" Postcast="0.15" />
-    <Steroid1 Enabled="Enable Dragon Call" Disabled="Disable Dragon Call" />
-    <Steroid2 Enabled="King's Sword is automated" Disabled="" />
+    <Steroid1>
+      <Enabled Name="Enable Dragon Call" />
+      <Disabled Name="Disable Dragon Call" />
+    </Steroid1>
     <Special1 Name="Dragon Call Blast" Type="Instant" Precast="0.3" Postcast="0.2" />
   </God>
   <God Name="Aphrodite" Type="Magical" HP="355" HPScale="68" PP="9" PPScale="2.7" MP="30" AS="0.87" ASScale="0.95" Atk="32" AtkScale="1.45" Mana="240" ManaScale="43" Passive="Loving Embrace" Hp5="6" Hp5Scale="0.45">
@@ -57,30 +63,44 @@
     <Ability2 Name="Serenade" Type="Instant" Refire="13" Postcast="0.1" />
     <Ability3 Name="The Move" Dmg="70" Rank="45" Scaling="0.6" Type="Channel" Refire="15" Precast="0.2333" Postcast="0.65" />
     <Ability4 Name="Across The Sky" Dmg="280" Rank="100" Scaling="1.2" Type="Channel" Refire="90" Precast="0.5" Postcast="1.1" Duration="0.8" />
-    <Steroid1 Enabled="Enable Audacity" Disabled="Disable Audacity" />
+    <Steroid1>
+      <Enabled Name="Enable Audacity" />
+      <Disabled Name="Disable Audacity" />
+    </Steroid1>
   </God>
   <God Name="Arachne" Type="Physical" HP="445" HPScale="79" PP="13" PPScale="3" MP="30" MPScale="0.9" AS="1" ASScale="2" Atk="38" AtkScale="2.2" Mana="210" ManaScale="41" Passive="Predator" Hp5="9" Hp5Scale="0.67">
     <Ability1 Name="Venomous Bite" Dmg="110" Rank="85" Scaling="0.95" Type="Instant" Refire="11" />
     <Ability2 Name="Cocoon" Type="Instant" Refire="15" />
     <Ability3 Name="Web" Dmg="440" Rank="220" Type="Instant" Refire="18" Precast="0.25" Postcast="0.1" />
     <Ability4 Name="Night Crawler" Dmg="150" Rank="100" Scaling="1" Type="Channel" Refire="70" Precast="0.8" Postcast="0.1" Duration="0.5" />
-    <Steroid1 Enabled="Enable Cocoon" Disabled="Disable Cocoon" />
-    <Steroid2 Enabled="Predator is automated" Disabled="" />
+    <Steroid1>
+      <Enabled Name="Enable Cocoon" />
+      <Disabled Name="Disable Cocoon" />
+    </Steroid1>
   </God>
   <God Name="Ares" Type="Magical" HP="485" HPScale="90" PP="17" PPScale="3" MP="30" MPScale="0.9" AS="0.9" ASScale="1.25" Atk="38" AtkScale="1.55" Mana="200" ManaScale="37" Passive="Blessed Presence" Hp5="8" Hp5Scale="0.67">
     <Ability1 Name="Shackles" Dmg="125" Rank="100" Scaling="0.75" Type="Instant" Refire="15" Postcast="0.5" />
     <Ability2 Name="Bolster Defenses" Type="Field" Refire="15" Postcast="0.1" Duration="8" />
     <Ability3 Name="Searing Flesh" Dmg="547.2" Rank="40" Scaling="0.56" Type="Channel" Refire="12" Duration="3.5" />
     <Ability4 Name="No Escape" Dmg="200" Rank="75" Scaling="0.8" Type="Channel" Refire="90" Postcast="0.3" Duration="2.5" />
-    <Steroid1 Enabled="Blessed Presence" Disabled="" />
+    <Steroid1>
+      <Enabled Name="Blessed Presence" />
+      <Disabled Name="" />
+    </Steroid1>
   </God>
   <God Name="Artemis" Type="Physical" HP="450" HPScale="72" PP="12" PPScale="3" MP="30" MPScale="0.9" AS="0.95" ASScale="1.4" Atk="35" AtkScale="2.05" Mana="205" ManaScale="34" Passive="Still Target" Hp5="8" Hp5Scale="0.68">
     <Ability1 Name="Transgressors Fate" Dmg="75" Rank="45" Scaling="0.9" Type="Instant" Refire="10" Precast="0.5" Postcast="0.1" />
     <Ability2 Name="Vengeful Assault" Type="Instant" Refire="14" />
     <Ability3 Name="Suppress the Insolent" Dmg="80" Rank="50" Scaling="0.4" Type="Instant" Refire="10" Precast="0.2" Postcast="0.1" />
     <Ability4 Name="Calydonian Boar" Dmg="150" Rank="75" Scaling="1" Type="Instant" Refire="90" Postcast="0.1" />
-    <Steroid1 Enabled="Enable Vengeful Assault" Disabled="Disable Vengeful Assault" />
-    <Steroid2 Enabled="Max still target" Disabled="No still target" />
+    <Steroid1>
+      <Enabled Name="Enable Vengeful Assault" />
+      <Disabled Name="Disable Vengeful Assault" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Max still target" />
+      <Disabled Name="No still target" />
+    </Steroid2>
   </God>
   <God Name="Athena" Type="Magical" HP="500" HPScale="100" PP="20" PPScale="3.2" MP="30" MPScale="0.9" AS="1" ASScale="1.2" Atk="35" AtkScale="1.5" Mana="190" ManaScale="34" Passive="Reach" Hp5="8" Hp5Scale="0.9">
     <Ability1 Name="Preemptive Strike" Dmg="80" Rank="50" Scaling="0.5" Type="Instant" Refire="11" Precast="1" Postcast="0.5" />
@@ -94,23 +114,38 @@
     <Ability2 Name="Feather Step" Dmg="60" Rank="30" Scaling="0.5" Type="Instant" Refire="8" Precast="0.6" />
     <Ability3 Name="Moonlight Charge" Dmg="90" Rank="40" Scaling="0.6" Type="Instant" Refire="12" Precast="0.1" Postcast="0.1" />
     <Ability4 Name="Gravity Surge" Dmg="200" Rank="50" Scaling="0.8" Type="Instant" Refire="90" Precast="0.8" Postcast="0.2" />
-    <Steroid1 Enabled="Enable Initiative" Disabled="Disable Initiative" />
-    <Steroid2 Enabled="Enable Gravity Surge" Disabled="Disable Gravity Surge" />
+    <Steroid1>
+      <Enabled Name="Enable Initiative" />
+      <Disabled Name="Disable Initiative" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Enable Gravity Surge" />
+      <Disabled Name="Disable Gravity Surge" />
+    </Steroid2>
   </God>
   <God Name="Bacchus" Type="Magical" HP="495" HPScale="86" PP="19" PPScale="3" MP="30" MPScale="0.9" AS="0.88" ASScale="1" Atk="37" AtkScale="1.5" Mana="200" ManaScale="40" Passive="Drunk-O-Meter" Hp5="8" Hp5Scale="0.8">
     <Ability1 Name="Chug" Type="Instant" Refire="10" Postcast="1" />
     <Ability2 Name="Belly Flop" Dmg="90" Rank="40" Scaling="0.7" Type="Channel" Refire="16" Precast="0.24" Postcast="0.2" Duration="0.7" />
     <Ability3 Name="Belch of the Gods" Dmg="80" Rank="60" Scaling="0.6" Type="Channel" Refire="14" Precast="0.2" Postcast="0.5" Duration="2" />
     <Ability4 Name="Intoxicate" Dmg="250" Rank="75" Scaling="0.7" Type="Instant" Refire="90" Precast="0.3" Postcast="0.1" />
-    <Steroid1 Enabled="You're smashed!" Disabled="You're tipsy" />
-    <Steroid2 Enabled="Enable Intoxicate Steroid" Disabled="Disable Intoxicate Steroid" />
+    <Steroid1>
+      <Enabled Name="You're smashed!" />
+      <Disabled Name="You're tipsy" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Enable Intoxicate Steroid" />
+      <Disabled Name="Disable Intoxicate Steroid" />
+    </Steroid2>
   </God>
   <God Name="Bakasura" Type="Physical" HP="455" HPScale="78" PP="13" PPScale="2.8" MP="30" MPScale="0.9" AS="1" ASScale="1.6" Atk="36" AtkScale="2.2" Mana="200" ManaScale="39" Passive="Insatiable Hunger" Hp5="9" Hp5Scale="0.68">
     <Ability1 Name="Take Down" Dmg="100" Rank="60" Scaling="0.6" Type="Channel" Refire="12" Precast="0.2" Postcast="0.2" Duration="0.8" />
     <Ability2 Name="Eat Minion" Type="Instant" Refire="14" Precast="0.5" Postcast="0.7" />
     <Ability3 Name="Butcher Blades" Type="Instant" Refire="14" />
     <Ability4 Name="Regurgitate" Type="Instant" Refire="90" Precast="0.1" Postcast="0.1" />
-    <Steroid1 Enabled="Enable Butcher Blades" Disabled="Disable Butcher Blades" />
+    <Steroid1>
+      <Enabled Name="Enable Butcher Blades" />
+      <Disabled Name="Disable Butcher Blades" />
+    </Steroid1>
   </God>
   <God Name="Bastet" Type="Physical" HP="415" HPScale="80" PP="12" PPScale="2.9" MP="30" MPScale="0.9" AS="1" ASScale="1.98" Atk="38" AtkScale="2.13" Mana="215" ManaScale="39" Passive="Open Wound" Hp5="9" Hp5Scale="0.72">
     <Ability1 Name="Pounce" Dmg="80" Rank="65" Scaling="1" Type="Instant" Refire="12" Precast="0.15" Postcast="1" />
@@ -152,15 +187,24 @@
     <Ability2 Name="Accelerate" Type="Instant" Refire="17" Postcast="0.1" />
     <Ability3 Name="Stop Time" Dmg="60" Rank="40" Scaling="0.8" Type="Instant" Refire="14" Precast="0.3" Postcast="0.1" />
     <Ability4 Name="Rewind" Type="Channel" Refire="80" Precast="1" Postcast="1.5" />
-    <Steroid1 Enabled="Magic Power Wheel of Time" Disabled="Auto Attack Wheel of Time" />
-    <Steroid2 Enabled="Enable Accelerate" Disabled="Disable Accelerate" />
+    <Steroid1>
+      <Enabled Name="Magic Power Wheel of Time" />
+      <Disabled Name="Auto Attack Wheel of Time" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Enable Accelerate" />
+      <Disabled Name="Disable Accelerate" />
+    </Steroid2>
   </God>
   <God Name="Cupid" Type="Physical" HP="445" HPScale="72" PP="11" PPScale="3" MP="30" MPScale="0.9" AS="0.95" ASScale="1.8" Atk="35" AtkScale="2.3" Mana="230" ManaScale="39" Passive="Lovestruck" Hp5="8" Hp5Scale="0.67">
     <Ability1 Name="Heart Bomb" Dmg="100" Rank="60" Scaling="1.8" Type="Instant" Refire="10" Postcast="0.1" />
     <Ability2 Name="Share the Love" Type="Instant" Refire="14" Postcast="0.8" />
     <Ability3 Name="Flutter" Type="Instant" Refire="15" Postcast="0.65" />
     <Ability4 Name="Fields of Love" Dmg="220" Rank="80" Scaling="1" Type="Instant" Refire="90" Precast="0.3" Postcast="0.1" />
-    <Steroid1 Enabled="Enable Flutter" Disabled="Disable Flutter" />
+    <Steroid1>
+      <Enabled Name="Enable Flutter" />
+      <Disabled Name="Disable Flutter" />
+    </Steroid1>
     <Special1 Name="Lovestruck Heart Bomb" Dmg="861.88" Type="Instant" Postcast="0.1" />
     <Special2 Name="Lovestruck Fields of Love" Dmg="899" Type="Instant" Precast="0.3" Postcast="0.1" />
   </God>
@@ -169,15 +213,24 @@
     <Ability2 Name="Seething Howl" Type="Instant" Refire="13" Precast="0.2" Postcast="0.1" />
     <Ability3 Name="Brutalize" Dmg="180" Rank="120" Scaling="2" Type="Channel" Refire="14" Precast="0.2" Postcast="0.2" Duration="1.5" />
     <Ability4 Name="Ragnarok" Dmg="200" Rank="75" Scaling="1.2" Type="Channel" Refire="90" Postcast="0.3" Duration="2" />
-    <Steroid1 Enabled="Rune Howl" Disabled="Seething Howl" />
+    <Steroid1>
+      <Enabled Name="Rune Howl" />
+      <Disabled Name="Seething Howl" />
+    </Steroid1>
   </God>
   <God Name="Freya" Type="Magical" HP="405" HPScale="77" PP="13" PPScale="2.8" MP="30" AS="0.95" ASScale="1.95" Atk="35" AtkScale="1.5" Mana="220" ManaScale="37" Passive="Brisingamen's Blessing" Hp5="7" Hp5Scale="0.52">
     <Ability1 Name="Irradiate" Type="Instant" Refire="11" Postcast="0.1" />
     <Ability2 Name="Pulse" Type="Instant" Refire="11" Precast="0.3" />
     <Ability3 Name="Banish" Type="Instant" Refire="15" Precast="0.5" />
     <Ability4 Name="Valkyrie's Discretion" Dmg="480" Rank="120" Scaling="1.4" Type="Channel" Refire="90" Precast="0.6" Postcast="0.6" Duration="3" />
-    <Steroid1 Enabled="Enable Irradiate" Disabled="Disable Irradiate" />
-    <Steroid2 Enabled="Enable Pulse" Disabled="Disable Pulse" />
+    <Steroid1>
+      <Enabled Name="Enable Irradiate" />
+      <Disabled Name="Disable Irradiate" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Enable Pulse" />
+      <Disabled Name="Disable Pulse" />
+    </Steroid2>
   </God>
   <God Name="Geb" Type="Magical" HP="510" HPScale="90" PP="19" PPScale="3" MP="30" MPScale="0.9" AS="1" ASScale="1.2" Atk="38" AtkScale="1.5" Mana="190" ManaScale="34" Passive="Hard as Rock" Hp5="8" Hp5Scale="0.8">
     <Ability1 Name="Roll Out" Dmg="100" Rank="75" Scaling="0.5" Type="Channel" Refire="10" Precast="3" Postcast="3" />
@@ -211,8 +264,14 @@
     <Ability2 Name="Hinder(Cleanse)" Type="Instant" Refire="10" Postcast="0.1" />
     <Ability3 Name="Inspire" Type="Instant" Refire="10" Precast="0.4" Postcast="0.1" />
     <Ability4 Name="Switch Stances" Type="Instant" Refire="2" Postcast="0.2" />
-    <Steroid1 Enabled="Full Dark Stance Charge" Disabled="Full Light Stance Charge" />
-    <Steroid2 Enabled="Light Stance" Disabled="Dark Stance" />
+    <Steroid1>
+      <Enabled Name="Full Dark Stance Charge" />
+      <Disabled Name="Full Light Stance Charge" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Light Stance" />
+      <Disabled Name="Dark Stance" />
+    </Steroid2>
     <Special1 Name="Decay" Dmg="417.5" Type="Instant" Precast="0.3" Postcast="0.1" />
     <Special2 Name="Repulse" Dmg="486.5" Type="Instant" Precast="0.55" Postcast="0.1" />
   </God>
@@ -227,7 +286,10 @@
     <Ability2 Name="Mark of the Golden Crow" Type="Instant" Refire="18" Precast="0.3" Postcast="0.1" />
     <Ability3 Name="Divebomb" Dmg="70" Rank="40" Scaling="0.3" Type="Channel" Refire="15" Precast="0.25" Postcast="0.1" Duration="2.05" />
     <Ability4 Name="Sunbreaker" Dmg="720" Rank="90" Scaling="2.25" Type="Instant" Refire="90" Postcast="0.6" />
-    <Steroid1 Enabled="Enabled Mark of the Golden Crow" Disabled="Disabled Mark of the Golden Crow" />
+    <Steroid1>
+      <Enabled Name="Enabled Mark of the Golden Crow" />
+      <Disabled Name="Disabled Mark of the Golden Crow" />
+    </Steroid1>
   </God>
   <God Name="Hun Batz" Type="Physical" HP="460" HPScale="75" PP="13" PPScale="3" MP="30" MPScale="0.9" AS="1" ASScale="1.89" Atk="38" AtkScale="2.13" Mana="220" ManaScale="38" Passive="Infused Strikes" Hp5="10" Hp5Scale="0.68">
     <Ability1 Name="Somersault" Dmg="50" Rank="40" Scaling="0.7" Type="Channel" Refire="11" Precast="0.1" Postcast="0.2" Duration="0.8" />
@@ -257,7 +319,10 @@
     <Ability2 Name="Lash" Dmg="135" Rank="60" Scaling="0.9" Type="Instant" Refire="11" Precast="0.1" Postcast="0.2" />
     <Ability3 Name="Incense" Type="Instant" Refire="18" Precast="0.25" Postcast="0.1" />
     <Ability4 Name="Destruction" Dmg="125" Rank="25" Scaling="0.25" Type="Instant" Refire="90" Postcast="0.5" />
-    <Steroid1 Enabled="Enable Marked for Death" Disabled="Disable Marked for Death" />
+    <Steroid1>
+      <Enabled Name="Enable Marked for Death" />
+      <Disabled Name="Disable Marked for Death" />
+    </Steroid1>
   </God>
   <God Name="Kukulkan" Type="Magical" HP="365" HPScale="68" PP="13" PPScale="3" MP="30" AS="0.87" ASScale="0.91" Atk="34" AtkScale="1.45" Mana="265" ManaScale="45" Passive="Power of the Wind Jewel" Hp5="7" Hp5Scale="0.46">
     <Ability1 Name="Zephyr" Dmg="60" Rank="45" Scaling="0.6" Type="Instant" Refire="7" Precast="0.4" Postcast="0.1" />
@@ -283,7 +348,10 @@
     <Ability2 Name="Acid Spray" Dmg="90" Rank="45" Scaling="0.7" Type="Instant" Refire="14" Precast="0.4" Postcast="0.1" />
     <Ability3 Name="Lacerate" Dmg="80" Rank="40" Scaling="0.8" Type="Instant" Refire="15" Precast="0.1" Postcast="0.6" />
     <Ability4 Name="Petrify" Dmg="300" Rank="100" Scaling="1" Type="Instant" Refire="90" Precast="1" />
-    <Steroid1 Enabled="Enable Viper Shot" Disabled="Disable Viper Shot" />
+    <Steroid1>
+      <Enabled Name="Enable Viper Shot" />
+      <Disabled Name="Disable Viper Shot" />
+    </Steroid1>
     <Special1 Name="Rear Hit Petrify" Dmg="467.5" Type="Instant" Precast="1" />
   </God>
   <God Name="Mercury" Type="Physical" HP="400" HPScale="75" PP="12" PPScale="2.9" MP="30" MPScale="0.9" AS="1" ASScale="2.4" Atk="38" AtkScale="2.13" Mana="200" ManaScale="40" Passive="Fastest God Alive" Hp5="10" Hp5Scale="0.7">
@@ -291,8 +359,14 @@
     <Ability2 Name="Maximum Velocity" Type="Instant" Refire="14" Postcast="0.1" />
     <Ability3 Name="Special Delivery" Dmg="40" Rank="20" Scaling="0.6" Type="Instant" Refire="15" Postcast="0.65" />
     <Ability4 Name="Sonic Boom" Dmg="200" Rank="75" Scaling="1" Type="Instant" Refire="90" Precast="0.5" Postcast="0.2" />
-    <Steroid1 Enabled="Enable Fastest God Alive" Disabled="Disable Fastest God Alive" />
-    <Steroid2 Enabled="Enable Maximum Velocity" Disabled="Disable Maximum Velocity" />
+    <Steroid1>
+      <Enabled Name="Enable Fastest God Alive" />
+      <Disabled Name="Disable Fastest God Alive" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Enable Maximum Velocity" />
+      <Disabled Name="Disable Maximum Velocity" />
+    </Steroid2>
     <Special1 Name="Crit Made You Look" Dmg="1062.5" Type="Instant" Precast="0.5" Postcast="0.25" />
   </God>
   <God Name="Ne Zha" Type="Physical" HP="400" HPScale="75" PP="12" PPScale="2.9" MP="30" MPScale="0.9" AS="1" ASScale="2.1" Atk="39" AtkScale="2.2" Mana="200" ManaScale="35" Passive="Immortal Spirit" Hp5="10" Hp5Scale="0.71">
@@ -300,7 +374,10 @@
     <Ability2 Name="Flaming Spear" Type="Instant" Refire="18" Precast="0.2" Postcast="0.2" />
     <Ability3 Name="Armillary Sash" Dmg="70" Rank="30" Scaling="1" Type="Instant" Refire="14" Precast="0.2" Postcast="0.6" />
     <Ability4 Name="Wind Fire Wheels" Dmg="180" Rank="100" Scaling="1.4" Type="Channel" Refire="90" Postcast="0.3" Duration="1" />
-    <Steroid1 Enabled="Enable Flaming Spear" Disabled="Disable Flaming Spear" />
+    <Steroid1>
+      <Enabled Name="Enable Flaming Spear" />
+      <Disabled Name="Disable Flaming Spear" />
+    </Steroid1>
     <Special1 Name="Crit Armillary Sash" Dmg="1062.5" Type="Instant" Precast="0.2" Postcast="0.6" />
     <Special2 Name="Crit Ult" Dmg="2272.5" Type="Channel" Postcast="0.3" Duration="1" />
   </God>
@@ -349,7 +426,10 @@
     <Ability2 Name="Trident" Type="Instant" Refire="12" Precast="0.258" Postcast="0.1" />
     <Ability3 Name="Whirlpool" Dmg="90" Rank="60" Scaling="0.9" Type="Instant" Refire="11" Precast="0.6" />
     <Ability4 Name="Release the Kraken" Dmg="350" Rank="65" Scaling="0.9" Type="Instant" Refire="90" Postcast="0.3" />
-    <Steroid1 Enabled="Enable Trident" Disabled="Disable Trident" />
+    <Steroid1>
+      <Enabled Name="Enable Trident" />
+      <Disabled Name="Disable Trident" />
+    </Steroid1>
     <Special1 Name="Full Tide Kraken" Dmg="865.8" Type="Instant" Postcast="0.3" />
     <Special2 Name="Full Tide Whirlpool" Dmg="649.8" Type="Instant" Postcast="0.3" />
     <Special3 Name="Full Tidal Surge" Dmg="509.4" Type="Instant" Precast="0.2" Postcast="0.1" />
@@ -365,8 +445,14 @@
     <Ability2 Name="Pick Me Up" Type="Instant" Refire="11" Precast="0.5" />
     <Ability3 Name="Rolling Assault" Dmg="20" Rank="20" Type="Instant" Refire="8" Postcast="0.65" />
     <Ability4 Name="Astral Barrage 3" Dmg="200" Rank="100" Scaling="0.6" Type="Instant" Refire="90" Precast="0.25" />
-    <Steroid1 Enabled="Enable Astral Strike" Disabled="Disable Astral Strike" />
-    <Steroid2 Enabled="Enable Pick Me Up" Disabled="Disable Pick Me Up" />
+    <Steroid1>
+      <Enabled Name="Enable Astral Strike" />
+      <Disabled Name="Disable Astral Strike" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Enable Pick Me Up" />
+      <Disabled Name="Disable Pick Me Up" />
+    </Steroid2>
     <Special1 Name="Astral Barrage 1" Dmg="370.5" Type="Instant" Precast="0.25" />
     <Special2 Name="Astral Barrage 2" Dmg="555.75" Type="Instant" Precast="0.25" />
   </God>
@@ -375,7 +461,10 @@
     <Ability2 Name="Flurry of Acorns" Dmg="120" Rank="48" Scaling="1.8" Type="Instant" Refire="12" Precast="0.3" Postcast="0.1" />
     <Ability3 Name="Acorn Blast" Dmg="120" Rank="40" Scaling="1" Type="Instant" Refire="10" Precast="0.3" Postcast="0.2" />
     <Ability4 Name="Through the Cosmos" Dmg="200" Rank="60" Scaling="0.7" Type="Channel" Refire="90" Precast="1" Postcast="1" Duration="3" />
-    <Steroid1 Enabled="Sapphire Acorn" Disabled="Opal Acorn" />
+    <Steroid1>
+      <Enabled Name="Sapphire Acorn" />
+      <Disabled Name="Opal Acorn" />
+    </Steroid1>
     <Special1 Name="Sapphire Blast" Dmg="1011" Type="Instant" Precast="0.3" Postcast="0.1" />
     <Special2 Name="Opal Dash" Dmg="723.25" Type="Instant" Precast="0.15" Postcast="0.15" />
     <Special3 Name="Opal Crit" Dmg="1170.25" Type="Instant" Precast="0.15" Postcast="0.15" />
@@ -397,7 +486,10 @@
     <Ability2 Name="Cobra's Kiss" Dmg="100" Rank="40" Scaling="0.8" Type="Instant" Refire="18" Precast="0.2" Postcast="0.5" />
     <Ability3 Name="Ambush" Dmg="80" Rank="60" Scaling="0.5" Type="Instant" Refire="15" Precast="0.2" Postcast="0.1" />
     <Ability4 Name="Last Breath" Dmg="114" Rank="114" Type="Instant" Refire="90" Precast="0.3" Postcast="0.3" />
-    <Steroid1 Enabled="Double Catalyst" Disabled="Triple Catalyst" />
+    <Steroid1>
+      <Enabled Name="Double Catalyst" />
+      <Disabled Name="Triple Catalyst" />
+    </Steroid1>
     <Special1 Name="Deathbane Crit" Type="Instant" Precast="0.6" />
     <Special2 Name="Catalyst" Dmg="308" Type="Instant" />
   </God>
@@ -412,7 +504,10 @@
     <Ability2 Name="Master's Will" Dmg="90" Rank="50" Scaling="0.5" Type="Instant" Refire="10" Precast="0.14" Postcast="0.86" />
     <Ability3 Name="Tiger Transform" Dmg="100" Rank="70" Scaling="0.8" Type="Instant" Refire="14" Postcast="0.2" />
     <Ability4 Name="Somersault Cloud" Dmg="140" Rank="50" Scaling="1.2" Type="Channel" Refire="90" Precast="0.9" Postcast="0.2" />
-    <Steroid1 Enabled="Enable Undefeated Body" Disabled="Disable Undefeated Body" />
+    <Steroid1>
+      <Enabled Name="Enable Undefeated Body" />
+      <Disabled Name="Disable Undefeated Body" />
+    </Steroid1>
     <Special1 Name="Ox Transform" Dmg="351" Type="Instant" Postcast="0.5" />
   </God>
   <God Name="Sylvanus" Type="Magical" HP="510" HPScale="90" PP="19" PPScale="3" MP="30" MPScale="0.9" AS="0.8" ASScale="0.6" Atk="38" AtkScale="1.5" Mana="190" ManaScale="34" Passive="Nature's Protection" Hp5="8" Hp5Scale="0.8">
@@ -426,7 +521,10 @@
     <Ability2 Name="Scent of Death" Type="Instant" Refire="13" Precast="0.5" />
     <Ability3 Name="Soul Reap" Dmg="100" Rank="50" Scaling="0.6" Type="Instant" Refire="15" Precast="0.6" Postcast="0.1" />
     <Ability4 Name="Hovering Death" Dmg="90" Rank="35" Scaling="0.8" Type="Instant" Refire="90" Precast="0.4" Postcast="0.5" Duration="5" />
-    <Steroid1 Enabled="Enable Scent of Death" Disabled="Disable Scent of Death" />
+    <Steroid1>
+      <Enabled Name="Enable Scent of Death" />
+      <Disabled Name="Disable Scent of Death" />
+    </Steroid1>
   </God>
   <God Name="Thor" Type="Physical" HP="475" HPScale="76" PP="14" PPScale="2.9" MP="30" MPScale="0.9" AS="1" ASScale="1.45" Atk="39" AtkScale="2.4" Mana="240" ManaScale="38" Passive="Warrior's Madness" Hp5="9" Hp5Scale="0.69">
     <Ability1 Name="Mjolnir's Attnement" Dmg="50" Rank="40" Scaling="0.3" Type="Instant" Refire="12" Precast="0.1" Postcast="0.1" />
@@ -439,7 +537,10 @@
     <Ability2 Name="Power Cleave" Dmg="60" Rank="40" Scaling="0.65" Type="Instant" Refire="8" Precast="0.45" Postcast="0.1" />
     <Ability3 Name="Change Stance" Type="Instant" Refire="11" />
     <Ability4 Name="Lawbringer" Dmg="150" Rank="75" Scaling="1.2" Type="Instant" Refire="70" Precast="0.85" Postcast="0.75" />
-    <Steroid1 Enabled="Assault Stance" Disabled="Defense Stance" />
+    <Steroid1>
+      <Enabled Name="Assault Stance" />
+      <Disabled Name="Defense Stance" />
+    </Steroid1>
     <Special1 Name="Defense Fearless" Dmg="357.5" Type="Instant" Postcast="1" />
   </God>
   <God Name="Ullr" Type="Physical" HP="480" HPScale="80" PP="13" PPScale="3" MP="30" MPScale="0.9" AS="0.95" ASScale="1.5" Atk="38" AtkScale="2.4" Mana="245" ManaScale="40" Passive="Weapon Master" Hp5="8" Hp5Scale="0.71">
@@ -447,8 +548,14 @@
     <Ability2 Name="Expose Weakness/Invigorate" Type="Instant" Refire="14" Precast="0.2" Postcast="0.1" />
     <Ability3 Name="Hail of Arrows" Dmg="80" Rank="40" Scaling="1.2" Type="Instant" Refire="15" Precast="0.2" Postcast="0.1" />
     <Ability4 Name="Wield Axes/Wield Bow" Type="Instant" Refire="1" Precast="0.2" Postcast="0.1" />
-    <Steroid1 Enabled="Enable Expose Weakness" Disabled="Disable Expose Weakness" />
-    <Steroid2 Enabled="Axe Stance" Disabled="Bow Stance" />
+    <Steroid1>
+      <Enabled Name="Enable Expose Weakness" />
+      <Disabled Name="Disable Expose Weakness" />
+    </Steroid1>
+    <Steroid2>
+      <Enabled Name="Axe Stance" />
+      <Disabled Name="Bow Stance" />
+    </Steroid2>
     <Special1 Name="Thrown Axe" Dmg="321" Type="Instant" Precast="0.4" Postcast="0.1" />
     <Special2 Name="Glory Bound" Dmg="317.5" Type="Instant" Precast="0.3" Postcast="0.8" />
   </God>
@@ -457,14 +564,20 @@
     <Ability2 Name="Armored Umbrella" Dmg="85" Rank="55" Scaling="1" Type="Instant" Refire="11" Precast="0.15" Postcast="0.1" />
     <Ability3 Name="Umbrellarang" Dmg="100" Rank="70" Scaling="0.8" Type="Instant" Refire="13" Precast="0.3" Postcast="0.1" />
     <Ability4 Name="Colossal Fury" Type="Instant" Refire="90" Precast="1" />
-    <Steroid1 Enabled="Enable Colossal Fury" Disabled="Disable Colossal Fury" />
+    <Steroid1>
+      <Enabled Name="Enable Colossal Fury" />
+      <Disabled Name="Disable Colossal Fury" />
+    </Steroid1>
   </God>
   <God Name="Vulcan" Type="Magical" HP="380" HPScale="71" PP="13" PPScale="3" MP="30" AS="0.9" ASScale="1.1" Atk="34" AtkScale="1.5" Mana="245" ManaScale="40" Passive="Heavy Shot" Hp5="7" Hp5Scale="0.48">
     <Ability1 Name="Backfire" Dmg="80" Rank="40" Scaling="0.8" Type="Instant" Refire="5" Precast="0.25" Postcast="0.25" />
     <Ability2 Name="Inferno Cannon" Type="Instant" Refire="15" Precast="0.4" Postcast="0.1" />
     <Ability3 Name="Magma Bomb" Dmg="70" Rank="50" Scaling="0.7" Type="Instant" Refire="10" Precast="0.2" Postcast="0.1" />
     <Ability4 Name="Earthshaker (Close)" Dmg="200" Rank="60" Scaling="0.65" Type="Instant" Refire="90" Precast="0.3" Postcast="0.2" />
-    <Steroid1 Enabled="Enable Inferno Mark" Disabled="Disable Inferno Mark" />
+    <Steroid1>
+      <Enabled Name="Enable Inferno Mark" />
+      <Disabled Name="Disable Inferno Mark" />
+    </Steroid1>
     <Special1 Name="Inferno Shot" Dmg="227.25" Type="Instant" />
     <Special2 Name="Earthshaker (Far)" Dmg="1185.5" Type="Instant" Precast="0.3" Postcast="0.2" />
   </God>
@@ -473,7 +586,10 @@
     <Ability2 Name="Poison Darts (single dart)" Dmg="90" Rank="50" Scaling="1.6" Type="Instant" Refire="14" Precast="0.38" Postcast="0.1" />
     <Ability3 Name="Rising Jaguar" Dmg="80" Rank="50" Scaling="0.2" Type="Instant" Refire="16" Precast="0.27" Postcast="1.5" />
     <Ability4 Name="Darkest of Nights" Type="Instant" Refire="90" />
-    <Steroid1 Enabled="Enable Branching Bola" Disabled="Disable Branching Bola" />
+    <Steroid1>
+      <Enabled Name="Enable Branching Bola" />
+      <Disabled Name="Disable Branching Bola" />
+    </Steroid1>
     <Special1 Name="Poison Jaguar" Dmg="392.4" Type="Instant" Precast="0.27" Postcast="1.5" />
     <Special2 Name="Point Blank Darts" Dmg="854" Type="Instant" Precast="0.38" Postcast="0.1" />
   </God>
@@ -482,20 +598,29 @@
     <Ability2 Name="Glacial Strike" Dmg="90" Rank="70" Scaling="0.7" Type="Instant" Refire="8" Precast="0.45" Postcast="0.1" />
     <Ability3 Name="frost Breath" Dmg="50" Rank="40" Scaling="0.5" Type="Instant" Refire="18" Precast="0.38" Postcast="0.1" />
     <Ability4 Name="Shards of Ice" Dmg="500" Rank="150" Scaling="1.5" Type="Instant" Refire="70" Precast="0.76" Duration="2" />
-    <Steroid1 Enabled="Enable Frostbite" Disabled="Disable Frostbite" />
+    <Steroid1>
+      <Enabled Name="Enable Frostbite" />
+      <Disabled Name="Disable Frostbite" />
+    </Steroid1>
   </God>
   <God Name="Zeus" Type="Magical" HP="380" HPScale="71" PP="8" PPScale="2.7" MP="30" AS="0.87" ASScale="0.99" Atk="35" AtkScale="1.5" Mana="245" ManaScale="44" Passive="Overcharge" Hp5="6" Hp5Scale="0.45">
     <Ability1 Name="Chain Lightning" Dmg="45" Rank="40" Scaling="0.4" Type="Instant" Refire="8" Precast="0.34" Postcast="0.1" />
     <Ability2 Name="Aegis Shield" Type="Instant" Refire="15" Postcast="0.1" />
     <Ability3 Name="Detonate Charge" Dmg="165" Rank="60" Scaling="0.54" Type="Instant" Refire="10" Precast="0.38" Postcast="0.1" />
     <Ability4 Name="Lightning Storm" Dmg="500" Rank="100" Scaling="2.5" Type="Field" Refire="90" Postcast="0.6" Duration="5" />
-    <Steroid1 Enabled="Enable Overcharge" Disabled="Disable Overcharge" />
+    <Steroid1>
+      <Enabled Name="Enable Overcharge" />
+      <Disabled Name="Disable Overcharge" />
+    </Steroid1>
   </God>
   <God Name="Zhong Kui" Type="Magical" HP="400" HPScale="75" PP="8" PPScale="2.6" MP="30" AS="0.86" ASScale="1" Atk="33" AtkScale="1.5" Mana="250" ManaScale="47" Passive="Demon Bag" Hp5="6" Hp5Scale="0.44">
     <Ability1 Name="Expose evil" Dmg="100" Rank="50" Scaling="0.75" Type="Instant" Refire="10" Precast="0.4" Postcast="0.1" />
     <Ability2 Name="Exorcism" Dmg="75" Rank="50" Scaling="0.5" Type="Instant" Refire="10" Precast="0.5" Postcast="0.3" />
     <Ability3 Name="Book of Demons" Dmg="60" Rank="55" Scaling="0.5" Type="Instant" Refire="15" Postcast="1.5" />
     <Ability4 Name="Recall Demons" Dmg="400" Rank="75" Scaling="1" Type="Instant" Refire="90" Precast="0.5" />
-    <Steroid1 Enabled="Enable Book of Demons" Disabled="Disable Book of Demons" />
+    <Steroid1>
+      <Enabled Name="Enable Book of Demons" />
+      <Disabled Name="Disable Book of Demons" />
+    </Steroid1>
   </God>
 </ArrayOfGod>

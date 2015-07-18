@@ -68,11 +68,22 @@ namespace KrettCalc {
 
     [XmlType("Steroid")]
     public class GodSteroid {
-        [XmlAttribute("Enabled")]
-        public string NameEnable;
+        public GodSteroidState Enabled;
+        public GodSteroidState Disabled;
+    }
 
-        [XmlAttribute("Disabled")]
-        public string NameDisable;
+    [XmlType("SteroidState")]
+    public class GodSteroidState {
+        [XmlAttribute("Name")] 
+        public string Name;
+
+        [XmlAttribute("Power")] 
+        public double Power;
+
+        public bool ShouldSerializePower()
+        {
+            return Power > 0;
+        }
     }
 
     [XmlType("Special")]
@@ -202,11 +213,11 @@ namespace KrettCalc {
         }
 
         public bool ShouldSerializeFirstSteroid() {
-            return FirstSteroid != null && FirstSteroid.NameEnable != "";
+            return FirstSteroid != null && FirstSteroid.Enabled.Name != "";
         }
 
         public bool ShouldSerializeSecondSteroid() {
-            return SecondSteroid != null && SecondSteroid.NameEnable != "";
+            return SecondSteroid != null && SecondSteroid.Disabled.Name != "";
         }
 
         public bool ShouldSerializeFirstSpecial() {
