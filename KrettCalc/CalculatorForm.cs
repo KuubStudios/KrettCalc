@@ -45,6 +45,8 @@ namespace KrettCalc {
 
             targetGod.SelectedIndex = 0;
             selfGod.SelectedIndex = 0;
+
+            selfBellonaStance.SelectedIndex = 0;
         }
 
         private void sliderTargetGodLvl_ValueChanged(object sender, EventArgs e) {
