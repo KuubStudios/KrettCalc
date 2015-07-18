@@ -365,6 +365,8 @@ namespace KrettCalc {
                 selfSteroid2Drop.SelectedIndex = 0;
             }
 
+            selfBellonaStance.Enabled = god.Name == "Bellona";
+
             CalculateSelf();
         }
 
