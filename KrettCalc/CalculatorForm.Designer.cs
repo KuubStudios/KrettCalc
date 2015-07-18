@@ -125,6 +125,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.targetGod = new MetroFramework.Controls.MetroComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label65 = new System.Windows.Forms.Label();
+            this.selfBellonaStance = new MetroFramework.Controls.MetroComboBox();
             this.selfQinsDPS = new MetroFramework.Controls.MetroTextBox();
             this.label95 = new System.Windows.Forms.Label();
             this.selfHealthPercLabel = new System.Windows.Forms.Label();
@@ -255,8 +257,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
-            this.selfBellonaStance = new MetroFramework.Controls.MetroComboBox();
-            this.label65 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.targetItem6Pic)).BeginInit();
@@ -1665,6 +1665,31 @@
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label65.Location = new System.Drawing.Point(949, 315);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(103, 17);
+            this.label65.TabIndex = 294;
+            this.label65.Text = "Bellona Stance";
+            // 
+            // selfBellonaStance
+            // 
+            this.selfBellonaStance.FormattingEnabled = true;
+            this.selfBellonaStance.ItemHeight = 23;
+            this.selfBellonaStance.Items.AddRange(new object[] {
+            "Sword and Shield",
+            "Sword",
+            "Hammer",
+            "Scourge"});
+            this.selfBellonaStance.Location = new System.Drawing.Point(949, 335);
+            this.selfBellonaStance.Name = "selfBellonaStance";
+            this.selfBellonaStance.Size = new System.Drawing.Size(143, 29);
+            this.selfBellonaStance.TabIndex = 293;
+            this.selfBellonaStance.UseSelectable = true;
+            // 
             // selfQinsDPS
             // 
             this.selfQinsDPS.Lines = new string[] {
@@ -1723,7 +1748,6 @@
             this.selfHealthPerc.TabIndex = 288;
             this.selfHealthPerc.UseCustomBackColor = true;
             this.selfHealthPerc.Value = 1;
-            this.selfHealthPerc.Scroll += new System.Windows.Forms.ScrollEventHandler(this.selfHealthPerc_Scroll);
             // 
             // label92
             // 
@@ -3120,7 +3144,6 @@
             this.selfGodLvl.UseCustomBackColor = true;
             this.selfGodLvl.Value = 1;
             this.selfGodLvl.ValueChanged += new System.EventHandler(this.selfGodLvl_ValueChanged);
-            this.selfGodLvl.Scroll += new System.Windows.Forms.ScrollEventHandler(this.selfGodLvl_Scroll);
             // 
             // selfMagical
             // 
@@ -3200,31 +3223,6 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "KrettCalc \r\n3.0";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // selfBellonaStance
-            // 
-            this.selfBellonaStance.FormattingEnabled = true;
-            this.selfBellonaStance.ItemHeight = 23;
-            this.selfBellonaStance.Items.AddRange(new object[] {
-            "Sword and Shield",
-            "Sword",
-            "Hammer",
-            "Scourge"});
-            this.selfBellonaStance.Location = new System.Drawing.Point(949, 335);
-            this.selfBellonaStance.Name = "selfBellonaStance";
-            this.selfBellonaStance.Size = new System.Drawing.Size(143, 29);
-            this.selfBellonaStance.TabIndex = 293;
-            this.selfBellonaStance.UseSelectable = true;
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label65.Location = new System.Drawing.Point(949, 315);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(103, 17);
-            this.label65.TabIndex = 294;
-            this.label65.Text = "Bellona Stance";
             // 
             // CalculatorForm
             // 
