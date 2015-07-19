@@ -24,6 +24,8 @@ namespace KrettCalc {
         }
 
         private void CalculatorForm_Load(object sender, EventArgs e) {
+            dontCalculate = true;
+
             tabControl.Appearance = TabAppearance.FlatButtons;
             tabControl.ItemSize = new Size(0, 1);
             tabControl.SizeMode = TabSizeMode.Fixed;
@@ -47,6 +49,12 @@ namespace KrettCalc {
             selfGod.SelectedIndex = 0;
 
             selfBellonaStance.SelectedIndex = 0;
+
+            selfHealthPerc.Value = 100;
+
+            dontCalculate = false;
+            CalculateTarget();
+            CalculateSelf();
         }
 
         private void sliderTargetGodLvl_ValueChanged(object sender, EventArgs e) {
@@ -57,18 +65,22 @@ namespace KrettCalc {
 
         private void btnTab1_Click(object sender, EventArgs e) {
             tabControl.SelectedTab = tabPage1;
+            Text = btnTab1.Text;
         }
 
         private void btnTab2_Click(object sender, EventArgs e) {
             tabControl.SelectedTab = tabPage2;
+            Text = btnTab2.Text;
         }
 
         private void btnTab3_Click(object sender, EventArgs e) {
             tabControl.SelectedTab = tabPage3;
+            Text = btnTab3.Text;
         }
 
         private void btnTab4_Click(object sender, EventArgs e) {
             tabControl.SelectedTab = tabPage4;
+            Text = btnTab4.Text;
         }
 
         private void targetGod_SelectedIndexChanged(object sender, EventArgs e) {
@@ -376,6 +388,12 @@ namespace KrettCalc {
             CalculateSelf();
         }
 
+        private void selfHealthPerc_ValueChanged(object sender, EventArgs e) {
+            selfHealthPercLabel.Text = selfHealthPerc.Value.ToString();
+            calculations.SelfHealth = selfHealthPerc.Value;
+            CalculateSelf();
+        }
+
         private void selfItem1_SelectedIndexChanged(object sender, EventArgs e) {
             calculations.SelfItems.First = (ItemStat)selfItem1.SelectedItem;
             SetItem(selfItem1, selfItem1Cost, selfItem1Pic, false);
@@ -404,6 +422,6 @@ namespace KrettCalc {
         private void selfItem6_SelectedIndexChanged(object sender, EventArgs e) {
             calculations.SelfItems.Sixth = (ItemStat)selfItem6.SelectedItem;
             SetItem(selfItem6, selfItem6Cost, selfItem6Pic, false);
-        }
+        }       
     }
 }

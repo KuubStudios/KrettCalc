@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Security.Policy;
 
 namespace KrettCalc {
     public class Calculations {
@@ -21,6 +22,7 @@ namespace KrettCalc {
         public GodStat SelfGod { get; set; }
         public PlayerItems SelfItems { get; set; }
         public int SelfLevel { get; set; }
+        public int SelfHealth { get; set; }
 
         public double TargetBonusHealth {
             get { return TargetAdditionalHealth + (TargetItems.Any(i => i != null && i.Name == "Warlock's Sash") ? TargetWarlockStacks * 3 : 0); }

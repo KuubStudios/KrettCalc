@@ -1747,6 +1747,7 @@
             this.selfHealthPerc.TabIndex = 288;
             this.selfHealthPerc.UseCustomBackColor = true;
             this.selfHealthPerc.Value = 1;
+            this.selfHealthPerc.ValueChanged += new System.EventHandler(this.selfHealthPerc_ValueChanged);
             // 
             // label92
             // 
@@ -3236,7 +3237,7 @@
             this.Controls.Add(this.btnTab2);
             this.Controls.Add(this.btnTab1);
             this.Name = "CalculatorForm";
-            this.Text = "A title or something";
+            this.Text = "Target + Effective Health Calculator";
             this.Load += new System.EventHandler(this.CalculatorForm_Load);
             this.tabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
