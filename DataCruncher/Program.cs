@@ -90,21 +90,13 @@ namespace DataCruncher {
                     int god = gods.FindIndex(g => g.Name == name);
 
                     gods[god].FirstSteroid = new GodSteroid() {
-                        Enabled = new GodSteroidState() {
-                            Name = fields[i++],
-                        },
-                        Disabled = new GodSteroidState() {
-                            Name = fields[i++],
-                        }
+                        Enabled = fields[i++],
+                        Disabled = fields[i++]
                     };
 
                     gods[god].SecondSteroid = new GodSteroid() {
-                        Enabled = new GodSteroidState() {
-                            Name = fields[i++],
-                        },
-                        Disabled = new GodSteroidState() {
-                            Name = fields[i++],
-                        }
+                        Enabled = fields[i++],
+                        Disabled = fields[i++]
                     };
 
                     gods[god].FirstSpecial = new GodSpecial() {
@@ -133,6 +125,12 @@ namespace DataCruncher {
                         Postcast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
                         Duration = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture)
                     };
+
+                    string last = fields[fields.Length - 1];
+                    double v;
+                    if(!Double.TryParse(last, out v)) {
+                        gods[god].Extra = last;
+                    }
                 }
             }
 

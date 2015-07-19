@@ -328,8 +328,9 @@ namespace KrettCalc {
             if(dontCalculate) return;
 
             double cost = calculations.SelfItems.Sum(i => i == null ? 0 : i.Cost);
-
             selfItemsTotalCost.Text = cost.ToString(CultureInfo.InvariantCulture);
+
+            selfInhandDamage.Text = calculations.SelfInHandDamage.ToString(CultureInfo.InvariantCulture);
         }
 
         private void selfGod_SelectedIndexChanged(object sender, EventArgs e) {
@@ -388,18 +389,30 @@ namespace KrettCalc {
             selfSteroid2Drop.Items.Clear();
             selfSteroid2Drop.Invalidate();
 
-            if(god.FirstSteroid != null) {
-                if(god.FirstSteroid.Enabled.Name != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.Enabled.Name);
-                if(god.FirstSteroid.Disabled.Name != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.Disabled.Name);
+            selfSteroid1Drop.Enabled = god.FirstSteroid != null;
+            if(selfSteroid1Drop.Enabled) {
+                if(!String.IsNullOrEmpty(god.FirstSteroid.Enabled)) selfSteroid1Drop.Items.Add(god.FirstSteroid.Enabled);
+                if(!String.IsNullOrEmpty(god.FirstSteroid.Disabled)) selfSteroid1Drop.Items.Add(god.FirstSteroid.Disabled);
 
                 selfSteroid1Drop.SelectedIndex = 0;
             }
 
-            if(god.SecondSteroid != null) {
-                if(god.SecondSteroid.Enabled.Name != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.Enabled.Name);
-                if(god.SecondSteroid.Disabled.Name != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.Disabled.Name);
+            selfSteroid2Drop.Enabled = god.SecondSteroid != null;
+            if(selfSteroid2Drop.Enabled) {
+                if(!String.IsNullOrEmpty(god.SecondSteroid.Enabled)) selfSteroid2Drop.Items.Add(god.SecondSteroid.Enabled);
+                if(!String.IsNullOrEmpty(god.SecondSteroid.Disabled)) selfSteroid2Drop.Items.Add(god.SecondSteroid.Disabled);
 
                 selfSteroid2Drop.SelectedIndex = 0;
+            }
+
+            selfSteroid1Stacks.Enabled = !String.IsNullOrEmpty(god.Extra);
+            selfSteroid1StacksLabel.Text = selfSteroid1Stacks.Enabled ? god.Extra : "Unused";
+
+            selfSteroid2Stacks.Enabled = god.Name == "Bakasura" || god.Name == "Ah Puch";
+            if(selfSteroid2Stacks.Enabled) {
+                selfSteroid2StacksLabel.Text = god.Name == "Bakasura" ? "Insatiable Hunger Stacks? 0-3" : "Antiheal Stacks? 0-10";
+            } else {
+                selfSteroid2StacksLabel.Text = "Unused";
             }
 
             selfBellonaStance.Enabled = god.Name == "Bellona";

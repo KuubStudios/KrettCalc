@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System;
+using System.Xml.Serialization;
 
 namespace KrettCalc {
     public enum AbilityType {
@@ -68,20 +69,14 @@ namespace KrettCalc {
 
     [XmlType("Steroid")]
     public class GodSteroid {
-        public GodSteroidState Enabled;
-        public GodSteroidState Disabled;
-    }
+        [XmlAttribute]
+        public string Enabled;
 
-    [XmlType("SteroidState")]
-    public class GodSteroidState {
-        [XmlAttribute("Name")]
-        public string Name;
+        [XmlAttribute]
+        public string Disabled;
 
-        [XmlAttribute("Power")]
-        public double Power;
-
-        public bool ShouldSerializePower() {
-            return Power > 0;
+        public bool ShouldSerializeDisabled() {
+            return Disabled != "";
         }
     }
 
@@ -198,6 +193,9 @@ namespace KrettCalc {
         [XmlElement("Steroid2")]
         public GodSteroid SecondSteroid;
 
+        [XmlAttribute]
+        public string Extra;
+
         [XmlElement("Special1")]
         public GodSpecial FirstSpecial;
 
@@ -212,11 +210,15 @@ namespace KrettCalc {
         }
 
         public bool ShouldSerializeFirstSteroid() {
-            return FirstSteroid != null && FirstSteroid.Enabled.Name != "";
+            return FirstSteroid != null && FirstSteroid.Enabled != "";
         }
 
         public bool ShouldSerializeSecondSteroid() {
-            return SecondSteroid != null && SecondSteroid.Disabled.Name != "";
+            return SecondSteroid != null && SecondSteroid.Enabled != "";
+        }
+
+        public bool ShouldSerializeExtra() {
+            return !String.IsNullOrEmpty(Extra);
         }
 
         public bool ShouldSerializeFirstSpecial() {

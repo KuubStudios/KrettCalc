@@ -145,13 +145,13 @@
             this.selfMitigatedDamage = new MetroFramework.Controls.MetroTextBox();
             this.label87 = new System.Windows.Forms.Label();
             this.selfSteroid2Stacks = new MetroFramework.Controls.MetroTextBox();
-            this.label83 = new System.Windows.Forms.Label();
+            this.selfSteroid2StacksLabel = new System.Windows.Forms.Label();
             this.selfSteroid2Drop = new MetroFramework.Controls.MetroComboBox();
             this.label84 = new System.Windows.Forms.Label();
             this.selfRawDamage = new MetroFramework.Controls.MetroTextBox();
             this.label86 = new System.Windows.Forms.Label();
             this.selfSteroid1Stacks = new MetroFramework.Controls.MetroTextBox();
-            this.label85 = new System.Windows.Forms.Label();
+            this.selfSteroid1StacksLabel = new System.Windows.Forms.Label();
             this.selfSteroid1Drop = new MetroFramework.Controls.MetroComboBox();
             this.label82 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
@@ -1547,13 +1547,13 @@
             this.tabPage2.Controls.Add(this.selfMitigatedDamage);
             this.tabPage2.Controls.Add(this.label87);
             this.tabPage2.Controls.Add(this.selfSteroid2Stacks);
-            this.tabPage2.Controls.Add(this.label83);
+            this.tabPage2.Controls.Add(this.selfSteroid2StacksLabel);
             this.tabPage2.Controls.Add(this.selfSteroid2Drop);
             this.tabPage2.Controls.Add(this.label84);
             this.tabPage2.Controls.Add(this.selfRawDamage);
             this.tabPage2.Controls.Add(this.label86);
             this.tabPage2.Controls.Add(this.selfSteroid1Stacks);
-            this.tabPage2.Controls.Add(this.label85);
+            this.tabPage2.Controls.Add(this.selfSteroid1StacksLabel);
             this.tabPage2.Controls.Add(this.selfSteroid1Drop);
             this.tabPage2.Controls.Add(this.label82);
             this.tabPage2.Controls.Add(this.panel17);
@@ -1661,7 +1661,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1142, 631);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "self";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label65
@@ -1778,7 +1778,7 @@
             // 
             this.selfMitiBurstDPS.Lines = new string[] {
         "0"};
-            this.selfMitiBurstDPS.Location = new System.Drawing.Point(997, 570);
+            this.selfMitiBurstDPS.Location = new System.Drawing.Point(997, 575);
             this.selfMitiBurstDPS.MaxLength = 32767;
             this.selfMitiBurstDPS.Multiline = true;
             this.selfMitiBurstDPS.Name = "selfMitiBurstDPS";
@@ -1795,7 +1795,7 @@
             // 
             this.label90.AutoSize = true;
             this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label90.Location = new System.Drawing.Point(991, 547);
+            this.label90.Location = new System.Drawing.Point(991, 552);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(134, 17);
             this.label90.TabIndex = 284;
@@ -1832,7 +1832,7 @@
             // 
             this.selfMitiCycleDPS.Lines = new string[] {
         "0"};
-            this.selfMitiCycleDPS.Location = new System.Drawing.Point(855, 570);
+            this.selfMitiCycleDPS.Location = new System.Drawing.Point(855, 575);
             this.selfMitiCycleDPS.MaxLength = 32767;
             this.selfMitiCycleDPS.Multiline = true;
             this.selfMitiCycleDPS.Name = "selfMitiCycleDPS";
@@ -1849,7 +1849,7 @@
             // 
             this.label88.AutoSize = true;
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label88.Location = new System.Drawing.Point(849, 547);
+            this.label88.Location = new System.Drawing.Point(849, 552);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(135, 17);
             this.label88.TabIndex = 280;
@@ -1886,7 +1886,7 @@
             // 
             this.selfMitigatedDamage.Lines = new string[] {
         "0"};
-            this.selfMitigatedDamage.Location = new System.Drawing.Point(726, 570);
+            this.selfMitigatedDamage.Location = new System.Drawing.Point(726, 575);
             this.selfMitigatedDamage.MaxLength = 32767;
             this.selfMitigatedDamage.Multiline = true;
             this.selfMitigatedDamage.Name = "selfMitigatedDamage";
@@ -1903,7 +1903,7 @@
             // 
             this.label87.AutoSize = true;
             this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label87.Location = new System.Drawing.Point(720, 547);
+            this.label87.Location = new System.Drawing.Point(720, 552);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(122, 17);
             this.label87.TabIndex = 276;
@@ -1913,7 +1913,7 @@
             // 
             this.selfSteroid2Stacks.Lines = new string[] {
         "0"};
-            this.selfSteroid2Stacks.Location = new System.Drawing.Point(578, 570);
+            this.selfSteroid2Stacks.Location = new System.Drawing.Point(578, 575);
             this.selfSteroid2Stacks.MaxLength = 32767;
             this.selfSteroid2Stacks.Multiline = true;
             this.selfSteroid2Stacks.Name = "selfSteroid2Stacks";
@@ -1926,15 +1926,15 @@
             this.selfSteroid2Stacks.Text = "0";
             this.selfSteroid2Stacks.UseSelectable = true;
             // 
-            // label83
+            // selfSteroid2StacksLabel
             // 
-            this.label83.AutoSize = true;
-            this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label83.Location = new System.Drawing.Point(572, 547);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(119, 17);
-            this.label83.TabIndex = 274;
-            this.label83.Text = "Steroid 2 Stacks?";
+            this.selfSteroid2StacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfSteroid2StacksLabel.Location = new System.Drawing.Point(575, 535);
+            this.selfSteroid2StacksLabel.Name = "selfSteroid2StacksLabel";
+            this.selfSteroid2StacksLabel.Size = new System.Drawing.Size(133, 34);
+            this.selfSteroid2StacksLabel.TabIndex = 274;
+            this.selfSteroid2StacksLabel.Text = "Steroid 2 Stacks?";
+            this.selfSteroid2StacksLabel.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // selfSteroid2Drop
             // 
@@ -1987,7 +1987,7 @@
             // 
             this.selfSteroid1Stacks.Lines = new string[] {
         "0"};
-            this.selfSteroid1Stacks.Location = new System.Drawing.Point(437, 570);
+            this.selfSteroid1Stacks.Location = new System.Drawing.Point(434, 575);
             this.selfSteroid1Stacks.MaxLength = 32767;
             this.selfSteroid1Stacks.Multiline = true;
             this.selfSteroid1Stacks.Name = "selfSteroid1Stacks";
@@ -2000,15 +2000,15 @@
             this.selfSteroid1Stacks.Text = "0";
             this.selfSteroid1Stacks.UseSelectable = true;
             // 
-            // label85
+            // selfSteroid1StacksLabel
             // 
-            this.label85.AutoSize = true;
-            this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label85.Location = new System.Drawing.Point(431, 547);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(119, 17);
-            this.label85.TabIndex = 266;
-            this.label85.Text = "Steroid 1 Stacks?";
+            this.selfSteroid1StacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfSteroid1StacksLabel.Location = new System.Drawing.Point(431, 535);
+            this.selfSteroid1StacksLabel.Name = "selfSteroid1StacksLabel";
+            this.selfSteroid1StacksLabel.Size = new System.Drawing.Size(133, 34);
+            this.selfSteroid1StacksLabel.TabIndex = 266;
+            this.selfSteroid1StacksLabel.Text = "Steroid 1 Stacks?";
+            this.selfSteroid1StacksLabel.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // selfSteroid1Drop
             // 
@@ -3441,13 +3441,13 @@
         private MetroFramework.Controls.MetroTextBox selfMitigatedDamage;
         private System.Windows.Forms.Label label87;
         private MetroFramework.Controls.MetroTextBox selfSteroid2Stacks;
-        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.Label selfSteroid2StacksLabel;
         private MetroFramework.Controls.MetroComboBox selfSteroid2Drop;
         private System.Windows.Forms.Label label84;
         private MetroFramework.Controls.MetroTextBox selfRawDamage;
         private System.Windows.Forms.Label label86;
         private MetroFramework.Controls.MetroTextBox selfSteroid1Stacks;
-        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Label selfSteroid1StacksLabel;
         private MetroFramework.Controls.MetroComboBox selfSteroid1Drop;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Panel panel17;
