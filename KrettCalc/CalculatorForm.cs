@@ -352,15 +352,15 @@ namespace KrettCalc {
             selfSteroid2Drop.Invalidate();
 
             if(god.FirstSteroid != null) {
-                if (god.FirstSteroid.Enabled.Name != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.Enabled.Name);
-                if (god.FirstSteroid.Disabled.Name != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.Disabled.Name);
+                if(god.FirstSteroid.Enabled.Name != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.Enabled.Name);
+                if(god.FirstSteroid.Disabled.Name != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.Disabled.Name);
 
                 selfSteroid1Drop.SelectedIndex = 0;
             }
 
             if(god.SecondSteroid != null) {
-                if (god.SecondSteroid.Enabled.Name != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.Enabled.Name);
-                if (god.SecondSteroid.Disabled.Name != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.Disabled.Name);
+                if(god.SecondSteroid.Enabled.Name != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.Enabled.Name);
+                if(god.SecondSteroid.Disabled.Name != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.Disabled.Name);
 
                 selfSteroid2Drop.SelectedIndex = 0;
             }

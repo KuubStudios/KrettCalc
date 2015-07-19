@@ -74,14 +74,13 @@ namespace KrettCalc {
 
     [XmlType("SteroidState")]
     public class GodSteroidState {
-        [XmlAttribute("Name")] 
+        [XmlAttribute("Name")]
         public string Name;
 
-        [XmlAttribute("Power")] 
+        [XmlAttribute("Power")]
         public double Power;
 
-        public bool ShouldSerializePower()
-        {
+        public bool ShouldSerializePower() {
             return Power > 0;
         }
     }
