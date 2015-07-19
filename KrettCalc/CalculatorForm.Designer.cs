@@ -2158,7 +2158,7 @@
             // 
             this.selfDoomStacksLabel.AutoSize = true;
             this.selfDoomStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfDoomStacksLabel.Location = new System.Drawing.Point(1090, 283);
+            this.selfDoomStacksLabel.Location = new System.Drawing.Point(915, 337);
             this.selfDoomStacksLabel.Name = "selfDoomStacksLabel";
             this.selfDoomStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfDoomStacksLabel.TabIndex = 247;
@@ -2167,7 +2167,7 @@
             // selfDoomStacks
             // 
             this.selfDoomStacks.BackColor = System.Drawing.Color.Transparent;
-            this.selfDoomStacks.Location = new System.Drawing.Point(952, 281);
+            this.selfDoomStacks.Location = new System.Drawing.Point(776, 335);
             this.selfDoomStacks.Maximum = 10;
             this.selfDoomStacks.Name = "selfDoomStacks";
             this.selfDoomStacks.Size = new System.Drawing.Size(133, 22);
@@ -2181,7 +2181,7 @@
             // 
             this.label77.AutoSize = true;
             this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label77.Location = new System.Drawing.Point(949, 261);
+            this.label77.Location = new System.Drawing.Point(773, 315);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(119, 17);
             this.label77.TabIndex = 245;
@@ -2191,7 +2191,7 @@
             // 
             this.selfAncileStacksLabel.AutoSize = true;
             this.selfAncileStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfAncileStacksLabel.Location = new System.Drawing.Point(912, 337);
+            this.selfAncileStacksLabel.Location = new System.Drawing.Point(1088, 283);
             this.selfAncileStacksLabel.Name = "selfAncileStacksLabel";
             this.selfAncileStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfAncileStacksLabel.TabIndex = 244;
@@ -2200,7 +2200,7 @@
             // selfAncileStacks
             // 
             this.selfAncileStacks.BackColor = System.Drawing.Color.Transparent;
-            this.selfAncileStacks.Location = new System.Drawing.Point(776, 335);
+            this.selfAncileStacks.Location = new System.Drawing.Point(949, 281);
             this.selfAncileStacks.Maximum = 60;
             this.selfAncileStacks.Name = "selfAncileStacks";
             this.selfAncileStacks.Size = new System.Drawing.Size(133, 22);
@@ -2214,7 +2214,7 @@
             // 
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label73.Location = new System.Drawing.Point(773, 315);
+            this.label73.Location = new System.Drawing.Point(946, 261);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(92, 17);
             this.label73.TabIndex = 242;
@@ -2224,7 +2224,7 @@
             // 
             this.selfHeartStacksLabel.AutoSize = true;
             this.selfHeartStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfHeartStacksLabel.Location = new System.Drawing.Point(912, 283);
+            this.selfHeartStacksLabel.Location = new System.Drawing.Point(915, 283);
             this.selfHeartStacksLabel.Name = "selfHeartStacksLabel";
             this.selfHeartStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfHeartStacksLabel.TabIndex = 241;
@@ -2257,7 +2257,7 @@
             // 
             this.selfWarlockStacksLabel.AutoSize = true;
             this.selfWarlockStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfWarlockStacksLabel.Location = new System.Drawing.Point(741, 337);
+            this.selfWarlockStacksLabel.Location = new System.Drawing.Point(744, 337);
             this.selfWarlockStacksLabel.Name = "selfWarlockStacksLabel";
             this.selfWarlockStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfWarlockStacksLabel.TabIndex = 238;
@@ -2289,7 +2289,7 @@
             // 
             this.selfTransStacksLabel.AutoSize = true;
             this.selfTransStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfTransStacksLabel.Location = new System.Drawing.Point(741, 283);
+            this.selfTransStacksLabel.Location = new System.Drawing.Point(744, 283);
             this.selfTransStacksLabel.Name = "selfTransStacksLabel";
             this.selfTransStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfTransStacksLabel.TabIndex = 235;
@@ -2322,7 +2322,7 @@
             // 
             this.selfThothStacksLabel.AutoSize = true;
             this.selfThothStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfThothStacksLabel.Location = new System.Drawing.Point(570, 337);
+            this.selfThothStacksLabel.Location = new System.Drawing.Point(573, 337);
             this.selfThothStacksLabel.Name = "selfThothStacksLabel";
             this.selfThothStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfThothStacksLabel.TabIndex = 232;
@@ -2355,7 +2355,7 @@
             // 
             this.selfDevoStacksLabel.AutoSize = true;
             this.selfDevoStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfDevoStacksLabel.Location = new System.Drawing.Point(570, 283);
+            this.selfDevoStacksLabel.Location = new System.Drawing.Point(573, 283);
             this.selfDevoStacksLabel.Name = "selfDevoStacksLabel";
             this.selfDevoStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfDevoStacksLabel.TabIndex = 229;
