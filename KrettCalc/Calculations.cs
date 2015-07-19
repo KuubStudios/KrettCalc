@@ -24,6 +24,14 @@ namespace KrettCalc {
         public int SelfLevel { get; set; }
         public int SelfHealth { get; set; }
 
+        public int SelfDevourerStacks { get; set; }
+        public int SelfTranscendenceStacks { get; set; }
+        public int SelfHeartseekerStacks { get; set; }
+        public int SelfAncileStacks { get; set; }
+        public int SelfDoomOrbStacks { get; set; }
+        public int SelfThothStacks { get; set; }
+        public int SelfWarlockStacks { get; set; }
+
         public double TargetBonusHealth {
             get { return TargetAdditionalHealth + (TargetItems.Any(i => i != null && i.Name == "Warlock's Sash") ? TargetWarlockStacks * 3 : 0); }
         }

@@ -144,9 +144,34 @@ namespace KrettCalc {
 
             if(target) {
                 targetWarlockStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Warlock's Sash");
+                if(!targetWarlockStacks.Enabled) calculations.TargetWarlockStacks = 0;
+
                 targetUrchinStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Hide of the Urchin");
+                if(!targetUrchinStacks.Enabled) calculations.TargetUrchinStacks = 0;
+
                 CalculateTarget();
             } else {
+                selfDevoStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Devourer's Gauntlet");
+                if(!selfDevoStacks.Enabled) calculations.SelfDevourerStacks = 0;
+
+                selfTransStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Transcendence");
+                if(!selfTransStacks.Enabled) calculations.SelfTranscendenceStacks = 0;
+
+                selfHeartStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Heartseeker");
+                if(!selfHeartStacks.Enabled) calculations.SelfHeartseekerStacks = 0;
+
+                selfDoomStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Doom Orb");
+                if(!selfDoomStacks.Enabled) calculations.SelfDoomOrbStacks = 0;
+
+                selfThothStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Book of Thoth");
+                if(!selfThothStacks.Enabled) calculations.SelfThothStacks = 0;
+
+                selfWarlockStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Warlock's Sash");
+                if(!selfWarlockStacks.Enabled) calculations.SelfWarlockStacks = 0;
+
+                selfAncileStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Ancile");
+                if(!selfAncileStacks.Enabled) calculations.SelfAncileStacks = 0;
+
                 CalculateSelf();
             }
         }
@@ -422,6 +447,48 @@ namespace KrettCalc {
         private void selfItem6_SelectedIndexChanged(object sender, EventArgs e) {
             calculations.SelfItems.Sixth = (ItemStat)selfItem6.SelectedItem;
             SetItem(selfItem6, selfItem6Cost, selfItem6Pic, false);
-        }       
+        }
+
+        private void selfDevoStacks_ValueChanged(object sender, EventArgs e) {
+            selfDevoStacksLabel.Text = selfDevoStacks.Value.ToString();
+            calculations.SelfDevourerStacks = selfDevoStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfTransStacks_ValueChanged(object sender, EventArgs e) {
+            selfTransStacksLabel.Text = selfTransStacks.Value.ToString();
+            calculations.SelfTranscendenceStacks = selfTransStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfHeartStacks_ValueChanged(object sender, EventArgs e) {
+            selfHeartStacksLabel.Text = selfHeartStacks.Value.ToString();
+            calculations.SelfHeartseekerStacks = selfHeartStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfDoomStacks_ValueChanged(object sender, EventArgs e) {
+            selfDoomStacksLabel.Text = selfDoomStacks.Value.ToString();
+            calculations.SelfDoomOrbStacks = selfDoomStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfThothStacks_ValueChanged(object sender, EventArgs e) {
+            selfThothStacksLabel.Text = selfThothStacks.Value.ToString();
+            calculations.SelfThothStacks = selfThothStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfWarlockStacks_ValueChanged(object sender, EventArgs e) {
+            selfWarlockStacksLabel.Text = selfWarlockStacks.Value.ToString();
+            calculations.SelfWarlockStacks = selfWarlockStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfAncileStacks_ValueChanged(object sender, EventArgs e) {
+            selfAncileStacksLabel.Text = selfAncileStacks.Value.ToString();
+            calculations.SelfAncileStacks = selfAncileStacks.Value;
+            CalculateSelf();
+        }
     }
 }

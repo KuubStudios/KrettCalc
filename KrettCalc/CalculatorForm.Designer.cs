@@ -183,8 +183,8 @@
             this.selfThothStacksLabel = new System.Windows.Forms.Label();
             this.selfThothStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label66 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.selfDevoStacksLabel = new MetroFramework.Controls.MetroTrackBar();
+            this.selfDevoStacksLabel = new System.Windows.Forms.Label();
+            this.selfDevoStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label70 = new System.Windows.Forms.Label();
             this.selfObowDPS = new MetroFramework.Controls.MetroTextBox();
             this.label63 = new System.Windows.Forms.Label();
@@ -1585,8 +1585,8 @@
             this.tabPage2.Controls.Add(this.selfThothStacksLabel);
             this.tabPage2.Controls.Add(this.selfThothStacks);
             this.tabPage2.Controls.Add(this.label66);
-            this.tabPage2.Controls.Add(this.label64);
             this.tabPage2.Controls.Add(this.selfDevoStacksLabel);
+            this.tabPage2.Controls.Add(this.selfDevoStacks);
             this.tabPage2.Controls.Add(this.label70);
             this.tabPage2.Controls.Add(this.selfObowDPS);
             this.tabPage2.Controls.Add(this.label63);
@@ -2158,7 +2158,7 @@
             // 
             this.selfDoomStacksLabel.AutoSize = true;
             this.selfDoomStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfDoomStacksLabel.Location = new System.Drawing.Point(1082, 283);
+            this.selfDoomStacksLabel.Location = new System.Drawing.Point(1090, 283);
             this.selfDoomStacksLabel.Name = "selfDoomStacksLabel";
             this.selfDoomStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfDoomStacksLabel.TabIndex = 247;
@@ -2168,11 +2168,14 @@
             // 
             this.selfDoomStacks.BackColor = System.Drawing.Color.Transparent;
             this.selfDoomStacks.Location = new System.Drawing.Point(952, 281);
+            this.selfDoomStacks.Maximum = 10;
             this.selfDoomStacks.Name = "selfDoomStacks";
             this.selfDoomStacks.Size = new System.Drawing.Size(133, 22);
             this.selfDoomStacks.TabIndex = 246;
             this.selfDoomStacks.Text = "metroTrackBar7";
             this.selfDoomStacks.UseCustomBackColor = true;
+            this.selfDoomStacks.Value = 0;
+            this.selfDoomStacks.ValueChanged += new System.EventHandler(this.selfDoomStacks_ValueChanged);
             // 
             // label77
             // 
@@ -2198,11 +2201,14 @@
             // 
             this.selfAncileStacks.BackColor = System.Drawing.Color.Transparent;
             this.selfAncileStacks.Location = new System.Drawing.Point(776, 335);
+            this.selfAncileStacks.Maximum = 60;
             this.selfAncileStacks.Name = "selfAncileStacks";
             this.selfAncileStacks.Size = new System.Drawing.Size(133, 22);
             this.selfAncileStacks.TabIndex = 243;
             this.selfAncileStacks.Text = "metroTrackBar5";
             this.selfAncileStacks.UseCustomBackColor = true;
+            this.selfAncileStacks.Value = 0;
+            this.selfAncileStacks.ValueChanged += new System.EventHandler(this.selfAncileStacks_ValueChanged);
             // 
             // label73
             // 
@@ -2228,11 +2234,14 @@
             // 
             this.selfHeartStacks.BackColor = System.Drawing.Color.Transparent;
             this.selfHeartStacks.Location = new System.Drawing.Point(776, 281);
+            this.selfHeartStacks.Maximum = 10;
             this.selfHeartStacks.Name = "selfHeartStacks";
             this.selfHeartStacks.Size = new System.Drawing.Size(133, 22);
             this.selfHeartStacks.TabIndex = 240;
             this.selfHeartStacks.Text = "metroTrackBar6";
             this.selfHeartStacks.UseCustomBackColor = true;
+            this.selfHeartStacks.Value = 0;
+            this.selfHeartStacks.ValueChanged += new System.EventHandler(this.selfHeartStacks_ValueChanged);
             // 
             // label75
             // 
@@ -2263,6 +2272,8 @@
             this.selfWarlockStacks.TabIndex = 237;
             this.selfWarlockStacks.Text = "metroTrackBar3";
             this.selfWarlockStacks.UseCustomBackColor = true;
+            this.selfWarlockStacks.Value = 0;
+            this.selfWarlockStacks.ValueChanged += new System.EventHandler(this.selfWarlockStacks_ValueChanged);
             // 
             // label68
             // 
@@ -2288,11 +2299,14 @@
             // 
             this.selfTransStacks.BackColor = System.Drawing.Color.Transparent;
             this.selfTransStacks.Location = new System.Drawing.Point(605, 281);
+            this.selfTransStacks.Maximum = 50;
             this.selfTransStacks.Name = "selfTransStacks";
             this.selfTransStacks.Size = new System.Drawing.Size(133, 22);
             this.selfTransStacks.TabIndex = 234;
             this.selfTransStacks.Text = "metroTrackBar4";
             this.selfTransStacks.UseCustomBackColor = true;
+            this.selfTransStacks.Value = 0;
+            this.selfTransStacks.ValueChanged += new System.EventHandler(this.selfTransStacks_ValueChanged);
             // 
             // label71
             // 
@@ -2318,11 +2332,14 @@
             // 
             this.selfThothStacks.BackColor = System.Drawing.Color.Transparent;
             this.selfThothStacks.Location = new System.Drawing.Point(434, 335);
+            this.selfThothStacks.Maximum = 75;
             this.selfThothStacks.Name = "selfThothStacks";
             this.selfThothStacks.Size = new System.Drawing.Size(133, 22);
             this.selfThothStacks.TabIndex = 231;
             this.selfThothStacks.Text = "metroTrackBar2";
             this.selfThothStacks.UseCustomBackColor = true;
+            this.selfThothStacks.Value = 0;
+            this.selfThothStacks.ValueChanged += new System.EventHandler(this.selfThothStacks_ValueChanged);
             // 
             // label66
             // 
@@ -2334,25 +2351,28 @@
             this.label66.TabIndex = 230;
             this.label66.Text = "Thoth Stacks";
             // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label64.Location = new System.Drawing.Point(570, 283);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(16, 17);
-            this.label64.TabIndex = 229;
-            this.label64.Text = "0";
-            // 
             // selfDevoStacksLabel
             // 
-            this.selfDevoStacksLabel.BackColor = System.Drawing.Color.Transparent;
-            this.selfDevoStacksLabel.Location = new System.Drawing.Point(434, 281);
+            this.selfDevoStacksLabel.AutoSize = true;
+            this.selfDevoStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfDevoStacksLabel.Location = new System.Drawing.Point(570, 283);
             this.selfDevoStacksLabel.Name = "selfDevoStacksLabel";
-            this.selfDevoStacksLabel.Size = new System.Drawing.Size(133, 22);
-            this.selfDevoStacksLabel.TabIndex = 228;
-            this.selfDevoStacksLabel.Text = "metroTrackBar1";
-            this.selfDevoStacksLabel.UseCustomBackColor = true;
+            this.selfDevoStacksLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfDevoStacksLabel.TabIndex = 229;
+            this.selfDevoStacksLabel.Text = "0";
+            // 
+            // selfDevoStacks
+            // 
+            this.selfDevoStacks.BackColor = System.Drawing.Color.Transparent;
+            this.selfDevoStacks.Location = new System.Drawing.Point(434, 281);
+            this.selfDevoStacks.Maximum = 75;
+            this.selfDevoStacks.Name = "selfDevoStacks";
+            this.selfDevoStacks.Size = new System.Drawing.Size(133, 22);
+            this.selfDevoStacks.TabIndex = 228;
+            this.selfDevoStacks.Text = "metroTrackBar1";
+            this.selfDevoStacks.UseCustomBackColor = true;
+            this.selfDevoStacks.Value = 0;
+            this.selfDevoStacks.ValueChanged += new System.EventHandler(this.selfDevoStacks_ValueChanged);
             // 
             // label70
             // 
@@ -3459,8 +3479,8 @@
         private System.Windows.Forms.Label selfThothStacksLabel;
         private MetroFramework.Controls.MetroTrackBar selfThothStacks;
         private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label64;
-        private MetroFramework.Controls.MetroTrackBar selfDevoStacksLabel;
+        private System.Windows.Forms.Label selfDevoStacksLabel;
+        private MetroFramework.Controls.MetroTrackBar selfDevoStacks;
         private System.Windows.Forms.Label label70;
         private MetroFramework.Controls.MetroTextBox selfObowDPS;
         private System.Windows.Forms.Label label63;
