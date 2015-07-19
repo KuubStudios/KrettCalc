@@ -14,6 +14,9 @@ namespace KrettCalc {
         [XmlAttribute]
         public string Name;
 
+        [XmlIgnore]
+        public int CurrentLevel;
+
         [XmlAttribute("Dmg")]
         public double BaseDamage;
 

@@ -1688,6 +1688,7 @@
             this.selfBellonaStance.Size = new System.Drawing.Size(143, 29);
             this.selfBellonaStance.TabIndex = 293;
             this.selfBellonaStance.UseSelectable = true;
+            this.selfBellonaStance.SelectedIndexChanged += new System.EventHandler(this.selfBellonaStance_SelectedIndexChanged);
             // 
             // selfQinsDPS
             // 
@@ -1773,6 +1774,7 @@
             this.selfAchillesToggle.Text = "On";
             this.selfAchillesToggle.UseCustomBackColor = true;
             this.selfAchillesToggle.UseSelectable = true;
+            this.selfAchillesToggle.CheckedChanged += new System.EventHandler(this.selfAchillesToggle_CheckedChanged);
             // 
             // selfMitiBurstDPS
             // 
@@ -1945,6 +1947,7 @@
             this.selfSteroid2Drop.Size = new System.Drawing.Size(133, 29);
             this.selfSteroid2Drop.TabIndex = 273;
             this.selfSteroid2Drop.UseSelectable = true;
+            this.selfSteroid2Drop.SelectedIndexChanged += new System.EventHandler(this.selfSteroid2Drop_SelectedIndexChanged);
             // 
             // label84
             // 
@@ -2019,6 +2022,7 @@
             this.selfSteroid1Drop.Size = new System.Drawing.Size(133, 29);
             this.selfSteroid1Drop.TabIndex = 264;
             this.selfSteroid1Drop.UseSelectable = true;
+            this.selfSteroid1Drop.SelectedIndexChanged += new System.EventHandler(this.selfSteroid1Drop_SelectedIndexChanged);
             // 
             // label82
             // 
@@ -2062,6 +2066,7 @@
             this.selfPythagToggle.Text = "On";
             this.selfPythagToggle.UseCustomBackColor = true;
             this.selfPythagToggle.UseSelectable = true;
+            this.selfPythagToggle.CheckedChanged += new System.EventHandler(this.selfPythagToggle_CheckedChanged);
             // 
             // label80
             // 
@@ -2087,6 +2092,7 @@
             this.selfPurpleBuffToggle.Text = "On";
             this.selfPurpleBuffToggle.UseCustomBackColor = true;
             this.selfPurpleBuffToggle.UseSelectable = true;
+            this.selfPurpleBuffToggle.CheckedChanged += new System.EventHandler(this.selfPurpleBuffToggle_CheckedChanged);
             // 
             // label79
             // 
@@ -2112,6 +2118,7 @@
             this.selfVoidstoneToggle.Text = "On";
             this.selfVoidstoneToggle.UseCustomBackColor = true;
             this.selfVoidstoneToggle.UseSelectable = true;
+            this.selfVoidstoneToggle.CheckedChanged += new System.EventHandler(this.selfVoidstoneToggle_CheckedChanged);
             // 
             // label78
             // 
@@ -2137,6 +2144,7 @@
             this.selfRedBuffToggle.Text = "On";
             this.selfRedBuffToggle.UseCustomBackColor = true;
             this.selfRedBuffToggle.UseSelectable = true;
+            this.selfRedBuffToggle.CheckedChanged += new System.EventHandler(this.selfRedBuffToggle_CheckedChanged);
             // 
             // panel16
             // 

@@ -395,6 +395,8 @@ namespace KrettCalc {
                 if(!String.IsNullOrEmpty(god.FirstSteroid.Disabled)) selfSteroid1Drop.Items.Add(god.FirstSteroid.Disabled);
 
                 selfSteroid1Drop.SelectedIndex = 0;
+            } else {
+                calculations.SelfSteroid1 = "";
             }
 
             selfSteroid2Drop.Enabled = god.SecondSteroid != null;
@@ -403,6 +405,8 @@ namespace KrettCalc {
                 if(!String.IsNullOrEmpty(god.SecondSteroid.Disabled)) selfSteroid2Drop.Items.Add(god.SecondSteroid.Disabled);
 
                 selfSteroid2Drop.SelectedIndex = 0;
+            } else {
+                calculations.SelfSteroid2 = "";
             }
 
             selfSteroid1Stacks.Enabled = !String.IsNullOrEmpty(god.Extra);
@@ -502,6 +506,38 @@ namespace KrettCalc {
             selfAncileStacksLabel.Text = selfAncileStacks.Value.ToString();
             calculations.SelfAncileStacks = selfAncileStacks.Value;
             CalculateSelf();
+        }
+
+        private void selfSteroid1Drop_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfSteroid1 = selfSteroid1Drop.SelectedItem.ToString();
+        }
+
+        private void selfSteroid2Drop_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfSteroid2 = selfSteroid2Drop.SelectedItem.ToString();
+        }
+
+        private void selfRedBuffToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfRedBuff = selfRedBuffToggle.Checked;
+        }
+
+        private void selfPurpleBuffToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfPurpleBuff = selfPurpleBuffToggle.Checked;
+        }
+
+        private void selfPythagToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfPythagAura = selfPythagToggle.Checked;
+        }
+
+        private void selfVoidstoneToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfVoidstone = selfVoidstoneToggle.Checked;
+        }
+
+        private void selfAchillesToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfAchillesSpear = selfAchillesToggle.Checked;
+        }
+
+        private void selfBellonaStance_SelectedIndexChanged(object sender, EventArgs e) {
+
         }
     }
 }
