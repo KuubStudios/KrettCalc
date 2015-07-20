@@ -138,6 +138,11 @@ namespace KrettCalc {
             Invalidate();
         }
 
+        protected override void OnTextChanged(EventArgs e) {
+            Invalidate();
+            base.OnTextChanged(e);
+        }
+
         private void UpdateButtons(MouseEventArgs e, bool up = false) {
             if(DesignMode) return;
 

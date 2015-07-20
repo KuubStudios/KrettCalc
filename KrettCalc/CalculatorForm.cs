@@ -24,6 +24,8 @@ namespace KrettCalc {
         }
 
         private void CalculatorForm_Load(object sender, EventArgs e) {
+            dontCalculate = true;
+
             tabControl.Appearance = TabAppearance.FlatButtons;
             tabControl.ItemSize = new Size(0, 1);
             tabControl.SizeMode = TabSizeMode.Fixed;
@@ -47,6 +49,12 @@ namespace KrettCalc {
             selfGod.SelectedIndex = 0;
 
             selfBellonaStance.SelectedIndex = 0;
+
+            selfHealthPerc.Value = 100;
+
+            dontCalculate = false;
+            CalculateTarget();
+            CalculateSelf();
         }
 
         private void sliderTargetGodLvl_ValueChanged(object sender, EventArgs e) {
@@ -57,18 +65,22 @@ namespace KrettCalc {
 
         private void btnTab1_Click(object sender, EventArgs e) {
             tabControl.SelectedTab = tabPage1;
+            Text = btnTab1.Text;
         }
 
         private void btnTab2_Click(object sender, EventArgs e) {
             tabControl.SelectedTab = tabPage2;
+            Text = btnTab2.Text;
         }
 
         private void btnTab3_Click(object sender, EventArgs e) {
             tabControl.SelectedTab = tabPage3;
+            Text = btnTab3.Text;
         }
 
         private void btnTab4_Click(object sender, EventArgs e) {
             tabControl.SelectedTab = tabPage4;
+            Text = btnTab4.Text;
         }
 
         private void targetGod_SelectedIndexChanged(object sender, EventArgs e) {
@@ -132,9 +144,34 @@ namespace KrettCalc {
 
             if(target) {
                 targetWarlockStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Warlock's Sash");
+                if(!targetWarlockStacks.Enabled) calculations.TargetWarlockStacks = 0;
+
                 targetUrchinStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Hide of the Urchin");
+                if(!targetUrchinStacks.Enabled) calculations.TargetUrchinStacks = 0;
+
                 CalculateTarget();
             } else {
+                selfDevoStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Devourer's Gauntlet");
+                if(!selfDevoStacks.Enabled) calculations.SelfDevourerStacks = 0;
+
+                selfTransStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Transcendence");
+                if(!selfTransStacks.Enabled) calculations.SelfTranscendenceStacks = 0;
+
+                selfHeartStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Heartseeker");
+                if(!selfHeartStacks.Enabled) calculations.SelfHeartseekerStacks = 0;
+
+                selfDoomStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Doom Orb");
+                if(!selfDoomStacks.Enabled) calculations.SelfDoomOrbStacks = 0;
+
+                selfThothStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Book of Thoth");
+                if(!selfThothStacks.Enabled) calculations.SelfThothStacks = 0;
+
+                selfWarlockStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Warlock's Sash");
+                if(!selfWarlockStacks.Enabled) calculations.SelfWarlockStacks = 0;
+
+                selfAncileStacks.Enabled = calculations.SelfItems.Any(i => i != null && i.Name == "Ancile");
+                if(!selfAncileStacks.Enabled) calculations.SelfAncileStacks = 0;
+
                 CalculateSelf();
             }
         }
@@ -291,8 +328,9 @@ namespace KrettCalc {
             if(dontCalculate) return;
 
             double cost = calculations.SelfItems.Sum(i => i == null ? 0 : i.Cost);
-
             selfItemsTotalCost.Text = cost.ToString(CultureInfo.InvariantCulture);
+
+            selfInhandDamage.Text = calculations.SelfInHandDamage.ToString(CultureInfo.InvariantCulture);
         }
 
         private void selfGod_SelectedIndexChanged(object sender, EventArgs e) {
@@ -351,18 +389,34 @@ namespace KrettCalc {
             selfSteroid2Drop.Items.Clear();
             selfSteroid2Drop.Invalidate();
 
-            if(god.FirstSteroid != null) {
-                if (god.FirstSteroid.Enabled.Name != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.Enabled.Name);
-                if (god.FirstSteroid.Disabled.Name != "") selfSteroid1Drop.Items.Add(god.FirstSteroid.Disabled.Name);
+            selfSteroid1Drop.Enabled = god.FirstSteroid != null;
+            if(selfSteroid1Drop.Enabled) {
+                if(!String.IsNullOrEmpty(god.FirstSteroid.Enabled)) selfSteroid1Drop.Items.Add(god.FirstSteroid.Enabled);
+                if(!String.IsNullOrEmpty(god.FirstSteroid.Disabled)) selfSteroid1Drop.Items.Add(god.FirstSteroid.Disabled);
 
                 selfSteroid1Drop.SelectedIndex = 0;
+            } else {
+                calculations.SelfSteroid1 = "";
             }
 
-            if(god.SecondSteroid != null) {
-                if (god.SecondSteroid.Enabled.Name != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.Enabled.Name);
-                if (god.SecondSteroid.Disabled.Name != "") selfSteroid2Drop.Items.Add(god.SecondSteroid.Disabled.Name);
+            selfSteroid2Drop.Enabled = god.SecondSteroid != null;
+            if(selfSteroid2Drop.Enabled) {
+                if(!String.IsNullOrEmpty(god.SecondSteroid.Enabled)) selfSteroid2Drop.Items.Add(god.SecondSteroid.Enabled);
+                if(!String.IsNullOrEmpty(god.SecondSteroid.Disabled)) selfSteroid2Drop.Items.Add(god.SecondSteroid.Disabled);
 
                 selfSteroid2Drop.SelectedIndex = 0;
+            } else {
+                calculations.SelfSteroid2 = "";
+            }
+
+            selfSteroid1Stacks.Enabled = !String.IsNullOrEmpty(god.Extra);
+            selfSteroid1StacksLabel.Text = selfSteroid1Stacks.Enabled ? god.Extra : "Unused";
+
+            selfSteroid2Stacks.Enabled = god.Name == "Bakasura" || god.Name == "Ah Puch";
+            if(selfSteroid2Stacks.Enabled) {
+                selfSteroid2StacksLabel.Text = god.Name == "Bakasura" ? "Insatiable Hunger Stacks? 0-3" : "Antiheal Stacks? 0-10";
+            } else {
+                selfSteroid2StacksLabel.Text = "Unused";
             }
 
             selfBellonaStance.Enabled = god.Name == "Bellona";
@@ -373,6 +427,12 @@ namespace KrettCalc {
         private void selfGodLvl_ValueChanged(object sender, EventArgs e) {
             selfGodLvlLabel.Text = selfGodLvl.Value.ToString();
             calculations.SelfLevel = selfGodLvl.Value;
+            CalculateSelf();
+        }
+
+        private void selfHealthPerc_ValueChanged(object sender, EventArgs e) {
+            selfHealthPercLabel.Text = selfHealthPerc.Value.ToString();
+            calculations.SelfHealth = selfHealthPerc.Value;
             CalculateSelf();
         }
 
@@ -404,6 +464,80 @@ namespace KrettCalc {
         private void selfItem6_SelectedIndexChanged(object sender, EventArgs e) {
             calculations.SelfItems.Sixth = (ItemStat)selfItem6.SelectedItem;
             SetItem(selfItem6, selfItem6Cost, selfItem6Pic, false);
+        }
+
+        private void selfDevoStacks_ValueChanged(object sender, EventArgs e) {
+            selfDevoStacksLabel.Text = selfDevoStacks.Value.ToString();
+            calculations.SelfDevourerStacks = selfDevoStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfTransStacks_ValueChanged(object sender, EventArgs e) {
+            selfTransStacksLabel.Text = selfTransStacks.Value.ToString();
+            calculations.SelfTranscendenceStacks = selfTransStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfHeartStacks_ValueChanged(object sender, EventArgs e) {
+            selfHeartStacksLabel.Text = selfHeartStacks.Value.ToString();
+            calculations.SelfHeartseekerStacks = selfHeartStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfDoomStacks_ValueChanged(object sender, EventArgs e) {
+            selfDoomStacksLabel.Text = selfDoomStacks.Value.ToString();
+            calculations.SelfDoomOrbStacks = selfDoomStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfThothStacks_ValueChanged(object sender, EventArgs e) {
+            selfThothStacksLabel.Text = selfThothStacks.Value.ToString();
+            calculations.SelfThothStacks = selfThothStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfWarlockStacks_ValueChanged(object sender, EventArgs e) {
+            selfWarlockStacksLabel.Text = selfWarlockStacks.Value.ToString();
+            calculations.SelfWarlockStacks = selfWarlockStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfAncileStacks_ValueChanged(object sender, EventArgs e) {
+            selfAncileStacksLabel.Text = selfAncileStacks.Value.ToString();
+            calculations.SelfAncileStacks = selfAncileStacks.Value;
+            CalculateSelf();
+        }
+
+        private void selfSteroid1Drop_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfSteroid1 = selfSteroid1Drop.SelectedItem.ToString();
+        }
+
+        private void selfSteroid2Drop_SelectedIndexChanged(object sender, EventArgs e) {
+            calculations.SelfSteroid2 = selfSteroid2Drop.SelectedItem.ToString();
+        }
+
+        private void selfRedBuffToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfRedBuff = selfRedBuffToggle.Checked;
+        }
+
+        private void selfPurpleBuffToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfPurpleBuff = selfPurpleBuffToggle.Checked;
+        }
+
+        private void selfPythagToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfPythagAura = selfPythagToggle.Checked;
+        }
+
+        private void selfVoidstoneToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfVoidstone = selfVoidstoneToggle.Checked;
+        }
+
+        private void selfAchillesToggle_CheckedChanged(object sender, EventArgs e) {
+            calculations.SelfAchillesSpear = selfAchillesToggle.Checked;
+        }
+
+        private void selfBellonaStance_SelectedIndexChanged(object sender, EventArgs e) {
+
         }
     }
 }

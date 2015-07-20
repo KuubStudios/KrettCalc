@@ -145,13 +145,13 @@
             this.selfMitigatedDamage = new MetroFramework.Controls.MetroTextBox();
             this.label87 = new System.Windows.Forms.Label();
             this.selfSteroid2Stacks = new MetroFramework.Controls.MetroTextBox();
-            this.label83 = new System.Windows.Forms.Label();
+            this.selfSteroid2StacksLabel = new System.Windows.Forms.Label();
             this.selfSteroid2Drop = new MetroFramework.Controls.MetroComboBox();
             this.label84 = new System.Windows.Forms.Label();
             this.selfRawDamage = new MetroFramework.Controls.MetroTextBox();
             this.label86 = new System.Windows.Forms.Label();
             this.selfSteroid1Stacks = new MetroFramework.Controls.MetroTextBox();
-            this.label85 = new System.Windows.Forms.Label();
+            this.selfSteroid1StacksLabel = new System.Windows.Forms.Label();
             this.selfSteroid1Drop = new MetroFramework.Controls.MetroComboBox();
             this.label82 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
@@ -183,8 +183,8 @@
             this.selfThothStacksLabel = new System.Windows.Forms.Label();
             this.selfThothStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label66 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.selfDevoStacksLabel = new MetroFramework.Controls.MetroTrackBar();
+            this.selfDevoStacksLabel = new System.Windows.Forms.Label();
+            this.selfDevoStacks = new MetroFramework.Controls.MetroTrackBar();
             this.label70 = new System.Windows.Forms.Label();
             this.selfObowDPS = new MetroFramework.Controls.MetroTextBox();
             this.label63 = new System.Windows.Forms.Label();
@@ -1636,13 +1636,13 @@
             this.tabPage2.Controls.Add(this.selfMitigatedDamage);
             this.tabPage2.Controls.Add(this.label87);
             this.tabPage2.Controls.Add(this.selfSteroid2Stacks);
-            this.tabPage2.Controls.Add(this.label83);
+            this.tabPage2.Controls.Add(this.selfSteroid2StacksLabel);
             this.tabPage2.Controls.Add(this.selfSteroid2Drop);
             this.tabPage2.Controls.Add(this.label84);
             this.tabPage2.Controls.Add(this.selfRawDamage);
             this.tabPage2.Controls.Add(this.label86);
             this.tabPage2.Controls.Add(this.selfSteroid1Stacks);
-            this.tabPage2.Controls.Add(this.label85);
+            this.tabPage2.Controls.Add(this.selfSteroid1StacksLabel);
             this.tabPage2.Controls.Add(this.selfSteroid1Drop);
             this.tabPage2.Controls.Add(this.label82);
             this.tabPage2.Controls.Add(this.panel17);
@@ -1674,8 +1674,8 @@
             this.tabPage2.Controls.Add(this.selfThothStacksLabel);
             this.tabPage2.Controls.Add(this.selfThothStacks);
             this.tabPage2.Controls.Add(this.label66);
-            this.tabPage2.Controls.Add(this.label64);
             this.tabPage2.Controls.Add(this.selfDevoStacksLabel);
+            this.tabPage2.Controls.Add(this.selfDevoStacks);
             this.tabPage2.Controls.Add(this.label70);
             this.tabPage2.Controls.Add(this.selfObowDPS);
             this.tabPage2.Controls.Add(this.label63);
@@ -1750,7 +1750,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1142, 631);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "self";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label65
@@ -1777,6 +1777,7 @@
             this.selfBellonaStance.Size = new System.Drawing.Size(143, 29);
             this.selfBellonaStance.TabIndex = 293;
             this.selfBellonaStance.UseSelectable = true;
+            this.selfBellonaStance.SelectedIndexChanged += new System.EventHandler(this.selfBellonaStance_SelectedIndexChanged);
             // 
             // selfQinsDPS
             // 
@@ -1836,6 +1837,7 @@
             this.selfHealthPerc.TabIndex = 288;
             this.selfHealthPerc.UseCustomBackColor = true;
             this.selfHealthPerc.Value = 1;
+            this.selfHealthPerc.ValueChanged += new System.EventHandler(this.selfHealthPerc_ValueChanged);
             // 
             // label92
             // 
@@ -1861,12 +1863,13 @@
             this.selfAchillesToggle.Text = "On";
             this.selfAchillesToggle.UseCustomBackColor = true;
             this.selfAchillesToggle.UseSelectable = true;
+            this.selfAchillesToggle.CheckedChanged += new System.EventHandler(this.selfAchillesToggle_CheckedChanged);
             // 
             // selfMitiBurstDPS
             // 
             this.selfMitiBurstDPS.Lines = new string[] {
         "0"};
-            this.selfMitiBurstDPS.Location = new System.Drawing.Point(997, 570);
+            this.selfMitiBurstDPS.Location = new System.Drawing.Point(997, 575);
             this.selfMitiBurstDPS.MaxLength = 32767;
             this.selfMitiBurstDPS.Multiline = true;
             this.selfMitiBurstDPS.Name = "selfMitiBurstDPS";
@@ -1883,7 +1886,7 @@
             // 
             this.label90.AutoSize = true;
             this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label90.Location = new System.Drawing.Point(991, 547);
+            this.label90.Location = new System.Drawing.Point(991, 552);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(134, 17);
             this.label90.TabIndex = 284;
@@ -1920,7 +1923,7 @@
             // 
             this.selfMitiCycleDPS.Lines = new string[] {
         "0"};
-            this.selfMitiCycleDPS.Location = new System.Drawing.Point(855, 570);
+            this.selfMitiCycleDPS.Location = new System.Drawing.Point(855, 575);
             this.selfMitiCycleDPS.MaxLength = 32767;
             this.selfMitiCycleDPS.Multiline = true;
             this.selfMitiCycleDPS.Name = "selfMitiCycleDPS";
@@ -1937,7 +1940,7 @@
             // 
             this.label88.AutoSize = true;
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label88.Location = new System.Drawing.Point(849, 547);
+            this.label88.Location = new System.Drawing.Point(849, 552);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(135, 17);
             this.label88.TabIndex = 280;
@@ -1974,7 +1977,7 @@
             // 
             this.selfMitigatedDamage.Lines = new string[] {
         "0"};
-            this.selfMitigatedDamage.Location = new System.Drawing.Point(726, 570);
+            this.selfMitigatedDamage.Location = new System.Drawing.Point(726, 575);
             this.selfMitigatedDamage.MaxLength = 32767;
             this.selfMitigatedDamage.Multiline = true;
             this.selfMitigatedDamage.Name = "selfMitigatedDamage";
@@ -1991,7 +1994,7 @@
             // 
             this.label87.AutoSize = true;
             this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label87.Location = new System.Drawing.Point(720, 547);
+            this.label87.Location = new System.Drawing.Point(720, 552);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(122, 17);
             this.label87.TabIndex = 276;
@@ -2001,7 +2004,7 @@
             // 
             this.selfSteroid2Stacks.Lines = new string[] {
         "0"};
-            this.selfSteroid2Stacks.Location = new System.Drawing.Point(578, 570);
+            this.selfSteroid2Stacks.Location = new System.Drawing.Point(578, 575);
             this.selfSteroid2Stacks.MaxLength = 32767;
             this.selfSteroid2Stacks.Multiline = true;
             this.selfSteroid2Stacks.Name = "selfSteroid2Stacks";
@@ -2014,15 +2017,15 @@
             this.selfSteroid2Stacks.Text = "0";
             this.selfSteroid2Stacks.UseSelectable = true;
             // 
-            // label83
+            // selfSteroid2StacksLabel
             // 
-            this.label83.AutoSize = true;
-            this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label83.Location = new System.Drawing.Point(572, 547);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(119, 17);
-            this.label83.TabIndex = 274;
-            this.label83.Text = "Steroid 2 Stacks?";
+            this.selfSteroid2StacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfSteroid2StacksLabel.Location = new System.Drawing.Point(575, 535);
+            this.selfSteroid2StacksLabel.Name = "selfSteroid2StacksLabel";
+            this.selfSteroid2StacksLabel.Size = new System.Drawing.Size(133, 34);
+            this.selfSteroid2StacksLabel.TabIndex = 274;
+            this.selfSteroid2StacksLabel.Text = "Steroid 2 Stacks?";
+            this.selfSteroid2StacksLabel.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // selfSteroid2Drop
             // 
@@ -2033,6 +2036,7 @@
             this.selfSteroid2Drop.Size = new System.Drawing.Size(133, 29);
             this.selfSteroid2Drop.TabIndex = 273;
             this.selfSteroid2Drop.UseSelectable = true;
+            this.selfSteroid2Drop.SelectedIndexChanged += new System.EventHandler(this.selfSteroid2Drop_SelectedIndexChanged);
             // 
             // label84
             // 
@@ -2075,7 +2079,7 @@
             // 
             this.selfSteroid1Stacks.Lines = new string[] {
         "0"};
-            this.selfSteroid1Stacks.Location = new System.Drawing.Point(437, 570);
+            this.selfSteroid1Stacks.Location = new System.Drawing.Point(434, 575);
             this.selfSteroid1Stacks.MaxLength = 32767;
             this.selfSteroid1Stacks.Multiline = true;
             this.selfSteroid1Stacks.Name = "selfSteroid1Stacks";
@@ -2088,15 +2092,15 @@
             this.selfSteroid1Stacks.Text = "0";
             this.selfSteroid1Stacks.UseSelectable = true;
             // 
-            // label85
+            // selfSteroid1StacksLabel
             // 
-            this.label85.AutoSize = true;
-            this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label85.Location = new System.Drawing.Point(431, 547);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(119, 17);
-            this.label85.TabIndex = 266;
-            this.label85.Text = "Steroid 1 Stacks?";
+            this.selfSteroid1StacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfSteroid1StacksLabel.Location = new System.Drawing.Point(431, 535);
+            this.selfSteroid1StacksLabel.Name = "selfSteroid1StacksLabel";
+            this.selfSteroid1StacksLabel.Size = new System.Drawing.Size(133, 34);
+            this.selfSteroid1StacksLabel.TabIndex = 266;
+            this.selfSteroid1StacksLabel.Text = "Steroid 1 Stacks?";
+            this.selfSteroid1StacksLabel.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // selfSteroid1Drop
             // 
@@ -2107,6 +2111,7 @@
             this.selfSteroid1Drop.Size = new System.Drawing.Size(133, 29);
             this.selfSteroid1Drop.TabIndex = 264;
             this.selfSteroid1Drop.UseSelectable = true;
+            this.selfSteroid1Drop.SelectedIndexChanged += new System.EventHandler(this.selfSteroid1Drop_SelectedIndexChanged);
             // 
             // label82
             // 
@@ -2150,6 +2155,7 @@
             this.selfPythagToggle.Text = "On";
             this.selfPythagToggle.UseCustomBackColor = true;
             this.selfPythagToggle.UseSelectable = true;
+            this.selfPythagToggle.CheckedChanged += new System.EventHandler(this.selfPythagToggle_CheckedChanged);
             // 
             // label80
             // 
@@ -2175,6 +2181,7 @@
             this.selfPurpleBuffToggle.Text = "On";
             this.selfPurpleBuffToggle.UseCustomBackColor = true;
             this.selfPurpleBuffToggle.UseSelectable = true;
+            this.selfPurpleBuffToggle.CheckedChanged += new System.EventHandler(this.selfPurpleBuffToggle_CheckedChanged);
             // 
             // label79
             // 
@@ -2200,6 +2207,7 @@
             this.selfVoidstoneToggle.Text = "On";
             this.selfVoidstoneToggle.UseCustomBackColor = true;
             this.selfVoidstoneToggle.UseSelectable = true;
+            this.selfVoidstoneToggle.CheckedChanged += new System.EventHandler(this.selfVoidstoneToggle_CheckedChanged);
             // 
             // label78
             // 
@@ -2225,6 +2233,7 @@
             this.selfRedBuffToggle.Text = "On";
             this.selfRedBuffToggle.UseCustomBackColor = true;
             this.selfRedBuffToggle.UseSelectable = true;
+            this.selfRedBuffToggle.CheckedChanged += new System.EventHandler(this.selfRedBuffToggle_CheckedChanged);
             // 
             // panel16
             // 
@@ -2246,7 +2255,7 @@
             // 
             this.selfDoomStacksLabel.AutoSize = true;
             this.selfDoomStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfDoomStacksLabel.Location = new System.Drawing.Point(1082, 283);
+            this.selfDoomStacksLabel.Location = new System.Drawing.Point(915, 337);
             this.selfDoomStacksLabel.Name = "selfDoomStacksLabel";
             this.selfDoomStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfDoomStacksLabel.TabIndex = 247;
@@ -2255,18 +2264,21 @@
             // selfDoomStacks
             // 
             this.selfDoomStacks.BackColor = System.Drawing.Color.Transparent;
-            this.selfDoomStacks.Location = new System.Drawing.Point(952, 281);
+            this.selfDoomStacks.Location = new System.Drawing.Point(776, 335);
+            this.selfDoomStacks.Maximum = 10;
             this.selfDoomStacks.Name = "selfDoomStacks";
             this.selfDoomStacks.Size = new System.Drawing.Size(133, 22);
             this.selfDoomStacks.TabIndex = 246;
             this.selfDoomStacks.Text = "metroTrackBar7";
             this.selfDoomStacks.UseCustomBackColor = true;
+            this.selfDoomStacks.Value = 0;
+            this.selfDoomStacks.ValueChanged += new System.EventHandler(this.selfDoomStacks_ValueChanged);
             // 
             // label77
             // 
             this.label77.AutoSize = true;
             this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label77.Location = new System.Drawing.Point(949, 261);
+            this.label77.Location = new System.Drawing.Point(773, 315);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(119, 17);
             this.label77.TabIndex = 245;
@@ -2276,7 +2288,7 @@
             // 
             this.selfAncileStacksLabel.AutoSize = true;
             this.selfAncileStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfAncileStacksLabel.Location = new System.Drawing.Point(912, 337);
+            this.selfAncileStacksLabel.Location = new System.Drawing.Point(1088, 283);
             this.selfAncileStacksLabel.Name = "selfAncileStacksLabel";
             this.selfAncileStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfAncileStacksLabel.TabIndex = 244;
@@ -2285,18 +2297,21 @@
             // selfAncileStacks
             // 
             this.selfAncileStacks.BackColor = System.Drawing.Color.Transparent;
-            this.selfAncileStacks.Location = new System.Drawing.Point(776, 335);
+            this.selfAncileStacks.Location = new System.Drawing.Point(949, 281);
+            this.selfAncileStacks.Maximum = 60;
             this.selfAncileStacks.Name = "selfAncileStacks";
             this.selfAncileStacks.Size = new System.Drawing.Size(133, 22);
             this.selfAncileStacks.TabIndex = 243;
             this.selfAncileStacks.Text = "metroTrackBar5";
             this.selfAncileStacks.UseCustomBackColor = true;
+            this.selfAncileStacks.Value = 0;
+            this.selfAncileStacks.ValueChanged += new System.EventHandler(this.selfAncileStacks_ValueChanged);
             // 
             // label73
             // 
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label73.Location = new System.Drawing.Point(773, 315);
+            this.label73.Location = new System.Drawing.Point(946, 261);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(92, 17);
             this.label73.TabIndex = 242;
@@ -2306,7 +2321,7 @@
             // 
             this.selfHeartStacksLabel.AutoSize = true;
             this.selfHeartStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfHeartStacksLabel.Location = new System.Drawing.Point(912, 283);
+            this.selfHeartStacksLabel.Location = new System.Drawing.Point(915, 283);
             this.selfHeartStacksLabel.Name = "selfHeartStacksLabel";
             this.selfHeartStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfHeartStacksLabel.TabIndex = 241;
@@ -2316,11 +2331,14 @@
             // 
             this.selfHeartStacks.BackColor = System.Drawing.Color.Transparent;
             this.selfHeartStacks.Location = new System.Drawing.Point(776, 281);
+            this.selfHeartStacks.Maximum = 10;
             this.selfHeartStacks.Name = "selfHeartStacks";
             this.selfHeartStacks.Size = new System.Drawing.Size(133, 22);
             this.selfHeartStacks.TabIndex = 240;
             this.selfHeartStacks.Text = "metroTrackBar6";
             this.selfHeartStacks.UseCustomBackColor = true;
+            this.selfHeartStacks.Value = 0;
+            this.selfHeartStacks.ValueChanged += new System.EventHandler(this.selfHeartStacks_ValueChanged);
             // 
             // label75
             // 
@@ -2336,7 +2354,7 @@
             // 
             this.selfWarlockStacksLabel.AutoSize = true;
             this.selfWarlockStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfWarlockStacksLabel.Location = new System.Drawing.Point(741, 337);
+            this.selfWarlockStacksLabel.Location = new System.Drawing.Point(744, 337);
             this.selfWarlockStacksLabel.Name = "selfWarlockStacksLabel";
             this.selfWarlockStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfWarlockStacksLabel.TabIndex = 238;
@@ -2351,6 +2369,8 @@
             this.selfWarlockStacks.TabIndex = 237;
             this.selfWarlockStacks.Text = "metroTrackBar3";
             this.selfWarlockStacks.UseCustomBackColor = true;
+            this.selfWarlockStacks.Value = 0;
+            this.selfWarlockStacks.ValueChanged += new System.EventHandler(this.selfWarlockStacks_ValueChanged);
             // 
             // label68
             // 
@@ -2366,7 +2386,7 @@
             // 
             this.selfTransStacksLabel.AutoSize = true;
             this.selfTransStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfTransStacksLabel.Location = new System.Drawing.Point(741, 283);
+            this.selfTransStacksLabel.Location = new System.Drawing.Point(744, 283);
             this.selfTransStacksLabel.Name = "selfTransStacksLabel";
             this.selfTransStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfTransStacksLabel.TabIndex = 235;
@@ -2376,11 +2396,14 @@
             // 
             this.selfTransStacks.BackColor = System.Drawing.Color.Transparent;
             this.selfTransStacks.Location = new System.Drawing.Point(605, 281);
+            this.selfTransStacks.Maximum = 50;
             this.selfTransStacks.Name = "selfTransStacks";
             this.selfTransStacks.Size = new System.Drawing.Size(133, 22);
             this.selfTransStacks.TabIndex = 234;
             this.selfTransStacks.Text = "metroTrackBar4";
             this.selfTransStacks.UseCustomBackColor = true;
+            this.selfTransStacks.Value = 0;
+            this.selfTransStacks.ValueChanged += new System.EventHandler(this.selfTransStacks_ValueChanged);
             // 
             // label71
             // 
@@ -2396,7 +2419,7 @@
             // 
             this.selfThothStacksLabel.AutoSize = true;
             this.selfThothStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.selfThothStacksLabel.Location = new System.Drawing.Point(570, 337);
+            this.selfThothStacksLabel.Location = new System.Drawing.Point(573, 337);
             this.selfThothStacksLabel.Name = "selfThothStacksLabel";
             this.selfThothStacksLabel.Size = new System.Drawing.Size(16, 17);
             this.selfThothStacksLabel.TabIndex = 232;
@@ -2406,11 +2429,14 @@
             // 
             this.selfThothStacks.BackColor = System.Drawing.Color.Transparent;
             this.selfThothStacks.Location = new System.Drawing.Point(434, 335);
+            this.selfThothStacks.Maximum = 75;
             this.selfThothStacks.Name = "selfThothStacks";
             this.selfThothStacks.Size = new System.Drawing.Size(133, 22);
             this.selfThothStacks.TabIndex = 231;
             this.selfThothStacks.Text = "metroTrackBar2";
             this.selfThothStacks.UseCustomBackColor = true;
+            this.selfThothStacks.Value = 0;
+            this.selfThothStacks.ValueChanged += new System.EventHandler(this.selfThothStacks_ValueChanged);
             // 
             // label66
             // 
@@ -2422,25 +2448,28 @@
             this.label66.TabIndex = 230;
             this.label66.Text = "Thoth Stacks";
             // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label64.Location = new System.Drawing.Point(570, 283);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(16, 17);
-            this.label64.TabIndex = 229;
-            this.label64.Text = "0";
-            // 
             // selfDevoStacksLabel
             // 
-            this.selfDevoStacksLabel.BackColor = System.Drawing.Color.Transparent;
-            this.selfDevoStacksLabel.Location = new System.Drawing.Point(434, 281);
+            this.selfDevoStacksLabel.AutoSize = true;
+            this.selfDevoStacksLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.selfDevoStacksLabel.Location = new System.Drawing.Point(573, 283);
             this.selfDevoStacksLabel.Name = "selfDevoStacksLabel";
-            this.selfDevoStacksLabel.Size = new System.Drawing.Size(133, 22);
-            this.selfDevoStacksLabel.TabIndex = 228;
-            this.selfDevoStacksLabel.Text = "metroTrackBar1";
-            this.selfDevoStacksLabel.UseCustomBackColor = true;
+            this.selfDevoStacksLabel.Size = new System.Drawing.Size(16, 17);
+            this.selfDevoStacksLabel.TabIndex = 229;
+            this.selfDevoStacksLabel.Text = "0";
+            // 
+            // selfDevoStacks
+            // 
+            this.selfDevoStacks.BackColor = System.Drawing.Color.Transparent;
+            this.selfDevoStacks.Location = new System.Drawing.Point(434, 281);
+            this.selfDevoStacks.Maximum = 75;
+            this.selfDevoStacks.Name = "selfDevoStacks";
+            this.selfDevoStacks.Size = new System.Drawing.Size(133, 22);
+            this.selfDevoStacks.TabIndex = 228;
+            this.selfDevoStacks.Text = "metroTrackBar1";
+            this.selfDevoStacks.UseCustomBackColor = true;
+            this.selfDevoStacks.Value = 0;
+            this.selfDevoStacks.ValueChanged += new System.EventHandler(this.selfDevoStacks_ValueChanged);
             // 
             // label70
             // 
@@ -4723,7 +4752,7 @@
             this.Controls.Add(this.btnTab2);
             this.Controls.Add(this.btnTab1);
             this.Name = "CalculatorForm";
-            this.Text = "A title or something";
+            this.Text = "Target + Effective Health Calculator";
             this.Load += new System.EventHandler(this.CalculatorForm_Load);
             this.tabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -4909,13 +4938,13 @@
         private MetroFramework.Controls.MetroTextBox selfMitigatedDamage;
         private System.Windows.Forms.Label label87;
         private MetroFramework.Controls.MetroTextBox selfSteroid2Stacks;
-        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.Label selfSteroid2StacksLabel;
         private MetroFramework.Controls.MetroComboBox selfSteroid2Drop;
         private System.Windows.Forms.Label label84;
         private MetroFramework.Controls.MetroTextBox selfRawDamage;
         private System.Windows.Forms.Label label86;
         private MetroFramework.Controls.MetroTextBox selfSteroid1Stacks;
-        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Label selfSteroid1StacksLabel;
         private MetroFramework.Controls.MetroComboBox selfSteroid1Drop;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Panel panel17;
@@ -4947,8 +4976,8 @@
         private System.Windows.Forms.Label selfThothStacksLabel;
         private MetroFramework.Controls.MetroTrackBar selfThothStacks;
         private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label64;
-        private MetroFramework.Controls.MetroTrackBar selfDevoStacksLabel;
+        private System.Windows.Forms.Label selfDevoStacksLabel;
+        private MetroFramework.Controls.MetroTrackBar selfDevoStacks;
         private System.Windows.Forms.Label label70;
         private MetroFramework.Controls.MetroTextBox selfObowDPS;
         private System.Windows.Forms.Label label63;
