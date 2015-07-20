@@ -257,6 +257,93 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.label67 = new System.Windows.Forms.Label();
+            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.label69 = new System.Windows.Forms.Label();
+            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.metroComboBox3 = new MetroFramework.Controls.MetroComboBox();
+            this.label101 = new System.Windows.Forms.Label();
+            this.metroComboBox4 = new MetroFramework.Controls.MetroComboBox();
+            this.label102 = new System.Windows.Forms.Label();
+            this.metroTextBox9 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox6 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox7 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox8 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox10 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox11 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox12 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox13 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox14 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox15 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox16 = new MetroFramework.Controls.MetroTextBox();
+            this.metroComboBox5 = new MetroFramework.Controls.MetroComboBox();
+            this.label74 = new System.Windows.Forms.Label();
+            this.metroComboBox6 = new MetroFramework.Controls.MetroComboBox();
+            this.label76 = new System.Windows.Forms.Label();
+            this.metroComboBox7 = new MetroFramework.Controls.MetroComboBox();
+            this.label93 = new System.Windows.Forms.Label();
+            this.metroComboBox8 = new MetroFramework.Controls.MetroComboBox();
+            this.label96 = new System.Windows.Forms.Label();
+            this.metroTextBox17 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox18 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox19 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox20 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox21 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox22 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox23 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox24 = new MetroFramework.Controls.MetroTextBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.metroTextBox25 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox26 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox27 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox28 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox29 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox30 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox31 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox32 = new MetroFramework.Controls.MetroTextBox();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.label98 = new System.Windows.Forms.Label();
+            this.metroTextBox33 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox34 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox35 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox36 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox37 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox38 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox39 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox40 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox41 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox42 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox43 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox44 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox45 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox46 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox47 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox48 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox49 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox50 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox51 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox52 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox53 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox54 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox55 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox56 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox57 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox58 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox59 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox60 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox61 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox62 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox63 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox64 = new MetroFramework.Controls.MetroTextBox();
+            this.panel20 = new System.Windows.Forms.Panel();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.targetItem6Pic)).BeginInit();
@@ -272,6 +359,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.selfItem3Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.selfItem2Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.selfItem1Pic)).BeginInit();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTab4
@@ -337,6 +425,7 @@
             this.tabControl.Controls.Add(this.tabPage2);
             this.tabControl.Controls.Add(this.tabPage3);
             this.tabControl.Controls.Add(this.tabPage4);
+            this.tabControl.Controls.Add(this.tabPage5);
             this.tabControl.ItemSize = new System.Drawing.Size(58, 10);
             this.tabControl.Location = new System.Drawing.Point(250, 51);
             this.tabControl.Name = "tabControl";
@@ -3193,6 +3282,92 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.panel20);
+            this.tabPage3.Controls.Add(this.metroTextBox49);
+            this.tabPage3.Controls.Add(this.metroTextBox50);
+            this.tabPage3.Controls.Add(this.metroTextBox51);
+            this.tabPage3.Controls.Add(this.metroTextBox52);
+            this.tabPage3.Controls.Add(this.metroTextBox53);
+            this.tabPage3.Controls.Add(this.metroTextBox54);
+            this.tabPage3.Controls.Add(this.metroTextBox55);
+            this.tabPage3.Controls.Add(this.metroTextBox56);
+            this.tabPage3.Controls.Add(this.metroTextBox57);
+            this.tabPage3.Controls.Add(this.metroTextBox58);
+            this.tabPage3.Controls.Add(this.metroTextBox59);
+            this.tabPage3.Controls.Add(this.metroTextBox60);
+            this.tabPage3.Controls.Add(this.metroTextBox61);
+            this.tabPage3.Controls.Add(this.metroTextBox62);
+            this.tabPage3.Controls.Add(this.metroTextBox63);
+            this.tabPage3.Controls.Add(this.metroTextBox64);
+            this.tabPage3.Controls.Add(this.metroTextBox41);
+            this.tabPage3.Controls.Add(this.metroTextBox42);
+            this.tabPage3.Controls.Add(this.metroTextBox43);
+            this.tabPage3.Controls.Add(this.metroTextBox44);
+            this.tabPage3.Controls.Add(this.metroTextBox45);
+            this.tabPage3.Controls.Add(this.metroTextBox46);
+            this.tabPage3.Controls.Add(this.metroTextBox47);
+            this.tabPage3.Controls.Add(this.metroTextBox48);
+            this.tabPage3.Controls.Add(this.metroTextBox33);
+            this.tabPage3.Controls.Add(this.metroTextBox34);
+            this.tabPage3.Controls.Add(this.metroTextBox35);
+            this.tabPage3.Controls.Add(this.metroTextBox36);
+            this.tabPage3.Controls.Add(this.metroTextBox37);
+            this.tabPage3.Controls.Add(this.metroTextBox38);
+            this.tabPage3.Controls.Add(this.metroTextBox39);
+            this.tabPage3.Controls.Add(this.metroTextBox40);
+            this.tabPage3.Controls.Add(this.label98);
+            this.tabPage3.Controls.Add(this.panel19);
+            this.tabPage3.Controls.Add(this.panel18);
+            this.tabPage3.Controls.Add(this.metroTextBox25);
+            this.tabPage3.Controls.Add(this.metroTextBox26);
+            this.tabPage3.Controls.Add(this.metroTextBox27);
+            this.tabPage3.Controls.Add(this.metroTextBox28);
+            this.tabPage3.Controls.Add(this.metroTextBox29);
+            this.tabPage3.Controls.Add(this.metroTextBox30);
+            this.tabPage3.Controls.Add(this.metroTextBox31);
+            this.tabPage3.Controls.Add(this.metroTextBox32);
+            this.tabPage3.Controls.Add(this.label97);
+            this.tabPage3.Controls.Add(this.metroTextBox17);
+            this.tabPage3.Controls.Add(this.metroTextBox18);
+            this.tabPage3.Controls.Add(this.metroTextBox19);
+            this.tabPage3.Controls.Add(this.metroTextBox20);
+            this.tabPage3.Controls.Add(this.metroTextBox21);
+            this.tabPage3.Controls.Add(this.metroTextBox22);
+            this.tabPage3.Controls.Add(this.metroTextBox23);
+            this.tabPage3.Controls.Add(this.metroTextBox24);
+            this.tabPage3.Controls.Add(this.metroComboBox5);
+            this.tabPage3.Controls.Add(this.label74);
+            this.tabPage3.Controls.Add(this.metroComboBox6);
+            this.tabPage3.Controls.Add(this.label76);
+            this.tabPage3.Controls.Add(this.metroComboBox7);
+            this.tabPage3.Controls.Add(this.label93);
+            this.tabPage3.Controls.Add(this.metroComboBox8);
+            this.tabPage3.Controls.Add(this.label96);
+            this.tabPage3.Controls.Add(this.metroTextBox8);
+            this.tabPage3.Controls.Add(this.metroTextBox10);
+            this.tabPage3.Controls.Add(this.metroTextBox11);
+            this.tabPage3.Controls.Add(this.metroTextBox12);
+            this.tabPage3.Controls.Add(this.metroTextBox13);
+            this.tabPage3.Controls.Add(this.metroTextBox14);
+            this.tabPage3.Controls.Add(this.metroTextBox15);
+            this.tabPage3.Controls.Add(this.metroTextBox16);
+            this.tabPage3.Controls.Add(this.metroTextBox6);
+            this.tabPage3.Controls.Add(this.metroTextBox7);
+            this.tabPage3.Controls.Add(this.metroTextBox4);
+            this.tabPage3.Controls.Add(this.metroTextBox5);
+            this.tabPage3.Controls.Add(this.metroTextBox2);
+            this.tabPage3.Controls.Add(this.metroTextBox3);
+            this.tabPage3.Controls.Add(this.metroTextBox1);
+            this.tabPage3.Controls.Add(this.metroTextBox9);
+            this.tabPage3.Controls.Add(this.metroComboBox3);
+            this.tabPage3.Controls.Add(this.label101);
+            this.tabPage3.Controls.Add(this.metroComboBox4);
+            this.tabPage3.Controls.Add(this.label102);
+            this.tabPage3.Controls.Add(this.metroComboBox2);
+            this.tabPage3.Controls.Add(this.label72);
+            this.tabPage3.Controls.Add(this.metroComboBox1);
+            this.tabPage3.Controls.Add(this.label69);
+            this.tabPage3.Controls.Add(this.label67);
             this.tabPage3.Location = new System.Drawing.Point(4, 14);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -3222,6 +3397,1318 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "KrettCalc \r\n3.0";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 14);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1142, 631);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label67.Location = new System.Drawing.Point(260, 8);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(119, 17);
+            this.label67.TabIndex = 191;
+            this.label67.Text = "Combo Calculator";
+            // 
+            // metroComboBox1
+            // 
+            this.metroComboBox1.FormattingEnabled = true;
+            this.metroComboBox1.ItemHeight = 23;
+            this.metroComboBox1.Location = new System.Drawing.Point(16, 82);
+            this.metroComboBox1.Name = "metroComboBox1";
+            this.metroComboBox1.Size = new System.Drawing.Size(148, 29);
+            this.metroComboBox1.TabIndex = 193;
+            this.metroComboBox1.UseSelectable = true;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label69.Location = new System.Drawing.Point(13, 53);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(78, 17);
+            this.label69.TabIndex = 192;
+            this.label69.Text = "First Attack";
+            // 
+            // metroComboBox2
+            // 
+            this.metroComboBox2.FormattingEnabled = true;
+            this.metroComboBox2.ItemHeight = 23;
+            this.metroComboBox2.Location = new System.Drawing.Point(16, 151);
+            this.metroComboBox2.Name = "metroComboBox2";
+            this.metroComboBox2.Size = new System.Drawing.Size(148, 29);
+            this.metroComboBox2.TabIndex = 195;
+            this.metroComboBox2.UseSelectable = true;
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label72.Location = new System.Drawing.Point(13, 122);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(78, 17);
+            this.label72.TabIndex = 194;
+            this.label72.Text = "First Attack";
+            // 
+            // metroComboBox3
+            // 
+            this.metroComboBox3.FormattingEnabled = true;
+            this.metroComboBox3.ItemHeight = 23;
+            this.metroComboBox3.Location = new System.Drawing.Point(16, 289);
+            this.metroComboBox3.Name = "metroComboBox3";
+            this.metroComboBox3.Size = new System.Drawing.Size(148, 29);
+            this.metroComboBox3.TabIndex = 207;
+            this.metroComboBox3.UseSelectable = true;
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label101.Location = new System.Drawing.Point(13, 260);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(78, 17);
+            this.label101.TabIndex = 206;
+            this.label101.Text = "First Attack";
+            // 
+            // metroComboBox4
+            // 
+            this.metroComboBox4.FormattingEnabled = true;
+            this.metroComboBox4.ItemHeight = 23;
+            this.metroComboBox4.Location = new System.Drawing.Point(16, 220);
+            this.metroComboBox4.Name = "metroComboBox4";
+            this.metroComboBox4.Size = new System.Drawing.Size(148, 29);
+            this.metroComboBox4.TabIndex = 205;
+            this.metroComboBox4.UseSelectable = true;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label102.Location = new System.Drawing.Point(13, 191);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(78, 17);
+            this.label102.TabIndex = 204;
+            this.label102.Text = "First Attack";
+            // 
+            // metroTextBox9
+            // 
+            this.metroTextBox9.Lines = new string[] {
+        "0"};
+            this.metroTextBox9.Location = new System.Drawing.Point(170, 89);
+            this.metroTextBox9.MaxLength = 32767;
+            this.metroTextBox9.Multiline = true;
+            this.metroTextBox9.Name = "metroTextBox9";
+            this.metroTextBox9.PasswordChar = '\0';
+            this.metroTextBox9.ReadOnly = true;
+            this.metroTextBox9.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox9.SelectedText = "";
+            this.metroTextBox9.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox9.TabIndex = 216;
+            this.metroTextBox9.Text = "0";
+            this.metroTextBox9.UseSelectable = true;
+            // 
+            // metroTextBox1
+            // 
+            this.metroTextBox1.Lines = new string[] {
+        "0"};
+            this.metroTextBox1.Location = new System.Drawing.Point(170, 53);
+            this.metroTextBox1.MaxLength = 32767;
+            this.metroTextBox1.Multiline = true;
+            this.metroTextBox1.Name = "metroTextBox1";
+            this.metroTextBox1.PasswordChar = '\0';
+            this.metroTextBox1.ReadOnly = true;
+            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox1.SelectedText = "";
+            this.metroTextBox1.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox1.TabIndex = 217;
+            this.metroTextBox1.Text = "0";
+            this.metroTextBox1.UseSelectable = true;
+            // 
+            // metroTextBox2
+            // 
+            this.metroTextBox2.Lines = new string[] {
+        "0"};
+            this.metroTextBox2.Location = new System.Drawing.Point(170, 122);
+            this.metroTextBox2.MaxLength = 32767;
+            this.metroTextBox2.Multiline = true;
+            this.metroTextBox2.Name = "metroTextBox2";
+            this.metroTextBox2.PasswordChar = '\0';
+            this.metroTextBox2.ReadOnly = true;
+            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox2.SelectedText = "";
+            this.metroTextBox2.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox2.TabIndex = 219;
+            this.metroTextBox2.Text = "0";
+            this.metroTextBox2.UseSelectable = true;
+            // 
+            // metroTextBox3
+            // 
+            this.metroTextBox3.Lines = new string[] {
+        "0"};
+            this.metroTextBox3.Location = new System.Drawing.Point(170, 158);
+            this.metroTextBox3.MaxLength = 32767;
+            this.metroTextBox3.Multiline = true;
+            this.metroTextBox3.Name = "metroTextBox3";
+            this.metroTextBox3.PasswordChar = '\0';
+            this.metroTextBox3.ReadOnly = true;
+            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox3.SelectedText = "";
+            this.metroTextBox3.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox3.TabIndex = 218;
+            this.metroTextBox3.Text = "0";
+            this.metroTextBox3.UseSelectable = true;
+            // 
+            // metroTextBox4
+            // 
+            this.metroTextBox4.Lines = new string[] {
+        "0"};
+            this.metroTextBox4.Location = new System.Drawing.Point(170, 191);
+            this.metroTextBox4.MaxLength = 32767;
+            this.metroTextBox4.Multiline = true;
+            this.metroTextBox4.Name = "metroTextBox4";
+            this.metroTextBox4.PasswordChar = '\0';
+            this.metroTextBox4.ReadOnly = true;
+            this.metroTextBox4.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox4.SelectedText = "";
+            this.metroTextBox4.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox4.TabIndex = 221;
+            this.metroTextBox4.Text = "0";
+            this.metroTextBox4.UseSelectable = true;
+            // 
+            // metroTextBox5
+            // 
+            this.metroTextBox5.Lines = new string[] {
+        "0"};
+            this.metroTextBox5.Location = new System.Drawing.Point(170, 227);
+            this.metroTextBox5.MaxLength = 32767;
+            this.metroTextBox5.Multiline = true;
+            this.metroTextBox5.Name = "metroTextBox5";
+            this.metroTextBox5.PasswordChar = '\0';
+            this.metroTextBox5.ReadOnly = true;
+            this.metroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox5.SelectedText = "";
+            this.metroTextBox5.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox5.TabIndex = 220;
+            this.metroTextBox5.Text = "0";
+            this.metroTextBox5.UseSelectable = true;
+            // 
+            // metroTextBox6
+            // 
+            this.metroTextBox6.Lines = new string[] {
+        "0"};
+            this.metroTextBox6.Location = new System.Drawing.Point(170, 260);
+            this.metroTextBox6.MaxLength = 32767;
+            this.metroTextBox6.Multiline = true;
+            this.metroTextBox6.Name = "metroTextBox6";
+            this.metroTextBox6.PasswordChar = '\0';
+            this.metroTextBox6.ReadOnly = true;
+            this.metroTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox6.SelectedText = "";
+            this.metroTextBox6.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox6.TabIndex = 223;
+            this.metroTextBox6.Text = "0";
+            this.metroTextBox6.UseSelectable = true;
+            // 
+            // metroTextBox7
+            // 
+            this.metroTextBox7.Lines = new string[] {
+        "0"};
+            this.metroTextBox7.Location = new System.Drawing.Point(170, 296);
+            this.metroTextBox7.MaxLength = 32767;
+            this.metroTextBox7.Multiline = true;
+            this.metroTextBox7.Name = "metroTextBox7";
+            this.metroTextBox7.PasswordChar = '\0';
+            this.metroTextBox7.ReadOnly = true;
+            this.metroTextBox7.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox7.SelectedText = "";
+            this.metroTextBox7.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox7.TabIndex = 222;
+            this.metroTextBox7.Text = "0";
+            this.metroTextBox7.UseSelectable = true;
+            // 
+            // metroTextBox8
+            // 
+            this.metroTextBox8.Lines = new string[] {
+        "0"};
+            this.metroTextBox8.Location = new System.Drawing.Point(263, 260);
+            this.metroTextBox8.MaxLength = 32767;
+            this.metroTextBox8.Multiline = true;
+            this.metroTextBox8.Name = "metroTextBox8";
+            this.metroTextBox8.PasswordChar = '\0';
+            this.metroTextBox8.ReadOnly = true;
+            this.metroTextBox8.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox8.SelectedText = "";
+            this.metroTextBox8.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox8.TabIndex = 231;
+            this.metroTextBox8.Text = "0";
+            this.metroTextBox8.UseSelectable = true;
+            // 
+            // metroTextBox10
+            // 
+            this.metroTextBox10.Lines = new string[] {
+        "0"};
+            this.metroTextBox10.Location = new System.Drawing.Point(263, 296);
+            this.metroTextBox10.MaxLength = 32767;
+            this.metroTextBox10.Multiline = true;
+            this.metroTextBox10.Name = "metroTextBox10";
+            this.metroTextBox10.PasswordChar = '\0';
+            this.metroTextBox10.ReadOnly = true;
+            this.metroTextBox10.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox10.SelectedText = "";
+            this.metroTextBox10.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox10.TabIndex = 230;
+            this.metroTextBox10.Text = "0";
+            this.metroTextBox10.UseSelectable = true;
+            // 
+            // metroTextBox11
+            // 
+            this.metroTextBox11.Lines = new string[] {
+        "0"};
+            this.metroTextBox11.Location = new System.Drawing.Point(263, 191);
+            this.metroTextBox11.MaxLength = 32767;
+            this.metroTextBox11.Multiline = true;
+            this.metroTextBox11.Name = "metroTextBox11";
+            this.metroTextBox11.PasswordChar = '\0';
+            this.metroTextBox11.ReadOnly = true;
+            this.metroTextBox11.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox11.SelectedText = "";
+            this.metroTextBox11.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox11.TabIndex = 229;
+            this.metroTextBox11.Text = "0";
+            this.metroTextBox11.UseSelectable = true;
+            // 
+            // metroTextBox12
+            // 
+            this.metroTextBox12.Lines = new string[] {
+        "0"};
+            this.metroTextBox12.Location = new System.Drawing.Point(263, 227);
+            this.metroTextBox12.MaxLength = 32767;
+            this.metroTextBox12.Multiline = true;
+            this.metroTextBox12.Name = "metroTextBox12";
+            this.metroTextBox12.PasswordChar = '\0';
+            this.metroTextBox12.ReadOnly = true;
+            this.metroTextBox12.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox12.SelectedText = "";
+            this.metroTextBox12.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox12.TabIndex = 228;
+            this.metroTextBox12.Text = "0";
+            this.metroTextBox12.UseSelectable = true;
+            // 
+            // metroTextBox13
+            // 
+            this.metroTextBox13.Lines = new string[] {
+        "0"};
+            this.metroTextBox13.Location = new System.Drawing.Point(263, 122);
+            this.metroTextBox13.MaxLength = 32767;
+            this.metroTextBox13.Multiline = true;
+            this.metroTextBox13.Name = "metroTextBox13";
+            this.metroTextBox13.PasswordChar = '\0';
+            this.metroTextBox13.ReadOnly = true;
+            this.metroTextBox13.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox13.SelectedText = "";
+            this.metroTextBox13.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox13.TabIndex = 227;
+            this.metroTextBox13.Text = "0";
+            this.metroTextBox13.UseSelectable = true;
+            // 
+            // metroTextBox14
+            // 
+            this.metroTextBox14.Lines = new string[] {
+        "0"};
+            this.metroTextBox14.Location = new System.Drawing.Point(263, 158);
+            this.metroTextBox14.MaxLength = 32767;
+            this.metroTextBox14.Multiline = true;
+            this.metroTextBox14.Name = "metroTextBox14";
+            this.metroTextBox14.PasswordChar = '\0';
+            this.metroTextBox14.ReadOnly = true;
+            this.metroTextBox14.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox14.SelectedText = "";
+            this.metroTextBox14.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox14.TabIndex = 226;
+            this.metroTextBox14.Text = "0";
+            this.metroTextBox14.UseSelectable = true;
+            // 
+            // metroTextBox15
+            // 
+            this.metroTextBox15.Lines = new string[] {
+        "0"};
+            this.metroTextBox15.Location = new System.Drawing.Point(263, 53);
+            this.metroTextBox15.MaxLength = 32767;
+            this.metroTextBox15.Multiline = true;
+            this.metroTextBox15.Name = "metroTextBox15";
+            this.metroTextBox15.PasswordChar = '\0';
+            this.metroTextBox15.ReadOnly = true;
+            this.metroTextBox15.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox15.SelectedText = "";
+            this.metroTextBox15.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox15.TabIndex = 225;
+            this.metroTextBox15.Text = "0";
+            this.metroTextBox15.UseSelectable = true;
+            // 
+            // metroTextBox16
+            // 
+            this.metroTextBox16.Lines = new string[] {
+        "0"};
+            this.metroTextBox16.Location = new System.Drawing.Point(263, 89);
+            this.metroTextBox16.MaxLength = 32767;
+            this.metroTextBox16.Multiline = true;
+            this.metroTextBox16.Name = "metroTextBox16";
+            this.metroTextBox16.PasswordChar = '\0';
+            this.metroTextBox16.ReadOnly = true;
+            this.metroTextBox16.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox16.SelectedText = "";
+            this.metroTextBox16.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox16.TabIndex = 224;
+            this.metroTextBox16.Text = "0";
+            this.metroTextBox16.UseSelectable = true;
+            // 
+            // metroComboBox5
+            // 
+            this.metroComboBox5.FormattingEnabled = true;
+            this.metroComboBox5.ItemHeight = 23;
+            this.metroComboBox5.Location = new System.Drawing.Point(356, 289);
+            this.metroComboBox5.Name = "metroComboBox5";
+            this.metroComboBox5.Size = new System.Drawing.Size(148, 29);
+            this.metroComboBox5.TabIndex = 239;
+            this.metroComboBox5.UseSelectable = true;
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label74.Location = new System.Drawing.Point(353, 260);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(78, 17);
+            this.label74.TabIndex = 238;
+            this.label74.Text = "First Attack";
+            // 
+            // metroComboBox6
+            // 
+            this.metroComboBox6.FormattingEnabled = true;
+            this.metroComboBox6.ItemHeight = 23;
+            this.metroComboBox6.Location = new System.Drawing.Point(356, 220);
+            this.metroComboBox6.Name = "metroComboBox6";
+            this.metroComboBox6.Size = new System.Drawing.Size(148, 29);
+            this.metroComboBox6.TabIndex = 237;
+            this.metroComboBox6.UseSelectable = true;
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label76.Location = new System.Drawing.Point(353, 191);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(78, 17);
+            this.label76.TabIndex = 236;
+            this.label76.Text = "First Attack";
+            // 
+            // metroComboBox7
+            // 
+            this.metroComboBox7.FormattingEnabled = true;
+            this.metroComboBox7.ItemHeight = 23;
+            this.metroComboBox7.Location = new System.Drawing.Point(356, 151);
+            this.metroComboBox7.Name = "metroComboBox7";
+            this.metroComboBox7.Size = new System.Drawing.Size(148, 29);
+            this.metroComboBox7.TabIndex = 235;
+            this.metroComboBox7.UseSelectable = true;
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label93.Location = new System.Drawing.Point(353, 122);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(78, 17);
+            this.label93.TabIndex = 234;
+            this.label93.Text = "First Attack";
+            // 
+            // metroComboBox8
+            // 
+            this.metroComboBox8.FormattingEnabled = true;
+            this.metroComboBox8.ItemHeight = 23;
+            this.metroComboBox8.Location = new System.Drawing.Point(356, 82);
+            this.metroComboBox8.Name = "metroComboBox8";
+            this.metroComboBox8.Size = new System.Drawing.Size(148, 29);
+            this.metroComboBox8.TabIndex = 233;
+            this.metroComboBox8.UseSelectable = true;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label96.Location = new System.Drawing.Point(353, 53);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(78, 17);
+            this.label96.TabIndex = 232;
+            this.label96.Text = "First Attack";
+            // 
+            // metroTextBox17
+            // 
+            this.metroTextBox17.Lines = new string[] {
+        "0"};
+            this.metroTextBox17.Location = new System.Drawing.Point(510, 260);
+            this.metroTextBox17.MaxLength = 32767;
+            this.metroTextBox17.Multiline = true;
+            this.metroTextBox17.Name = "metroTextBox17";
+            this.metroTextBox17.PasswordChar = '\0';
+            this.metroTextBox17.ReadOnly = true;
+            this.metroTextBox17.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox17.SelectedText = "";
+            this.metroTextBox17.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox17.TabIndex = 247;
+            this.metroTextBox17.Text = "0";
+            this.metroTextBox17.UseSelectable = true;
+            // 
+            // metroTextBox18
+            // 
+            this.metroTextBox18.Lines = new string[] {
+        "0"};
+            this.metroTextBox18.Location = new System.Drawing.Point(510, 296);
+            this.metroTextBox18.MaxLength = 32767;
+            this.metroTextBox18.Multiline = true;
+            this.metroTextBox18.Name = "metroTextBox18";
+            this.metroTextBox18.PasswordChar = '\0';
+            this.metroTextBox18.ReadOnly = true;
+            this.metroTextBox18.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox18.SelectedText = "";
+            this.metroTextBox18.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox18.TabIndex = 246;
+            this.metroTextBox18.Text = "0";
+            this.metroTextBox18.UseSelectable = true;
+            // 
+            // metroTextBox19
+            // 
+            this.metroTextBox19.Lines = new string[] {
+        "0"};
+            this.metroTextBox19.Location = new System.Drawing.Point(510, 191);
+            this.metroTextBox19.MaxLength = 32767;
+            this.metroTextBox19.Multiline = true;
+            this.metroTextBox19.Name = "metroTextBox19";
+            this.metroTextBox19.PasswordChar = '\0';
+            this.metroTextBox19.ReadOnly = true;
+            this.metroTextBox19.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox19.SelectedText = "";
+            this.metroTextBox19.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox19.TabIndex = 245;
+            this.metroTextBox19.Text = "0";
+            this.metroTextBox19.UseSelectable = true;
+            // 
+            // metroTextBox20
+            // 
+            this.metroTextBox20.Lines = new string[] {
+        "0"};
+            this.metroTextBox20.Location = new System.Drawing.Point(510, 227);
+            this.metroTextBox20.MaxLength = 32767;
+            this.metroTextBox20.Multiline = true;
+            this.metroTextBox20.Name = "metroTextBox20";
+            this.metroTextBox20.PasswordChar = '\0';
+            this.metroTextBox20.ReadOnly = true;
+            this.metroTextBox20.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox20.SelectedText = "";
+            this.metroTextBox20.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox20.TabIndex = 244;
+            this.metroTextBox20.Text = "0";
+            this.metroTextBox20.UseSelectable = true;
+            // 
+            // metroTextBox21
+            // 
+            this.metroTextBox21.Lines = new string[] {
+        "0"};
+            this.metroTextBox21.Location = new System.Drawing.Point(510, 122);
+            this.metroTextBox21.MaxLength = 32767;
+            this.metroTextBox21.Multiline = true;
+            this.metroTextBox21.Name = "metroTextBox21";
+            this.metroTextBox21.PasswordChar = '\0';
+            this.metroTextBox21.ReadOnly = true;
+            this.metroTextBox21.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox21.SelectedText = "";
+            this.metroTextBox21.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox21.TabIndex = 243;
+            this.metroTextBox21.Text = "0";
+            this.metroTextBox21.UseSelectable = true;
+            // 
+            // metroTextBox22
+            // 
+            this.metroTextBox22.Lines = new string[] {
+        "0"};
+            this.metroTextBox22.Location = new System.Drawing.Point(510, 158);
+            this.metroTextBox22.MaxLength = 32767;
+            this.metroTextBox22.Multiline = true;
+            this.metroTextBox22.Name = "metroTextBox22";
+            this.metroTextBox22.PasswordChar = '\0';
+            this.metroTextBox22.ReadOnly = true;
+            this.metroTextBox22.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox22.SelectedText = "";
+            this.metroTextBox22.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox22.TabIndex = 242;
+            this.metroTextBox22.Text = "0";
+            this.metroTextBox22.UseSelectable = true;
+            // 
+            // metroTextBox23
+            // 
+            this.metroTextBox23.Lines = new string[] {
+        "0"};
+            this.metroTextBox23.Location = new System.Drawing.Point(510, 53);
+            this.metroTextBox23.MaxLength = 32767;
+            this.metroTextBox23.Multiline = true;
+            this.metroTextBox23.Name = "metroTextBox23";
+            this.metroTextBox23.PasswordChar = '\0';
+            this.metroTextBox23.ReadOnly = true;
+            this.metroTextBox23.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox23.SelectedText = "";
+            this.metroTextBox23.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox23.TabIndex = 241;
+            this.metroTextBox23.Text = "0";
+            this.metroTextBox23.UseSelectable = true;
+            // 
+            // metroTextBox24
+            // 
+            this.metroTextBox24.Lines = new string[] {
+        "0"};
+            this.metroTextBox24.Location = new System.Drawing.Point(510, 89);
+            this.metroTextBox24.MaxLength = 32767;
+            this.metroTextBox24.Multiline = true;
+            this.metroTextBox24.Name = "metroTextBox24";
+            this.metroTextBox24.PasswordChar = '\0';
+            this.metroTextBox24.ReadOnly = true;
+            this.metroTextBox24.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox24.SelectedText = "";
+            this.metroTextBox24.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox24.TabIndex = 240;
+            this.metroTextBox24.Text = "0";
+            this.metroTextBox24.UseSelectable = true;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label97.Location = new System.Drawing.Point(627, 8);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(123, 17);
+            this.label97.TabIndex = 248;
+            this.label97.Text = "Total Combo Time";
+            // 
+            // metroTextBox25
+            // 
+            this.metroTextBox25.Lines = new string[] {
+        "0"};
+            this.metroTextBox25.Location = new System.Drawing.Point(649, 260);
+            this.metroTextBox25.MaxLength = 32767;
+            this.metroTextBox25.Multiline = true;
+            this.metroTextBox25.Name = "metroTextBox25";
+            this.metroTextBox25.PasswordChar = '\0';
+            this.metroTextBox25.ReadOnly = true;
+            this.metroTextBox25.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox25.SelectedText = "";
+            this.metroTextBox25.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox25.TabIndex = 256;
+            this.metroTextBox25.Text = "0";
+            this.metroTextBox25.UseSelectable = true;
+            // 
+            // metroTextBox26
+            // 
+            this.metroTextBox26.Lines = new string[] {
+        "0"};
+            this.metroTextBox26.Location = new System.Drawing.Point(649, 296);
+            this.metroTextBox26.MaxLength = 32767;
+            this.metroTextBox26.Multiline = true;
+            this.metroTextBox26.Name = "metroTextBox26";
+            this.metroTextBox26.PasswordChar = '\0';
+            this.metroTextBox26.ReadOnly = true;
+            this.metroTextBox26.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox26.SelectedText = "";
+            this.metroTextBox26.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox26.TabIndex = 255;
+            this.metroTextBox26.Text = "0";
+            this.metroTextBox26.UseSelectable = true;
+            // 
+            // metroTextBox27
+            // 
+            this.metroTextBox27.Lines = new string[] {
+        "0"};
+            this.metroTextBox27.Location = new System.Drawing.Point(649, 191);
+            this.metroTextBox27.MaxLength = 32767;
+            this.metroTextBox27.Multiline = true;
+            this.metroTextBox27.Name = "metroTextBox27";
+            this.metroTextBox27.PasswordChar = '\0';
+            this.metroTextBox27.ReadOnly = true;
+            this.metroTextBox27.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox27.SelectedText = "";
+            this.metroTextBox27.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox27.TabIndex = 254;
+            this.metroTextBox27.Text = "0";
+            this.metroTextBox27.UseSelectable = true;
+            // 
+            // metroTextBox28
+            // 
+            this.metroTextBox28.Lines = new string[] {
+        "0"};
+            this.metroTextBox28.Location = new System.Drawing.Point(649, 227);
+            this.metroTextBox28.MaxLength = 32767;
+            this.metroTextBox28.Multiline = true;
+            this.metroTextBox28.Name = "metroTextBox28";
+            this.metroTextBox28.PasswordChar = '\0';
+            this.metroTextBox28.ReadOnly = true;
+            this.metroTextBox28.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox28.SelectedText = "";
+            this.metroTextBox28.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox28.TabIndex = 253;
+            this.metroTextBox28.Text = "0";
+            this.metroTextBox28.UseSelectable = true;
+            // 
+            // metroTextBox29
+            // 
+            this.metroTextBox29.Lines = new string[] {
+        "0"};
+            this.metroTextBox29.Location = new System.Drawing.Point(649, 122);
+            this.metroTextBox29.MaxLength = 32767;
+            this.metroTextBox29.Multiline = true;
+            this.metroTextBox29.Name = "metroTextBox29";
+            this.metroTextBox29.PasswordChar = '\0';
+            this.metroTextBox29.ReadOnly = true;
+            this.metroTextBox29.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox29.SelectedText = "";
+            this.metroTextBox29.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox29.TabIndex = 252;
+            this.metroTextBox29.Text = "0";
+            this.metroTextBox29.UseSelectable = true;
+            // 
+            // metroTextBox30
+            // 
+            this.metroTextBox30.Lines = new string[] {
+        "0"};
+            this.metroTextBox30.Location = new System.Drawing.Point(649, 158);
+            this.metroTextBox30.MaxLength = 32767;
+            this.metroTextBox30.Multiline = true;
+            this.metroTextBox30.Name = "metroTextBox30";
+            this.metroTextBox30.PasswordChar = '\0';
+            this.metroTextBox30.ReadOnly = true;
+            this.metroTextBox30.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox30.SelectedText = "";
+            this.metroTextBox30.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox30.TabIndex = 251;
+            this.metroTextBox30.Text = "0";
+            this.metroTextBox30.UseSelectable = true;
+            // 
+            // metroTextBox31
+            // 
+            this.metroTextBox31.Lines = new string[] {
+        "0"};
+            this.metroTextBox31.Location = new System.Drawing.Point(649, 53);
+            this.metroTextBox31.MaxLength = 32767;
+            this.metroTextBox31.Multiline = true;
+            this.metroTextBox31.Name = "metroTextBox31";
+            this.metroTextBox31.PasswordChar = '\0';
+            this.metroTextBox31.ReadOnly = true;
+            this.metroTextBox31.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox31.SelectedText = "";
+            this.metroTextBox31.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox31.TabIndex = 250;
+            this.metroTextBox31.Text = "0";
+            this.metroTextBox31.UseSelectable = true;
+            // 
+            // metroTextBox32
+            // 
+            this.metroTextBox32.Lines = new string[] {
+        "0"};
+            this.metroTextBox32.Location = new System.Drawing.Point(649, 89);
+            this.metroTextBox32.MaxLength = 32767;
+            this.metroTextBox32.Multiline = true;
+            this.metroTextBox32.Name = "metroTextBox32";
+            this.metroTextBox32.PasswordChar = '\0';
+            this.metroTextBox32.ReadOnly = true;
+            this.metroTextBox32.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox32.SelectedText = "";
+            this.metroTextBox32.Size = new System.Drawing.Size(87, 22);
+            this.metroTextBox32.TabIndex = 249;
+            this.metroTextBox32.Text = "0";
+            this.metroTextBox32.UseSelectable = true;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(194)))), ((int)(((byte)(194)))));
+            this.panel18.Location = new System.Drawing.Point(617, 40);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(1, 278);
+            this.panel18.TabIndex = 257;
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(194)))), ((int)(((byte)(194)))));
+            this.panel19.Location = new System.Drawing.Point(16, 338);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(1102, 1);
+            this.panel19.TabIndex = 258;
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label98.Location = new System.Drawing.Point(858, 8);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(200, 17);
+            this.label98.TabIndex = 259;
+            this.label98.Text = "Temporal Simulation Algorithm";
+            // 
+            // metroTextBox33
+            // 
+            this.metroTextBox33.Lines = new string[] {
+        "0"};
+            this.metroTextBox33.Location = new System.Drawing.Point(796, 254);
+            this.metroTextBox33.MaxLength = 32767;
+            this.metroTextBox33.Multiline = true;
+            this.metroTextBox33.Name = "metroTextBox33";
+            this.metroTextBox33.PasswordChar = '\0';
+            this.metroTextBox33.ReadOnly = true;
+            this.metroTextBox33.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox33.SelectedText = "";
+            this.metroTextBox33.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox33.TabIndex = 267;
+            this.metroTextBox33.Text = "0";
+            this.metroTextBox33.UseSelectable = true;
+            // 
+            // metroTextBox34
+            // 
+            this.metroTextBox34.Lines = new string[] {
+        "0"};
+            this.metroTextBox34.Location = new System.Drawing.Point(796, 290);
+            this.metroTextBox34.MaxLength = 32767;
+            this.metroTextBox34.Multiline = true;
+            this.metroTextBox34.Name = "metroTextBox34";
+            this.metroTextBox34.PasswordChar = '\0';
+            this.metroTextBox34.ReadOnly = true;
+            this.metroTextBox34.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox34.SelectedText = "";
+            this.metroTextBox34.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox34.TabIndex = 266;
+            this.metroTextBox34.Text = "0";
+            this.metroTextBox34.UseSelectable = true;
+            // 
+            // metroTextBox35
+            // 
+            this.metroTextBox35.Lines = new string[] {
+        "0"};
+            this.metroTextBox35.Location = new System.Drawing.Point(796, 185);
+            this.metroTextBox35.MaxLength = 32767;
+            this.metroTextBox35.Multiline = true;
+            this.metroTextBox35.Name = "metroTextBox35";
+            this.metroTextBox35.PasswordChar = '\0';
+            this.metroTextBox35.ReadOnly = true;
+            this.metroTextBox35.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox35.SelectedText = "";
+            this.metroTextBox35.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox35.TabIndex = 265;
+            this.metroTextBox35.Text = "0";
+            this.metroTextBox35.UseSelectable = true;
+            // 
+            // metroTextBox36
+            // 
+            this.metroTextBox36.Lines = new string[] {
+        "0"};
+            this.metroTextBox36.Location = new System.Drawing.Point(796, 221);
+            this.metroTextBox36.MaxLength = 32767;
+            this.metroTextBox36.Multiline = true;
+            this.metroTextBox36.Name = "metroTextBox36";
+            this.metroTextBox36.PasswordChar = '\0';
+            this.metroTextBox36.ReadOnly = true;
+            this.metroTextBox36.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox36.SelectedText = "";
+            this.metroTextBox36.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox36.TabIndex = 264;
+            this.metroTextBox36.Text = "0";
+            this.metroTextBox36.UseSelectable = true;
+            // 
+            // metroTextBox37
+            // 
+            this.metroTextBox37.Lines = new string[] {
+        "0"};
+            this.metroTextBox37.Location = new System.Drawing.Point(796, 116);
+            this.metroTextBox37.MaxLength = 32767;
+            this.metroTextBox37.Multiline = true;
+            this.metroTextBox37.Name = "metroTextBox37";
+            this.metroTextBox37.PasswordChar = '\0';
+            this.metroTextBox37.ReadOnly = true;
+            this.metroTextBox37.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox37.SelectedText = "";
+            this.metroTextBox37.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox37.TabIndex = 263;
+            this.metroTextBox37.Text = "0";
+            this.metroTextBox37.UseSelectable = true;
+            // 
+            // metroTextBox38
+            // 
+            this.metroTextBox38.Lines = new string[] {
+        "0"};
+            this.metroTextBox38.Location = new System.Drawing.Point(796, 152);
+            this.metroTextBox38.MaxLength = 32767;
+            this.metroTextBox38.Multiline = true;
+            this.metroTextBox38.Name = "metroTextBox38";
+            this.metroTextBox38.PasswordChar = '\0';
+            this.metroTextBox38.ReadOnly = true;
+            this.metroTextBox38.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox38.SelectedText = "";
+            this.metroTextBox38.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox38.TabIndex = 262;
+            this.metroTextBox38.Text = "0";
+            this.metroTextBox38.UseSelectable = true;
+            // 
+            // metroTextBox39
+            // 
+            this.metroTextBox39.Lines = new string[] {
+        "0"};
+            this.metroTextBox39.Location = new System.Drawing.Point(796, 47);
+            this.metroTextBox39.MaxLength = 32767;
+            this.metroTextBox39.Multiline = true;
+            this.metroTextBox39.Name = "metroTextBox39";
+            this.metroTextBox39.PasswordChar = '\0';
+            this.metroTextBox39.ReadOnly = true;
+            this.metroTextBox39.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox39.SelectedText = "";
+            this.metroTextBox39.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox39.TabIndex = 261;
+            this.metroTextBox39.Text = "0";
+            this.metroTextBox39.UseSelectable = true;
+            // 
+            // metroTextBox40
+            // 
+            this.metroTextBox40.Lines = new string[] {
+        "0"};
+            this.metroTextBox40.Location = new System.Drawing.Point(796, 83);
+            this.metroTextBox40.MaxLength = 32767;
+            this.metroTextBox40.Multiline = true;
+            this.metroTextBox40.Name = "metroTextBox40";
+            this.metroTextBox40.PasswordChar = '\0';
+            this.metroTextBox40.ReadOnly = true;
+            this.metroTextBox40.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox40.SelectedText = "";
+            this.metroTextBox40.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox40.TabIndex = 260;
+            this.metroTextBox40.Text = "0";
+            this.metroTextBox40.UseSelectable = true;
+            // 
+            // metroTextBox41
+            // 
+            this.metroTextBox41.Lines = new string[] {
+        "0"};
+            this.metroTextBox41.Location = new System.Drawing.Point(880, 254);
+            this.metroTextBox41.MaxLength = 32767;
+            this.metroTextBox41.Multiline = true;
+            this.metroTextBox41.Name = "metroTextBox41";
+            this.metroTextBox41.PasswordChar = '\0';
+            this.metroTextBox41.ReadOnly = true;
+            this.metroTextBox41.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox41.SelectedText = "";
+            this.metroTextBox41.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox41.TabIndex = 275;
+            this.metroTextBox41.Text = "0";
+            this.metroTextBox41.UseSelectable = true;
+            // 
+            // metroTextBox42
+            // 
+            this.metroTextBox42.Lines = new string[] {
+        "0"};
+            this.metroTextBox42.Location = new System.Drawing.Point(880, 290);
+            this.metroTextBox42.MaxLength = 32767;
+            this.metroTextBox42.Multiline = true;
+            this.metroTextBox42.Name = "metroTextBox42";
+            this.metroTextBox42.PasswordChar = '\0';
+            this.metroTextBox42.ReadOnly = true;
+            this.metroTextBox42.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox42.SelectedText = "";
+            this.metroTextBox42.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox42.TabIndex = 274;
+            this.metroTextBox42.Text = "0";
+            this.metroTextBox42.UseSelectable = true;
+            // 
+            // metroTextBox43
+            // 
+            this.metroTextBox43.Lines = new string[] {
+        "0"};
+            this.metroTextBox43.Location = new System.Drawing.Point(880, 185);
+            this.metroTextBox43.MaxLength = 32767;
+            this.metroTextBox43.Multiline = true;
+            this.metroTextBox43.Name = "metroTextBox43";
+            this.metroTextBox43.PasswordChar = '\0';
+            this.metroTextBox43.ReadOnly = true;
+            this.metroTextBox43.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox43.SelectedText = "";
+            this.metroTextBox43.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox43.TabIndex = 273;
+            this.metroTextBox43.Text = "0";
+            this.metroTextBox43.UseSelectable = true;
+            // 
+            // metroTextBox44
+            // 
+            this.metroTextBox44.Lines = new string[] {
+        "0"};
+            this.metroTextBox44.Location = new System.Drawing.Point(880, 221);
+            this.metroTextBox44.MaxLength = 32767;
+            this.metroTextBox44.Multiline = true;
+            this.metroTextBox44.Name = "metroTextBox44";
+            this.metroTextBox44.PasswordChar = '\0';
+            this.metroTextBox44.ReadOnly = true;
+            this.metroTextBox44.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox44.SelectedText = "";
+            this.metroTextBox44.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox44.TabIndex = 272;
+            this.metroTextBox44.Text = "0";
+            this.metroTextBox44.UseSelectable = true;
+            // 
+            // metroTextBox45
+            // 
+            this.metroTextBox45.Lines = new string[] {
+        "0"};
+            this.metroTextBox45.Location = new System.Drawing.Point(880, 116);
+            this.metroTextBox45.MaxLength = 32767;
+            this.metroTextBox45.Multiline = true;
+            this.metroTextBox45.Name = "metroTextBox45";
+            this.metroTextBox45.PasswordChar = '\0';
+            this.metroTextBox45.ReadOnly = true;
+            this.metroTextBox45.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox45.SelectedText = "";
+            this.metroTextBox45.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox45.TabIndex = 271;
+            this.metroTextBox45.Text = "0";
+            this.metroTextBox45.UseSelectable = true;
+            // 
+            // metroTextBox46
+            // 
+            this.metroTextBox46.Lines = new string[] {
+        "0"};
+            this.metroTextBox46.Location = new System.Drawing.Point(880, 152);
+            this.metroTextBox46.MaxLength = 32767;
+            this.metroTextBox46.Multiline = true;
+            this.metroTextBox46.Name = "metroTextBox46";
+            this.metroTextBox46.PasswordChar = '\0';
+            this.metroTextBox46.ReadOnly = true;
+            this.metroTextBox46.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox46.SelectedText = "";
+            this.metroTextBox46.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox46.TabIndex = 270;
+            this.metroTextBox46.Text = "0";
+            this.metroTextBox46.UseSelectable = true;
+            // 
+            // metroTextBox47
+            // 
+            this.metroTextBox47.Lines = new string[] {
+        "0"};
+            this.metroTextBox47.Location = new System.Drawing.Point(880, 47);
+            this.metroTextBox47.MaxLength = 32767;
+            this.metroTextBox47.Multiline = true;
+            this.metroTextBox47.Name = "metroTextBox47";
+            this.metroTextBox47.PasswordChar = '\0';
+            this.metroTextBox47.ReadOnly = true;
+            this.metroTextBox47.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox47.SelectedText = "";
+            this.metroTextBox47.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox47.TabIndex = 269;
+            this.metroTextBox47.Text = "0";
+            this.metroTextBox47.UseSelectable = true;
+            // 
+            // metroTextBox48
+            // 
+            this.metroTextBox48.Lines = new string[] {
+        "0"};
+            this.metroTextBox48.Location = new System.Drawing.Point(880, 83);
+            this.metroTextBox48.MaxLength = 32767;
+            this.metroTextBox48.Multiline = true;
+            this.metroTextBox48.Name = "metroTextBox48";
+            this.metroTextBox48.PasswordChar = '\0';
+            this.metroTextBox48.ReadOnly = true;
+            this.metroTextBox48.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox48.SelectedText = "";
+            this.metroTextBox48.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox48.TabIndex = 268;
+            this.metroTextBox48.Text = "0";
+            this.metroTextBox48.UseSelectable = true;
+            // 
+            // metroTextBox49
+            // 
+            this.metroTextBox49.Lines = new string[] {
+        "0"};
+            this.metroTextBox49.Location = new System.Drawing.Point(1051, 254);
+            this.metroTextBox49.MaxLength = 32767;
+            this.metroTextBox49.Multiline = true;
+            this.metroTextBox49.Name = "metroTextBox49";
+            this.metroTextBox49.PasswordChar = '\0';
+            this.metroTextBox49.ReadOnly = true;
+            this.metroTextBox49.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox49.SelectedText = "";
+            this.metroTextBox49.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox49.TabIndex = 291;
+            this.metroTextBox49.Text = "0";
+            this.metroTextBox49.UseSelectable = true;
+            // 
+            // metroTextBox50
+            // 
+            this.metroTextBox50.Lines = new string[] {
+        "0"};
+            this.metroTextBox50.Location = new System.Drawing.Point(1051, 290);
+            this.metroTextBox50.MaxLength = 32767;
+            this.metroTextBox50.Multiline = true;
+            this.metroTextBox50.Name = "metroTextBox50";
+            this.metroTextBox50.PasswordChar = '\0';
+            this.metroTextBox50.ReadOnly = true;
+            this.metroTextBox50.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox50.SelectedText = "";
+            this.metroTextBox50.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox50.TabIndex = 290;
+            this.metroTextBox50.Text = "0";
+            this.metroTextBox50.UseSelectable = true;
+            // 
+            // metroTextBox51
+            // 
+            this.metroTextBox51.Lines = new string[] {
+        "0"};
+            this.metroTextBox51.Location = new System.Drawing.Point(1051, 185);
+            this.metroTextBox51.MaxLength = 32767;
+            this.metroTextBox51.Multiline = true;
+            this.metroTextBox51.Name = "metroTextBox51";
+            this.metroTextBox51.PasswordChar = '\0';
+            this.metroTextBox51.ReadOnly = true;
+            this.metroTextBox51.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox51.SelectedText = "";
+            this.metroTextBox51.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox51.TabIndex = 289;
+            this.metroTextBox51.Text = "0";
+            this.metroTextBox51.UseSelectable = true;
+            // 
+            // metroTextBox52
+            // 
+            this.metroTextBox52.Lines = new string[] {
+        "0"};
+            this.metroTextBox52.Location = new System.Drawing.Point(1051, 221);
+            this.metroTextBox52.MaxLength = 32767;
+            this.metroTextBox52.Multiline = true;
+            this.metroTextBox52.Name = "metroTextBox52";
+            this.metroTextBox52.PasswordChar = '\0';
+            this.metroTextBox52.ReadOnly = true;
+            this.metroTextBox52.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox52.SelectedText = "";
+            this.metroTextBox52.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox52.TabIndex = 288;
+            this.metroTextBox52.Text = "0";
+            this.metroTextBox52.UseSelectable = true;
+            // 
+            // metroTextBox53
+            // 
+            this.metroTextBox53.Lines = new string[] {
+        "0"};
+            this.metroTextBox53.Location = new System.Drawing.Point(1051, 116);
+            this.metroTextBox53.MaxLength = 32767;
+            this.metroTextBox53.Multiline = true;
+            this.metroTextBox53.Name = "metroTextBox53";
+            this.metroTextBox53.PasswordChar = '\0';
+            this.metroTextBox53.ReadOnly = true;
+            this.metroTextBox53.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox53.SelectedText = "";
+            this.metroTextBox53.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox53.TabIndex = 287;
+            this.metroTextBox53.Text = "0";
+            this.metroTextBox53.UseSelectable = true;
+            // 
+            // metroTextBox54
+            // 
+            this.metroTextBox54.Lines = new string[] {
+        "0"};
+            this.metroTextBox54.Location = new System.Drawing.Point(1051, 152);
+            this.metroTextBox54.MaxLength = 32767;
+            this.metroTextBox54.Multiline = true;
+            this.metroTextBox54.Name = "metroTextBox54";
+            this.metroTextBox54.PasswordChar = '\0';
+            this.metroTextBox54.ReadOnly = true;
+            this.metroTextBox54.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox54.SelectedText = "";
+            this.metroTextBox54.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox54.TabIndex = 286;
+            this.metroTextBox54.Text = "0";
+            this.metroTextBox54.UseSelectable = true;
+            // 
+            // metroTextBox55
+            // 
+            this.metroTextBox55.Lines = new string[] {
+        "0"};
+            this.metroTextBox55.Location = new System.Drawing.Point(1051, 47);
+            this.metroTextBox55.MaxLength = 32767;
+            this.metroTextBox55.Multiline = true;
+            this.metroTextBox55.Name = "metroTextBox55";
+            this.metroTextBox55.PasswordChar = '\0';
+            this.metroTextBox55.ReadOnly = true;
+            this.metroTextBox55.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox55.SelectedText = "";
+            this.metroTextBox55.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox55.TabIndex = 285;
+            this.metroTextBox55.Text = "0";
+            this.metroTextBox55.UseSelectable = true;
+            // 
+            // metroTextBox56
+            // 
+            this.metroTextBox56.Lines = new string[] {
+        "0"};
+            this.metroTextBox56.Location = new System.Drawing.Point(1051, 83);
+            this.metroTextBox56.MaxLength = 32767;
+            this.metroTextBox56.Multiline = true;
+            this.metroTextBox56.Name = "metroTextBox56";
+            this.metroTextBox56.PasswordChar = '\0';
+            this.metroTextBox56.ReadOnly = true;
+            this.metroTextBox56.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox56.SelectedText = "";
+            this.metroTextBox56.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox56.TabIndex = 284;
+            this.metroTextBox56.Text = "0";
+            this.metroTextBox56.UseSelectable = true;
+            // 
+            // metroTextBox57
+            // 
+            this.metroTextBox57.Lines = new string[] {
+        "0"};
+            this.metroTextBox57.Location = new System.Drawing.Point(967, 254);
+            this.metroTextBox57.MaxLength = 32767;
+            this.metroTextBox57.Multiline = true;
+            this.metroTextBox57.Name = "metroTextBox57";
+            this.metroTextBox57.PasswordChar = '\0';
+            this.metroTextBox57.ReadOnly = true;
+            this.metroTextBox57.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox57.SelectedText = "";
+            this.metroTextBox57.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox57.TabIndex = 283;
+            this.metroTextBox57.Text = "0";
+            this.metroTextBox57.UseSelectable = true;
+            // 
+            // metroTextBox58
+            // 
+            this.metroTextBox58.Lines = new string[] {
+        "0"};
+            this.metroTextBox58.Location = new System.Drawing.Point(967, 290);
+            this.metroTextBox58.MaxLength = 32767;
+            this.metroTextBox58.Multiline = true;
+            this.metroTextBox58.Name = "metroTextBox58";
+            this.metroTextBox58.PasswordChar = '\0';
+            this.metroTextBox58.ReadOnly = true;
+            this.metroTextBox58.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox58.SelectedText = "";
+            this.metroTextBox58.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox58.TabIndex = 282;
+            this.metroTextBox58.Text = "0";
+            this.metroTextBox58.UseSelectable = true;
+            // 
+            // metroTextBox59
+            // 
+            this.metroTextBox59.Lines = new string[] {
+        "0"};
+            this.metroTextBox59.Location = new System.Drawing.Point(967, 185);
+            this.metroTextBox59.MaxLength = 32767;
+            this.metroTextBox59.Multiline = true;
+            this.metroTextBox59.Name = "metroTextBox59";
+            this.metroTextBox59.PasswordChar = '\0';
+            this.metroTextBox59.ReadOnly = true;
+            this.metroTextBox59.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox59.SelectedText = "";
+            this.metroTextBox59.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox59.TabIndex = 281;
+            this.metroTextBox59.Text = "0";
+            this.metroTextBox59.UseSelectable = true;
+            // 
+            // metroTextBox60
+            // 
+            this.metroTextBox60.Lines = new string[] {
+        "0"};
+            this.metroTextBox60.Location = new System.Drawing.Point(967, 221);
+            this.metroTextBox60.MaxLength = 32767;
+            this.metroTextBox60.Multiline = true;
+            this.metroTextBox60.Name = "metroTextBox60";
+            this.metroTextBox60.PasswordChar = '\0';
+            this.metroTextBox60.ReadOnly = true;
+            this.metroTextBox60.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox60.SelectedText = "";
+            this.metroTextBox60.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox60.TabIndex = 280;
+            this.metroTextBox60.Text = "0";
+            this.metroTextBox60.UseSelectable = true;
+            // 
+            // metroTextBox61
+            // 
+            this.metroTextBox61.Lines = new string[] {
+        "0"};
+            this.metroTextBox61.Location = new System.Drawing.Point(967, 116);
+            this.metroTextBox61.MaxLength = 32767;
+            this.metroTextBox61.Multiline = true;
+            this.metroTextBox61.Name = "metroTextBox61";
+            this.metroTextBox61.PasswordChar = '\0';
+            this.metroTextBox61.ReadOnly = true;
+            this.metroTextBox61.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox61.SelectedText = "";
+            this.metroTextBox61.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox61.TabIndex = 279;
+            this.metroTextBox61.Text = "0";
+            this.metroTextBox61.UseSelectable = true;
+            // 
+            // metroTextBox62
+            // 
+            this.metroTextBox62.Lines = new string[] {
+        "0"};
+            this.metroTextBox62.Location = new System.Drawing.Point(967, 152);
+            this.metroTextBox62.MaxLength = 32767;
+            this.metroTextBox62.Multiline = true;
+            this.metroTextBox62.Name = "metroTextBox62";
+            this.metroTextBox62.PasswordChar = '\0';
+            this.metroTextBox62.ReadOnly = true;
+            this.metroTextBox62.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox62.SelectedText = "";
+            this.metroTextBox62.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox62.TabIndex = 278;
+            this.metroTextBox62.Text = "0";
+            this.metroTextBox62.UseSelectable = true;
+            // 
+            // metroTextBox63
+            // 
+            this.metroTextBox63.Lines = new string[] {
+        "0"};
+            this.metroTextBox63.Location = new System.Drawing.Point(967, 47);
+            this.metroTextBox63.MaxLength = 32767;
+            this.metroTextBox63.Multiline = true;
+            this.metroTextBox63.Name = "metroTextBox63";
+            this.metroTextBox63.PasswordChar = '\0';
+            this.metroTextBox63.ReadOnly = true;
+            this.metroTextBox63.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox63.SelectedText = "";
+            this.metroTextBox63.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox63.TabIndex = 277;
+            this.metroTextBox63.Text = "0";
+            this.metroTextBox63.UseSelectable = true;
+            // 
+            // metroTextBox64
+            // 
+            this.metroTextBox64.Lines = new string[] {
+        "0"};
+            this.metroTextBox64.Location = new System.Drawing.Point(967, 83);
+            this.metroTextBox64.MaxLength = 32767;
+            this.metroTextBox64.Multiline = true;
+            this.metroTextBox64.Name = "metroTextBox64";
+            this.metroTextBox64.PasswordChar = '\0';
+            this.metroTextBox64.ReadOnly = true;
+            this.metroTextBox64.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox64.SelectedText = "";
+            this.metroTextBox64.Size = new System.Drawing.Size(66, 22);
+            this.metroTextBox64.TabIndex = 276;
+            this.metroTextBox64.Text = "0";
+            this.metroTextBox64.UseSelectable = true;
+            // 
+            // panel20
+            // 
+            this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(194)))), ((int)(((byte)(194)))));
+            this.panel20.Location = new System.Drawing.Point(765, 40);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(1, 278);
+            this.panel20.TabIndex = 292;
             // 
             // CalculatorForm
             // 
@@ -3255,6 +4742,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.selfItem3Pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.selfItem2Pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.selfItem1Pic)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3495,6 +4984,93 @@
         private MetroFramework.Controls.MetroToggle selfAchillesToggle;
         private System.Windows.Forms.Label label65;
         private MetroFramework.Controls.MetroComboBox selfBellonaStance;
+        private System.Windows.Forms.Panel panel20;
+        private MetroFramework.Controls.MetroTextBox metroTextBox49;
+        private MetroFramework.Controls.MetroTextBox metroTextBox50;
+        private MetroFramework.Controls.MetroTextBox metroTextBox51;
+        private MetroFramework.Controls.MetroTextBox metroTextBox52;
+        private MetroFramework.Controls.MetroTextBox metroTextBox53;
+        private MetroFramework.Controls.MetroTextBox metroTextBox54;
+        private MetroFramework.Controls.MetroTextBox metroTextBox55;
+        private MetroFramework.Controls.MetroTextBox metroTextBox56;
+        private MetroFramework.Controls.MetroTextBox metroTextBox57;
+        private MetroFramework.Controls.MetroTextBox metroTextBox58;
+        private MetroFramework.Controls.MetroTextBox metroTextBox59;
+        private MetroFramework.Controls.MetroTextBox metroTextBox60;
+        private MetroFramework.Controls.MetroTextBox metroTextBox61;
+        private MetroFramework.Controls.MetroTextBox metroTextBox62;
+        private MetroFramework.Controls.MetroTextBox metroTextBox63;
+        private MetroFramework.Controls.MetroTextBox metroTextBox64;
+        private MetroFramework.Controls.MetroTextBox metroTextBox41;
+        private MetroFramework.Controls.MetroTextBox metroTextBox42;
+        private MetroFramework.Controls.MetroTextBox metroTextBox43;
+        private MetroFramework.Controls.MetroTextBox metroTextBox44;
+        private MetroFramework.Controls.MetroTextBox metroTextBox45;
+        private MetroFramework.Controls.MetroTextBox metroTextBox46;
+        private MetroFramework.Controls.MetroTextBox metroTextBox47;
+        private MetroFramework.Controls.MetroTextBox metroTextBox48;
+        private MetroFramework.Controls.MetroTextBox metroTextBox33;
+        private MetroFramework.Controls.MetroTextBox metroTextBox34;
+        private MetroFramework.Controls.MetroTextBox metroTextBox35;
+        private MetroFramework.Controls.MetroTextBox metroTextBox36;
+        private MetroFramework.Controls.MetroTextBox metroTextBox37;
+        private MetroFramework.Controls.MetroTextBox metroTextBox38;
+        private MetroFramework.Controls.MetroTextBox metroTextBox39;
+        private MetroFramework.Controls.MetroTextBox metroTextBox40;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.Panel panel18;
+        private MetroFramework.Controls.MetroTextBox metroTextBox25;
+        private MetroFramework.Controls.MetroTextBox metroTextBox26;
+        private MetroFramework.Controls.MetroTextBox metroTextBox27;
+        private MetroFramework.Controls.MetroTextBox metroTextBox28;
+        private MetroFramework.Controls.MetroTextBox metroTextBox29;
+        private MetroFramework.Controls.MetroTextBox metroTextBox30;
+        private MetroFramework.Controls.MetroTextBox metroTextBox31;
+        private MetroFramework.Controls.MetroTextBox metroTextBox32;
+        private System.Windows.Forms.Label label97;
+        private MetroFramework.Controls.MetroTextBox metroTextBox17;
+        private MetroFramework.Controls.MetroTextBox metroTextBox18;
+        private MetroFramework.Controls.MetroTextBox metroTextBox19;
+        private MetroFramework.Controls.MetroTextBox metroTextBox20;
+        private MetroFramework.Controls.MetroTextBox metroTextBox21;
+        private MetroFramework.Controls.MetroTextBox metroTextBox22;
+        private MetroFramework.Controls.MetroTextBox metroTextBox23;
+        private MetroFramework.Controls.MetroTextBox metroTextBox24;
+        private MetroFramework.Controls.MetroComboBox metroComboBox5;
+        private System.Windows.Forms.Label label74;
+        private MetroFramework.Controls.MetroComboBox metroComboBox6;
+        private System.Windows.Forms.Label label76;
+        private MetroFramework.Controls.MetroComboBox metroComboBox7;
+        private System.Windows.Forms.Label label93;
+        private MetroFramework.Controls.MetroComboBox metroComboBox8;
+        private System.Windows.Forms.Label label96;
+        private MetroFramework.Controls.MetroTextBox metroTextBox8;
+        private MetroFramework.Controls.MetroTextBox metroTextBox10;
+        private MetroFramework.Controls.MetroTextBox metroTextBox11;
+        private MetroFramework.Controls.MetroTextBox metroTextBox12;
+        private MetroFramework.Controls.MetroTextBox metroTextBox13;
+        private MetroFramework.Controls.MetroTextBox metroTextBox14;
+        private MetroFramework.Controls.MetroTextBox metroTextBox15;
+        private MetroFramework.Controls.MetroTextBox metroTextBox16;
+        private MetroFramework.Controls.MetroTextBox metroTextBox6;
+        private MetroFramework.Controls.MetroTextBox metroTextBox7;
+        private MetroFramework.Controls.MetroTextBox metroTextBox4;
+        private MetroFramework.Controls.MetroTextBox metroTextBox5;
+        private MetroFramework.Controls.MetroTextBox metroTextBox2;
+        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private MetroFramework.Controls.MetroTextBox metroTextBox9;
+        private MetroFramework.Controls.MetroComboBox metroComboBox3;
+        private System.Windows.Forms.Label label101;
+        private MetroFramework.Controls.MetroComboBox metroComboBox4;
+        private System.Windows.Forms.Label label102;
+        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private System.Windows.Forms.Label label72;
+        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.TabPage tabPage5;
 
     }
 }
