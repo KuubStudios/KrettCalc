@@ -34,11 +34,13 @@ namespace KrettCalc {
             using(FileStream fs = new FileStream("gods.xml", FileMode.Open)) {
                 gods = (List<GodStat>)godSerializer.Deserialize(fs);
             }
+            gods.Sort((a, b) => String.Compare(a.Name, b.Name, StringComparison.Ordinal));
 
             XmlSerializer itemSerializer = new XmlSerializer(typeof(List<ItemStat>));
             using(FileStream fs = new FileStream("items.xml", FileMode.Open)) {
                 items = (List<ItemStat>)itemSerializer.Deserialize(fs);
             }
+            items.Sort((a, b) => String.Compare(a.Name, b.Name, StringComparison.Ordinal));
 
             foreach(GodStat god in gods) {
                 targetGod.Items.Add(god);

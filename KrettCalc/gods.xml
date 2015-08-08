@@ -70,7 +70,7 @@
   <God Name="Ares" Type="Magical" HP="485" HPScale="90" PP="17" PPScale="3" MP="30" MPScale="0.9" AS="0.9" ASScale="1.25" Atk="38" AtkScale="1.55" Mana="200" ManaScale="37" Passive="Blessed Presence" Hp5="8" Hp5Scale="0.67">
     <Ability1 Name="Shackles" Dmg="125" Rank="100" Scaling="0.75" Type="Instant" Refire="15" Postcast="0.5" />
     <Ability2 Name="Bolster Defenses" Type="Field" Refire="15" Postcast="0.1" Duration="8" />
-    <Ability3 Name="Searing Flesh" Dmg="547.2" Rank="40" Scaling="0.56" Type="Channel" Refire="12" Duration="3.5" />
+    <Ability3 Name="Searing Flesh" Dmg="584.4" Rank="40" Scaling="0.56" Type="Channel" Refire="12" Duration="3.5" />
     <Ability4 Name="No Escape" Dmg="200" Rank="75" Scaling="0.8" Type="Channel" Refire="90" Postcast="0.3" Duration="2.5" />
     <Steroid1 Enabled="Blessed Presence" />
   </God>
@@ -125,7 +125,7 @@
     <Ability1 Name="Shield Bash" Dmg="80" Rank="40" Scaling="0.4" Type="Instant" Refire="15" Precast="0.15" Postcast="0.2" />
     <Ability2 Name="Bludgeon" Dmg="100" Rank="80" Scaling="0.85" Type="Instant" Refire="10" Precast="1.54" Postcast="0.3" />
     <Ability3 Name="Scourge" Dmg="60" Rank="40" Scaling="0.5" Type="Instant" Refire="18" Precast="0.2" Postcast="0.3" />
-    <Ability4 Name="Eagle's Rally" Dmg="100" Rank="100" Scaling="0.5" Type="Instant" Refire="55" Precast="0.7" Postcast="0.15" />
+    <Ability4 Name="Eagle's Rally" Dmg="100" Rank="100" Scaling="0.5" Type="Instant" Refire="75" Precast="0.7" Postcast="0.15" />
   </God>
   <God Name="Cabrakan" Type="Magical" HP="490" HPScale="90" PP="23" PPScale="3.3" MP="30" MPScale="0.9" AS="0.9" ASScale="1.2" Atk="38" AtkScale="1.5" Mana="200" ManaScale="34" Passive="Shadow Zone" Hp5="8" Hp5Scale="0.75" Extra="Tremors duration?">
     <Ability1 Name="Seismic Crush" Dmg="100" Rank="25" Scaling="0.5" Type="Instant" Refire="18" />
@@ -183,7 +183,7 @@
     <Ability1 Name="Roll Out" Dmg="100" Rank="75" Scaling="0.5" Type="Channel" Refire="10" Precast="3" Postcast="3" />
     <Ability2 Name="Shockwave" Dmg="90" Rank="70" Scaling="0.5" Type="Instant" Refire="15" Precast="0.3" Postcast="0.2" />
     <Ability3 Name="Stone Shield" Type="Instant" Refire="18" Postcast="0.1" />
-    <Ability4 Name="Cataclysm" Dmg="267" Rank="89" Type="Instant" Refire="90" Precast="0.5" />
+    <Ability4 Name="Cataclysm" Dmg="290.25" Rank="96.75" Type="Instant" Refire="90" Precast="0.5" />
     <Special1 Name="Instant Rollout" Dmg="258.75" Type="Instant" Precast="0.1" Postcast="0.1" />
   </God>
   <God Name="Guan Yu" Type="Physical" HP="470" HPScale="84" PP="16" PPScale="3" MP="30" MPScale="0.9" AS="1" ASScale="0.9" Atk="37" AtkScale="2" Mana="220" ManaScale="32" Passive="Painless" Hp5="6" Hp5Scale="0.7">
@@ -238,7 +238,7 @@
   <God Name="Isis" Type="Magical" HP="365" HPScale="68" PP="9" PPScale="2.7" MP="30" AS="1" ASScale="0" Atk="35" AtkScale="1.5" Mana="280" ManaScale="51" Passive="Funeral Rites" Hp5="6" Hp5Scale="0.45">
     <Ability1 Name="Wing Gust" Dmg="140" Rank="80" Scaling="1.6" Type="Channel" Refire="10" Precast="0.5" Postcast="0.1" Duration="2.5" />
     <Ability2 Name="Spirit Ball" Dmg="70" Rank="40" Scaling="0.7" Type="Instant" Refire="10" Precast="0.2" Postcast="0.1" />
-    <Ability3 Name="Dispel Magic" Type="Instant" Refire="18" Precast="0.5" Postcast="0.1" />
+    <Ability3 Name="Dispel Magic" Dmg="1" Type="Instant" Refire="18" Precast="0.5" Postcast="0.1" />
     <Ability4 Name="Circle of Protection" Dmg="160" Rank="40" Scaling="0.5" Type="Instant" Refire="90" Postcast="0.3" />
     <Special1 Name="Max range spirit ball" Dmg="591.75" Type="Instant" Precast="0.2" Postcast="0.1" />
     <Special2 Name="Max Charge Circle of Protection" Dmg="1531.25" Type="Instant" Postcast="0.3" />
@@ -315,7 +315,7 @@
     <Ability1 Name="Swift Vengeance" Dmg="50" Rank="30" Scaling="0.25" Type="Instant" Refire="14" Postcast="0.4" />
     <Ability2 Name="Slice and Dice" Dmg="80" Rank="50" Scaling="0.5" Type="Instant" Refire="13" Precast="0.35" Postcast="0.1" />
     <Ability3 Name="Retribution" Type="Instant" Refire="18" Postcast="0.25" />
-    <Ability4 Name="Full Health Divine Judgement" Dmg="534" Rank="89" Type="Instant" Refire="90" Precast="0.25" Postcast="0.2" />
+    <Ability4 Name="Full Health Divine Judgement" Dmg="580.5" Rank="96.75" Type="Instant" Refire="90" Precast="0.25" Postcast="0.2" />
   </God>
   <God Name="Nox" Type="Magical" HP="400" HPScale="75" PP="10" PPScale="2.6" MP="30" AS="1" ASScale="0.8" Atk="34" AtkScale="1.5" Mana="298" ManaScale="55" Passive="Flame of the Night" Hp5="6" Hp5Scale="0.45" Extra="Flame of Night Stacks? 0-4">
     <Ability1 Name="Shadow Lock" Dmg="120" Rank="40" Scaling="0.8" Type="Channel" Refire="10" Precast="0.25" Postcast="0.1" Duration="2" />
@@ -374,7 +374,7 @@
     <Ability1 Name="Dart" Dmg="70" Rank="30" Scaling="0.4" Type="Instant" Refire="14" Precast="0.15" Postcast="0.15" />
     <Ability2 Name="Flurry of Acorns" Dmg="120" Rank="48" Scaling="1.8" Type="Instant" Refire="12" Precast="0.3" Postcast="0.1" />
     <Ability3 Name="Acorn Blast" Dmg="120" Rank="40" Scaling="1" Type="Instant" Refire="10" Precast="0.3" Postcast="0.2" />
-    <Ability4 Name="Through the Cosmos" Dmg="200" Rank="60" Scaling="0.7" Type="Channel" Refire="90" Precast="1" Postcast="1" Duration="3" />
+    <Ability4 Name="Through the Cosmos" Dmg="200" Rank="60" Scaling="0.7" Type="Channel" Refire="90" Precast="1.5" Postcast="1" Duration="3" />
     <Steroid1 Enabled="Sapphire Acorn" Disabled="Opal Acorn" />
     <Special1 Name="Sapphire Blast" Dmg="1011" Type="Instant" Precast="0.3" Postcast="0.1" />
     <Special2 Name="Opal Dash" Dmg="723.25" Type="Instant" Precast="0.15" Postcast="0.15" />
@@ -382,8 +382,8 @@
   </God>
   <God Name="Ravana" Type="Physical" HP="470" HPScale="82" PP="16" PPScale="2.9" MP="30" MPScale="0.9" AS="1" ASScale="1" Atk="37" AtkScale="2" Mana="230" ManaScale="35" Passive="Chain of Blows" Hp5="7" Hp5Scale="0.63" Extra="Chain of Blows Stacks 0-8">
     <Ability1 Name="Prana Onslaught" Dmg="60" Rank="20" Scaling="0.75" Type="Instant" Refire="6" Precast="0.1" Postcast="0.2" />
-    <Ability2 Name="Overhead Kick" Dmg="55" Rank="35" Scaling="0.7" Type="Instant" Refire="12" Precast="0.75" />
-    <Ability3 Name="10-Hand Shadow Fist" Dmg="115" Rank="35" Scaling="0.55" Type="Instant" Refire="15" Precast="0.2" Postcast="0.2" />
+    <Ability2 Name="Overhead Kick" Dmg="70" Rank="35" Scaling="0.7" Type="Instant" Refire="10" Precast="0.75" />
+    <Ability3 Name="10-Hand Shadow Fist" Dmg="120" Rank="35" Scaling="0.55" Type="Instant" Refire="15" Precast="0.2" Postcast="0.2" />
     <Ability4 Name="Mystic Rush" Dmg="70" Rank="30" Scaling="0.35" Type="Instant" Refire="70" Precast="0.2" Postcast="0.2" />
   </God>
   <God Name="Scylla" Type="Magical" HP="365" HPScale="68" PP="9" PPScale="2.6" MP="30" AS="1" ASScale="0.8" Atk="34" AtkScale="1.45" Mana="298" ManaScale="56" Passive="Quick Learner" Hp5="6" Hp5Scale="0.45">
@@ -422,7 +422,7 @@
     <Ability4 Name="Wrath of Tera" Dmg="300" Rank="50" Scaling="1.25" Type="Instant" Refire="90" Precast="0.5" Postcast="0.1" />
   </God>
   <God Name="Thanatos" Type="Physical" HP="390" HPScale="75" PP="11" PPScale="2.9" MP="30" MPScale="0.9" AS="1" ASScale="1.7" Atk="37" AtkScale="2.3" Mana="240" ManaScale="38" Passive="Harvester of Souls" Hp5="8" Hp5Scale="0.67">
-    <Ability1 Name="Death Scythe" Dmg="278" Rank="70" Scaling="0.6" Type="Instant" Refire="13" Precast="0.2" Postcast="0.1" />
+    <Ability1 Name="Death Scythe" Dmg="293.5" Rank="70" Scaling="0.6" Type="Instant" Refire="13" Precast="0.2" Postcast="0.1" />
     <Ability2 Name="Scent of Death" Type="Instant" Refire="13" Precast="0.5" />
     <Ability3 Name="Soul Reap" Dmg="100" Rank="50" Scaling="0.6" Type="Instant" Refire="15" Precast="0.6" Postcast="0.1" />
     <Ability4 Name="Hovering Death" Dmg="90" Rank="35" Scaling="0.8" Type="Instant" Refire="90" Precast="0.4" Postcast="0.5" Duration="5" />
@@ -497,5 +497,11 @@
     <Ability3 Name="Book of Demons" Dmg="60" Rank="55" Scaling="0.5" Type="Instant" Refire="15" Postcast="1.5" />
     <Ability4 Name="Recall Demons" Dmg="400" Rank="75" Scaling="1" Type="Instant" Refire="90" Precast="0.5" />
     <Steroid1 Enabled="Enable Book of Demons" Disabled="Disable Book of Demons" />
+  </God>
+  <God Name="Khepri" Type="Magical" HP="510" HPScale="90" PP="19" PPScale="3" MP="30" MPScale="0.9" AS="1" ASScale="1.2" Atk="38" AtkScale="1.5" Mana="190" ManaScale="34" Passive="Fortitude" Hp5="8" Hp5Scale="0.8">
+    <Ability1 Name="Abduct" Dmg="80" Rank="60" Scaling="0.4" Type="Instant" Refire="15" Precast="1" Postcast="2" />
+    <Ability2 Name="Rising Dawn" Dmg="120" Rank="30" Scaling="0.5" Type="Instant" Refire="10" Precast="0.2" Postcast="0.2" />
+    <Ability3 Name="Solar Flare" Dmg="40" Rank="40" Scaling="0.3" Type="Instant" Refire="15" Precast="0.2" Postcast="0.2" />
+    <Ability4 Name="Scarabs Blessing" Type="Instant" Refire="90" Precast="0.1" />
   </God>
 </ArrayOfGod>

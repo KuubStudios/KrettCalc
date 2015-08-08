@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <ArrayOfItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Item Name="Ancile" Cost="2250" Type="Physical" MP="50" Power="20" CDR="8" Passive="Ancile" />
+  <Item Name="Ancile" Cost="2250" Type="Physical" MP="40" Power="25" CDR="15" Passive="Ancile" />
   <Item Name="Asi" Cost="1780" Type="Physical" AS="20" FlatPen="15" Lifesteal="15" Passive="Asi" />
   <Item Name="Bancroft's Talon" Cost="2400" Type="Magical" Power="100" Lifesteal="12" Passive="Bancroft's Talon" />
   <Item Name="Bloodforge" Cost="2265" Type="Physical" Power="55" Lifesteal="24" Passive="Bloodforge" />
   <Item Name="Bluestone Pendant" Cost="800" Type="Physical" Health="90" Power="10" Passive="Bluestone Pendant" />
-  <Item Name="Book of Thoth" Cost="2650" Type="Magical" Power="127.9" Mana="125" Passive="Book of Thoth" />
+  <Item Name="Book of Thoth" Cost="2650" Type="Magical" Power="130" Mana="125" Passive="Book of Thoth" />
   <Item Name="Brawler's Beatstick" Cost="2400" Type="Physical" Power="40" FlatPen="20" Passive="Brawler's Beatstick" />
-  <Item Name="Breastplate of Valor" Cost="2300" Type="Both" PP="75" CDR="25" Mana="550" Passive="None" />
+  <Item Name="Breastplate of Valor" Cost="1950" Type="Both" PP="75" CDR="25" Mana="300" Passive="None" />
   <Item Name="Bulwark of Hope" Cost="2525" Type="Both" Health="450" MP="60" Passive="Bulwark of Hope" />
-  <Item Name="Celestial Legion Helm" Cost="2350" Type="Magical" PP="50" Power="40" Passive="Celestial Legion Helm" />
+  <Item Name="Celestial Legion Helm" Cost="2350" Type="Magical" PP="50" Power="60" Passive="Celestial Legion Helm" />
   <Item Name="Chronos Pendant" Cost="2400" Type="Magical" Power="75" CDR="25" Passive="None" />
   <Item Name="Death's Toll" Cost="800" Type="Physical" Health="90" Power="15" Passive="Deaths Toll" />
   <Item Name="Deathbringer" Cost="3150" Type="Physical" Power="50" Crit="20" Passive="Deathbringer" />
@@ -19,7 +19,7 @@
   <Item Name="Doom Orb" Cost="1790" Type="Magical" Power="140" Mana="200" Passive="Doom Orb" />
   <Item Name="Dynasty Plate Helm" Cost="1750" Type="Magical" PP="30" Power="30" FlatPen="15" Passive="None" />
   <Item Name="Empty" Type="Both" Passive="None" />
-  <Item Name="Ethereal Staff" Cost="2700" Type="Magical" Health="600" Power="65.6" Mana="300" Passive="Ethereal Staff" />
+  <Item Name="Ethereal Staff" Cost="2700" Type="Magical" Health="600" Power="68.7" Mana="300" Passive="Ethereal Staff" />
   <Item Name="Frostbound Hammer" Cost="2300" Type="Physical" Health="400" Power="25" Passive="Frostbound Hammer" />
   <Item Name="Gem of Isolation" Cost="2850" Type="Magical" Health="250" Power="70" Mana="250" Passive="Gem of Isolation" />
   <Item Name="Golden Bow" Cost="2330" Type="Physical" Power="35" Crit="10" Passive="Golden Bow" MS="5" />
@@ -49,11 +49,11 @@
   <Item Name="Pythagorem's Piece" Cost="2600" Type="Magical" Power="70" CDR="10" Lifesteal="15" Passive="Pythagorem's Piece" />
   <Item Name="Qin's Sais" Cost="2850" Type="Physical" Power="30" AS="15" Passive="Qin's Sais" />
   <Item Name="Rage" Cost="2755" Type="Physical" Power="30" Crit="30" Passive="Rage" />
-  <Item Name="Reinforced Greaves" Cost="1400" Type="Both" Health="150" Power="15" Passive="Reinforced Greaves" MS="18" />
-  <Item Name="Reinforced Shoes" Cost="1450" Type="Both" Health="150" Power="20" Passive="Reinforced Shoes" MS="18" />
+  <Item Name="Reinforced Greaves" Cost="1400" Type="Physical" Health="150" Power="15" Passive="Reinforced Greaves" MS="18" />
+  <Item Name="Reinforced Shoes" Cost="1450" Type="Magical" Health="150" Power="20" Passive="Reinforced Shoes" MS="18" />
   <Item Name="Rod of Asclepius" Cost="2660" Type="Magical" Health="200" Power="75" Passive="Rod of Asclepius" />
   <Item Name="Rod of Tahuti" Cost="3320" Type="Magical" Power="125" Passive="Rod of Tahuti" />
-  <Item Name="Runeforged Hammer" Cost="2050" Type="Physical" Health="350" PP="55" Power="9.45" Passive="Runeforged Hammer" />
+  <Item Name="Runeforged Hammer" Cost="2050" Type="Physical" Health="350" PP="55" Power="10.8" Passive="Runeforged Hammer" />
   <Item Name="Runic Shield" Cost="2300" Type="Physical" MP="50" Power="25" Passive="Runic Shield" />
   <Item Name="Sapphire Acorn" Cost="2200" Type="Physical" Power="50" FlatPen="10" Passive="" />
   <Item Name="Shield of Regrowth" Cost="1800" Type="Physical" PP="30" Power="20" CDR="10" Passive="Shield of Regrowth" />
@@ -61,15 +61,15 @@
   <Item Name="Shoes of Focus" Cost="1500" Type="Magical" Power="30" CDR="15" Passive="None" MS="18" />
   <Item Name="Shoes of the Magi" Cost="1600" Type="Magical" Power="40" FlatPen="10" Mana="250" Passive="None" MS="18" />
   <Item Name="Short Sword" Cost="1500" Type="Physical" Power="20" Crit="10" Passive="None" />
-  <Item Name="Soul Eater" Cost="2000" Type="Physical" Health="300" AS="10" Lifesteal="15" Passive="Soul Eater" />
+  <Item Name="Soul Eater" Cost="2000" Type="Physical" Health="300" PP="10" Power="15" AS="15" Lifesteal="20" Passive="Soul Eater" />
   <Item Name="Soul Reaver" Cost="2940" Type="Magical" Power="100" Mana="300" Passive="Soul Reaver" />
   <Item Name="Soulstone" Cost="800" Type="Magical" Power="20" Mana="100" Passive="Soulstone" />
-  <Item Name="Sovereignty" Cost="2050" Type="Both" Health="200" PP="55" MP="20" Passive="Sovereignty" Hp5="25" />
+  <Item Name="Sovereignty" Cost="2100" Type="Both" Health="200" PP="55" MP="20" Passive="Sovereignty" Hp5="25" />
   <Item Name="Spear of the Magus" Cost="2150" Type="Magical" Power="40" FlatPen="15" Passive="Spear of the Magus" />
   <Item Name="Spirit Robe" Cost="2460" Type="Both" PP="40" MP="40" CDR="10" Passive="Spirit Robe" />
   <Item Name="Stone of Gaia" Cost="2250" Type="Both" Health="100" MP="70" Passive="Stone of Gaia" Hp5="25" />
   <Item Name="Talaria" Cost="1500" Type="Physical" Power="10" Passive="Talaria" MS="32" />
-  <Item Name="Telkhines Ring" Cost="2125" Type="Magical" MP="30" Power="45" AS="10" Passive="Telkhines Ring" />
+  <Item Name="Telkhines Ring" Cost="2125" Type="Magical" Health="100" Power="45" AS="10" Passive="Telkhines Ring" />
   <Item Name="The Crusher" Cost="2300" Type="Physical" Power="40" FlatPen="20" Passive="The Crusher" />
   <Item Name="The Executioner" Cost="2250" Type="Physical" Power="30" AS="20" Passive="The Executioner" />
   <Item Name="Titan's Bane" Cost="2050" Type="Physical" Power="30" PercentPen="33" Passive="None" />
