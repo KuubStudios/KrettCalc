@@ -116,7 +116,7 @@
     <Content Include="images\book-of-thoth.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\brawlers-beat-stick.png">
+    <Content Include="images\brawlers-beatstick.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="images\breastplate-of-valor.png">

@@ -111,21 +111,22 @@ namespace KrettCalc {
             foreach(ItemStat item in items) {
                 if(item.Name == "Empty") emptyItem = item;
 
-                if(item.ItemType == ItemType.Both || item.ItemType.ToString() == god.PowerType.ToString()) {
-                    targetItem1.Items.Add(item);
-                    targetItem2.Items.Add(item);
-                    targetItem3.Items.Add(item);
-                    targetItem4.Items.Add(item);
-                    targetItem5.Items.Add(item);
-                    targetItem6.Items.Add(item);
+                if(item.ItemType != ItemType.Both && item.ItemType.ToString() != god.PowerType.ToString()) continue;
+                if(god.Name != "Ratatoskr" && (item.Name == "Opal Acorn" || item.Name == "Sapphire Acorn")) continue;
 
-                    if(item == item1) targetItem1.SelectedItem = item;
-                    if(item == item2) targetItem2.SelectedItem = item;
-                    if(item == item3) targetItem3.SelectedItem = item;
-                    if(item == item4) targetItem4.SelectedItem = item;
-                    if(item == item5) targetItem5.SelectedItem = item;
-                    if(item == item6) targetItem6.SelectedItem = item;
-                }
+                targetItem1.Items.Add(item);
+                targetItem2.Items.Add(item);
+                targetItem3.Items.Add(item);
+                targetItem4.Items.Add(item);
+                targetItem5.Items.Add(item);
+                targetItem6.Items.Add(item);
+
+                if(item == item1) targetItem1.SelectedItem = item;
+                if(item == item2) targetItem2.SelectedItem = item;
+                if(item == item3) targetItem3.SelectedItem = item;
+                if(item == item4) targetItem4.SelectedItem = item;
+                if(item == item5) targetItem5.SelectedItem = item;
+                if(item == item6) targetItem6.SelectedItem = item;
             }
 
             if(targetItem1.SelectedItem == null) targetItem1.SelectedItem = emptyItem;
@@ -143,7 +144,7 @@ namespace KrettCalc {
             cost.Text = item.Cost.ToString(CultureInfo.InvariantCulture);
             string name = item.Name.Replace(" ", "-").Replace("\'", "").ToLower();
             pic.ImageLocation = "images/" + name + ".png";
-
+            
             if(target) {
                 targetWarlockStacks.Enabled = calculations.TargetItems.Any(i => i != null && i.Name == "Warlock's Sash");
                 if(!targetWarlockStacks.Enabled) calculations.TargetWarlockStacks = 0;
