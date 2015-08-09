@@ -15,8 +15,29 @@ namespace DataCruncher {
         }
 
         public static void Main(string[] args) {
+            Console.WriteLine("parsing gods");
+            List<GodStat> gods = ParseGods(@"God Stats.csv");
+
+            XmlSerializer godSerializer = new XmlSerializer(typeof(List<GodStat>));
+            using(FileStream fs = new FileStream("gods.xml", FileMode.Create)) {
+                godSerializer.Serialize(fs, gods);
+            }
+
+            Console.WriteLine("parsing items");
+            List<ItemStat> items = ParseItems(@"Item Stats.csv");
+
+            XmlSerializer itemSerializer = new XmlSerializer(typeof(List<ItemStat>));
+            using(FileStream fs = new FileStream("items.xml", FileMode.Create)) {
+                itemSerializer.Serialize(fs, items);
+            }
+
+            Console.WriteLine("done");
+            Console.ReadKey();
+        }
+
+        public static List<GodStat> ParseGods(string file) {
             List<GodStat> gods = new List<GodStat>();
-            using(TextFieldParser parser = new TextFieldParser(@"God Stats.csv")) {
+            using(TextFieldParser parser = new TextFieldParser(file)) {
                 parser.TextFieldType = FieldType.Delimited;
                 parser.SetDelimiters(",");
                 parser.ReadLine();
@@ -24,6 +45,7 @@ namespace DataCruncher {
                 while(!parser.EndOfData) {
                     int i = 0;
                     string[] fields = parser.ReadFields();
+                    if(fields == null) throw new ArgumentException("not a valid file", "file");
 
                     GodStat god = new GodStat();
                     god.Name = fields[i++];
@@ -71,7 +93,7 @@ namespace DataCruncher {
 
                     god.Passive = fields[i++];
                     god.BaseHp5 = Double.Parse(fields[i++], CultureInfo.InvariantCulture);
-                    god.Hp5Scaling = Double.Parse(fields[i++], CultureInfo.InvariantCulture);
+                    god.Hp5Scaling = Double.Parse(fields[i], CultureInfo.InvariantCulture);
 
                     gods.Add(god);
                 }
@@ -85,6 +107,7 @@ namespace DataCruncher {
                 while(!parser.EndOfData) {
                     int i = 0;
                     string[] fields = parser.ReadFields();
+                    if(fields == null) throw new ArgumentException("not a valid file", "file");
 
                     string name = fields[i++];
                     int god = gods.FindIndex(g => g.Name == name);
@@ -123,7 +146,7 @@ namespace DataCruncher {
                         CastType = (AbilityType)Enum.Parse(typeof(AbilityType), CheckEnum(fields[i++]), true),
                         Precast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
                         Postcast = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture),
-                        Duration = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture)
+                        Duration = Double.Parse("0" + fields[i], CultureInfo.InvariantCulture)
                     };
 
                     string last = fields[fields.Length - 1];
@@ -134,8 +157,12 @@ namespace DataCruncher {
                 }
             }
 
+            return gods;
+        }
+
+        public static List<ItemStat> ParseItems(string file) {
             List<ItemStat> items = new List<ItemStat>();
-            using(TextFieldParser parser = new TextFieldParser(@"Item Stats.csv")) {
+            using(TextFieldParser parser = new TextFieldParser(file)) {
                 parser.TextFieldType = FieldType.Delimited;
                 parser.SetDelimiters(",");
                 parser.ReadLine();
@@ -143,6 +170,7 @@ namespace DataCruncher {
                 while(!parser.EndOfData) {
                     int i = 0;
                     string[] fields = parser.ReadFields();
+                    if(fields == null) throw new ArgumentException("not a valid file", "file");
 
                     ItemStat item = new ItemStat();
                     item.Name = fields[i++];
@@ -168,23 +196,13 @@ namespace DataCruncher {
                     item.Mana = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture);
                     item.Passive = fields[i++];
                     item.Hp5 = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture);
-                    item.MoveSpeed = Double.Parse("0" + fields[i++], CultureInfo.InvariantCulture);
+                    item.MoveSpeed = Double.Parse("0" + fields[i], CultureInfo.InvariantCulture);
 
                     items.Add(item);
                 }
             }
 
-            XmlSerializer godSerializer = new XmlSerializer(typeof(List<GodStat>));
-            using(FileStream fs = new FileStream("gods.xml", FileMode.Create)) {
-                godSerializer.Serialize(fs, gods);
-            }
-
-            XmlSerializer itemSerializer = new XmlSerializer(typeof(List<ItemStat>));
-            using(FileStream fs = new FileStream("items.xml", FileMode.Create)) {
-                itemSerializer.Serialize(fs, items);
-            }
-
-            //Console.ReadKey();
+            return items;
         }
     }
 }
