@@ -4,7 +4,7 @@
   <Item Name="Asi" Cost="1780" Type="Physical" AS="20" FlatPen="15" Lifesteal="15" Passive="Asi" />
   <Item Name="Bancroft's Talon" Cost="2400" Type="Magical" Power="100" Lifesteal="12" Passive="Bancroft's Talon" />
   <Item Name="Bloodforge" Cost="2265" Type="Physical" Power="55" Lifesteal="24" Passive="Bloodforge" />
-  <Item Name="Bluestone Pendant" Cost="800" Type="Physical" Health="90" Power="10" Passive="Bluestone Pendant" />
+  <Item Name="Bluestone Pendant" Cost="800" Type="Physical" Power="20" Mana="100" Passive="Bluestone Pendant" />
   <Item Name="Book of Thoth" Cost="2650" Type="Magical" Power="130" Mana="125" Passive="Book of Thoth" />
   <Item Name="Brawler's Beatstick" Cost="2400" Type="Physical" Power="40" FlatPen="20" Passive="Brawler's Beatstick" />
   <Item Name="Breastplate of Valor" Cost="1950" Type="Both" PP="75" CDR="25" Mana="300" Passive="None" />
@@ -19,7 +19,7 @@
   <Item Name="Doom Orb" Cost="1790" Type="Magical" Power="140" Mana="200" Passive="Doom Orb" />
   <Item Name="Dynasty Plate Helm" Cost="1750" Type="Magical" PP="30" Power="30" FlatPen="15" Passive="None" />
   <Item Name="Empty" Type="Both" Passive="None" />
-  <Item Name="Ethereal Staff" Cost="2700" Type="Magical" Health="600" Power="68.7" Mana="300" Passive="Ethereal Staff" />
+  <Item Name="Ethereal Staff" Cost="2700" Type="Magical" Health="600" Power="80" Mana="300" Passive="Ethereal Staff" />
   <Item Name="Frostbound Hammer" Cost="2300" Type="Physical" Health="400" Power="25" Passive="Frostbound Hammer" />
   <Item Name="Gem of Isolation" Cost="2850" Type="Magical" Health="250" Power="70" Mana="250" Passive="Gem of Isolation" />
   <Item Name="Golden Bow" Cost="2330" Type="Physical" Power="35" Crit="10" Passive="Golden Bow" MS="5" />
@@ -27,13 +27,13 @@
   <Item Name="Heartseeker" Cost="1890" Type="Physical" Power="20" Passive="Heartseeker" MS="8" />
   <Item Name="Heartward Amulet" Cost="2100" Type="Both" Health="300" PP="20" MP="60" Passive="Heartward Amulet" />
   <Item Name="Hide of the Nemean Lion" Cost="2250" Type="Both" Health="200" PP="80" Passive="Hide of the Nemean Lion" />
-  <Item Name="Hide of the Urchin" Cost="2500" Type="Both" Health="250" PP="45" MP="45" Mana="250" Passive="Hide of the Urchin" />
+  <Item Name="Hide of the Urchin" Cost="2400" Type="Both" Health="250" PP="45" MP="45" Mana="250" Passive="Hide of the Urchin" />
   <Item Name="Hydra's Lament" Cost="2150" Type="Physical" Power="30" CDR="15" Passive="Hydra's Lament" />
   <Item Name="Ichaival" Cost="1700" Type="Physical" AS="30" FlatPen="10" Passive="Ichaival" />
   <Item Name="Jotunn's Wrath" Cost="2440" Type="Physical" Power="40" FlatPen="11" CDR="25" Mana="150" Passive="None" />
   <Item Name="Lotus Crown" Cost="2100" Type="Magical" PP="30" Power="40" Passive="Lotus Crown" />
   <Item Name="Magi's Blessing" Cost="2350" Type="Both" Health="350" PP="15" MP="15" Passive="Magi's Blessing" />
-  <Item Name="Mail of Renewal" Cost="2415" Type="Both" Health="300" PP="40" CDR="10" Passive="Mail of Renewal" />
+  <Item Name="Mail of Renewal" Cost="2415" Type="Both" Health="300" PP="40" CDR="15" Passive="Mail of Renewal" />
   <Item Name="Malice" Cost="2900" Type="Physical" Power="50" Crit="20" Passive="Malice" />
   <Item Name="Mark of the Vanguard" Cost="800" Type="Both" Health="150" PP="5" MP="5" Passive="Mark of the Vanguard" />
   <Item Name="Midas Boots" Cost="1700" Type="Both" Health="100" Mana="100" Passive="None" />
@@ -53,7 +53,7 @@
   <Item Name="Reinforced Shoes" Cost="1450" Type="Magical" Health="150" Power="20" Passive="Reinforced Shoes" MS="18" />
   <Item Name="Rod of Asclepius" Cost="2660" Type="Magical" Health="200" Power="75" Passive="Rod of Asclepius" />
   <Item Name="Rod of Tahuti" Cost="3320" Type="Magical" Power="125" Passive="Rod of Tahuti" />
-  <Item Name="Runeforged Hammer" Cost="2050" Type="Physical" Health="350" PP="55" Power="10.8" Passive="Runeforged Hammer" />
+  <Item Name="Runeforged Hammer" Cost="2050" Type="Physical" Health="350" PP="55" Power="12.6" Passive="Runeforged Hammer" />
   <Item Name="Runic Shield" Cost="2300" Type="Physical" MP="50" Power="25" Passive="Runic Shield" />
   <Item Name="Sapphire Acorn" Cost="2200" Type="Physical" Power="50" FlatPen="10" Passive="" />
   <Item Name="Shield of Regrowth" Cost="1800" Type="Physical" PP="30" Power="20" CDR="10" Passive="Shield of Regrowth" />
